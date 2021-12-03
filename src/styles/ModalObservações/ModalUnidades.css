@@ -1,0 +1,205 @@
+.ModalObsUnidades,
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 99;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.titleObsUnidade {
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-bottom: -2rem;
+  font: 26px BalooBhaina2-Bold;
+  color: #1c396b;
+}
+
+.ModalObsUnidades-content {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  line-height: 1.4;
+  background: #f1f1f1;
+  width: 75%;
+  height: 70%;
+  border-radius: 20px;
+  z-index: 99;
+}
+
+.close-ModalObsUnidades {
+  position: absolute;
+  top: 3%;
+  right: 3.5%;
+  border-style: none;
+  font: 20px BalooBhaina2-Medium;
+  color: #a0a0a0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.fListObserv {
+  position: fixed;
+  left: 72.5%;
+  top: 24%;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font: 12px BalooBhaina2-Medium;
+  border: none;
+  align-items: center;
+  color: rgb(41, 41, 41);
+  border-radius: 5px;
+  width: 15%;
+  height: 4%;
+  z-index: 1;
+}
+
+/* ------------tabela modal de observaçoes realizadas / pagina relatorio----------------------- */
+.tabelaRegistro {
+  position: fixed;
+  margin-top: 4%;
+  left: 3%;
+  width: 93.5%;
+  height: 50%;
+  background-color: white;
+  border-radius: 0;
+  z-index: 5;
+}
+
+.containerObsReal {
+  overflow-y: auto;
+  margin-left: -1px;
+  border: 1px solid;
+  width: 100.3%;
+  height: 18rem;
+  padding-right: 5px;
+  background-color: #fff;
+}
+.containerS1::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  /* rgb(219, 219, 219); */
+  /* border-radius: 10px; */
+}
+.HeaderContent {
+  position: relative;
+  border: 1px solid #000;
+  top: -2rem;
+  width: 100%;
+  height: 10%;
+  background: #1c396b;
+  border-radius: 0px;
+}
+
+.tblObsUniObservador {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+}
+.tblObsUniLocal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.tblObsUniGerência {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.tblObsUniEquipe {
+  position: absolute;
+  top: 20%;
+  left: 49.5%;
+}
+.tblObsUniAtividade {
+  position: absolute;
+  top: 20%;
+  left: 64.5%;
+}
+.tblObsUniData {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+}
+.tblObsUniIcs {
+  position: absolute;
+  top: 20%;
+  left: 87%;
+}
+.tblObsUniDetalhes {
+  position: absolute;
+  top: 20%;
+  left: 92.5%;
+}
+/* ------------------conteúdo da tabela---------------- */
+.btnObsObservador {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 26rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.btnObsUniLocal {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.btnObsUniEquipe {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.btnObsUniAtividade {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.btnObsUniData {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 8rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+
+.btnObsUniIcs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.5%;
+  width: 8rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.btnObsUniDetalhes {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 1rem;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+
+.verifObserv1 {
+  color: #35c2aa;
+  top: 2%;
+  background-color: transparent;
+  border-style: none;
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
+}
+.verifObserv2 {
+  color: #1c396b;
+  top: 2%;
+  background-color: transparent;
+  border-style: none;
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
+}

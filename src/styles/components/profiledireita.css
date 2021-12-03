@@ -1,0 +1,148 @@
+.Profile-direita {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  right: 0rem;
+  flex-direction: column;
+  background: #e4e4e4;
+}
+.cxProfile {
+  display: flex;
+  z-index: 99;
+}
+.titleProfile1 {
+  position: absolute;
+  font: clamp(0.1em, 0.1em + 1.5vw, 2em) BalooBhaina2-Regular;
+  top: 6%;
+  left: -12%;
+  width: 100%;
+  color: #adadad;
+}
+.titleProfile2 {
+  position: absolute;
+  font: clamp(0.1em, 0.1em + 1.5vw, 2em) BalooBhaina2-Bold;
+  top: 10%;
+  left: -12%;
+  width: 100%;
+  color: #0b9e82;
+}
+
+.profile-profileEditor {
+  position: absolute;
+  border: none;
+  top: 15%;
+  left: 30%;
+  font: clamp(0.1em, 0.1em + 1vw, 2em) BalooBhaina2-Regular;
+  background-color: transparent;
+  cursor: pointer;
+}
+.logo1 {
+  position: fixed;
+  top: 6%;
+  right: 3%;
+  width: clamp(0.1em, 0.1em + 6vw, 12em);
+  height: clamp(0.1em, 0.1em + 6vw, 12em);
+  border-radius: 50px;
+}
+.containerBackgroundProfile {
+  display: none;
+}
+.logologo {
+  position: absolute;
+  bottom: 12%;
+  left: 22%;
+  width: 60%;
+}
+
+@media screen and (max-width: 820px) {
+  .Profile-direita {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    bottom: 0rem;
+    background-color: #adadad;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -99;
+  }
+  .logo1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    left: 80%;
+    width: clamp(2em, 2em + 6vw, 6em);
+    height: clamp(2em, 2em + 6vw, 6em);
+    z-index: 99;
+  }
+  .logologo {
+    position: fixed;
+    bottom: 4%;
+    left: clamp(1em, 1em + 35vw, 35em);
+    width: clamp(2em, 2em + 20vw, 20em);
+  }
+  .profile-profileEditor {
+    position: fixed;
+    border: none;
+    top: 16%;
+    left: 81%;
+    font: clamp(0.1em, 0.1em + 1.5vw, 5em) BalooBhaina2-SemiBold;
+    color: #749898;
+    background-color: transparent;
+  }
+  .titleProfile1 {
+    display: none;
+  }
+  .titleProfile2 {
+    display: none;
+  }
+  .containerBackgroundProfile {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    top: -18%;
+    left: clamp(1em, 1em + 52vw, 52em);
+    width: clamp(1em, 1em + 60vw, 60em);
+    height: 60%;
+    z-index: -99;
+  }
+}
+@media screen and (max-width: 620px) {
+  .containerBackgroundProfile {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    top: -19%;
+    left: clamp(1em, 1em + 50vw, 50em);
+    width: clamp(2em, 2em + 60vw, 60em);
+    height: 60%;
+    z-index: -99;
+  }
+  .profile-profileEditor {
+    position: fixed;
+    border: none;
+    top: 15%;
+    left: 82%;
+    font: clamp(0.1em, 0.1em + 1.5vw, 5em) BalooBhaina2-SemiBold;
+    color: #749898;
+    background-color: transparent;
+  }
+
+  .logologo {
+    position: fixed;
+    bottom: 4%;
+    left: clamp(1em, 1em + 25vw, 25em);
+    width: clamp(2em, 2em + 25vw, 25em);
+  }
+}

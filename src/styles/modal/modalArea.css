@@ -1,0 +1,95 @@
+body.active-modalArea {
+  overflow-y: hidden;
+}
+
+.modalArea,
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modalArea-content {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  background: #f1f1f1;
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  z-index: 2;
+}
+.fArea {
+  position: absolute;
+  left: 5%;
+  top: 24%;
+  border-radius: 5px;
+  width: 90%;
+  height: 8%;
+  justify-content: center;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  font: 14px BalooBhaina2-SemiBold;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+.fAreaRef {
+  position: absolute;
+  left: 5%;
+  top: 34%;
+  width: 90%;
+  height: 8%;
+  border-radius: 5px;
+  justify-content: center;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  font: 14px BalooBhaina2-SemiBold;
+  padding-left: 1%;
+}
+.fObsArea {
+  position: absolute;
+  left: 5%;
+  top: 44%;
+  border-radius: 5px;
+  width: 90%;
+  height: 30%;
+  justify-content: center;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  font: 14px BalooBhaina2-SemiBold;
+  text-align: left;
+  padding: 1%;
+}
+
+@media screen and (max-width: 500px) {
+  .modalArea,
+  .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
+  }
+
+  .modalArea-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background: #f1f1f1;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    z-index: 3;
+  }
+}

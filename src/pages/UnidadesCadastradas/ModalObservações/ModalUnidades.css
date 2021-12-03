@@ -1,0 +1,443 @@
+body.active-ModalObsUnidades {
+  overflow-y: hidden;
+}
+
+.ModalObsUnidades,
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.titleObsUnidade {
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-bottom: -2rem;
+  font: 26px BalooBhaina2-Bold;
+  color: #1c396b;
+}
+
+.ModalObsUnidades-content {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  line-height: 1.4;
+  background: #f1f1f1;
+  width: 75%;
+  height: 70%;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.close-ModalObsUnidades {
+  position: absolute;
+  top: 3%;
+  right: 3.5%;
+  border-style: none;
+  font: 20px BalooBhaina2-Medium;
+  color: #a0a0a0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.fListObserv {
+  position: fixed;
+  left: 72.5%;
+  top: 24%;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font: 12px BalooBhaina2-Medium;
+  border: none;
+  align-items: center;
+  color: rgb(41, 41, 41);
+  border-radius: 5px;
+  width: 15%;
+  height: 4%;
+  z-index: 1;
+}
+
+/* ------------tabela modal de observaçoes realizadas / pagina relatorio----------------------- */
+.tabelaRegistro {
+  position: absolute;
+  top: 22%;
+  left: 3%;
+  width: 93.5%;
+  height: 65%;
+  background-color: white;
+  border-radius: 0;
+  z-index: 5;
+}
+.tabelaRegistro::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+  /* rgb(219, 219, 219); */
+  /* border-radius: 10px; */
+}
+
+.containerS1 {
+  overflow-y: auto;
+  margin-left: -1px;
+  border: 1px solid;
+  width: 100.3%;
+  height: 30rem;
+  padding-right: 5px;
+  background-color: #fff;
+}
+.containerS1::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  /* rgb(219, 219, 219); */
+  /* border-radius: 10px; */
+}
+.HeaderContent {
+  position: relative;
+  border: 1px solid #000;
+  top: -2rem;
+  width: 100%;
+  height: 10%;
+  background: #1c396b;
+  border-radius: 0px;
+}
+
+.tblObsUniObservador {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+}
+.tblObsUniLocal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.tblObsUniGerência {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.tblObsUniEquipe {
+  position: absolute;
+  top: 20%;
+  left: 49.5%;
+}
+.tblObsUniAtividade {
+  position: absolute;
+  top: 20%;
+  left: 64.5%;
+}
+.tblObsUniData {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+}
+.tblObsUniIcs {
+  position: absolute;
+  top: 20%;
+  left: 87%;
+}
+.tblObsUniDetalhes {
+  position: absolute;
+  top: 20%;
+  left: 92.5%;
+}
+/* ------------------conteúdo da tabela---------------- */
+.btnObsObservador {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 26rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObsUniLocal {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObsUniEquipe {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObsUniAtividade {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObsUniData {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+
+.btnObsUniIcs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.5%;
+  width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObsUniDetalhes {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.5%;
+  width: 10rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+
+.verifObserv1 {
+  color: #35c2aa;
+  top: 2%;
+  background-color: transparent;
+  border-style: none;
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
+}
+.verifObserv2 {
+  color: #1c396b;
+  top: 2%;
+  background-color: transparent;
+  border-style: none;
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
+}
+
+@media screen and (max-width: 500px) {
+  body.active-ModalObsUnidades {
+    overflow-y: hidden;
+  }
+
+  .ModalObsUnidades,
+  .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .overlay {
+    background: rgba(49, 49, 49, 0.8);
+  }
+  .titleObsUnidade {
+    left: 5%;
+    margin-top: 5%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: clamp(0.1em, 0.1em + 5vw, 3em);
+    color: #1c396b;
+    letter-spacing: -1px;
+  }
+
+  .ModalObsUnidades-content {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    z-index: 5;
+  }
+
+  .close-ModalObsUnidades {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    border-style: none;
+    font-family: 'baloo bhaina 2';
+    font-weight: 400;
+    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+    color: #a0a0a0;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .fListObserv {
+    display: none;
+  }
+  .tabelaRegistro {
+    overflow: auto;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 94%;
+    height: 80%;
+    background-color: white;
+    border-radius: 0;
+  }
+  .tabelaRegistro1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    border-style: none;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    background-color: #1c396b;
+    color: #ffffff;
+    font-size: clamp(0.1em, 0.1em + 1.8vw, 3em);
+    text-align: center;
+    border-style: none;
+  }
+  .tblObsUniObservador {
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 1%;
+    color: #ffffff;
+    border-style: none;
+  }
+  .tblObsUniLocal {
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 18%;
+    color: #ffffff;
+    border-style: none;
+  }
+
+  .tblObsUniGerência {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 28%;
+    width: 10%;
+    display: flex;
+    line-height: 8px;
+    color: #ffffff;
+    border-style: none;
+  }
+  .tblObsUniEquipe {
+    position: absolute;
+    text-align: center;
+    top: 3%;
+    left: 42%;
+    width: 10%;
+    color: #ffffff;
+    border-style: none;
+  }
+  .tblObsUniAtividade {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 56%;
+    width: 12%;
+    display: flex;
+    line-height: 8px;
+    color: #ffffff;
+    border-style: none;
+  }
+  .tblObsUniData {
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 70%;
+    border-style: none;
+  }
+  .tblObsUniIcs {
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 81%;
+    color: #ffffff;
+    border-style: none;
+  }
+  .tblObsUniDetalhes {
+    position: absolute;
+    text-align: center;
+    top: 8%;
+    left: 90%;
+    font-size: clamp(1em, 1em + 1vw, 1em);
+    color: #ffffff;
+    border-style: none;
+  }
+  .tabelaRegistro2 {
+    position: absolute;
+    margin-left: 0.2%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: clamp(0.1em, 0.1em + 1.3vw, 3em);
+    top: 5%;
+    text-align: center;
+    width: 99.9%;
+    border-radius: 0px;
+    background-color: white;
+    border-style: none;
+  }
+  .btnObsUniLocal {
+    width: 10%;
+  }
+  .btnObsUniData {
+    width: 8%;
+  }
+
+  .btnObsObservador {
+    text-align: center;
+    width: 14%;
+    align-items: center;
+  }
+  .btnObsUniIcs {
+    text-align: center;
+    width: 10%;
+    align-items: center;
+  }
+  .btnObsUniGerênciaLocal {
+    text-align: center;
+    width: 15%;
+    align-items: center;
+  }
+  .btnObsUniEquipe {
+    text-align: center;
+    width: 15%;
+    align-items: center;
+  }
+  .btnObsUniAtividade {
+    text-align: center;
+    width: 15%;
+    align-items: center;
+  }
+  .btnObsUniDetalhes {
+    text-align: center;
+    width: 16%;
+    align-items: center;
+  }
+
+  .verifObserv1 {
+    color: #35c2aa;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: 150%;
+  }
+  .verifObserv2 {
+    color: #1c396b;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: 150%;
+  }
+  .verifObserv3 {
+    color: rgb(161, 0, 40);
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: 150%;
+  }
+}

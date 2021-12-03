@@ -1,0 +1,2479 @@
+/* =====================================Tela Direita de unidade Selecionada======================== */
+.UnidadeSelecionada {
+  position: fixed;
+  top: 20%;
+  left: 74%;
+  width: 22%;
+  height: 60%;
+  border-radius: 20px;
+  background-color: white;
+  transition: 0.2s;
+}
+input::-webkit-input-placeholder {
+  color: rgb(94, 94, 94);
+}
+.unidTittleRef1 {
+  position: absolute;
+  left: 5%;
+  top: 5px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade1 {
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+  color: rgb(94, 94, 94);
+}
+
+.unidTittleRef2 {
+  position: absolute;
+  left: 5%;
+  top: 55px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade2 {
+  position: absolute;
+  top: 80px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+.unidTittleRef3 {
+  position: absolute;
+  left: 5%;
+  top: 100px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade3 {
+  position: absolute;
+  top: 125px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+
+.unidTittleRef4 {
+  position: absolute;
+  left: 5%;
+  top: 150px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade4 {
+  position: absolute;
+  top: 175px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+
+.unidTittleRef5 {
+  position: absolute;
+  left: 5%;
+  top: 200px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade5 {
+  position: absolute;
+  top: 225px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+
+.unidTittleRef6 {
+  position: absolute;
+  left: 5%;
+  top: 245px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade6 {
+  position: absolute;
+  left: 0;
+  top: 270px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+.unidTittleRef7 {
+  position: absolute;
+  left: 5%;
+  top: 290px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade7 {
+  position: absolute;
+  top: 315px;
+  left: 5%;
+  width: 90%;
+  height: 5%;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+.unidTittleRef8 {
+  position: absolute;
+  left: 5%;
+  top: 345px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+  letter-spacing: -1px;
+}
+.finputUnidade8 {
+  position: absolute;
+  top: 345px;
+  left: 40%;
+  width: 24px;
+  height: 5%;
+  padding-top: 2%;
+  border: none;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+.headerDivider1 {
+  border-left: 3px solid #44ad93;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 345px;
+}
+.unidTittleRef9 {
+  position: absolute;
+  left: 54%;
+  top: 345px;
+  border-radius: 20px;
+  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  color: #44ad93;
+  letter-spacing: -1px;
+}
+.finputUnidade9 {
+  position: absolute;
+  top: 345px;
+  left: 84%;
+  padding-top: 2%;
+  border: none;
+  display: block;
+  width: 24px;
+  height: 5%;
+  justify-content: center;
+  text-align: center;
+  color: rgb(94, 94, 94);
+  align-items: center;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+
+.unidTittleRef10 {
+  position: absolute;
+  top: 380px;
+  left: 5%;
+  border-radius: 20px;
+  display: block;
+  font: clamp(0.1em, 0.1em + 1.2vw, 1.2em) BalooBhaina2-Medium;
+  color: #44ad93;
+}
+.finputUnidade10 {
+  position: absolute;
+  top: 385px;
+  left: 26%;
+  border: none;
+  display: block;
+  color: rgb(94, 94, 94);
+  width: 70%;
+  height: 5%;
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-Regular;
+}
+@media screen and (max-width: 820px) {
+  .UnidadeSelecionada {
+    position: fixed;
+    top: 20%;
+    left: 70%;
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    transition: 0.2s;
+  }
+  input::-webkit-input-placeholder {
+    color: rgb(94, 94, 94);
+  }
+  .unidTittleRef1 {
+    position: absolute;
+    left: 5%;
+    top: 5px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade1 {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    color: rgb(94, 94, 94);
+  }
+
+  .unidTittleRef2 {
+    position: absolute;
+    left: 5%;
+    top: 55px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade2 {
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+  .unidTittleRef3 {
+    position: absolute;
+    left: 5%;
+    top: 100px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade3 {
+    position: absolute;
+    top: 125px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+
+  .unidTittleRef4 {
+    position: absolute;
+    left: 5%;
+    top: 150px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade4 {
+    position: absolute;
+    top: 175px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+
+  .unidTittleRef5 {
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade5 {
+    position: absolute;
+    top: 225px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+
+  .unidTittleRef6 {
+    position: absolute;
+    left: 5%;
+    top: 245px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade6 {
+    position: absolute;
+    left: 0;
+    top: 270px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+  .unidTittleRef7 {
+    position: absolute;
+    left: 5%;
+    top: 290px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade7 {
+    position: absolute;
+    top: 315px;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+  .unidTittleRef8 {
+    position: absolute;
+    left: 5%;
+    top: 345px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+    letter-spacing: 0;
+  }
+  .finputUnidade8 {
+    position: absolute;
+    top: 345px;
+    left: 40%;
+    width: 24px;
+    height: 5%;
+    padding-top: 2%;
+    border: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+  .headerDivider1 {
+    border-left: 3px solid #44ad93;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 345px;
+  }
+  .unidTittleRef9 {
+    position: absolute;
+    left: 54%;
+    top: 345px;
+    border-radius: 20px;
+    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+    letter-spacing: -1px;
+  }
+  .finputUnidade9 {
+    position: absolute;
+    top: 345px;
+    left: 84%;
+    padding-top: 2%;
+    border: none;
+    display: block;
+    width: 24px;
+    height: 5%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    align-items: center;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+
+  .unidTittleRef10 {
+    position: absolute;
+    top: 380px;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    color: #44ad93;
+  }
+  .finputUnidade10 {
+    position: absolute;
+    top: 382px;
+    left: 25%;
+    border: none;
+    display: block;
+    color: rgb(94, 94, 94);
+    width: 70%;
+    height: 5%;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+  }
+}
+@media screen and (max-width: 500px) {
+  .UnidadeSelecionada {
+    display: none;
+  }
+}
+/* ====================================================================== */
+
+/* ============================Observ. Comportamental==================== */
+.fnameObservCpto {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  top: 7%;
+  left: 65%;
+  padding-left: 1%;
+  padding-top: 0.5%;
+  background-color: rgb(226, 226, 226);
+  font: 14px BalooBhaina2-Regular;
+  border: none;
+  align-items: center;
+  color: gray;
+  border-radius: 5px;
+  width: 25%;
+  height: 4%;
+  z-index: 1;
+}
+.ObservFeitas {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 80%;
+  height: 50%;
+  border-radius: 2%;
+}
+.ContainerObservCptop {
+  overflow-x: hidden;
+  border: 1px solid;
+  margin-left: -1px;
+  width: 100.3%;
+  height: 20rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.subtObservCPTO3 {
+  position: absolute;
+  top: 37%;
+  left: 10%;
+  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-bold;
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
+}
+.CxFilter {
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 10%;
+  top: 38%;
+  width: 30%;
+  height: 6%;
+  background-image: transparent;
+}
+.filterList {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  border-radius: 20px;
+  display: block;
+  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+  color: #c5c5c5;
+}
+.filterList1 {
+  position: relative;
+  top: 5%;
+  left: 0px;
+  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  border-style: none;
+  background-color: transparent;
+  color: #009c6d;
+  z-index: 1;
+  letter-spacing: -1px;
+}
+.filterList2 {
+  position: relative;
+  top: 5%;
+  left: 0px;
+  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  border-style: none;
+  background-color: transparent;
+  color: rgb(209, 209, 0);
+  z-index: 1;
+  letter-spacing: -1px;
+}
+.filterList3 {
+  position: relative;
+  top: 5%;
+  left: 0px;
+  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  border-style: none;
+  background-color: transparent;
+  color: #830133;
+  z-index: 1;
+  letter-spacing: -1px;
+}
+
+.observComp {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  width: 80%;
+  height: 8%;
+  left: 10%;
+  top: 28%;
+  color: white;
+  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+  padding-top: 1%;
+  gap: 35%;
+  background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
+  background-size: 100%;
+  border-radius: 10px;
+  border: none;
+  z-index: 1;
+  letter-spacing: -1px;
+}
+/* ======header tabelaObservCPTO============= */
+.btnGroup {
+  position: absolute;
+  font-size: clamp(0.1em, 0.1em + 0.9vw, 2em);
+  top: 5%;
+  left: clamp(1em, 1em + 7vw, 7em);
+}
+.btnQuest {
+  position: absolute;
+  font-size: clamp(0.1em, 0.1em + 1vw, 2em);
+  top: 5%;
+  left: clamp(0.1em, 0.1em + 22vw, 22em);
+}
+.btnActivit {
+  position: absolute;
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+  top: 5%;
+  left: clamp(0.1em, 0.1em + 36.5vw, 36em);
+}
+/* ===============Conteudo TabelaObservCPTO=========== */
+
+.tblObsCod {
+  justify-content: center;
+  text-align: center;
+  width: clamp(1em, 1em + 6vw, 6em);
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.tblGroup {
+  justify-content: center;
+  text-align: center;
+  width: clamp(0.1em, 0.1em + 10vw, 10em);
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.tblQuest {
+  justify-content: center;
+  text-align: center;
+  width: clamp(0.1em, 0.1em + 30vw, 30em);
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.tblActivit {
+  justify-content: center;
+  text-align: center;
+  width: clamp(0.1em, 0.1em + 10vw, 10em);
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+}
+.tblFilter {
+  justify-content: center;
+  text-align: center;
+  width: clamp(0.1em, 0.1em + 6vw, 6em);
+  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  color: #009c6d;
+  /* color: #830133; */
+  /* color: rgb(209, 209, 0); */
+}
+@media screen and (max-width: 820px) {
+  .fnameObservCpto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    top: 2%;
+    left: 45%;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    background-color: rgb(226, 226, 226);
+    font: 14px BalooBhaina2-Regular;
+    border: none;
+    align-items: center;
+    color: gray;
+    border-radius: 5px;
+    width: 20%;
+    height: 6%;
+    z-index: 1;
+  }
+  .ObservFeitas {
+    position: absolute;
+    top: 36%;
+    left: 5%;
+    width: 60%;
+    height: 50%;
+    border-radius: 2%;
+  }
+  .ContainerObservCptop {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    width: 100.3%;
+    height: 14rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .subtObservCPTO3 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+  .CxFilter {
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 36%;
+    top: 28%;
+    width: 20%;
+    height: 6%;
+    background-image: transparent;
+  }
+  .filterList {
+    position: relative;
+    top: 5%;
+    left: 5px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #c5c5c5;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList1 {
+    position: relative;
+    top: 5%;
+    left: 0px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #009c6d;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList2 {
+    position: relative;
+    top: 5%;
+    left: 0px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: rgb(209, 209, 0);
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList3 {
+    position: relative;
+    top: 5%;
+    left: 0px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #830133;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+
+  .observComp {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    width: 60%;
+    height: 8%;
+    left: 5%;
+    top: 15%;
+    color: white;
+    font: clamp(0.1em, 0.1em + 2.5vw, 2em) BalooBhaina2-SemiBold;
+    padding-top: 1%;
+    gap: 35%;
+    background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
+    background-size: 100%;
+    border-radius: 10px;
+    border: none;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  /* ======header tabelaObservCPTO============= */
+  .btnGroup {
+    position: absolute;
+    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    top: 5%;
+    left: clamp(1em, 1em + 6vw, 6em);
+  }
+  .btnQuest {
+    position: absolute;
+    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    top: 5%;
+    left: clamp(0.1em, 0.1em + 28vw, 28em);
+  }
+  .btnActivit {
+    position: absolute;
+    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    top: 5%;
+    left: clamp(0.1em, 0.1em + 46vw, 46em);
+  }
+  /* ===============Conteudo TabelaObservCPTO=========== */
+
+  .tblObsCod {
+    justify-content: center;
+    text-align: center;
+    width: clamp(1em, 1em + 6vw, 6em);
+    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+  }
+  .tblGroup {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 10vw, 10em);
+    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+  }
+  .tblQuest {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 30vw, 30em);
+    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+  }
+  .tblActivit {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 10vw, 10em);
+    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+  }
+  .tblFilter {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 6vw, 6em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+    color: #009c6d;
+    /* color: #830133; */
+    /* color: rgb(209, 209, 0); */
+  }
+}
+@media screen and (max-width: 500px) {
+  .fnameObservCpto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    top: 2%;
+    left: 65%;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    background-color: rgb(226, 226, 226);
+    font: 14px BalooBhaina2-Regular;
+    border: none;
+    align-items: center;
+    color: gray;
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .ObservFeitas {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 2%;
+  }
+  .ContainerObservCptop {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    width: 100.3%;
+    height: 15rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .subtObservCPTO3 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+  .CxFilter {
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    width: 20%;
+    height: 6%;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  .filterList {
+    position: relative;
+    top: 5%;
+    left: -5px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #c5c5c5;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList1 {
+    position: relative;
+    top: 5%;
+    left: -5px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #009c6d;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList2 {
+    position: relative;
+    top: 5%;
+    left: -5px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: rgb(209, 209, 0);
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  .filterList3 {
+    position: relative;
+    top: 5%;
+    left: -5px;
+    font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+    border-style: none;
+    background-color: transparent;
+    color: #830133;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+
+  .observComp {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    width: 80%;
+    height: 8%;
+    left: 10%;
+    top: 10%;
+    color: white;
+    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-SemiBold;
+    padding-top: 1%;
+    gap: 40%;
+    background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
+    background-size: 100%;
+    border-radius: 10px;
+    border: none;
+    z-index: 1;
+    letter-spacing: -1px;
+  }
+  /* ======header tabelaObservCPTO============= */
+  .btnGroup {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    top: 5%;
+    left: clamp(1em, 1em + 1vw, 1em);
+  }
+  .btnQuest {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    top: 5%;
+    left: clamp(0.1em, 0.1em + 34vw, 34em);
+  }
+  .btnActivit {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    top: 5%;
+    left: clamp(0.1em, 0.1em + 59vw, 59em);
+  }
+  /* ===============Conteudo TabelaObservCPTO=========== */
+
+  .tblObsCod {
+    justify-content: center;
+    text-align: center;
+    width: clamp(1em, 1em + 6vw, 6em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  }
+  .tblGroup {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 20vw, 20em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  }
+  .tblQuest {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 40vw, 40em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  }
+  .tblActivit {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 20vw, 20em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  }
+  .tblFilter {
+    justify-content: center;
+    text-align: center;
+    width: clamp(0.1em, 0.1em + 6vw, 6em);
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+    color: #009c6d;
+    /* color: #830133; */
+    /* color: rgb(209, 209, 0); */
+  }
+}
+
+/* ============================Fim da tela de Observ. Comportamental==================== */
+
+.tabelaPadraoICS {
+  overflow-x: hidden;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  height: 55%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+.tabelaPadraoICS::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.UniClienteICS {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
+  top: 0;
+  left: 0%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.UniClienteProAtivo {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
+  top: 0;
+  left: 35%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.ICSUnidadegraph {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
+  top: 0;
+  left: 70%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.relProjetado {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+
+  top: clamp(0.01em, 0.01em + 2vw, 2em);
+  left: 0;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.relAcumulado {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 2vw, 2em);
+  left: 35%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+
+.mesSetor1,
+.UniClienteMes1,
+.UniClienteSetor1 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  left: 0;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor2,
+.UniClienteMes2,
+.UniClienteSetor2 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  left: 35%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor3,
+.UniClienteMes3,
+.UniClienteSetor3 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  left: 70%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor4,
+.UniClienteMes4,
+.UniClienteSetor4 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 38vw, 38em);
+  left: 0;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor5,
+.UniClienteMes5,
+.UniClienteSetor5 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 38vw, 38em);
+  left: 35%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor6,
+.UniClienteMes6,
+.UniClienteSetor6 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(0.01em, 0.01em + 38vw, 38em);
+  left: 70%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor7,
+.UniClienteMes7,
+.UniClienteSetor7 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(1em, 1em + 52vw, 52em);
+  left: 0;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.mesSetor8,
+.UniClienteMes8,
+.UniClienteSetor8 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(1em, 1em + 52vw, 52em);
+  left: 35%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+
+.mesSetor9,
+.UniClienteMes9,
+.UniClienteSetor9 {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: clamp(1em, 1em + 52vw, 52em);
+  left: 70%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 26px BalooBhaina2-Medium;
+}
+.btnReturn {
+  position: fixed;
+  width: 0;
+  height: 0;
+  top: 90%;
+  left: 11%;
+  font-size: clamp(0.1em, 0.1em + 4vw, 3em);
+  z-index: 1;
+  cursor: pointer;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  background-color: transparent;
+  color: #44ad93;
+  border-style: none;
+}
+.btnReturn :hover {
+  color: #44ad93;
+  transition: 0.3s;
+}
+.TittleIndice {
+  position: absolute;
+  text-align: center;
+  top: clamp(0.01em, 0.01em + 18vw, 18em);
+  left: 1%;
+  font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-SemiBold;
+  color: #1c396b;
+}
+.TittleProjetadoAcumulado {
+  position: absolute;
+  text-align: center;
+  top: -20%;
+  left: 5%;
+  font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-SemiBold;
+  color: #1c396b;
+  background: transparent;
+}
+.TittleMes {
+  position: absolute;
+  text-align: center;
+  top: 105%;
+  font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
+  color: #1c396b;
+  background: transparent;
+}
+.tittleUniSetor {
+  position: absolute;
+  top: 105%;
+  font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
+  color: #1c396b;
+  background: transparent;
+}
+.mesContrib1 {
+  position: absolute;
+  margin-left: -39rem;
+  margin-top: 0;
+  width: 17rem;
+  height: 16rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: left;
+  background-color: rgb(202, 202, 202);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 7.5rem 2rem;
+}
+.mesContrib2 {
+  position: absolute;
+  left: 20rem;
+  top: 0;
+  width: 17rem;
+  height: 16rem;
+  border-radius: 20px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1 !important;
+  font: 800 25px 'baloo bhaina 2';
+  background-color: rgb(202, 202, 202);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 7.5rem 12rem;
+}
+.tittleICS {
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  color: white;
+  background: transparent !important;
+}
+.tittleProativo {
+  position: absolute;
+  top: 1rem;
+  left: 20%;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  color: white;
+  background: transparent !important;
+}
+.tittleICSRel {
+  position: absolute;
+  top: 10%;
+  font-size: clamp(0.1em, 0.1em + 0.8vw, 2em);
+  color: white;
+  background: transparent;
+}
+
+.hr {
+  position: absolute;
+  width: 2px;
+  height: 20%;
+  align-items: center;
+  top: 63%;
+  border: none;
+  background-color: white;
+}
+.cxLegenda {
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  right: 10%;
+  top: 92%;
+  width: 60%;
+  height: 4%;
+  background-color: transparent;
+}
+.lgLegenda {
+  left: 0;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 1%;
+  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  gap: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.lgAcima {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  left: 20%;
+  top: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 1%;
+  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  display: flex;
+  color: white;
+  width: 25%;
+  height: 100%;
+  gap: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.okImg {
+  margin-top: -5%;
+  width: 15%;
+}
+.lgMedia {
+  background-color: #5c56ea;
+  left: 48%;
+  top: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 1%;
+  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  display: flex;
+  color: white;
+  width: 25%;
+  height: 100%;
+  gap: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.GraphImg {
+  margin-top: -5%;
+  width: 22%;
+}
+.lgAbaixo {
+  background-color: #ec3565;
+  left: 75%;
+  top: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 1%;
+  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  display: flex;
+  color: white;
+  width: 25%;
+  height: 100%;
+  gap: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.wrongImg {
+  margin-top: -5%;
+  width: 15%;
+}
+
+/* ========================================================================= */
+@media screen and (max-width: 820px) {
+  .tabelaPadraoICS {
+    overflow-x: hidden;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 60%;
+    height: 70%;
+    background-color: transparent;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 0;
+  }
+  .tabelaPadraoICS::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
+
+  .btnReturn {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 45px;
+    font-size: 40px;
+    top: 70%;
+    left: 5%;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #adadad;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+  }
+  .btnReturn :hover {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 48px;
+    height: 45px;
+    color: #11806a;
+    transition: 0.2s;
+  }
+  .TittleIndice {
+    position: absolute;
+    text-align: center;
+    top: clamp(0.01em, 0.01em + 25vw, 25em);
+    left: 1%;
+    font: clamp(0.01em, 0.01em + 2.5vw, 2.5em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .TittleProjetadoAcumulado {
+    position: absolute;
+    text-align: center;
+    top: -20%;
+    left: 5%;
+    font: clamp(0.01em, 0.01em + 2.5vw, 2.5em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+    background: transparent;
+  }
+  .TittleMes {
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
+    color: #1c396b;
+    background: transparent;
+  }
+  .tittleUniSetor {
+    position: absolute;
+    top: 105%;
+    font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
+    color: #1c396b;
+    background: transparent;
+  }
+  .mesContrib1 {
+    position: absolute;
+    margin-left: -39rem;
+    margin-top: 0;
+    width: 17rem;
+    height: 16rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 800 25px 'baloo bhaina 2';
+    text-align: left;
+    background-color: rgb(202, 202, 202);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 7.5rem 2rem;
+  }
+  .mesContrib2 {
+    position: absolute;
+    left: 20rem;
+    top: 0;
+    width: 17rem;
+    height: 16rem;
+    border-radius: 20px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1 !important;
+    font: 800 25px 'baloo bhaina 2';
+    background-color: rgb(202, 202, 202);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 7.5rem 12rem;
+  }
+  .tittleICS {
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+    color: white;
+    background: transparent !important;
+  }
+  .tittleProativo {
+    position: absolute;
+    top: 1rem;
+    left: 20%;
+    font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+    color: white;
+    background: transparent !important;
+  }
+  .tittleICSRel {
+    position: absolute;
+    top: 10%;
+    font-size: clamp(0.1em, 0.1em + 0.8vw, 2em);
+    color: white;
+    background: transparent;
+  }
+
+  .cxLegenda {
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 35%;
+    top: 92%;
+    width: 40%;
+    height: 5%;
+    background-color: transparent;
+  }
+  .lgLegenda {
+    left: 0;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .lgAcima {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    left: 20%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .okImg {
+    margin-top: -5%;
+    width: 15%;
+  }
+  .lgMedia {
+    background-color: #5c56ea;
+    left: 48%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .GraphImg {
+    margin-top: -5%;
+    width: 22%;
+  }
+  .lgAbaixo {
+    background-color: #ec3565;
+    left: 75%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .wrongImg {
+    margin-top: -5%;
+    width: 15%;
+  }
+
+  .UniClienteICS {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 0%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .UniClienteProAtivo {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .ICSUnidadegraph {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 30px BalooBhaina2-Regular;
+  }
+  .relProjetado {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+
+    top: clamp(0.01em, 0.01em + 4vw, 4em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .relAcumulado {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 4vw, 4em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+
+  .mesSetor1,
+  .UniClienteMes1,
+  .UniClienteSetor1 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor2,
+  .UniClienteMes2,
+  .UniClienteSetor2 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor3,
+  .UniClienteMes3,
+  .UniClienteSetor3 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor4,
+  .UniClienteMes4,
+  .UniClienteSetor4 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 55vw, 55em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor5,
+  .UniClienteMes5,
+  .UniClienteSetor5 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 55vw, 55em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor6,
+  .UniClienteMes6,
+  .UniClienteSetor6 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 55vw, 55em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor7,
+  .UniClienteMes7,
+  .UniClienteSetor7 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 80vw, 80em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor8,
+  .UniClienteMes8,
+  .UniClienteSetor8 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 80vw, 80em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+
+  .mesSetor9,
+  .UniClienteMes9,
+  .UniClienteSetor9 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 80vw, 80em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 18vw, 15em);
+    height: clamp(0.01em, 0.01em + 18vw, 20em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+}
+@media screen and (max-width: 620px) {
+  .tabelaPadraoICS {
+    overflow-x: hidden;
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    width: 90%;
+    height: 65%;
+    background-color: transparent;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 0;
+  }
+  .tabelaPadraoICS::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
+  .btnReturn {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 45px;
+    font-size: 40px;
+    top: 70%;
+    left: 5%;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #adadad;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+  }
+  .btnReturn :hover {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 48px;
+    height: 45px;
+    color: #11806a;
+    transition: 0.2s;
+  }
+  .TittleIndice {
+    position: absolute;
+    text-align: center;
+    top: clamp(0.01em, 0.01em + 32vw, 32em);
+    left: 1%;
+    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .TittleProjetadoAcumulado {
+    position: absolute;
+    text-align: center;
+    top: -22%;
+    left: 5%;
+    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+    background: transparent;
+  }
+  .TittleMes {
+    position: absolute;
+    text-align: center;
+    top: 96%;
+    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+    background: transparent;
+  }
+  .tittleUniSetor {
+    position: absolute;
+    top: 96%;
+    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .cxLegenda {
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 5%;
+    top: 92%;
+    width: 90%;
+    height: 6%;
+    background-color: transparent;
+  }
+  .lgLegenda {
+    left: 0;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .lgAcima {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    left: 20%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .okImg {
+    margin-top: -3%;
+    width: 15%;
+  }
+  .lgMedia {
+    background-color: #5c56ea;
+    left: 48%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .GraphImg {
+    margin-top: -3%;
+    width: 22%;
+  }
+  .lgAbaixo {
+    background-color: #ec3565;
+    left: 75%;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 1%;
+    font: clamp(0.1em, 0.1em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+    display: flex;
+    color: white;
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .wrongImg {
+    margin-top: -3%;
+    width: 15%;
+  }
+
+  .UniClienteICS {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 0%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .UniClienteProAtivo {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .ICSUnidadegraph {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: #fff;
+    top: 0;
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 60px BalooBhaina2-Regular;
+  }
+  .relProjetado {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+
+    top: clamp(0.01em, 0.01em + 4vw, 4em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .relAcumulado {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 4vw, 4em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+
+  .mesSetor1,
+  .UniClienteMes1,
+  .UniClienteSetor1 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 40vw, 40em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor2,
+  .UniClienteMes2,
+  .UniClienteSetor2 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 40vw, 40em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor3,
+  .UniClienteMes3,
+  .UniClienteSetor3 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 40vw, 40em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor4,
+  .UniClienteMes4,
+  .UniClienteSetor4 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 70vw, 70em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor5,
+  .UniClienteMes5,
+  .UniClienteSetor5 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 70vw, 70em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor6,
+  .UniClienteMes6,
+  .UniClienteSetor6 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 70vw, 70em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor7,
+  .UniClienteMes7,
+  .UniClienteSetor7 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 100vw, 100em);
+    left: 0;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+  .mesSetor8,
+  .UniClienteMes8,
+  .UniClienteSetor8 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 100vw, 100em);
+    left: 35%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+
+  .mesSetor9,
+  .UniClienteMes9,
+  .UniClienteSetor9 {
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+    color: white;
+    top: clamp(0.01em, 0.01em + 100vw, 100em);
+    left: 70%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 25vw, 25em);
+    height: clamp(0.01em, 0.01em + 25vw, 25em);
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 26px BalooBhaina2-Medium;
+  }
+}

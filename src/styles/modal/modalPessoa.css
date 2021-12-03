@@ -1,0 +1,1043 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+.modalPessoa,
+.overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.titleFormCadPessoas {
+  position: absolute;
+  display: flex;
+  left: 5%;
+  margin-top: 2rem;
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+  color: #1c396b;
+}
+
+.modalPessoa-content {
+  position: absolute;
+  top: 14%;
+  left: 28%;
+  line-height: 1.4;
+  background: #f1f1f1;
+  width: 50%;
+  height: 70%;
+  border-radius: 25px;
+  z-index: 2;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+.fcadastroPessoa1 {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  border-radius: 5px;
+  width: 90%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa2 {
+  position: absolute;
+  left: 5%;
+  top: 27%;
+  width: 20%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-left: 0.5%;
+}
+.fcadastroPessoa3 {
+  position: absolute;
+  left: 28%;
+  top: 27%;
+  width: 26%;
+  height: 5%;
+  border-radius: 5px;
+  font: 14px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+.fcadastroPessoa4 {
+  position: absolute;
+  top: 27%;
+  left: 57%;
+  width: 38%;
+  height: 5%;
+  padding-left: 0.5%;
+  border-radius: 5px;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+}
+
+.fcadastroPessoa5 {
+  position: absolute;
+  left: 5%;
+  top: 34%;
+  border-radius: 5px;
+  width: 90%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa6 {
+  position: absolute;
+  left: 5%;
+  top: 41%;
+  width: 28%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa7 {
+  position: absolute;
+  left: 36%;
+  top: 41%;
+  width: 28%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding: 1rem;
+}
+.fcadastroPessoa8 {
+  position: absolute;
+  left: 66%;
+  top: 41%;
+  width: 22%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.consulltaCep {
+  position: absolute;
+  left: 90%;
+  top: 41%;
+  border-radius: 5px;
+  justify-content: center;
+  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.8em);
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa9 {
+  position: absolute;
+  left: 5%;
+  top: 48%;
+  border-radius: 5px;
+  width: 48%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa10 {
+  position: absolute;
+  left: 55%;
+  top: 48%;
+  border-radius: 5px;
+  width: 18%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa11 {
+  position: absolute;
+  left: 75%;
+  top: 48%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa12 {
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  border-radius: 5px;
+  width: 48%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa13 {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  border-radius: 5px;
+  width: 18%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa14 {
+  position: absolute;
+  left: 75%;
+  top: 55%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa15 {
+  position: absolute;
+  padding-top: 1px;
+  padding-left: 5px;
+  left: 5%;
+  top: 62%;
+  border-radius: 5px;
+  width: 90%;
+  height: 10%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  text-align: left;
+}
+.fcadastroPessoa16 {
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  border-radius: 5px;
+  width: 24%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa17 {
+  position: absolute;
+  left: 30%;
+  top: 75%;
+  border-radius: 5px;
+  width: 24%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroPessoa18 {
+  position: absolute;
+  left: 55%;
+  top: 75%;
+  border-radius: 5px;
+  width: 26%;
+  height: 5%;
+  justify-content: center;
+  font: 12px BalooBhaina2-SemiBold;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.InputAuthorization {
+  position: absolute;
+  left: 83%;
+  top: 75%;
+  width: 18%;
+  background-color: transparent;
+  border-radius: 5px;
+  justify-content: center;
+  border: none;
+  color: #1c396b;
+  cursor: pointer;
+  letter-spacing: -1px;
+}
+.checkText {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: -3%;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.CheckAcess {
+  font-size: clamp(0.01em, 0.01em + 0.5vw, 1em);
+  width: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+}
+@media screen and (max-width: 1024px) {
+  .modalPessoa-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 90%;
+    height: 74%;
+    border-radius: 25px;
+    z-index: 2;
+  }
+  ::-webkit-input-placeholder {
+    font: 20px BalooBhaina2-Regular;
+    color: black;
+  }
+
+  .fcadastroPessoa1 {
+    position: fixed;
+    left: 10%;
+    top: 22%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa2 {
+    position: fixed;
+    left: 10%;
+    top: 27%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa3 {
+    position: fixed;
+    left: 31%;
+    top: 27%;
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 0;
+    width: 26%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa4 {
+    position: fixed;
+    left: 58%;
+    top: 27%;
+    border-radius: 5px;
+    width: 32%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa5 {
+    position: fixed;
+    left: 10%;
+    top: 32%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa6 {
+    position: fixed;
+    left: 10%;
+    top: 37%;
+    border-radius: 5px;
+    width: 38%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa7 {
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa8 {
+    position: fixed;
+    left: 62%;
+    top: 42%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .consulltaCep {
+    position: fixed;
+    left: 83%;
+    top: 42%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
+  }
+  .fcadastroPessoa9 {
+    position: fixed;
+    left: 10%;
+    top: 42%;
+    border-radius: 5px;
+    width: 50%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa10 {
+    position: fixed;
+    left: 54%;
+    top: 47%;
+    border-radius: 5px;
+    width: 15%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa11 {
+    position: fixed;
+    left: 70%;
+    top: 47%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+
+  .fcadastroPessoa12 {
+    position: fixed;
+    left: 10%;
+    top: 47%;
+    border-radius: 5px;
+    width: 43%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa13 {
+    position: fixed;
+    left: 10%;
+    top: 52%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa14 {
+    position: fixed;
+    left: 50%;
+    top: 52%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa15 {
+    position: fixed;
+    left: 10%;
+    top: 57%;
+    border-radius: 5px;
+    width: 80%;
+    height: 10%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa16 {
+    position: fixed;
+    left: 10%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa17 {
+    position: fixed;
+    left: 38%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+  }
+  .fcadastroPessoa18 {
+    position: fixed;
+    left: 65%;
+    top: 68%;
+    border-radius: 5px;
+    width: 25%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .InputAuthorization {
+    position: absolute;
+    left: 5%;
+    top: 89%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    line-height: 25px;
+    letter-spacing: -1px;
+  }
+  .checkText {
+    position: absolute;
+    margin-top: -5%;
+    font: 24px BalooBhaina2-Medium;
+  }
+  .CheckAcess {
+    height: clamp(0.01em, 0.01em + 10vw, 5em);
+    width: clamp(0.01em, 0.01em + 10vw, 5em);
+  }
+}
+@media screen and (max-width: 780px) {
+  .modalPessoa-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 90%;
+    height: 74%;
+    border-radius: 25px;
+    z-index: 2;
+  }
+  ::-webkit-input-placeholder {
+    font: 20px BalooBhaina2-Regular;
+    color: black;
+  }
+
+  .fcadastroPessoa1 {
+    position: fixed;
+    left: 10%;
+    top: 22%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa2 {
+    position: fixed;
+    left: 10%;
+    top: 27%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa3 {
+    position: fixed;
+    left: 31%;
+    top: 27%;
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 0;
+    width: 26%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa4 {
+    position: fixed;
+    left: 58%;
+    top: 27%;
+    border-radius: 5px;
+    width: 32%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa5 {
+    position: fixed;
+    left: 10%;
+    top: 32%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa6 {
+    position: fixed;
+    left: 10%;
+    top: 37%;
+    border-radius: 5px;
+    width: 38%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa7 {
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa8 {
+    position: fixed;
+    left: 62%;
+    top: 42%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .consulltaCep {
+    position: fixed;
+    left: 83%;
+    top: 42%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
+  }
+  .fcadastroPessoa9 {
+    position: fixed;
+    left: 10%;
+    top: 42%;
+    border-radius: 5px;
+    width: 50%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa10 {
+    position: fixed;
+    left: 54%;
+    top: 47%;
+    border-radius: 5px;
+    width: 15%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa11 {
+    position: fixed;
+    left: 70%;
+    top: 47%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+
+  .fcadastroPessoa12 {
+    position: fixed;
+    left: 10%;
+    top: 47%;
+    border-radius: 5px;
+    width: 43%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa13 {
+    position: fixed;
+    left: 10%;
+    top: 52%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa14 {
+    position: fixed;
+    left: 50%;
+    top: 52%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa15 {
+    position: fixed;
+    left: 10%;
+    top: 57%;
+    border-radius: 5px;
+    width: 80%;
+    height: 10%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa16 {
+    position: fixed;
+    left: 10%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa17 {
+    position: fixed;
+    left: 38%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+  }
+  .fcadastroPessoa18 {
+    position: fixed;
+    left: 65%;
+    top: 68%;
+    border-radius: 5px;
+    width: 25%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .InputAuthorization {
+    position: absolute;
+    left: 5%;
+    top: 89%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    line-height: 25px;
+    letter-spacing: -1px;
+  }
+  .checkText {
+    position: absolute;
+    margin-top: -5%;
+    font: 24px BalooBhaina2-Medium;
+  }
+  .CheckAcess {
+    height: clamp(0.01em, 0.01em + 10vw, 5em);
+    width: clamp(0.01em, 0.01em + 10vw, 5em);
+  }
+}
+@media screen and (max-width: 500px) {
+  .modalPessoa,
+  .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
+  }
+
+  .titleFormCadPessoas {
+    position: absolute;
+    display: flex;
+    left: 5%;
+    width: 50%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: clamp(0.01em, 0.01em + 6vw, 2em);
+    color: #1c396b;
+  }
+
+  .modalPessoa-content {
+    overflow: auto;
+    position: absolute;
+    top: 14%;
+    right: 12rem;
+    line-height: 1.4;
+    left: 1rem;
+    width: 95%;
+    height: 80%;
+    z-index: 3;
+  }
+  .formCadModal {
+    overflow: auto;
+    top: 8%;
+    left: 5%;
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 80%;
+    background: #f1f1f1;
+  }
+
+  ::-webkit-input-placeholder {
+    font: 10px BalooBhaina2-Medium;
+    color: black;
+  }
+  .fcadastroPessoa1 {
+    position: fixed;
+    left: 10%;
+    top: 22%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa2 {
+    position: fixed;
+    left: 10%;
+    top: 27%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+  }
+  .fcadastroPessoa3 {
+    position: fixed;
+    left: 51%;
+    top: 27%;
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 0;
+    width: 39%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 3.5vw, 2em);
+  }
+  .fcadastroPessoa4 {
+    position: fixed;
+    left: 10%;
+    top: 32%;
+    border-radius: 5px;
+    width: 60%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+  }
+  .fcadastroPessoa5 {
+    position: fixed;
+    left: 10%;
+    top: 37%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa6 {
+    position: fixed;
+    left: 10%;
+    top: 42%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa7 {
+    position: fixed;
+    left: 50%;
+    top: 42%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa8 {
+    position: fixed;
+    left: 51%;
+    top: 47%;
+    border-radius: 5px;
+    width: 30%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .consulltaCep {
+    position: fixed;
+    left: 82%;
+    top: 46.5%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
+  }
+  .fcadastroPessoa9 {
+    position: fixed;
+    left: 10%;
+    top: 47%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa10 {
+    position: fixed;
+    left: 10%;
+    top: 52%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa11 {
+    position: fixed;
+    left: 50%;
+    top: 52%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+
+  .fcadastroPessoa12 {
+    position: fixed;
+    left: 10%;
+    top: 57%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa13 {
+    position: fixed;
+    left: 10%;
+    top: 62%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    padding-top: 2%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa14 {
+    position: fixed;
+    left: 50%;
+    top: 62%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa15 {
+    position: fixed;
+    left: 10%;
+    top: 67%;
+    border-radius: 5px;
+    width: 80%;
+    height: 10%;
+    padding-top: 1%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa16 {
+    position: fixed;
+    left: 10%;
+    top: 78%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa17 {
+    position: fixed;
+    left: 38%;
+    top: 78%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    padding-left: 1%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+  .fcadastroPessoa18 {
+    position: fixed;
+    left: 65%;
+    top: 78%;
+    border-radius: 5px;
+    width: 25%;
+    height: 4%;
+    padding-top: 1%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
+  }
+
+  .InputAuthorization {
+    position: absolute;
+    left: 10%;
+    top: 87%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    letter-spacing: -1px;
+  }
+  .checkText {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 0%;
+    font: 14px BalooBhaina2-SemiBold;
+  }
+  .CheckAcess {
+    height: clamp(0.01em, 0.01em + 12vw, 6em);
+    width: clamp(0.01em, 0.01em + 12vw, 6em);
+  }
+}
