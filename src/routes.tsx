@@ -21,6 +21,19 @@ import {
   UniClieSetor,
   UniContribSetor
 } from './pages/UnidadesCadastradas/UnitInformation'
+import SubMenuTextActive from './pages/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores'
+import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas/SubMenuPessoas'
+import SubMenuEmpresas from './pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas'
+import SubMenuTipoDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/SubMenuTipoDeObservacao'
+import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposDeUsuario/SubMenuGruposUsuarios'
+import tipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
+import TQOQuestoesReg from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
+import PermissoesDeAcessoAoSistema from './pages/SubMenuPages/SubMenuGruposDeUsuario/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema'
+import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresSociais'
+import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPsicologicos'
+import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
+import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
+import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
 
 function Routes() {
   return (
@@ -47,6 +60,43 @@ function Routes() {
       <Route path="/MesSetor" component={MesSetor}></Route>
       <Route path="/UniContribSetor" component={UniContribSetor}></Route>
       <Route path="/ObservCpto" component={ObservCpto}></Route>
+      {/* ---------------- SUB MENU Gerencia----------------- */}
+      <Route path="/SubMenuTextActive" component={SubMenuTextActive}></Route>
+      <Route path="/SubMenuPessoas" component={SubMenuPessoas}></Route>
+      <Route path="/SubMenuEmpresas" component={SubMenuEmpresas}></Route>
+      <Route
+        path="/SubMenuTipoDeObservacao"
+        component={SubMenuTipoDeObservacao}
+      ></Route>
+      <Route
+        path="/SubMenuGruposUsuarios"
+        component={SubMenuGruposUsuarios}
+      ></Route>
+      {/*--------------acesso do sub Menu (tipo de observaçao)-------------*/}
+      <Route
+        path="/tipoQualidadeDeObservacao"
+        component={tipoQualidadeDeObservacao}
+      ></Route>
+      <Route path="/TQOQuestoesReg" component={TQOQuestoesReg}></Route>
+      <Route
+        path="/PermissoesDeacessoAoSistema"
+        component={PermissoesDeAcessoAoSistema}
+      ></Route>
+      {/* ------------espaço para telas do page textos ativadores----------*/}
+      <Route path="/AtivadoresSociais" component={AtivadoresSociais}></Route>
+      <Route
+        path="/AtivadoresPsicologicos"
+        component={AtivadoresPsicologicos}
+      ></Route>
+      <Route path="/AtivadoresPessoal" component={AtivadoresPessoal}></Route>
+      <Route
+        path="/AtivadoresFisiológicos"
+        component={AtivadoresFisiologicos}
+      ></Route>
+      <Route
+        path="/AtivadoresCognitivos"
+        component={AtivadoresCognitivos}
+      ></Route>
     </Switch>
   )
 }

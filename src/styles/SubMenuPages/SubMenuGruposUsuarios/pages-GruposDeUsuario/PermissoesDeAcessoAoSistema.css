@@ -1,0 +1,60 @@
+.tittlePASObserv {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  font: 24px BalooBhaina2-SemiBold;
+  border-style: none;
+  letter-spacing: -1px;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
+}
+.PASCod {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 2%;
+}
+.PASQuests {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 8%;
+}
+.PASGroupAnalise {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 22%;
+}
+.PASDescr {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 33%;
+}
+
+.tblPASCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 5rem;
+}
+.tblPASQuests {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 8rem;
+}
+.tblPASGroupAnalise {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  width: 10rem;
+}
+.tblPASDescr {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 50rem;
+}

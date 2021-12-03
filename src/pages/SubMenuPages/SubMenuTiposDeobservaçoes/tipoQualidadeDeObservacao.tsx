@@ -33,7 +33,7 @@ function tipoQualidadeDeObservacao() {
           <div className="filter1">
             <TitlePage2>Grupo de Questões - QUALIDADE DA OBSERVAÇÃO</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <div className="container">
               <table>
                 <tbody>

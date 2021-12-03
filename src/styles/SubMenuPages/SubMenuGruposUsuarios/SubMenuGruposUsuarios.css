@@ -1,0 +1,54 @@
+.MGUCod {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 2%;
+}
+.MGUPermissao {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 10%;
+}
+.MGUUserGroup {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 23%;
+}
+.MGUState {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 93%;
+}
+
+.tblMGUCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 10rem;
+}
+.tblMGUPermissao {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 10rem;
+}
+.btnMGUPermissoes {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.tblMGUUserGroup {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 80rem;
+}
+.MGUStatus {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 10rem;
+}

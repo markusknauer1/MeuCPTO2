@@ -1,4 +1,4 @@
-import '../../../styles/pages/SubMenuPages/SubMenuTipoDeObservação/SubMenuTipoDeObservacao.css'
+import '../../../styles/SubMenuPages/SubMenuTipoDeObservação/SubMenuTipoDeObservacao.css'
 import { Link } from 'react-router-dom'
 import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
 import { SideBar } from '../../../components/SideBar/Index'
@@ -27,7 +27,7 @@ function SubMenuTipoDeObservacao() {
           <div className="filter1">
             <TitlePage2>Tipos de Observações</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <section className="">
               <div className="container">
                 <table>

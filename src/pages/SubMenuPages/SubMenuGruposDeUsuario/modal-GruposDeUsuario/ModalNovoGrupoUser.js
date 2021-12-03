@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../../../styles/pages/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/modalNovoGrupoUser.css'
+import '../../../../styles/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/modalNovoGrupoUser.css'
 
 export default function Modal() {
   const [modal, setModal] = useState(false)

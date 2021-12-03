@@ -92,7 +92,6 @@ export const NavDireita: FC = () => {
         <nav>
           <ul className="MenuDireita">
             <li>
-              {' '}
               <Link to="/FormularioCadastro">
                 <button className="tttlBtnNav1">Dados Cadastrais</button>
               </Link>

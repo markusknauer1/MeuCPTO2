@@ -1,5 +1,5 @@
 import Modal from '../modal-textosAtivadores/ModalNovoAtivador'
-import '../../../../styles/pages/SubMenuPages/SubMenuTextosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
+import '../../../../styles/SubMenuPages/SubMenuTextosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
 import { useHistory } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
 import { SideBar } from '../../../../components/SideBar/Index'
@@ -36,7 +36,7 @@ function AtivadoresPessoa() {
           <div className="filter1">
             <TitlePage2>Ativadores: Pessoal</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <section className="">
               <div className="container">
                 <table>

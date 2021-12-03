@@ -4,7 +4,7 @@ import { ContainerPage, TitlePage2 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { SideBar } from '../../../components/SideBar/Index'
-import '../../../styles/pages/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores.css'
+import '../../../styles/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores.css'
 import Modal from './modal-textosAtivadores/ModalNovoGrupo'
 
 function SubMenuTextActive() {
@@ -28,7 +28,7 @@ function SubMenuTextActive() {
           <div className="filter1">
             <TitlePage2>Cadastro de Textos Ativadores</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <section className="">
               <div className="container">
                 <table>

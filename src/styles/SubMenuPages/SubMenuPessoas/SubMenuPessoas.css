@@ -1,0 +1,109 @@
+/*-------------Conteudo do cabeçalho da tabela-----------------*/
+.tblSubCod {
+  position: absolute;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
+  left: 2%;
+}
+.tblSubPessoacod {
+  position: absolute;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
+  left: 14%;
+}
+.tblSubMail {
+  position: absolute;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
+  left: 46%;
+}
+.tblSubMetas {
+  position: absolute;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
+  left: 80%;
+}
+.tblSubAtivo {
+  position: absolute;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
+  left: 92%;
+}
+
+/*-------------Conteudo da tabela-----------------*/
+.btnSubCod {
+  padding-top: 1%;
+  font: 10px BalooBhaina2-SemiBold;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 10rem;
+}
+.btnSubOBS {
+  padding-top: 1%;
+  font: 10px BalooBhaina2-SemiBold;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 25rem;
+}
+.btnSubMail {
+  padding-top: 1%;
+  font: 10px BalooBhaina2-SemiBold;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 25rem;
+}
+.btnSubMetas {
+  padding-top: 1%;
+  font: 10px BalooBhaina2-SemiBold;
+  padding-bottom: 1%;
+  padding-left: 4.5%;
+  width: 10rem;
+}
+.btnSMPMetas {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btnSubAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 7%;
+  width: 10rem;
+  font-size: 2rem;
+}
+.btnSMPAtivo {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1024px) {
+  .tblcod {
+    top: 2%;
+    position: absolute;
+    left: 5%;
+  }
+  .tblobservador {
+    top: 2%;
+    position: absolute;
+    left: 15%;
+  }
+  .tbtlogin {
+    top: 2%;
+    position: absolute;
+    left: 50%;
+  }
+  .tblfuncao {
+    top: 2%;
+    position: absolute;
+    left: 76%;
+  }
+
+  .tblmetas {
+    top: 2%;
+    position: absolute;
+    left: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+}

@@ -1,0 +1,428 @@
+.tblSubTipObsCod {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 5%;
+  left: 2.5%;
+}
+.tblSubTipObsPessoad {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 10%;
+  left: 27%;
+}
+.tblSubTipObsfator1 {
+  position: absolute;
+  font-size: 0.35em;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 10%;
+  left: 54%;
+}
+.tblSubTipObsfator2 {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 10%;
+  left: 63%;
+}
+.tblSubTipObsFatorN {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 10%;
+  left: 72%;
+}
+.tblSubTipObsPermissao {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 10%;
+  left: 81%;
+}
+.tblSubTipObsAtivo {
+  position: absolute;
+  font: 6px BalooBhaina2-SemiBold;
+  top: 8%;
+  left: 94%;
+}
+
+/* ------------------conteúdo da tabela---------------- */
+.btnSubTipObsCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 18rem;
+  cursor: pointer;
+}
+.btnPageGroupQuest {
+  background-color: transparent;
+  border: none;
+  width: 14rem;
+  font: 10px BalooBhaina2-SemiBold;
+}
+.GroupTipObs {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.btnSubTipObsQualiObs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 20rem;
+  font-size: 1rem;
+}
+.btnSubTipObsfator1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 8rem;
+}
+.btnSubTipObsfator2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 8rem;
+}
+
+.btnSubTipObsfatorN {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 8rem;
+}
+.btnSubTipObsPermissao {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 10rem;
+}
+.btnSubAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font: 10px BalooBhaina2-SemiBold;
+  width: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .tblSubTipObsCod {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 5%;
+    left: 2.5%;
+  }
+  .tblSubTipObsPessoad {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 24%;
+  }
+  .tblSubTipObsfator1 {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 50%;
+  }
+  .tblSubTipObsfator2 {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 60%;
+  }
+  .tblSubTipObsFatorN {
+    position: absolute;
+    display: flex;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 70%;
+  }
+  .tblSubTipObsPermissao {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 81%;
+  }
+  .tblSubTipObsAtivo {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 8%;
+    left: 94%;
+  }
+
+  /* ------------------conteúdo da tabela---------------- */
+  .btnSubTipObsCod {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 18rem;
+    cursor: pointer;
+  }
+  .btnPageGroupQuest {
+    background-color: transparent;
+    border: none;
+    width: 14rem;
+    font: 14px BalooBhaina2-SemiBold;
+  }
+  .GroupTipObs {
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+  .btnSubTipObsQualiObs {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 20rem;
+  }
+  .btnSubTipObsfator1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+  .btnSubTipObsfator2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+
+  .btnSubTipObsfatorN {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+  .btnSubTipObsPermissao {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 10rem;
+  }
+  .btnSubAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 16px BalooBhaina2-SemiBold;
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .tblSubTipObsCod {
+    position: absolute;
+    font: 80px BalooBhaina2-SemiBold;
+    top: 5%;
+    left: 2.5%;
+  }
+  .tblSubTipObsPessoad {
+    position: absolute;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 26%;
+  }
+  .tblSubTipObsfator1 {
+    position: absolute;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 53%;
+  }
+  .tblSubTipObsfator2 {
+    position: absolute;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 63%;
+  }
+  .tblSubTipObsFatorN {
+    position: absolute;
+    display: flex;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 72%;
+  }
+  .tblSubTipObsPermissao {
+    position: absolute;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 81%;
+  }
+  .tblSubTipObsAtivo {
+    position: absolute;
+    font: 60px BalooBhaina2-SemiBold;
+    top: 8%;
+    left: 94%;
+  }
+
+  /* ------------------conteúdo da tabela---------------- */
+  .btnSubTipObsCod {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 18rem;
+    cursor: pointer;
+  }
+  .btnPageGroupQuest {
+    background-color: transparent;
+    border: none;
+    width: 14rem;
+    font: 12px BalooBhaina2-SemiBold;
+  }
+  .GroupTipObs {
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+  .btnSubTipObsQualiObs {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 20rem;
+  }
+  .btnSubTipObsfator1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+  .btnSubTipObsfator2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+
+  .btnSubTipObsfatorN {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 8rem;
+  }
+  .btnSubTipObsPermissao {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 10rem;
+  }
+  .btnSubAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 12px BalooBhaina2-SemiBold;
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tblSubTipObsCod {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 5%;
+    left: 2.5%;
+  }
+  .tblSubTipObsPessoad {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 26%;
+  }
+  .tblSubTipObsfator1 {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 52%;
+  }
+  .tblSubTipObsfator2 {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 63%;
+  }
+  .tblSubTipObsFatorN {
+    position: absolute;
+    display: flex;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 72%;
+  }
+  .tblSubTipObsPermissao {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 10%;
+    left: 82%;
+  }
+  .tblSubTipObsAtivo {
+    position: absolute;
+    font: 28px BalooBhaina2-SemiBold;
+    top: 8%;
+    left: 94%;
+  }
+
+  /* ------------------conteúdo da tabela---------------- */
+  .btnSubTipObsCod {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    cursor: pointer;
+  }
+  .btnPageGroupQuest {
+    background-color: transparent;
+    border: none;
+    width: 5rem;
+    font: 6px BalooBhaina2-Medium;
+  }
+  .GroupTipObs {
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  .btnSubTipObsQualiObs {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 16rem;
+    font: 6px BalooBhaina2-Medium;
+  }
+  .btnSubTipObsfator1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 6px BalooBhaina2-Medium;
+    width: 12rem;
+  }
+  .btnSubTipObsfator2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 6px BalooBhaina2-Medium;
+    width: 12rem;
+  }
+
+  .btnSubTipObsfatorN {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 6px BalooBhaina2-Medium;
+    width: 12rem;
+  }
+  .btnSubTipObsPermissao {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    font: 6px BalooBhaina2-Medium;
+    width: 16rem;
+  }
+  .btnSubAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font: 6px BalooBhaina2-Medium;
+    width: 6rem;
+  }
+}

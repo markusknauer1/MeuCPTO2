@@ -1,0 +1,134 @@
+/*------------Cabeçalho da tabela Empresa------------*/
+.tblSubEmpresaCod {
+  position: absolute;
+  font: 16px BalooBhaina2-SemiBold;
+  top: 5%;
+  left: 3%;
+}
+.tblSubEmpresaEmpresa {
+  position: absolute;
+  font: 16px BalooBhaina2-SemiBold;
+  top: 5%;
+  left: 15%;
+}
+.tblSubEmpresaAtivo {
+  position: absolute;
+  font: 16px BalooBhaina2-SemiBold;
+  top: 5%;
+  left: 90%;
+}
+/*------------Conteudo da tabela Empresa------------*/
+.btnSubEmpresaCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  font: 12px BalooBhaina2-SemiBold;
+  width: 10rem;
+}
+.btnSubEmpresaOBS {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 60rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnSubEmpresaAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  color: #11806a;
+  font: 14px BalooBhaina2-SemiBold;
+  width: 10rem;
+  font-size: 10px;
+}
+/*------------Modal da tabela Empresa------------*/
+
+@media screen and (max-width: 1024px) {
+  /*------------Cabeçalho da tabela Empresa------------*/
+  .tblSubEmpresaCod {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 2%;
+    left: 3%;
+  }
+  .tblSubEmpresaEmpresa {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 2%;
+    left: 15%;
+  }
+  .tblSubEmpresaAtivo {
+    position: absolute;
+    font: 90px BalooBhaina2-SemiBold;
+    top: 2%;
+    left: 90%;
+  }
+  /*------------Conteudo da tabela Empresa------------*/
+  .btnSubEmpresaCod {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font: 22px BalooBhaina2-SemiBold;
+    width: 10rem;
+  }
+  .btnSubEmpresaOBS {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 60rem;
+    font: 22px BalooBhaina2-SemiBold;
+  }
+  .btnSubEmpresaAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #11806a;
+    font: 22px BalooBhaina2-SemiBold;
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*------------Cabeçalho da tabela Empresa------------*/
+  .tblSubEmpresaCod {
+    position: absolute;
+    font-size: 5rem;
+    top: 2%;
+    left: 3%;
+  }
+  .tblSubEmpresaEmpresa {
+    position: absolute;
+    font-size: 5rem;
+    top: 2%;
+    left: 18%;
+  }
+  .tblSubEmpresaAtivo {
+    position: absolute;
+    font-size: 5rem;
+    top: 2%;
+    left: 90%;
+  }
+  /*------------Conteudo da tabela Empresa------------*/
+  .btnSubEmpresaCod {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 10px;
+    width: 10rem;
+  }
+  .btnSubEmpresaOBS {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 60rem;
+    font-size: 10px;
+  }
+  .btnSubEmpresaAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #11806a;
+    width: 10rem;
+    font-size: 10px;
+  }
+}

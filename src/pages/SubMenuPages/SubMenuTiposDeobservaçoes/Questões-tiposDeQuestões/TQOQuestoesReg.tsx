@@ -32,7 +32,7 @@ function TQOQuestoesReg() {
           <div className="filter1">
             <TitlePage2>Questões de : Cuidado Ativo</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <div className="container">
               <table>
                 <tbody>

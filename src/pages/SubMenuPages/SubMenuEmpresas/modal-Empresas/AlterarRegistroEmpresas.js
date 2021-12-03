@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../../../styles/pages/SubMenuPages/SubMenuEmpresas/Modal-SubMenuEmpresas/AlterarRegistroEmpresas.css'
+import '../../../../styles/SubMenuPages/SubMenuEmpresas/Modal-SubMenuEmpresas/AlterarRegistroEmpresas.css'
 
 export default function Modal() {
   const [image, setImage] = useState('')

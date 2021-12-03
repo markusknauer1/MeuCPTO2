@@ -2,7 +2,7 @@ import { ContainerPage, TitlePage2 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { SideBar } from '../../../components/SideBar/Index'
-import '../../../styles/pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
+import '../../../styles/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
 import Modal from './modal-Empresas/AlterarRegistroEmpresas'
 
 function SubMenuEmpresas() {
@@ -26,7 +26,7 @@ function SubMenuEmpresas() {
           <div className="filter1">
             <TitlePage2>Cadastro Geral de Empresas</TitlePage2>
           </div>
-          <div className="tabelaPadrao">
+          <div className="tabelaPadrao2">
             <section className="">
               <div className="container">
                 <table>
