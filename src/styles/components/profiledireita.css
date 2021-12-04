@@ -15,15 +15,18 @@
 }
 .titleProfile1 {
   position: absolute;
-  font: 22px BalooBhaina2-Regular;
-  top: 5%;
+  font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+  font-family: BalooBhaina2-Regular;
+  font-weight: 100;
+  top: 6%;
   left: -12%;
   width: 100%;
   color: #adadad;
 }
 .titleProfile2 {
   position: absolute;
-  font: 22px BalooBhaina2-Bold;
+  font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+  font-family: BalooBhaina2-Medium;
   top: 10%;
   left: -12%;
   width: 100%;
