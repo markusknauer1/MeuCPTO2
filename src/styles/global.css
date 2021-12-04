@@ -29,7 +29,6 @@ body {
   align-items: center;
   text-align: center;
   background-repeat: no-repeat;
-  
 }
 
 @font-face {
@@ -639,7 +638,7 @@ th {
   position: absolute;
   left: 10%;
   top: 65%;
-  font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-Medium;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   background-color: transparent;
   border-style: none;
   line-height: 100%;
@@ -656,7 +655,7 @@ th {
   position: absolute;
   left: 60%;
   top: 65%;
-  font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-Medium;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   background-color: transparent;
   border-style: none;
   line-height: 100%;
