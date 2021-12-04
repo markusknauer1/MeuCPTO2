@@ -680,29 +680,30 @@ th {
 .selectAnalise {
   color: #1c396b;
   top: -0%;
-  font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  font: 24px BalooBhaina2-SemiBold;
   position: absolute;
   display: flex;
 }
 .selectAnalise1 {
   color: #1c396b;
   top: -4%;
-  font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+  font: 20px BalooBhaina2-SemiBold;
   position: absolute;
   display: flex;
 }
 .selectAnalise2 {
   color: #1c396b;
   top: 4%;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Regular;
+  font: 12px BalooBhaina2-Regular;
+  line-height: 10px;
   position: absolute;
   display: flex;
 }
 .SelectCliente {
   position: fixed;
-  top: 30%;
+  top: 31%;
   bottom: 0;
-  font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
+  font: 14px BalooBhaina2-Regular;
   color: #30aa93;
 }
 .SelectIdCliente {
@@ -723,7 +724,7 @@ th {
   position: fixed;
   top: 38%;
   bottom: 0;
-  font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
+  font: 14px BalooBhaina2-Regular;
   color: #30aa93;
 }
 .SelectIdObserv {
@@ -746,7 +747,7 @@ th {
   position: fixed;
   top: 48%;
   bottom: 0;
-  font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
+  font: 14px BalooBhaina2-Regular;
   color: #30aa93;
 }
 .calendarioAnalise {
