@@ -1,6 +1,8 @@
 .react-calendar {
   position: absolute;
+  padding-bottom: 10px;
   width: 90%;
+  height: 100%;
   background: white;
   border: none;
   font: 10px BalooBhaina2-Medium;
@@ -27,9 +29,6 @@
 }
 .react-calendar button {
   padding: calc(0.3em / 0.75) calc(0.3em / 0.75);
-  font-size: clamp(0.01em, 0.01em + 1vw, 1.2em);
-  font-weight: 500;
-  font-family: 'baloo bhaina2', sans-serif;
   width: 8%;
   border: 0;
   outline: none;
@@ -39,10 +38,11 @@
   cursor: pointer;
 }
 .react-calendar__navigation {
-  height: 50%;
-  margin-bottom: 35px;
+  height: 8%;
+  margin-bottom: 30px;
 }
 .react-calendar__navigation button {
+  font-size: clamp(0.01em, 0.01em + 0.8vw, 1.4em);
   min-width: 1%;
   background: none;
 }
@@ -91,12 +91,13 @@
   padding: 10px;
   margin-top: -25px;
   margin-bottom: 20px;
-  font-weight: bold;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1.25em);
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border-radius: 10px;
 }
 .react-calendar__tile {
   /* dias do mes */
+  font-size: clamp(0.01em, 0.01em + 0.8vw, 1.4em);
   max-width: 100%;
   text-align: center;
   padding: 0px;
