@@ -1481,7 +1481,8 @@ input::-webkit-input-placeholder {
   align-items: center;
   position: absolute;
   padding-top: 1%;
-  font: clamp(0.1em, 0.1em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
   display: flex;
   width: 25%;
   height: 100%;
@@ -1498,7 +1499,8 @@ input::-webkit-input-placeholder {
   align-items: center;
   position: absolute;
   padding-top: 1%;
-  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
+  font-family: BalooBhaina2-SemiBold;
   display: flex;
   color: white;
   width: 25%;
@@ -1520,7 +1522,8 @@ input::-webkit-input-placeholder {
   align-items: center;
   position: absolute;
   padding-top: 1%;
-  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
+  font-family: BalooBhaina2-SemiBold;
   display: flex;
   color: white;
   width: 25%;
@@ -1542,7 +1545,8 @@ input::-webkit-input-placeholder {
   align-items: center;
   position: absolute;
   padding-top: 1%;
-  font: clamp(0.1em, 0.1em + 0.8vw, 0.8em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
+  font-family: BalooBhaina2-SemiBold;
   display: flex;
   color: white;
   width: 25%;
