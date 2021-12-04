@@ -77,36 +77,40 @@
   justify-content: center;
   text-align: center;
   width: clamp(0.1em, 0.1em + 18vw, 18em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblPesOBS {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 20rem;
-
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblPesMail {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 20rem;
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblPesFunc {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 20rem;
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblPesMetas {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 5%;
   width: 10rem;
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .action {
   display: flex;
