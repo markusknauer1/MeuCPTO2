@@ -665,7 +665,7 @@ th {
   position: absolute;
   top: 105%;
   color: #1c396b;
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-size: clamp(0.1em, 0.1em + 1.5vw, 3em);
   background: transparent !important;
 }
 .calendarRelatorio {
@@ -722,7 +722,7 @@ th {
 }
 .SelectObserv {
   position: fixed;
-  top: 38%;
+  top: 39%;
   bottom: 0;
   font: 14px BalooBhaina2-Regular;
   color: #30aa93;
