@@ -38,8 +38,8 @@
   cursor: pointer;
 }
 .react-calendar__navigation {
-  height: 8%;
-  margin-bottom: 30px;
+  height: 15%;
+  margin-bottom: 20px;
 }
 .react-calendar__navigation button {
   font-size: clamp(0.01em, 0.01em + 0.8vw, 1.4em);
@@ -89,8 +89,8 @@
 .react-calendar__decade-view .react-calendar__tile,
 .react-calendar__century-view .react-calendar__tile {
   padding: 10px;
-  margin-top: -25px;
-  margin-bottom: 20px;
+  margin-top: -15px;
+  margin-bottom: 5px;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border-radius: 10px;
@@ -111,7 +111,7 @@
 .react-calendar__tile:enabled:focus {
   background-color: #fff;
   color: #0b9e82;
-  border-radius: 50px;
+  border-radius: 8px;
 }
 .react-calendar__tile--now {
   background: #18c4a5;
