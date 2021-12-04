@@ -15,7 +15,7 @@
 }
 .titleProfile1 {
   position: absolute;
-  font: clamp(0.1em, 0.1em + 1.5vw, 2em) BalooBhaina2-Regular;
+  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-Regular;
   top: 6%;
   left: -12%;
   width: 100%;
