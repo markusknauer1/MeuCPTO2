@@ -59,7 +59,8 @@
   border-radius: 6px;
   border-style: none;
   display: flex;
-  font: 16px BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 1.4em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .close-modal {
   position: absolute;
@@ -191,6 +192,38 @@
     border-style: none;
     border-radius: 5px;
   }
+  .buttonModalObservaçoes {
+    background-color: #172d52;
+    color: white;
+    top: 24%;
+    left: 40%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 12vw, 12em);
+    height: clamp(0.01em, 0.01em + 4vw, 4em);
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+  }
+  .gravar-modal {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4px;
+    right: 5%;
+    bottom: 5%;
+    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
+    width: clamp(1em, 1em + 20vw, 20em);
+    height: clamp(1em, 1em + 4.5vw, 4.5em);
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 620px) {
   .buttonModalPadrao {
@@ -204,30 +237,29 @@
     text-align: center;
     z-index: 2;
     cursor: pointer;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
     border-style: none;
     border-radius: 5px;
   }
-}
-@media screen and (max-width: 500px) {
-  .buttonModalPadrao {
-    position: fixed;
-    top: 21%;
-    left: 75%;
-    width: clamp(1em, 1em + 17vw, 17em);
-    height: clamp(1em, 1em + 3vw, 3em);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index: 2;
-    cursor: pointer;
-    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-SemiBold;
-    background-color: #0b9e82;
+  .buttonModalObservaçoes {
+    background-color: #172d52;
     color: white;
+    top: 24%;
+    left: 54%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 20vw, 20em);
+    height: clamp(0.01em, 0.01em + 6vw, 6em);
+    border-radius: 6px;
     border-style: none;
-    border-radius: 5px;
+    display: flex;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
   }
 }
 /* =======================  modalPessoa   ========================== */
@@ -612,38 +644,6 @@ body.active-modalPessoa {
     border-radius: 25px;
     z-index: 2;
   }
-  .buttonModalObservaçoes {
-    background-color: #172d52;
-    color: white;
-    top: 24%;
-    left: 40%;
-    position: fixed;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: clamp(0.01em, 0.01em + 12vw, 12em);
-    height: clamp(0.01em, 0.01em + 4vw, 4em);
-    border-radius: 6px;
-    border-style: none;
-    display: flex;
-    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
-  }
-  .gravar-modal {
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    padding-top: 4px;
-    right: 5%;
-    bottom: 5%;
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
-    width: clamp(1em, 1em + 20vw, 20em);
-    height: clamp(1em, 1em + 4.5vw, 4.5em);
-    background-color: #1c396b;
-    color: white;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-  }
   ::-webkit-input-placeholder {
     font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
     color: black;
@@ -870,24 +870,7 @@ body.active-modalPessoa {
     width: clamp(0.01em, 0.01em + 3vw, 3em);
   }
 }
-@media screen and (max-width: 620px) {
-  .buttonModalObservaçoes {
-    background-color: #172d52;
-    color: white;
-    top: 24%;
-    left: 54%;
-    position: fixed;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: clamp(0.01em, 0.01em + 20vw, 20em);
-    height: clamp(0.01em, 0.01em + 6vw, 6em);
-    border-radius: 6px;
-    border-style: none;
-    display: flex;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
-  }
-}
+
 /* ========================  modal Equipe  ========================= */
 body.active-modalEquipe {
   overflow-y: hidden;

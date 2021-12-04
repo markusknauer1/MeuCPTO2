@@ -2,16 +2,14 @@ import Modal from '../modal-textosAtivadores/ModalNovoAtivador'
 import '../../../../styles/SubMenuPages/SubMenuTextosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
 import { useHistory } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
-import { SideBar } from '../../../../components/SideBar/Index'
-import ProfileDireita from '../../../../components/ProfileDireita'
+import { NavDireita } from '../../../../components/SideBar/Index'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage } from '../../../../components/Main'
+import { ContainerPage, TitlePage2 } from '../../../../components/Main'
 
 function AtivadoresFisiológico() {
   let history = useHistory()
   return (
     <div className="logoQ1">
-      <ProfileDireita />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -31,14 +29,13 @@ function AtivadoresFisiológico() {
           </button>
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
-            <h2 className="subtPadrao2">Ativadores: Fisiológicos</h2>
+            <TitlePage2>Ativadores: Fisiológicos</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -77,8 +74,9 @@ function AtivadoresFisiológico() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
 
         <SidebarMobile />
       </ContainerPage>

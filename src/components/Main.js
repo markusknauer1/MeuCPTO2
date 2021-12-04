@@ -117,3 +117,34 @@ export const TitlePage3 = styled.h5`
     z-index: 2;
   }
 `
+
+export const TitlePage4 = styled.h5`
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  font: clamp(0.1em, 0.1em + 1.6vw, 1.6em) BalooBhaina2-bold;
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
+  @media screen and (max-width: 820px) {
+    position: fixed;
+    top: 22%;
+    left: 5%;
+    font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+  @media screen and (max-width: 500px) {
+    position: fixed;
+    top: 22%;
+    left: 5%;
+    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+`

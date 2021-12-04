@@ -1,9 +1,9 @@
 import Modal from '../../MenuDireito/MenuDireito-Modal/ModalCadPessoa'
 import '../../../styles/SubMenuPages/SubMenuPessoas/SubMenuPessoas.css'
-import { SideBar } from '../../../components/SideBar/Index'
+import { NavDireita } from '../../../components/SideBar/Index'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage } from '../../../components/Main'
+import { ContainerPage, TitlePage2 } from '../../../components/Main'
 
 function SubMenuPessoas() {
   return (
@@ -21,14 +21,13 @@ function SubMenuPessoas() {
           />
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
-            <h2 className="subtPadrao2">Cadastro Geral de Pessoas</h2>
+            <TitlePage2>Cadastro Geral de Pessoas</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -265,7 +264,9 @@ function SubMenuPessoas() {
           </div>
         </div>
         <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
       </ContainerPage>
     </div>

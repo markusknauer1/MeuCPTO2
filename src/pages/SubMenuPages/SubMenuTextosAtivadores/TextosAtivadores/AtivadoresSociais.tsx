@@ -2,7 +2,7 @@ import Modal from '../modal-textosAtivadores/ModalNovoAtivador'
 import '../../../../styles/SubMenuPages/SubMenuTextosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
 import { useHistory } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
-import { SideBar } from '../../../../components/SideBar/Index'
+import { NavDireita, SideBar } from '../../../../components/SideBar/Index'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage, TitlePage2 } from '../../../../components/Main'
@@ -22,24 +22,16 @@ function AtivadoresSocias() {
             id="fname7"
             name="fname"
           />
-          <button
-            className="btnReturn"
-            type="button"
-            onClick={() => history.goBack()}
-          >
-            <TypIcons.TiArrowBackOutline />
-          </button>
 
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <TitlePage2>Ativadores: Sociais</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -78,9 +70,17 @@ function AtivadoresSocias() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
+        <button
+          className="btnReturn"
+          type="button"
+          onClick={() => history.goBack()}
+        >
+          <TypIcons.TiArrowBackOutline />
+        </button>
       </ContainerPage>
     </div>
   )

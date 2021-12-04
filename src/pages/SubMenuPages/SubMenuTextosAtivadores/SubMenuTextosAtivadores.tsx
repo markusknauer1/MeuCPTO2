@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ContainerPage, TitlePage2 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { SideBar } from '../../../components/SideBar/Index'
+import { NavDireita } from '../../../components/SideBar/Index'
 import '../../../styles/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores.css'
 import Modal from './modal-textosAtivadores/ModalNovoGrupo'
 
@@ -23,14 +23,13 @@ function SubMenuTextActive() {
           />
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <TitlePage2>Cadastro de Textos Ativadores</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -133,8 +132,9 @@ function SubMenuTextActive() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
       </ContainerPage>
     </div>

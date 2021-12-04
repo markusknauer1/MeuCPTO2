@@ -2,7 +2,7 @@ import Modal from '../modal-textosAtivadores/ModalNovoAtivador'
 import '../../../../styles/SubMenuPages/SubMenuTextosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
 import { useHistory } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
-import { SideBar } from '../../../../components/SideBar/Index'
+import { NavDireita } from '../../../../components/SideBar/Index'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage } from '../../../../components/Main'
@@ -31,14 +31,13 @@ function AtivadoresCognitivos() {
           </button>
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <h2 className="subtPadrao2">Ativadores: Cognitivos</h2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -77,8 +76,9 @@ function AtivadoresCognitivos() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
       </ContainerPage>
     </div>

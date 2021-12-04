@@ -1,22 +1,20 @@
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import '../../../../styles/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema.css'
 
 import * as TypIcons from 'react-icons/ti'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage } from '../../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../../components/Main'
+import { NavDireita } from '../../../../components/SideBar/Index'
 
 function PermissoesDeAcessoAoSistema() {
+  let history = useHistory()
   return (
     <div className="logoQ1">
       <ProfileDireita />
       <ContainerPage>
         <div className="logo" />
-        <Link to="/SubMenuGruposUsuarios">
-          <button className="btnReturn">
-            <TypIcons.TiArrowBackOutline />
-          </button>
-        </Link>
+
         <div>
           <input
             className="fCxPesquisa"
@@ -28,9 +26,9 @@ function PermissoesDeAcessoAoSistema() {
         </div>
         <div className="page">
           <div className="filter1">
-            <h2 className="tittlePASObserv">
-              Permissões de Acesso ao Sistema - Grupo: Avaliadores{' '}
-            </h2>
+            <TitlePage4>
+              Permissões de Acesso ao Sistema - Grupo: Avaliadores
+            </TitlePage4>
           </div>
           <div className="tabelaPadrao">
             <section className="">
@@ -101,9 +99,17 @@ function PermissoesDeAcessoAoSistema() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
+        <button
+          className="btnReturn"
+          type="button"
+          onClick={() => history.goBack()}
+        >
+          <TypIcons.TiArrowBackOutline />
+        </button>
       </ContainerPage>
     </div>
   )
