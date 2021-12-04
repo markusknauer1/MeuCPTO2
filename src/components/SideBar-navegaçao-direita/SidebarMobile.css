@@ -129,7 +129,6 @@ span {
   text-align: center;
   align-items: center;
   top: 0px;
-
   font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
   font-family: BalooBhaina2-Bold;
   background-color: #fff;
@@ -153,7 +152,8 @@ span {
   text-align: center;
   align-items: center;
   top: 50px;
-  font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font-family: BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -177,7 +177,8 @@ span {
   text-align: center;
   align-items: center;
   top: 100px;
-  font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font-family: BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -199,7 +200,8 @@ span {
   text-align: center;
   align-items: center;
   top: 150px;
-  font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font-family: BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -221,7 +223,8 @@ span {
   text-align: center;
   align-items: center;
   top: 200px;
-  font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font-family: BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -311,7 +314,8 @@ span {
     z-index: 2;
   }
   .Mobwork {
-    font-size: 15px;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-Bold;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -322,7 +326,8 @@ span {
     height: 40px;
   }
   .MobtypObs {
-    font-size: 15px;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-Bold;
     left: 5%;
     width: 90%;
     height: 40px;
@@ -334,7 +339,8 @@ span {
   }
   .MobTextActiv {
     top: 36%;
-    font-size: 15px;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-Bold;
     left: 5%;
     width: 90%;
     height: 40px;
@@ -346,7 +352,8 @@ span {
     border-radius: 10px;
   }
   .MobpeopleTest {
-    font-size: 15px;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-Bold;
     left: 5%;
     width: 90%;
     height: 40px;
@@ -359,7 +366,8 @@ span {
     border-radius: 10px;
   }
   .MobUserGroup {
-    font-size: 15px;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-family: BalooBhaina2-Bold;
     left: 5%;
     width: 90%;
     height: 40px;
