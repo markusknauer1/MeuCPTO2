@@ -1362,7 +1362,7 @@ input::-webkit-input-placeholder {
   text-align: center;
   top: clamp(0.01em, 0.01em + 18vw, 18em);
   left: 1%;
-  font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+  font: 22px BalooBhaina2-Medium;
   color: #1c396b;
 }
 .TittleProjetadoAcumulado {
