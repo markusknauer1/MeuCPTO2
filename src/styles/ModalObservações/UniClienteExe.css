@@ -1134,7 +1134,7 @@ input::-webkit-input-placeholder {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   color: white;
 
-  top: clamp(0.01em, 0.01em + 3vw, 3em);
+  top: 40px;
   left: 0;
   position: absolute;
   align-items: center;
@@ -1151,7 +1151,7 @@ input::-webkit-input-placeholder {
 .relAcumulado {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   color: white;
-  top: clamp(0.01em, 0.01em + 3vw, 3em);
+  top: 40px;
   left: 35%;
   position: absolute;
   align-items: center;
@@ -1171,7 +1171,7 @@ input::-webkit-input-placeholder {
 .UniClienteSetor1 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   color: white;
-  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  top: 300px;
   left: 0;
   position: absolute;
   align-items: center;
@@ -1190,7 +1190,7 @@ input::-webkit-input-placeholder {
 .UniClienteSetor2 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   color: white;
-  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  top: 300px;
   left: 35%;
   position: absolute;
   align-items: center;
@@ -1209,7 +1209,7 @@ input::-webkit-input-placeholder {
 .UniClienteSetor3 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   color: white;
-  top: clamp(0.01em, 0.01em + 22vw, 22em);
+  top: 300px;
   left: 70%;
   position: absolute;
   align-items: center;
@@ -1360,15 +1360,15 @@ input::-webkit-input-placeholder {
 .TittleIndice {
   position: absolute;
   text-align: center;
-  top: clamp(0.01em, 0.01em + 19vw, 19em);
+  top: clamp(0.01em, 0.01em + 18vw, 18em);
   left: 1%;
-  font: 22px BalooBhaina2-Medium;
+  font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Medium;
   color: #1c396b;
 }
 .TittleProjetadoAcumulado {
   position: absolute;
   text-align: center;
-  top: -20%;
+  top: -30px;
   left: 5%;
   font: 22px BalooBhaina2-Medium;
   color: #1c396b;
