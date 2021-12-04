@@ -680,38 +680,42 @@ th {
 .selectAnalise {
   color: #1c396b;
   top: -0%;
-  font: 24px BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+  font-family: BalooBhaina2-Medium;
   position: absolute;
   display: flex;
 }
 .selectAnalise1 {
   color: #1c396b;
   top: -4%;
-  font: 20px BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+  font-family: BalooBhaina2-Medium;
   position: absolute;
   display: flex;
 }
 .selectAnalise2 {
   color: #1c396b;
-  top: 4%;
-  font: 12px BalooBhaina2-Regular;
-  line-height: 10px;
+  top: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   position: absolute;
   display: flex;
 }
 .SelectCliente {
   position: fixed;
-  top: 31%;
+  top: 30%;
   bottom: 0;
-  font: 14px BalooBhaina2-Regular;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   color: #30aa93;
 }
 .SelectIdCliente {
   position: absolute;
-  top: 18%;
+  top: 17%;
   left: 0;
   background-color: rgb(255, 255, 255);
-  font: 16px BalooBhaina2-Regular;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   border: none;
   display: flex;
   color: gray;
@@ -724,7 +728,8 @@ th {
   position: fixed;
   top: 39%;
   bottom: 0;
-  font: 14px BalooBhaina2-Regular;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   color: #30aa93;
 }
 .SelectIdObserv {
@@ -732,7 +737,8 @@ th {
   top: 32%;
   left: 0;
   background-color: rgb(255, 255, 255);
-  font: 16px BalooBhaina2-Regular;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   border: none;
   display: flex;
   align-items: center;
@@ -747,7 +753,8 @@ th {
   position: fixed;
   top: 48%;
   bottom: 0;
-  font: 14px BalooBhaina2-Regular;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-Regular;
   color: #30aa93;
 }
 .calendarioAnalise {
