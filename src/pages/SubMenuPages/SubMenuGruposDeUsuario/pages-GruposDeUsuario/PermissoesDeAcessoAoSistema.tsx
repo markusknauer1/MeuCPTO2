@@ -1,4 +1,4 @@
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import '../../../../styles/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema.css'
 
 import * as TypIcons from 'react-icons/ti'
