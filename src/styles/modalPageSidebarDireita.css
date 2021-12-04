@@ -18,27 +18,10 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
   z-index: 2;
   cursor: pointer;
   font-size: clamp(0.1em, 0.1em + 1.3vw, 1.3em);
-  font-family: BalooBhaina2-SemiBold;
-  background-color: #0b9e82;
-  color: white;
-  border-style: none;
-  border-radius: 5px;
-}
-.buttonModalPadrao1 {
-  position: fixed;
-  top: 22.5%;
-  left: 52%;
-  width: 12%;
-  height: 5%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  z-index: 2;
-  cursor: pointer;
-  font-size: clamp(0.01em, 0.01em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-SemiBold;
   background-color: #0b9e82;
   color: white;
@@ -167,27 +150,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     z-index: 2;
     cursor: pointer;
-    font: clamp(0.01em, 0.01em + 1.7vw, 1.7em) BalooBhaina2-SemiBold;
-    background-color: #0b9e82;
-    color: white;
-    border-style: none;
-    border-radius: 5px;
-  }
-  .buttonModalPadrao1 {
-    position: fixed;
-    top: 22.5%;
-    left: 52%;
-    width: 12%;
-    height: 38px;
-    display: flex;
-    padding-top: 4px;
-    justify-content: center;
-    text-align: center;
-    z-index: 2;
-    cursor: pointer;
-    font: 12px BalooBhaina2-SemiBold;
+    font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
     border-style: none;
@@ -213,12 +179,11 @@
     position: absolute;
     justify-content: center;
     text-align: center;
-    padding-top: 4px;
     right: 5%;
     bottom: 5%;
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
-    width: clamp(1em, 1em + 20vw, 20em);
-    height: clamp(1em, 1em + 4.5vw, 4.5em);
+    font: clamp(0.3em, 0.3em + 1.6vw, 1.6em) BalooBhaina2-Medium;
+    width: clamp(1em, 1em + 10em, 10em);
+    height: clamp(1em, 1em + 3vw, 3em);
     background-color: #1c396b;
     color: white;
     border-radius: 5px;
@@ -232,10 +197,11 @@
     top: 21%;
     left: 75%;
     width: clamp(1em, 1em + 17vw, 17em);
-    height: clamp(1em, 1em + 2vw, 2em);
+    height: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     z-index: 2;
     cursor: pointer;
     font-size: clamp(0.01em, 0.01em + 2vw, 2em);
@@ -261,6 +227,21 @@
     display: flex;
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+  }
+  .gravar-modal {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    right: 5%;
+    bottom: 6%;
+    font: clamp(0.3em, 0.3em + 1.6vw, 1.6em) BalooBhaina2-Medium;
+    width: clamp(1em, 1em + 10em, 10em);
+    height: clamp(1em, 1em + 4vw, 4em);
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
   }
 }
 /* =======================  modalPessoa   ========================== */

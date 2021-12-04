@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
 import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
-import { SideBar } from '../../../components/SideBar/Index'
+import { NavDireita } from '../../../components/SideBar/Index'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage, TitlePage4 } from '../../../components/Main'
@@ -28,7 +28,6 @@ function tipoQualidadeDeObservacao() {
           />
         </div>
         <Modal />
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <TitlePage4>Grupo de Questões - QUALIDADE DA OBSERVAÇÃO</TitlePage4>
@@ -55,8 +54,8 @@ function tipoQualidadeDeObservacao() {
             </div>
           </div>
         </div>
-        <ProfileDireita />
         <div className="buttonProfileDireita">
+          <NavDireita />
           <SidebarMobile />
         </div>
       </ContainerPage>

@@ -23,7 +23,7 @@ export default function Modal() {
       {modal && (
         <div className="NovoTipoDeobservacao">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modalPadrao-content">
+          <div className="NovoTipoDeobservacao-content">
             <h2 className="titleModal">Novo Tipo de Observação</h2>
 
             <hr className="hrTitleModal3" />

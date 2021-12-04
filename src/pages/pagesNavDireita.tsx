@@ -839,8 +839,8 @@ export const Unidades: FC = () => {
             id="fnameUnidade"
             name="fname"
           />
-          <button className="buttonModalPadrao1" type="button">
-            <h2>Nova Unidade</h2>
+          <button className="buttonModalPadrao" type="button">
+            Nova Unidade
           </button>
         </div>
         <div className="page">

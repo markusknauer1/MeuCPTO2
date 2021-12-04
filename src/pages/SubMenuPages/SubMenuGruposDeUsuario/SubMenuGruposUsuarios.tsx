@@ -17,7 +17,7 @@ function SubMenuGruposUsuarios() {
         <div className="logo" />
         <div>
           <input
-            className="fCxPesquisa"
+            className="fnamePadrao"
             placeholder="Pesquisar"
             type="text"
             id="fname7"

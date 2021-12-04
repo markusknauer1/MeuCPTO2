@@ -11,7 +11,7 @@ body.active-modalNovaQuestão {
   right: 0;
   bottom: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 99;
 }
 
 .overlay {
@@ -26,7 +26,7 @@ body.active-modalNovaQuestão {
   width: 50%;
   height: 40%;
   border-radius: 20px;
-  z-index: 2;
+  z-index: 99;
 }
 
 .NQCod {

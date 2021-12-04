@@ -50,7 +50,7 @@ body {
 
 .fCxPesquisa {
   top: 7%;
-  left: clamp(1em, 1em + 53vw, 53em);
+  left: clamp(1em, 1em + 51vw, 51em);
   position: fixed;
   padding-left: 10px;
   background-color: rgb(201, 201, 201);
@@ -59,7 +59,7 @@ body {
   color: rgb(32, 32, 32);
   border-radius: 8px;
   width: clamp(1em, 1em + 11vw, 11em);
-  height: clamp(1em, 1em + 2vw, 2em);
+  height: clamp(1em, 1em + 2.15vw, 2.15em);
   z-index: 1;
 }
 .fCxPesquisa::-webkit-input-placeholder {
@@ -69,7 +69,6 @@ body {
 .fnamePadrao {
   left: clamp(1em, 1em + 36vw, 36em);
   top: 22.5%;
-  left: 39%;
   position: fixed;
   padding-left: 10px;
   background-color: rgb(201, 201, 201);
@@ -293,7 +292,24 @@ th {
     font: clamp(1em, 1em + 1vw, 1em) BalooBhaina2-Medium;
     color: black;
   }
-
+  .fCxPesquisa {
+    top: 7%;
+    left: clamp(1em, 1em + 52vw, 52em);
+    position: fixed;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: clamp(0.1em, 0.1em + 1.8vw, 1em) BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: clamp(1em, 1em + 14vw, 14em);
+    height: 24px;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 14px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
   .fnamePadrao {
     left: clamp(1em, 1em + 36vw, 36em);
     top: 21%;
