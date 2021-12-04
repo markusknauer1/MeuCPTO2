@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../../styles/components/SideBarDireita/SidebarMobile.css'
+import '../SideBar-navegaçao-direita/SidebarMobile.css'
 
 import logologo from '../../components/logoIniciativaAzul@2x.png'
 
