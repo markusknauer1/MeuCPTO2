@@ -24,12 +24,14 @@
 }
 
 .tblMGUCod {
+  font: 12px BalooBhaina2-Medium;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 10rem;
 }
 .tblMGUPermissao {
+  font: 12px BalooBhaina2-Medium;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 4%;
@@ -37,16 +39,19 @@
 }
 .btnMGUPermissoes {
   background-color: transparent;
+  font: 12px BalooBhaina2-Medium;
   border: none;
   cursor: pointer;
 }
 .tblMGUUserGroup {
   padding-top: 1%;
+  font: 12px BalooBhaina2-Medium;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 80rem;
 }
 .MGUStatus {
+  font: 12px BalooBhaina2-Medium;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 4%;

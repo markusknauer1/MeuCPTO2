@@ -43,7 +43,7 @@
 }
 /*------------Modal da tabela Empresa------------*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 820px) {
   /*------------Cabeçalho da tabela Empresa------------*/
   .tblSubEmpresaCod {
     position: absolute;
@@ -68,7 +68,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    font: 22px BalooBhaina2-SemiBold;
+    font: 12px BalooBhaina2-SemiBold;
     width: 10rem;
   }
   .btnSubEmpresaOBS {
@@ -76,14 +76,14 @@
     padding-bottom: 1%;
     padding-left: 2%;
     width: 60rem;
-    font: 22px BalooBhaina2-SemiBold;
+    font: 12px BalooBhaina2-SemiBold;
   }
   .btnSubEmpresaAtivo {
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
     color: #11806a;
-    font: 22px BalooBhaina2-SemiBold;
+    font: 12px BalooBhaina2-SemiBold;
     width: 10rem;
   }
 }

@@ -18,11 +18,13 @@ import '../styles/components/Calendar.css'
 import Calendar from '../components/Calendar'
 import { NavDireita } from '../components/SideBar/Index'
 import ModalPessoa from './MenuDireito/MenuDireito-Modal/ModalCadPessoa'
+import SidebarMobile from '../components/SideBar-navegaçao-direita/SidebarMobile'
 
 export const Home: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div className="page">
@@ -277,6 +279,7 @@ export const FormularioCadastro: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <NavDireita />
         <div className="logo" />
@@ -405,6 +408,7 @@ export const Pessoas: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <input
@@ -467,6 +471,7 @@ export const Relatorio: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <form action="">

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import '../../../../styles/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema.css'
 
 import * as TypIcons from 'react-icons/ti'
-import { SideBar } from '../../../../components/SideBar/Index'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage } from '../../../../components/Main'
@@ -27,16 +26,15 @@ function PermissoesDeAcessoAoSistema() {
             name="fname"
           />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <h2 className="tittlePASObserv">
               Permissões de Acesso ao Sistema - Grupo: Avaliadores{' '}
             </h2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">

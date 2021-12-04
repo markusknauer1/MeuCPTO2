@@ -1,7 +1,6 @@
 import { ContainerPage, TitlePage2 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { SideBar } from '../../../components/SideBar/Index'
 import '../../../styles/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
 import Modal from './modal-Empresas/AlterarRegistroEmpresas'
 
@@ -21,14 +20,13 @@ function SubMenuEmpresas() {
           />
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <TitlePage2>Cadastro Geral de Empresas</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
@@ -146,7 +144,6 @@ function SubMenuEmpresas() {
             </section>
           </div>
         </div>
-        <ProfileDireita />
         <div className="buttonProfileDireita"></div>
         <SidebarMobile />
       </ContainerPage>

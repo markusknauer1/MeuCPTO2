@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ContainerPage } from '../../../components/Main'
+import { ContainerPage, TitlePage2 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { SideBar } from '../../../components/SideBar/Index'
 
 import '../../../styles/SubMenuPages/SubMenuGruposUsuarios/SubMenuGruposUsuarios.css'
 import Modal from './modal-GruposDeUsuario/ModalNovoGrupoUser'
@@ -24,14 +23,12 @@ function SubMenuGruposUsuarios() {
           />
           <Modal />
         </div>
-        <SideBar />
         <div className="page">
-          <div className="filter1">
-            <h2 className="subtPadrao2">Grupos de Usuários</h2>
-          </div>
-          <div className="tabelaPadrao2">
+          <TitlePage2>Grupos de Usuários</TitlePage2>
+          <div className="filter1"></div>
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">
