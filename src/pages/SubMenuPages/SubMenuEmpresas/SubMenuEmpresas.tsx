@@ -1,6 +1,7 @@
-import { ContainerPage, TitlePage2 } from '../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
+import { NavDireita } from '../../../components/SideBar/Index'
 import '../../../styles/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
 import Modal from './modal-Empresas/AlterarRegistroEmpresas'
 
@@ -8,6 +9,7 @@ function SubMenuEmpresas() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -22,7 +24,7 @@ function SubMenuEmpresas() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage2>Cadastro Geral de Empresas</TitlePage2>
+            <TitlePage4>Cadastro Geral de Empresas</TitlePage4>
           </div>
           <div className="tabelaPadrao">
             <section className="">
@@ -144,7 +146,9 @@ function SubMenuEmpresas() {
             </section>
           </div>
         </div>
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
       </ContainerPage>
     </div>

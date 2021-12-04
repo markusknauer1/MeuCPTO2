@@ -241,6 +241,7 @@ export const Atividades: FC = () => {
       <ProfileDireita />
       <SidebarMobile />
       <ContainerPage>
+        <div className="logo" />
         <div>
           <input
             className="fnamePadrao"

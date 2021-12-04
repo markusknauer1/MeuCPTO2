@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ContainerPage, TitlePage2 } from '../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { NavDireita } from '../../../components/SideBar/Index'
@@ -25,7 +25,7 @@ function SubMenuGruposUsuarios() {
           />
         </div>
         <div className="page">
-          <TitlePage2>Grupos de Usuários</TitlePage2>
+          <TitlePage4>Grupos de Usuários</TitlePage4>
           <div className="filter1"></div>
           <div className="tabelaPadrao">
             <section className="">

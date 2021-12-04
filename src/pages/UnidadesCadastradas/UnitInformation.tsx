@@ -1003,6 +1003,7 @@ export const UniContribSetor: FC = () => {
           <TypIcons.TiArrowBackOutline />
         </button>
 
+        <Modal />
         <div className="page">
           <div className="filter1">
             <TitlePage1>RELATÓRIO / UNIDADES:</TitlePage1>
@@ -1105,7 +1106,6 @@ export const UniContribSetor: FC = () => {
             <Calendar calendarType="Hebrew" selectRange />
           </div>
         </aside>
-        <Modal />
         <SidebarMobile />
       </ContainerPage>
     </div>

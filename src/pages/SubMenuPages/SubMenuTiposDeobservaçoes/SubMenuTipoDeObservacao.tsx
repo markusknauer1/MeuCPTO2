@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage, TitlePage2 } from '../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../components/Main'
 
 function SubMenuTipoDeObservacao() {
   return (
@@ -23,11 +23,11 @@ function SubMenuTipoDeObservacao() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage2>Tipos de Observações</TitlePage2>
+            <TitlePage4>Tipos de Observações</TitlePage4>
           </div>
-          <div className="tabelaPadrao2">
+          <div className="tabelaPadrao">
             <section className="">
-              <div className="container">
+              <div className="containerPadrao">
                 <table>
                   <thead>
                     <tr className="header">

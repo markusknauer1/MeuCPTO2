@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ContainerPage, TitlePage2 } from '../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { NavDireita } from '../../../components/SideBar/Index'
@@ -25,7 +25,7 @@ function SubMenuTextActive() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage2>Cadastro de Textos Ativadores</TitlePage2>
+            <TitlePage4>Cadastro de Textos Ativadores</TitlePage4>
           </div>
           <div className="tabelaPadrao">
             <section className="">

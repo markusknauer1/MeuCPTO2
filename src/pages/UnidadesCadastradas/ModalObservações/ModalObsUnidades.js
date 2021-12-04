@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import '../ModalObservações/ModalUnidades.css'
+import '../../../styles/ModalObservações/ModalUnidades.css'
 
 export default function Modal() {
   const [modal, setModal] = useState(false)
