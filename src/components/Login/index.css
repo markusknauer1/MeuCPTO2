@@ -126,7 +126,7 @@
   background-color: #172d52;
   color: white;
   position: fixed;
-  padding-top: 0.1%;
+  padding-top: 0.3%;
   padding-left: 0.8%;
   display: flex;
   border: none;
@@ -356,7 +356,7 @@
   .login-right h3 {
     position: fixed;
     margin-top: -190px;
-    width: 70%;
+    width: 50%;
     font: clamp(1em, 1em + 0.09vw, 6em) BalooBhaina2-SemiBold;
     color: #0b9e82;
     justify-content: center;
