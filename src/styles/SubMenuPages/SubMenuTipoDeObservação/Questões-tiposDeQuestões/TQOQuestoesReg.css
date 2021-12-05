@@ -1,0 +1,82 @@
+/* ==========================GQ - qualidade da observação================ */
+.TQOCod {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnMGUPermissoes {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.TQOQuests {
+  padding-top: 1%;
+  padding-left: 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 35rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.TQOGroupAnalise {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 35rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.TQOState {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+}
+/*====================Fim da GQ - Qualidade da Observação=================*/
+/* =================================================== */
+
+.TQOQuestCod {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnTQOAltInfo {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.TQOQuestGroupAnalise {
+  padding-top: 1%;
+  padding-left: 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 55rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.TQOQuestQuests {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.TQOQuestState {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+}

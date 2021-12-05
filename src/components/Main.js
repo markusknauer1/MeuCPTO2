@@ -123,7 +123,7 @@ export const TitlePage4 = styled.h5`
   top: 150px;
   left: 10%;
   font-family: BalooBhaina2-bold;
-  font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
+  font-size: clamp(0.1em, 0.1em + 1.4vw, 1.4em);
   border-style: none;
   background: transparent;
   color: #172d52;

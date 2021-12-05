@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom'
 import { ContainerPage, TitlePage2 } from '../../../../components/Main'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { SideBar } from '../../../../components/SideBar/Index'
+import { NavDireita } from '../../../../components/SideBar/Index'
+import '../../../../styles/SubMenuPages/SubMenuTipoDeObservação/Questões-tiposDeQuestões/TQOQuestoesReg.css'
 function TQOQuestoesReg() {
   return (
     <div className="logoQ1">
@@ -27,13 +28,12 @@ function TQOQuestoesReg() {
             name="fname"
           />
         </div>
-        <SideBar />
         <div className="page">
           <div className="filter1">
             <TitlePage2>Questões de : Cuidado Ativo</TitlePage2>
           </div>
-          <div className="tabelaPadrao2">
-            <div className="container">
+          <div className="tabelaPadrao">
+            <div className="containerPadrao">
               <table>
                 <tbody>
                   <td className="TQOQuestCod">1</td>
@@ -56,7 +56,9 @@ function TQOQuestoesReg() {
           </div>
         </div>
         <ProfileDireita />
-        <div className="buttonProfileDireita"></div>
+        <div className="buttonProfileDireita">
+          <NavDireita />
+        </div>
         <SidebarMobile />
       </ContainerPage>
     </div>

@@ -3,7 +3,7 @@ import '../../../styles/SubMenuPages/SubMenuPessoas/SubMenuPessoas.css'
 import { NavDireita } from '../../../components/SideBar/Index'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage, TitlePage4 } from '../../../components/Main'
+import { ContainerPage, TitlePage2 } from '../../../components/Main'
 
 function SubMenuPessoas() {
   return (
@@ -23,7 +23,7 @@ function SubMenuPessoas() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage4>Cadastro Geral de Pessoas</TitlePage4>
+            <TitlePage2>Cadastro Geral de Pessoas</TitlePage2>
           </div>
           <div className="tabelaPadrao">
             <section className="">

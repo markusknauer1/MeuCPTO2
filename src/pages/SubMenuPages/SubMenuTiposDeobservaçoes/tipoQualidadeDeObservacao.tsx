@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
-import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
+import Modal from './modal-tiposDeObservações/modalNovoGrupoDeQuestoes'
 import { NavDireita } from '../../../components/SideBar/Index'
 import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
