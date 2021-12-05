@@ -177,7 +177,7 @@
     position: absolute;
     font: 60px BalooBhaina2-SemiBold;
     top: 1%;
-    left: 81%;
+    left: 80%;
   }
   .tblSubAtivo {
     position: absolute;
@@ -212,7 +212,7 @@
     padding-top: 1%;
     font: 10px BalooBhaina2-SemiBold;
     padding-bottom: 1%;
-    padding-left: 4.5%;
+    padding-left: 0;
     width: 10rem;
   }
   .btnSMPMetas {
