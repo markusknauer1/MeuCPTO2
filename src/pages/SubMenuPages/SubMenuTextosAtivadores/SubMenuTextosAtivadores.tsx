@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ContainerPage, TitlePage4 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
@@ -8,6 +8,11 @@ import '../../../styles/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivad
 import Modal from './modal-textosAtivadores/ModalNovoGrupo'
 
 function SubMenuTextActive() {
+  const [modal, setModal] = useState(false)
+
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -54,7 +59,14 @@ function SubMenuTextActive() {
                         <button className="SubMTACod"> Ver ativadores</button>
                       </Link>
                     </td>
-                    <td className="tblActive">Sociais</td>
+                    <td className="tblActive">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Sociais
+                      </button>
+                    </td>
                     <td className="tblStatusActive">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -70,7 +82,14 @@ function SubMenuTextActive() {
                         <button className="SubMTACod"> Ver ativadores</button>
                       </Link>
                     </td>
-                    <td className="tblActive">Psicólogicos</td>
+                    <td className="tblActive">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Psicólogicos
+                      </button>
+                    </td>
                     <td className="tblStatusActive">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -86,7 +105,14 @@ function SubMenuTextActive() {
                         <button className="SubMTACod"> Ver ativadores</button>
                       </Link>
                     </td>
-                    <td className="tblActive">Fisiológicos</td>
+                    <td className="tblActive">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Fisiológicos
+                      </button>
+                    </td>
                     <td className="tblStatusActive">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -102,7 +128,14 @@ function SubMenuTextActive() {
                         <button className="SubMTACod"> Ver ativadores</button>
                       </Link>
                     </td>
-                    <td className="tblActive">Cognitivos</td>
+                    <td className="tblActive">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Cognitivos
+                      </button>
+                    </td>
                     <td className="tblStatusActive">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -118,7 +151,14 @@ function SubMenuTextActive() {
                         <button className="SubMTACod"> Ver ativadores</button>
                       </Link>
                     </td>
-                    <td className="tblActive">Pessoal</td>
+                    <td className="tblActive">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Pessoal
+                      </button>
+                    </td>
                     <td className="tblStatusActive">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -127,6 +167,43 @@ function SubMenuTextActive() {
                       consequuntur.
                     </td>
                   </tbody>
+
+                  {/* ===================================================== */}
+
+                  {modal && (
+                    <div className="ModalNovoGrupo">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Grupo ativador</h2>
+                        <hr className="hrTitleModal3" />
+
+                        <input
+                          className="textGrupoDesc"
+                          placeholder="Alterar Descrição"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+
+                        <textarea
+                          className="textGrupoDescObs"
+                          placeholder="Alterar Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                          autoComplete="none"
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>

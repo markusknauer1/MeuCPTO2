@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ContainerPage, TitlePage4 } from '../../../components/Main'
 import ProfileDireita from '../../../components/ProfileDireita'
@@ -9,6 +9,10 @@ import '../../../styles/SubMenuPages/SubMenuGruposUsuarios/SubMenuGruposUsuarios
 import Modal from './modal-GruposDeUsuario/ModalNovoGrupoUser'
 
 function SubMenuGruposUsuarios() {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -48,7 +52,14 @@ function SubMenuGruposUsuarios() {
                     </tr>
                   </thead>
                   <tbody>
-                    <td className="tblMGUCod">001 </td>
+                    <td className="tblMGUCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
+                      </button>{' '}
+                    </td>
                     <td className="tblMGUPermissao">
                       <Link to="/PermissoesDeacessoAoSistema">
                         <button className="btnMGUPermissoes">
@@ -56,13 +67,27 @@ function SubMenuGruposUsuarios() {
                         </button>
                       </Link>
                     </td>
-                    <td className="tblMGUUserGroup">Avaliadores</td>
+                    <td className="tblMGUUserGroup">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Avaliadores
+                      </button>
+                    </td>
                     <td className="MGUStatus">
                       <i className="fas fa-check-circle"></i>
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="tblMGUCod">001 </td>
+                    <td className="tblMGUCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
+                      </button>{' '}
+                    </td>
                     <td className="tblMGUPermissao">
                       <Link to="/PermissoesDeacessoAoSistema">
                         <button className="btnMGUPermissoes">
@@ -70,13 +95,27 @@ function SubMenuGruposUsuarios() {
                         </button>
                       </Link>
                     </td>
-                    <td className="tblMGUUserGroup">Humanit</td>
+                    <td className="tblMGUUserGroup">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Humanit
+                      </button>
+                    </td>
                     <td className="MGUStatus">
                       <i className="fas fa-check-circle"></i>
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="tblMGUCod">001 </td>
+                    <td className="tblMGUCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
+                      </button>{' '}
+                    </td>
                     <td className="tblMGUPermissao">
                       <Link to="/PermissoesDeacessoAoSistema">
                         <button className="btnMGUPermissoes">
@@ -84,13 +123,27 @@ function SubMenuGruposUsuarios() {
                         </button>
                       </Link>
                     </td>
-                    <td className="tblMGUUserGroup">Administrativo</td>
+                    <td className="tblMGUUserGroup">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Administrativo
+                      </button>{' '}
+                    </td>
                     <td className="MGUStatus">
                       <i className="fas fa-check-circle"></i>
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="tblMGUCod">001 </td>
+                    <td className="tblMGUCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
+                      </button>{' '}
+                    </td>
                     <td className="tblMGUPermissao">
                       <Link to="/PermissoesDeacessoAoSistema">
                         <button className="btnMGUPermissoes">
@@ -98,11 +151,54 @@ function SubMenuGruposUsuarios() {
                         </button>
                       </Link>
                     </td>
-                    <td className="tblMGUUserGroup">APP</td>
+                    <td className="tblMGUUserGroup">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        APP
+                      </button>{' '}
+                    </td>
                     <td className="MGUStatus">
                       <i className="fas fa-check-circle"></i>
                     </td>
                   </tbody>
+
+                  {/* ======================================================================================= */}
+
+                  {modal && (
+                    <div className="ModalNovoGrupoUser">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="ModalNovoGrupoUser-content">
+                        <h2 className="titleModal">
+                          Alterar Grupo De Usuários
+                        </h2>
+
+                        <input
+                          className="NGUDesc"
+                          placeholder="Alterar Descrição"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                        ></input>
+
+                        <textarea
+                          className="NGUObs"
+                          placeholder=" Alterar Observação"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>

@@ -35,6 +35,19 @@
   width: 10rem;
   font: 12px BalooBhaina2-SemiBold;
 }
+.btn-tblPASQuests {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: none;
+  border-radius: 50%;
+}
+.btn-tblPASQuests:focus-within {
+  color: #0b9e82;
+  border-radius: 50px;
+}
 .tblPASGroupAnalise {
   padding-top: 1%;
   padding-bottom: 1%;

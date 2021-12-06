@@ -53,7 +53,12 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <i className="fas fa-check-circle"></i>
+                      <input
+                        className="btn-tblPASQuests"
+                        type="checkbox"
+                        placeholder="Lembrar senha!"
+                        defaultChecked={false}
+                      />
                     </td>
                     <td className="tblPASGroupAnalise">ACESSO</td>
                     <td className="tblPASDescr">Menu Acesso</td>
@@ -61,7 +66,12 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <i className="fas fa-check-circle"></i>
+                      <input
+                        className="btn-tblPASQuests"
+                        type="checkbox"
+                        placeholder="Lembrar senha!"
+                        defaultChecked={false}
+                      />
                     </td>
                     <td className="tblPASGroupAnalise">ACEUSU</td>
                     <td className="tblPASDescr">Acesso ao Usuário</td>
@@ -69,7 +79,12 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <i className="fas fa-check-circle"></i>
+                      <input
+                        className="btn-tblPASQuests"
+                        type="checkbox"
+                        placeholder="Lembrar senha!"
+                        defaultChecked={false}
+                      />
                     </td>
                     <td className="tblPASGroupAnalise">ACEGRU</td>
                     <td className="tblPASDescr">Acesso ao Grupo De Usuários</td>
@@ -77,7 +92,12 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <i className="fas fa-check-circle"></i>
+                      <input
+                        className="btn-tblPASQuests"
+                        type="checkbox"
+                        placeholder="Lembrar senha!"
+                        defaultChecked={false}
+                      />
                     </td>
                     <td className="tblPASGroupAnalise">ACEMOD</td>
                     <td className="tblPASDescr">
@@ -87,7 +107,12 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <i className="fas fa-check-circle"></i>
+                      <input
+                        className="btn-tblPASQuests"
+                        type="checkbox"
+                        placeholder="Lembrar senha!"
+                        defaultChecked={false}
+                      />
                     </td>
                     <td className="tblPASGroupAnalise">ACEGRUINC</td>
                     <td className="tblPASDescr">

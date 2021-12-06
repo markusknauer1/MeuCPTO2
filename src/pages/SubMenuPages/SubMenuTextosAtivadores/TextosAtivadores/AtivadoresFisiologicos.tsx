@@ -5,8 +5,14 @@ import * as TypIcons from 'react-icons/ti'
 import { NavDireita } from '../../../../components/SideBar/Index'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage, TitlePage2 } from '../../../../components/Main'
+import { useState } from 'react'
 
 function AtivadoresFisiológico() {
+  const [modal, setModal] = useState(false)
+
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   let history = useHistory()
   return (
     <div className="logoQ1">
@@ -58,7 +64,14 @@ function AtivadoresFisiológico() {
                   </thead>
                   <tbody>
                     <td className="tblActivPadrao6">001</td>
-                    <td className="tblActivPadrao7">Sociais</td>
+                    <td className="tblActivPadrao7">
+                      <button
+                        onClick={toggleModal}
+                        className="altInfoModPessoa"
+                      >
+                        Fisiológicos
+                      </button>
+                    </td>
                     <td className="tblActivPadrao8">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure iusto eius suscipit, repellat perferendis praesentium
@@ -69,6 +82,49 @@ function AtivadoresFisiológico() {
                     <td className="tblActivPadrao9">0,00</td>
                     <td className="tblActivPadrao10"></td>
                   </tbody>
+                  {/* ============================================================= */}
+                  {modal && (
+                    <div className="ModalNovoAtivador">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Ativador</h2>
+
+                        <hr className="hrTitleModal1" />
+                        <input
+                          className="textActiveDesc"
+                          placeholder="Descrição"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+                        <input
+                          className="textActivePeso"
+                          placeholder="Peso"
+                          type="text"
+                          id="fname"
+                          autoComplete="none"
+                          name="fname"
+                        ></input>
+
+                        <textarea
+                          className="textActiveObs"
+                          placeholder="Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                          autoComplete="none"
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>

@@ -33,12 +33,14 @@ export default function Modal() {
               type="text"
               id="fname"
               name="fname"
+              autoComplete="none"
             ></input>
             <input
               className="textActivePeso"
               placeholder="Peso"
               type="text"
               id="fname"
+              autoComplete="none"
               name="fname"
             ></input>
 
@@ -50,6 +52,7 @@ export default function Modal() {
               name="fname"
               row="none"
               maxLength="500"
+              autoComplete="none"
             ></textarea>
 
             <button className="close-modal" onClick={toggleModal}>

@@ -7,17 +7,17 @@
 .tblSubPessoacod {
   position: absolute;
   top: 1%;
-  left: 15%;
+  left: 23%;
 }
 .tblSubMail {
   position: absolute;
   top: 1%;
-  left: 46%;
+  left: 54%;
 }
 .tblSubMetas {
   position: absolute;
   top: 1%;
-  left: 81%;
+  left: 82%;
 }
 .tblSubAtivo {
   position: absolute;
@@ -27,7 +27,6 @@
 
 /*-------------Conteudo da tabela-----------------*/
 .btnSubCod {
-  padding-top: 1%;
   font: 12px BalooBhaina2-SemiBold;
   justify-content: center;
   align-items: center;
@@ -35,22 +34,12 @@
   width: 8rem;
 }
 .btnSubOBS {
-  padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
-  padding-bottom: 1%;
-  padding-left: 1%;
   width: 25rem;
 }
 .btnSubMail {
-  padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
-  padding-bottom: 1%;
-  padding-left: 1%;
   width: 25rem;
 }
 .btnSubMetas {
-  padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
   justify-content: center;
   align-items: center;
   text-align: center;
