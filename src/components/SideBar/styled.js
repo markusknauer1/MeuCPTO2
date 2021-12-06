@@ -412,7 +412,7 @@ export const MenuProfileDireita = styled.div`
       left: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       border-radius: 5px;
@@ -432,7 +432,7 @@ export const MenuProfileDireita = styled.div`
       right: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       border-radius: 5px;
@@ -452,7 +452,7 @@ export const MenuProfileDireita = styled.div`
       left: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       margin-right: 10px;
@@ -473,7 +473,7 @@ export const MenuProfileDireita = styled.div`
       right: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       margin-bottom: 5px;
@@ -494,7 +494,7 @@ export const MenuProfileDireita = styled.div`
       left: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       border-radius: 5px;
@@ -515,7 +515,7 @@ export const MenuProfileDireita = styled.div`
       right: 5%;
       width: 44%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       margin-bottom: 10px;
@@ -536,7 +536,7 @@ export const MenuProfileDireita = styled.div`
       left: 5%;
       width: 90%;
       height: 8%;
-      font: clamp(0.01em, 0.01em + 1.6vw, 1.6em) BalooBhaina2-Bold;
+      font: clamp(0.01em, 0.01em + 1.4vw, 2em) BalooBhaina2-Bold;
       padding-top: 1%;
       border: none;
       background-color: #fff;
