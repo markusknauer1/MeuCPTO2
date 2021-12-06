@@ -26,7 +26,6 @@ import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas/SubMenuPessoas'
 import SubMenuEmpresas from './pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas'
 import SubMenuTipoDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/SubMenuTipoDeObservacao'
 import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposDeUsuario/SubMenuGruposUsuarios'
-import tipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
 import TQOQuestoesReg from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
 import PermissoesDeAcessoAoSistema from './pages/SubMenuPages/SubMenuGruposDeUsuario/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema'
 import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresSociais'
@@ -34,6 +33,7 @@ import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores
 import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
 import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
 import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
+import TipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
 
 function Routes() {
   return (
@@ -75,7 +75,7 @@ function Routes() {
       {/*--------------acesso do sub Menu (tipo de observaçao)-------------*/}
       <Route
         path="/tipoQualidadeDeObservacao"
-        component={tipoQualidadeDeObservacao}
+        component={TipoQualidadeDeObservacao}
       ></Route>
       <Route path="/TQOQuestoesReg" component={TQOQuestoesReg}></Route>
       <Route

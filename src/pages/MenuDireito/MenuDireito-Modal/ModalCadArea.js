@@ -33,6 +33,7 @@ export default function ModalArea() {
               type="text"
               id="fname"
               name="fname"
+              autoComplete="none"
             ></input>
 
             <select
@@ -54,6 +55,7 @@ export default function ModalArea() {
               name="fname"
               row="none"
               maxLength="500"
+              autoComplete="none"
             ></textarea>
 
             <button className="close-modal" onClick={toggleModal}>

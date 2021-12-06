@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useState } from 'react'
 import ProfileDireita from '../components/ProfileDireita'
 import ModalArea from './MenuDireito/MenuDireito-Modal/ModalCadArea'
 import ModalAtividade from './MenuDireito/MenuDireito-Modal/ModalCadAtividade'
@@ -11,6 +11,10 @@ import { NavDireita } from '../components/SideBar/Index'
 import SidebarMobile from '../components/SideBar-navegaçao-direita/SidebarMobile'
 
 export const Area: FC = () => {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -59,173 +63,79 @@ export const Area: FC = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
+                  <td className="tblCodArea">
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      001
+                    </button>
                   </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
+                  <td className="tblObserv">
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                  <td className="tblLocalArea">
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      Gerência
+                    </button>
+                  </td>
+                  <td className="tblGerenResp">
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      Cliente
+                    </button>
+                  </td>
                   <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      <i className="far fa-check-circle"></i>
+                    </button>
                   </td>
                   <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      <i className="far fa-check-circle"></i>
+                    </button>
                   </td>
                 </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="tblCodArea">001</td>
-                  <td className="tblObserv">
-                    <i className="fas fa-bars"></i>
-                  </td>
-                  <td className="tblLocalArea">Gerência</td>
-                  <td className="tblGerenResp">Cliente</td>
-                  <td className="tblMeta">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                  <td className="tblStatusAtivo">
-                    <i className="far fa-check-circle"></i>
-                  </td>
-                </tbody>
+
+                {/* ========================================================================== */}
+                {modal && (
+                  <div className="modalArea">
+                    <div onClick={toggleModal} className="overlay"></div>
+                    <div className="modalPadrao-content">
+                      <h2 className="titleModal">Nova Área</h2>
+                      <hr className="hrTitleModal1" />
+
+                      <input
+                        className="fArea"
+                        placeholder="Nova Área"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                        autoComplete="none"
+                      ></input>
+
+                      <select name="Selecione" className="fAreaRef" id="fSexo">
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                        <option value="">Select</option>
+                      </select>
+
+                      <textarea
+                        className="fObsArea"
+                        placeholder="Observações"
+                        id="fname"
+                        name="fname"
+                        maxLength={500}
+                        autoComplete="none"
+                      ></textarea>
+
+                      <button className="close-modal" onClick={toggleModal}>
+                        X
+                      </button>
+                      <button onClick={toggleModal} className="gravar-modal">
+                        Salvar Registro
+                      </button>
+                    </div>
+                  </div>
+                )}
               </table>
             </div>
           </section>
@@ -236,6 +146,10 @@ export const Area: FC = () => {
   )
 }
 export const Atividades: FC = () => {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -244,7 +158,7 @@ export const Atividades: FC = () => {
         <div className="logo" />
         <div>
           <input
-            className="fnamePadrao"
+            className="fCxPesquisa"
             placeholder="Pesquisar"
             type="text"
             id="fname7"
@@ -278,158 +192,69 @@ export const Atividades: FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
+                    <td className="tblCodAtivid">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
                       </button>
                     </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
+                    <td className="tblAtivid">
+                      {' '}
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Atividade atual em observação
                       </button>
                     </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
                     <td className="tblStatusAtivid">
-                      <button className="action">
+                      {' '}
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
                         <i className="fas fa-bars"></i>
                       </button>
+                      <button className="action"></button>
                     </td>
                   </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblCodAtivid">001</td>
-                    <td className="tblAtivid">Atividade atual em observação</td>
-                    <td className="tblStatusAtivid">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
+                  {/* ==================================================== */}
+                  {modal && (
+                    <div className="modalAtividade">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Atividade</h2>
+                        <hr className="hrTitleModal1" />
+
+                        <input
+                          className="fDescAtividade"
+                          placeholder="Alterar Atividade"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+
+                        <textarea
+                          className="fObsAtividade"
+                          placeholder="Alterar Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                          autoComplete="none"
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>
@@ -441,6 +266,10 @@ export const Atividades: FC = () => {
   )
 }
 export const Equipes: FC = () => {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -492,16 +321,92 @@ export const Equipes: FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <td className="tblEquipesCod">001</td>
-                    <td className="tblEquipesOBS">Descriçao / equipe</td>
-                    <td className="tblEquipesMail">Gerência</td>
-                    <td className="tblEquipesFunc">Klabim</td>
+                    <td className="tblEquipesCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
+                      </button>
+                    </td>
+                    <td className="tblEquipesOBS">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Descriçao / equipe
+                      </button>
+                    </td>
+                    <td className="tblEquipesMail">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Gerência
+                      </button>
+                    </td>
+                    <td className="tblEquipesFunc">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Klabim
+                      </button>
+                    </td>
                     <td className="tblEquipesMetas">
-                      <button className="action">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
                         <i className="fas fa-bars"></i>
                       </button>
                     </td>
                   </tbody>
+
+                  {/* ===============================Modal Alterar Informação da lista============================ */}
+                  {modal && (
+                    <div className="modalEquipe">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Equipe</h2>
+                        <hr className="hrTitleModal1" />
+
+                        <input
+                          className="fcadastroEquipe"
+                          placeholder="Nome"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+
+                        <select
+                          name="Selecione"
+                          className="fgerResp"
+                          id="fSexo"
+                        >
+                          <option value="">Select</option>
+                          <option value="">Select</option>
+                          <option value="">Select</option>
+                        </select>
+
+                        <textarea
+                          className="fObs"
+                          placeholder="Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>
@@ -513,6 +418,10 @@ export const Equipes: FC = () => {
   )
 }
 export const Gerencias: FC = () => {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -556,85 +465,75 @@ export const Gerencias: FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
+                    <td className="tblGerCod">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        001
                       </button>
                     </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
+                    <td className="tblGerDesc">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Descrição
                       </button>
                     </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
+                    <td className="tblGerUni">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
+                        Klabim
                       </button>
                     </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
                     <td className="tblGerStatus">
-                      <button className="action">
+                      <button
+                        className="altInfoModPessoa"
+                        onClick={toggleModal}
+                      >
                         <i className="fas fa-bars"></i>
                       </button>
+                      <button className="action"></button>
                     </td>
                   </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="tblGerCod">001</td>
-                    <td className="tblGerDesc">Descrição</td>
-                    <td className="tblGerUni">Klabim</td>
-                    <td className="tblGerStatus">
-                      <button className="action">
-                        <i className="fas fa-bars"></i>
-                      </button>
-                    </td>
-                  </tbody>
+                  {/* ===============================Modal Alterar Informação da lista============================ */}
+                  {modal && (
+                    <div className="modalGerencia">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Gerência</h2>
+                        <hr className="hrTitleModal1" />
+
+                        <input
+                          className="fDescGerencia"
+                          placeholder="Alterar Gerência"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+
+                        <textarea
+                          className="fObsGerencia"
+                          placeholder="Alterar Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                          autoComplete="none"
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>
@@ -646,6 +545,10 @@ export const Gerencias: FC = () => {
   )
 }
 export const Observacoes: FC = () => {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -692,128 +595,77 @@ export const Observacoes: FC = () => {
                   {/* ==================================== */}
                   <tbody>
                     <tr>
-                      <td className="btnObsCod">001</td>
-                      <td className="btnObs">
-                        <i className="fas fa-bars"></i>
+                      <td className="btnObsCod">
+                        <button
+                          className="altInfoModPessoa"
+                          onClick={toggleModal}
+                        >
+                          001
+                        </button>
                       </td>
-                      <td className="BtnDescFun">Nome do Funcionário</td>
+                      <td className="btnObs">
+                        <button
+                          className="altInfoModPessoa"
+                          onClick={toggleModal}
+                        >
+                          <i className="fas fa-bars"></i>
+                        </button>
+                      </td>
+                      <td className="BtnDescFun">
+                        <button
+                          className="altInfoModPessoa"
+                          onClick={toggleModal}
+                        >
+                          Nome do Funcionário
+                        </button>
+                      </td>
                       <td className="btnStatus">
-                        <i className="far fa-check-circle"></i>
+                        <button
+                          className="altInfoModPessoa"
+                          onClick={toggleModal}
+                        >
+                          <i className="far fa-check-circle"></i>
+                        </button>
                       </td>
                     </tr>
                   </tbody>
-                  <tbody>
-                    <tr>
-                      <td className="btnObsCod">001</td>
-                      <td className="btnObs">
-                        <i className="fas fa-bars"></i>
-                      </td>
-                      <td className="BtnDescFun">Nome do Funcionário</td>
-                      <td className="btnStatus">
-                        <i className="far fa-check-circle"></i>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
-                  <tbody>
-                    <td className="btnObsCod">001</td>
-                    <td className="btnObs">
-                      <i className="fas fa-bars"></i>
-                    </td>
-                    <td className="BtnDescFun">Nome do Funcionário</td>
-                    <td className="btnStatus">
-                      <i className="far fa-check-circle"></i>
-                    </td>
-                  </tbody>
+
+                  {/* ================================================================================ */}
+
+                  {modal && (
+                    <div className="modalObservacoes">
+                      <div onClick={toggleModal} className="overlay"></div>
+                      <div className="modalPadrao-content">
+                        <h2 className="titleModal">Alterar Observação</h2>
+                        <hr className="hrTitleModal4" />
+
+                        <input
+                          className="fDescObservaçoes"
+                          placeholder="Alterar Observação"
+                          type="text"
+                          id="fname"
+                          name="fname"
+                          autoComplete="none"
+                        ></input>
+
+                        <textarea
+                          className="fObsObservaçoes"
+                          placeholder="Alterar Observações"
+                          id="fname"
+                          name="fname"
+                          maxLength={500}
+                          autoComplete="none"
+                        ></textarea>
+
+                        <button className="close-modal" onClick={toggleModal}>
+                          X
+                        </button>
+                        <button onClick={toggleModal} className="gravar-modal">
+                          Salvar Registro
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </table>
               </div>
             </section>

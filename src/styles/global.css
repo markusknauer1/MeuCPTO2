@@ -67,7 +67,7 @@ body {
   color: #1c396b;
 }
 .fnamePadrao {
-  left: clamp(1em, 1em + 36vw, 36em);
+  left: clamp(1em, 1em + 37vw, 37em);
   top: 22.5%;
   position: fixed;
   padding-left: 10px;
@@ -265,7 +265,7 @@ th {
     margin-left: 4%;
     line-height: normal;
     border-left: none;
-    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.6em);
   }
   th:first-child div {
     border: none;
@@ -405,7 +405,7 @@ th {
     margin-left: 4%;
     line-height: normal;
     border-left: none;
-    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+    font-size: clamp(0.1em, 0.1em + 2.2vw, 2.2em);
   }
   th:first-child div {
     border: none;

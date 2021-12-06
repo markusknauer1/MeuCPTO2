@@ -32,6 +32,7 @@ export default function ModalAtividade() {
               type="text"
               id="fname"
               name="fname"
+              autoComplete="none"
             ></input>
 
             <textarea
@@ -42,6 +43,7 @@ export default function ModalAtividade() {
               name="fname"
               row="none"
               maxLength="500"
+              autoComplete="none"
             ></textarea>
 
             <button className="close-modal" onClick={toggleModal}>

@@ -33,15 +33,10 @@ export default function ModalPessoa() {
                 placeholder="Nome"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
 
-              <select
-                name="Sexo"
-                className="fcadastroPessoa2"
-                type="text"
-                id="fSexo"
-              >
+              <select name="Sexo" className="fcadastroPessoa2" id="fSexo">
                 <option value="">Sexo</option>
                 <option value="">Feminino</option>
                 <option value="">Masculino</option>
@@ -49,13 +44,10 @@ export default function ModalPessoa() {
 
               <input className="fcadastroPessoa3" id="date" type="date" />
 
-              <select
-                name="Função"
-                className="fcadastroPessoa4"
-                type="text"
-                id="fcontexto"
-              >
-                <option value="">Função</option>
+              <select name="Função" className="fcadastroPessoa4" id="fcontexto">
+                <option value="">Função - Teste 1</option>
+                <option value="">Função - Teste 2</option>
+                <option value="">Função - Teste 3</option>
               </select>
 
               <input
@@ -63,28 +55,28 @@ export default function ModalPessoa() {
                 placeholder="E-Mail"
                 type="text"
                 id="mail"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa6"
                 placeholder="Telefone"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa7"
                 placeholder="Celular"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa8"
                 placeholder="CEP"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <button className="consulltaCep">
                 <i class="fas fa-search"></i>
@@ -94,49 +86,49 @@ export default function ModalPessoa() {
                 placeholder="Endereço"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa10"
                 placeholder="Número"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa11"
                 placeholder="Complemento"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa12"
                 placeholder="Bairro"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa13"
                 placeholder="Cidade"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa14"
                 placeholder="Estado"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <textarea
                 className="fcadastroPessoa15"
                 placeholder="Observações"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
                 row="none"
                 maxLength="500"
               />
@@ -145,21 +137,21 @@ export default function ModalPessoa() {
                 placeholder="Senha"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa17"
                 placeholder="Confirmar Senha"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa18"
                 placeholder="Grupo"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
               />
             </div>
             <div className="InputAuthorization1">

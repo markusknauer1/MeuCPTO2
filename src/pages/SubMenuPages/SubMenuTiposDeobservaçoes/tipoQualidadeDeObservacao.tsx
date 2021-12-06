@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import * as TypIcons from 'react-icons/ti'
 import Modal from './modal-tiposDeObservações/modalNovoGrupoDeQuestoes'
@@ -7,7 +7,11 @@ import ProfileDireita from '../../../components/ProfileDireita'
 import SidebarMobile from '../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage, TitlePage4 } from '../../../components/Main'
 
-function tipoQualidadeDeObservacao() {
+function TipoQualidadeDeObservacao() {
+  const [modal, setModal] = useState(false)
+  const toggleModal = () => {
+    setModal(!modal)
+  }
   return (
     <div className="logoQ1">
       <ProfileDireita />
@@ -30,26 +34,75 @@ function tipoQualidadeDeObservacao() {
         <Modal />
         <div className="page">
           <div className="filter1">
-            <TitlePage4>Grupo de Questões - QUALIDADE DA OBSERVAÇÃO</TitlePage4>
+            <TitlePage4>Grupo de Questões - ######</TitlePage4>
+            {/* QUALIDADE DA OBSERVAÇÃO */}
           </div>
           <div className="tabelaPadrao">
             <div className="containerPadrao">
               <table>
                 <tbody>
-                  <td className="TQOCod">1</td>
+                  <td className="TQOCod">
+                    <Link to="/TQOQuestoesReg">
+                      <button className="TQOCodNumber">001</button>{' '}
+                    </Link>
+                  </td>
                   <td className="TQOQuests">
+                    <button className="altInfoModPessoa" onClick={toggleModal}>
+                      <i className="fas fa-bars"></i>
+                      <label className="TQOQUESTOES">Questões</label>
+                    </button>
+                  </td>
+                  <td className="TQOGroupAnalise">
                     <Link to="/TQOQuestoesReg">
                       <button className="btnMGUPermissoes">
-                        <i className="fas fa-bars"></i>
+                        Cuidado Ativo
                       </button>
                     </Link>
-                    Questões
                   </td>
-                  <td className="TQOGroupAnalise">Cuidado Ativo</td>
                   <td className="TQOState">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
+
+                {/* ============================================================= */}
+
+                {modal && (
+                  <div className="modalNovoGrupoDeQuestoes">
+                    <div onClick={toggleModal} className="overlay"></div>
+                    <div className="modalNovoGrupoDeQuestoes-content">
+                      <h2 className="titleModal">Alterar Grupo De Questões</h2>
+
+                      <input
+                        className="NGQCod"
+                        placeholder="Cód"
+                        id="fname"
+                        name="fname"
+                      ></input>
+
+                      <input
+                        className="NGQDescricao"
+                        placeholder="Descrição"
+                        id="fname"
+                        name="fname"
+                      ></input>
+
+                      <textarea
+                        className="NGQObservacao"
+                        placeholder="Observações"
+                        id="fname"
+                        name="fname"
+                        maxLength={500}
+                      ></textarea>
+
+                      <button className="close-modal" onClick={toggleModal}>
+                        X
+                      </button>
+                      <button onClick={toggleModal} className="gravar-modal">
+                        Salvar Registro
+                      </button>
+                    </div>
+                  </div>
+                )}
               </table>
             </div>
           </div>
@@ -63,4 +116,4 @@ function tipoQualidadeDeObservacao() {
   )
 }
 
-export default tipoQualidadeDeObservacao
+export default TipoQualidadeDeObservacao

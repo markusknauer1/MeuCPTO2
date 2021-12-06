@@ -33,6 +33,7 @@ export default function ModalGerencias() {
               type="text"
               id="fname"
               name="fname"
+              autoComplete="none"
             ></input>
 
             <textarea
@@ -43,6 +44,7 @@ export default function ModalGerencias() {
               name="fname"
               row="none"
               maxLength="500"
+              autoComplete="none"
             ></textarea>
 
             <button className="close-modal" onClick={toggleModal}>
