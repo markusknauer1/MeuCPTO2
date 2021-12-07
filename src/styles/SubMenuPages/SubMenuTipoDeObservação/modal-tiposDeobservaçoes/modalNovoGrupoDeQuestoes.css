@@ -39,6 +39,7 @@ body.active-modalNovoGrupoDeQuestoes {
   justify-content: center;
   text-align: center;
   align-items: center;
+  padding-top: 0.5%;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
@@ -53,12 +54,14 @@ body.active-modalNovoGrupoDeQuestoes {
   width: 80%;
   height: 10%;
   justify-content: center;
+  padding-top: 0.5%;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: rgb(94, 94, 94);
-  padding-left: 2%;
+  padding-top: 0.5%;
+  padding-left: 1%;
 }
 .NGQObservacao {
   position: absolute;
@@ -68,6 +71,7 @@ body.active-modalNovoGrupoDeQuestoes {
   width: 90%;
   height: 30%;
   justify-content: center;
+  padding-top: 0.5%;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
