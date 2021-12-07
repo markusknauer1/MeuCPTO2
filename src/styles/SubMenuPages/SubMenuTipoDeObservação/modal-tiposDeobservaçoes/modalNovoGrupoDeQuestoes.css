@@ -38,12 +38,12 @@ body.active-modalNovoGrupoDeQuestoes {
   height: 10%;
   justify-content: center;
   text-align: center;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
+  align-items: center;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
 }
 .NGQDescricao {
   position: absolute;
@@ -53,12 +53,11 @@ body.active-modalNovoGrupoDeQuestoes {
   width: 80%;
   height: 10%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
   padding-left: 2%;
 }
 .NGQObservacao {
@@ -69,12 +68,11 @@ body.active-modalNovoGrupoDeQuestoes {
   width: 90%;
   height: 30%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
   text-align: left;
   padding-left: 1%;
 }
