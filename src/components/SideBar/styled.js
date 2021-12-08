@@ -346,7 +346,7 @@ export const MenuProfileDireita = styled.div`
     width: 25%;
     height: 60%;
     border-radius: 0px;
-    background-color: #adadad;
+    background: #e4e4e4;
     li {
       margin-top: 10%;
       justify-content: center;

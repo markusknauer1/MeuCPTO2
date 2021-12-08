@@ -29,7 +29,7 @@ function SubMenuEmpresas() {
         <div className="logo" />
         <div>
           <input
-            className="fnamePadrao"
+            className="fCxPesquisa"
             placeholder="Pesquisar"
             type="text"
             id="fname1"
