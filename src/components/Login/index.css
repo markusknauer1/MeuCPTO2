@@ -50,7 +50,6 @@
   background-color: white;
   border-radius: 30px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 400px;
@@ -71,8 +70,8 @@
   justify-content: center;
   text-align: center;
 
-  top: 41%;
-  position: fixed;
+  margin-top: -150px;
+  position: absolute;
   width: 350px;
   height: 3px;
   border: none;
@@ -82,63 +81,65 @@
     rgb(197, 197, 197),
     transparent
   );
+  z-index: 99;
 }
 
 .login-loginEmail input {
   background-color: #dad8d8;
   color: #000000;
-  position: fixed;
+  margin-top: -50px;
+  position: absolute;
   justify-content: center;
   text-align: left;
-  padding-top: 5px;
-  padding-left: 10px;
   display: flex;
   border: none;
-  font: 16px BalooBhaina2-Medium;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 16px;
   border-radius: 5px;
   transition: color 0.2s ease-in-out;
   width: 270px;
   height: 35px;
-  top: 44%;
   margin-left: -140px;
+  padding-top: 0.5%;
+  padding-left: 1%;
 }
 
 .login-loginPassword input {
   background-color: #dad8d8;
   color: #000000;
-  position: fixed;
+  position: absolute;
   justify-content: center;
   text-align: left;
-  padding-top: 5px;
-  padding-left: 10px;
   display: flex;
   border: none;
-  font: 16px BalooBhaina2-Medium;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 16px;
   border-radius: 5px;
   transition: color 0.2s ease-in-out;
   width: 270px;
   height: 35px;
-  top: 50%;
+  margin-top: -10px;
   margin-left: -140px;
+  padding-top: 0.5%;
+  padding-left: 1%;
 }
 
 .enter-app {
   background-color: #172d52;
   color: white;
-  position: fixed;
-  padding-top: 0.3%;
-  padding-left: 0.8%;
+  position: absolute;
   display: flex;
   border: none;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 16px;
   border-radius: 5px;
   transition: color 0.2s ease-in-out;
   width: 270px;
   height: 35px;
-  top: 56.5%;
+  margin-top: 30px;
   margin-left: -140px;
-  text-decoration: none;
-  font: 16px BalooBhaina2-Medium;
-  cursor: pointer;
+  padding-top: 0.3%;
+  padding-left: 1%;
 }
 .login-right button:hover {
   cursor: pointer;
@@ -147,7 +148,7 @@
 .login-right .recordPassword {
   color: #41606c;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
 
   font: 10px baloobhaina2-SemiBold;
 
@@ -160,7 +161,7 @@
   gap: 5px;
   width: 100px;
   height: 15px;
-  top: 63%;
+  margin-top: 160px;
   margin-left: -180px;
   cursor: pointer;
 }
@@ -182,7 +183,7 @@
 .btnrecovery {
   color: #41606c;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
 
   font: 10px baloobhaina2-SemiBold;
 
@@ -196,79 +197,10 @@
   gap: 10px;
   width: 100px;
 
-  top: 63%;
+  margin-top: 160px;
   margin-left: 180px;
 }
-@media screen and (max-width: 820px) {
-  .login-right {
-    z-index: 1;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 280px;
-  }
 
-  .login-loginEmail input {
-    background-color: #dad8d8;
-    color: #000000;
-    position: fixed;
-    justify-content: center;
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
-    display: flex;
-    border: none;
-    font: 16px BalooBhaina2-Medium;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-    width: 270px;
-    height: 35px;
-    top: 44%;
-    margin-left: -140px;
-  }
-
-  .login-loginPassword input {
-    background-color: #dad8d8;
-    color: #000000;
-    position: fixed;
-    justify-content: center;
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
-    display: flex;
-    border: none;
-    font: 16px BalooBhaina2-Medium;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-    width: 270px;
-    height: 35px;
-    top: 50%;
-    margin-left: -140px;
-  }
-
-  .login-loginEmail ::-webkit-input-placeholder {
-    font: clamp(0.1em, 0.1em + 1.5vw, 1.5em) BalooBhaina2-Medium;
-    color: black;
-  }
-  .login-loginPassword ::-webkit-input-placeholder {
-    font: clamp(0.1em, 0.1em + 1.5vw, 1.5em) BalooBhaina2-Medium;
-    color: black;
-  }
-  .login-right h3 {
-    position: fixed;
-    margin-top: -190px;
-    width: 70%;
-    font: clamp(1em, 1em + 0.09vw, 6em) BalooBhaina2-SemiBold;
-    color: #0b9e82;
-    justify-content: center;
-    text-align: center;
-    line-height: 20px;
-  }
-}
 @media screen and (max-width: 620px) {
   .bg1 {
     background: url('/src/Images//logoMeuCptoHorizBranco@2x.png');
@@ -307,52 +239,6 @@
     height: 260px;
   }
 
-  .login-loginEmail input {
-    background-color: #dad8d8;
-    color: #000000;
-    position: fixed;
-    justify-content: center;
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
-    display: flex;
-    border: none;
-    font: 16px BalooBhaina2-Medium;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-    width: 270px;
-    height: 35px;
-    top: 44%;
-    margin-left: -140px;
-  }
-
-  .login-loginPassword input {
-    background-color: #dad8d8;
-    color: #000000;
-    position: fixed;
-    justify-content: center;
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
-    display: flex;
-    border: none;
-    font: 16px BalooBhaina2-Medium;
-    border-radius: 5px;
-    transition: color 0.2s ease-in-out;
-    width: 270px;
-    height: 35px;
-    top: 50%;
-    margin-left: -140px;
-  }
-
-  .login-loginEmail ::-webkit-input-placeholder {
-    font: clamp(0.1em, 0.1em + 2.5vw, 2.5em) BalooBhaina2-Regular;
-    color: black;
-  }
-  .login-loginPassword ::-webkit-input-placeholder {
-    font: clamp(0.1em, 0.1em + 2.5vw, 2.5em) BalooBhaina2-Regular;
-    color: black;
-  }
   .login-right h3 {
     position: fixed;
     margin-top: -190px;
