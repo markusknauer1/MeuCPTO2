@@ -1167,13 +1167,15 @@ th {
     color: #30aa93;
   }
   .calendarioAnalise {
-    position: fixed;
-    top: 53%;
-    right: 1%;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    padding-left: 5%;
     z-index: 1;
-    width: 26%;
-    height: 16%;
+    width: 100%;
+    height: 30%;
     background-color: transparent;
+    z-index: -1;
     letter-spacing: -1px;
   }
   .logoK {

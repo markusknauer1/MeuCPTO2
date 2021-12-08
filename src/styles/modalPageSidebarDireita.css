@@ -56,21 +56,22 @@
 }
 .buttonModalObservaçoes {
   background-color: #172d52;
-  color: white;
+  position: fixed;
   top: 28%;
   left: 42%;
-  position: fixed;
-  align-items: center;
-  text-align: center;
-  padding-top: 0.5%;
-  justify-content: center;
-  width: clamp(0.01em, 0.01em + 12vw, 15em);
-  height: clamp(0.01em, 0.01em + 2.8vw, 15em);
-  border-radius: 6px;
-  border-style: none;
+  width: 12%;
+  height: 35px;
   display: flex;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 1.4em);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+  font-size: clamp(0.1em, 0.1em + 1.3vw, 1.3em);
   font-family: BalooBhaina2-SemiBold;
+  border-style: none;
+  border-radius: 5px;
 }
 .close-modal {
   position: absolute;
