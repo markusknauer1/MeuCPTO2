@@ -3,10 +3,21 @@
   top: 25%;
   left: 25%;
   background: #f1f1f1;
-  width: 50%;
+  width: 600px;
   height: 50%;
   border-radius: 20px;
-  z-index: 2;
+  z-index: 99;
+}
+.modalPessoa-content {
+  position: absolute;
+  top: 14%;
+  left: 25%;
+  line-height: 1.4;
+  background: #f1f1f1;
+  width: 600px;
+  height: 70%;
+  border-radius: 25px;
+  z-index: 99;
 }
 
 .buttonModalPadrao {
@@ -14,7 +25,7 @@
   top: 22.5%;
   left: 52%;
   width: 12%;
-  height: 5%;
+  height: 35px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -156,12 +167,22 @@
   height: 2.1px;
 }
 @media screen and (max-width: 820px) {
+  .modalPadrao-content {
+    position: fixed;
+    top: 25%;
+    left: 10%;
+    background: #f1f1f1;
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    z-index: 99;
+  }
   .buttonModalPadrao {
     position: fixed;
     top: 21%;
     left: 56%;
     width: 14%;
-    height: 3.5%;
+    height: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -293,6 +314,9 @@
 body.active-modalPessoa {
   overflow-y: hidden;
 }
+input::-webkit-input-placeholder {
+  color: #1c396b;
+}
 .modalPessoa,
 .overlay {
   width: 100%;
@@ -319,22 +343,6 @@ body.active-modalPessoa {
   color: #1c396b;
 }
 
-.modalPessoa-content {
-  position: absolute;
-  top: 14%;
-  left: 28%;
-  line-height: 1.4;
-  background: #f1f1f1;
-  width: 50%;
-  height: 70%;
-  border-radius: 25px;
-  z-index: 99;
-}
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
-  opacity: 1; /* Firefox */
-}
 .fcadastroPessoa1 {
   position: absolute;
   left: 5%;
@@ -343,10 +351,11 @@ body.active-modalPessoa {
   width: 90%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 5px;
   padding-left: 1%;
 }
@@ -359,10 +368,11 @@ body.active-modalPessoa {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-left: 0.5%;
 }
 .fcadastroPessoa3 {
@@ -372,10 +382,11 @@ body.active-modalPessoa {
   width: 26%;
   height: 5%;
   border-radius: 5px;
-  font: 14px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-left: 1%;
   padding-top: 0.5%;
 }
@@ -387,10 +398,11 @@ body.active-modalPessoa {
   height: 5%;
   padding-left: 0.5%;
   border-radius: 5px;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
 }
 
 .fcadastroPessoa5 {
@@ -401,10 +413,11 @@ body.active-modalPessoa {
   width: 90%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 5px;
   padding-left: 1%;
 }
@@ -416,10 +429,11 @@ body.active-modalPessoa {
   height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 5px;
   padding-left: 1%;
 }
@@ -431,10 +445,11 @@ body.active-modalPessoa {
   height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 5px;
   padding-left: 1%;
 }
@@ -446,20 +461,21 @@ body.active-modalPessoa {
   height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 5px;
   padding-left: 1%;
 }
 .consulltaCep {
   position: absolute;
   left: 90%;
-  top: 41%;
+  top: 40%;
   border-radius: 5px;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.8em);
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.2em);
   background-color: transparent;
   cursor: pointer;
   border: none;
@@ -474,10 +490,11 @@ body.active-modalPessoa {
   width: 48%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -489,10 +506,11 @@ body.active-modalPessoa {
   width: 18%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -504,10 +522,11 @@ body.active-modalPessoa {
   width: 20%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -519,10 +538,11 @@ body.active-modalPessoa {
   width: 48%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -534,10 +554,11 @@ body.active-modalPessoa {
   width: 18%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -549,10 +570,11 @@ body.active-modalPessoa {
   width: 20%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -566,11 +588,15 @@ body.active-modalPessoa {
   width: 90%;
   height: 10%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   text-align: left;
+}
+.fcadastroPessoa15::-webkit-input-placeholder {
+  color: #1c396b;
 }
 .fcadastroPessoa16 {
   position: absolute;
@@ -580,10 +606,11 @@ body.active-modalPessoa {
   width: 24%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -595,10 +622,11 @@ body.active-modalPessoa {
   width: 24%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -610,10 +638,11 @@ body.active-modalPessoa {
   width: 26%;
   height: 5%;
   justify-content: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: black;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -669,11 +698,7 @@ body.active-modalPessoa {
     width: 90%;
     height: 74%;
     border-radius: 25px;
-    z-index: 2;
-  }
-  ::-webkit-input-placeholder {
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
-    color: black;
+    z-index: 99;
   }
 
   .fcadastroPessoa1 {
@@ -683,7 +708,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 80%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa2 {
     position: fixed;
@@ -692,7 +718,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 20%;
     height: 4%;
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa3 {
     position: fixed;
@@ -703,7 +730,8 @@ body.active-modalPessoa {
     letter-spacing: 0;
     width: 26%;
     height: 4%;
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa4 {
     position: fixed;
@@ -712,7 +740,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 32%;
     height: 4%;
-    font: clamp(0.3em, 0.3em + 0.8vw, 0.8em) BalooBhaina2-Medium;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa5 {
     position: fixed;
@@ -721,7 +750,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 80%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa6 {
     position: fixed;
@@ -730,7 +760,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 38%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa7 {
     position: fixed;
@@ -739,7 +770,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa8 {
     position: fixed;
@@ -748,15 +780,16 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 20%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .consulltaCep {
     position: fixed;
-    left: 83%;
+    left: 85%;
     top: 42%;
     color: black;
     border-radius: 5px;
-    font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa9 {
     position: fixed;
@@ -765,7 +798,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 50%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa10 {
     position: fixed;
@@ -774,7 +808,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 15%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa11 {
     position: fixed;
@@ -783,7 +818,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 20%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
 
   .fcadastroPessoa12 {
@@ -793,7 +829,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 43%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa13 {
     position: fixed;
@@ -802,7 +839,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 39%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa14 {
     position: fixed;
@@ -811,7 +849,8 @@ body.active-modalPessoa {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa15 {
     position: fixed;
@@ -821,7 +860,8 @@ body.active-modalPessoa {
     width: 80%;
     height: 10%;
     padding-top: 1%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa16 {
     position: fixed;
@@ -831,7 +871,8 @@ body.active-modalPessoa {
     width: 26%;
     height: 4%;
     padding-top: 1%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa17 {
     position: fixed;
@@ -842,7 +883,8 @@ body.active-modalPessoa {
     height: 4%;
     padding-top: 1%;
     padding-left: 1.5%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa18 {
     position: fixed;
@@ -852,7 +894,8 @@ body.active-modalPessoa {
     width: 25%;
     height: 4%;
     padding-top: 1%;
-    font: 20px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .InputAuthorization1 {
     position: absolute;
@@ -886,14 +929,15 @@ body.active-modalPessoa {
     position: absolute;
     margin-left: 5%;
     margin-top: -3%;
-    font: 12px BalooBhaina2-SemiBold;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-family: BalooBhaina2-SemiBold;
   }
   .CheckAcess1 {
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     width: clamp(0.01em, 0.01em + 3vw, 3em);
   }
   .CheckAcess2 {
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     width: clamp(0.01em, 0.01em + 3vw, 3em);
   }
 }
@@ -929,7 +973,9 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -943,7 +989,9 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   padding-left: 1px;
 }
 .fObs {
@@ -956,122 +1004,31 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
 }
-
-@media screen and (max-width: 1024px) {
-  .fcadastroEquipe {
-    position: absolute;
-    left: 5%;
-    top: 12rem;
-    border-radius: 5px;
-    width: 90%;
-    height: 8%;
-    justify-content: center;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    padding: 1rem;
-  }
-  .fgerResp {
-    position: absolute;
-    left: 5%;
-    top: 28%;
-    width: 90%;
-    height: 8%;
-    border-radius: 5px;
-    justify-content: center;
-    font-size: 18px;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    padding-left: 10px;
-  }
-  .fObs {
-    position: absolute;
-    left: 5%;
-    top: 40%;
-    border-radius: 5px;
-    width: 90%;
-    height: 40%;
-    justify-content: center;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    text-align: left;
-    padding: 1rem;
-  }
+.fObs::-webkit-input-placeholder {
+  color: #1c396b;
 }
 
 @media screen and (max-width: 820px) {
   .fcadastroEquipe {
-    position: absolute;
     left: 5%;
-    top: 12rem;
-    border-radius: 5px;
+    top: 24%;
     width: 90%;
+    position: absolute;
+    border-radius: 5px;
     height: 8%;
     justify-content: center;
     border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    padding: 1rem;
-  }
-  .fgerResp {
-    position: absolute;
-    left: 5%;
-    top: 34%;
-    width: 90%;
-    height: 8%;
-    border-radius: 5px;
-    justify-content: center;
-    font-size: 18px;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    padding-left: 10px;
-  }
-  .fObs {
-    position: absolute;
-    left: 5%;
-    top: 44%;
-    border-radius: 5px;
-    width: 90%;
-    height: 36%;
-    justify-content: center;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 20px BalooBhaina2-SemiBold;
-    text-align: left;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-height: 620px) {
-  .fcadastroEquipe {
-    position: absolute;
-    left: 5%;
-    top: 6rem;
-    border-radius: 5px;
-    width: 90%;
-    height: 6%;
-    justify-content: center;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 16px BalooBhaina2-SemiBold;
-  }
-  .fcadastroEquipe::-webkit-input-placeholder {
-    font: 12px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-left: 1%;
   }
   .fgerResp {
     position: absolute;
@@ -1082,13 +1039,9 @@ body.active-modalEquipe {
     border-radius: 5px;
     justify-content: center;
     border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 12px BalooBhaina2-SemiBold;
-    padding-left: 5px;
-  }
-  .fObs::-webkit-input-placeholder {
-    font: 12px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
+    padding-left: 1px;
   }
   .fObs {
     position: absolute;
@@ -1099,10 +1052,56 @@ body.active-modalEquipe {
     height: 30%;
     justify-content: center;
     border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font: 12px BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
     text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  .fcadastroEquipe {
+    left: 5%;
+    top: 24%;
+    width: 90%;
+    position: absolute;
+    border-radius: 5px;
+    height: 8%;
+    justify-content: center;
+    border: none;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-left: 1%;
+  }
+  .fgerResp {
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    width: 90%;
+    height: 8%;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
+    padding-left: 1px;
+  }
+  .fObs {
+    position: absolute;
+    left: 5%;
+    top: 44%;
+    border-radius: 5px;
+    width: 90%;
+    height: 30%;
+    justify-content: center;
+    border: none;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
   }
 }
 
@@ -1132,9 +1131,6 @@ body.active-modalGerencia {
   right: 22rem;
   margin-top: 2rem;
   margin-bottom: -2rem;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: 35px;
   color: #1c396b;
 }
 .modalGerencia-content {
@@ -1158,7 +1154,9 @@ body.active-modalGerencia {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-size: 16px;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -1172,69 +1170,15 @@ body.active-modalGerencia {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-size: 16px;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
 }
-
-@media screen and (max-width: 500px) {
-  .modalGerencia,
-  .overlay {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-    z-index: 3;
-  }
-
-  .modalGerencia-content {
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    background: #f1f1f1;
-    width: 90%;
-    height: 60%;
-    border-radius: 20px;
-    z-index: 3;
-  }
-
-  .fDescGerencia {
-    position: absolute;
-    left: 5%;
-    top: 8rem;
-    border-radius: 5px;
-    width: 90%;
-    height: 10%;
-    justify-content: center;
-    font-size: clamp(0.01em, 0.01em + 5vw, 4em);
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding: 1rem;
-  }
-  .fObsGerencia {
-    position: absolute;
-    left: 5%;
-    top: 38%;
-    border-radius: 5px;
-    width: 90%;
-    height: 35%;
-    justify-content: center;
-    font-size: 18px;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    text-align: left;
-    padding: 1rem;
-  }
+.fObsGerencia::-webkit-input-placeholder {
+  color: #1c396b;
 }
 
 /* ======================= modal Atividade ============================ */
@@ -1258,17 +1202,6 @@ body.active-modalAtividade {
   background: rgba(49, 49, 49, 0.925);
 }
 
-.modalPadrao-content {
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  background: #f1f1f1;
-  width: 50%;
-  height: 50%;
-  border-radius: 20px;
-  z-index: 99;
-}
-
 .fDescAtividade {
   position: absolute;
   left: 5%;
@@ -1280,6 +1213,7 @@ body.active-modalAtividade {
   border: none;
   background-color: rgb(190, 190, 190);
   font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -1294,12 +1228,16 @@ body.active-modalAtividade {
   border: none;
   background-color: rgb(190, 190, 190);
   font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
 }
+.fObsAtividade::-webkit-input-placeholder {
+  color: #1c396b;
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 820px) {
   .modalAtividade,
   .overlay {
     width: 100%;
@@ -1309,7 +1247,7 @@ body.active-modalAtividade {
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 3;
+    z-index: 99;
   }
 
   .modalAtividade-content {
@@ -1326,35 +1264,33 @@ body.active-modalAtividade {
   .fDescAtividade {
     position: absolute;
     left: 5%;
-    top: 5.5rem;
+    top: 5rem;
     border-radius: 5px;
     width: 90%;
     height: 10%;
     justify-content: center;
     font-size: clamp(0.01em, 0.01em + 5vw, 4em);
+    font: 14px BalooBhaina2-SemiBold;
     border: none;
     background-color: rgb(190, 190, 190);
     color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding: 1rem;
+    padding-left: 1%;
   }
   .fObsAtividade {
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 36%;
     border-radius: 5px;
     width: 90%;
     height: 40%;
     justify-content: center;
-    font-size: 18px;
+    font-size: clamp(0.01em, 0.01em + 5vw, 4em);
+    font: 14px BalooBhaina2-SemiBold;
     border: none;
     background-color: rgb(190, 190, 190);
     color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
     text-align: left;
-    padding: 1rem;
+    padding-left: 1%;
   }
 }
 /* ======================== modal Area =========================== */
@@ -1397,7 +1333,9 @@ body.active-modalArea {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   padding-top: 1%;
   padding-left: 1%;
 }
@@ -1411,7 +1349,9 @@ body.active-modalArea {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   padding-left: 1px;
 }
 .fObsArea {
@@ -1424,10 +1364,15 @@ body.active-modalArea {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
+}
+.fObsArea::-webkit-input-placeholder {
+  color: #1c396b;
 }
 
 /* ======================== modal Observações =========================== */
@@ -1468,10 +1413,11 @@ body.active-modalObservacoes {
   width: 90%;
   height: 8%;
   justify-content: center;
-  font: 14px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
+  color: #1c396b;
   padding-top: 1%;
   padding-left: 1%;
 }
@@ -1483,16 +1429,20 @@ body.active-modalObservacoes {
   width: 90%;
   height: 30%;
   justify-content: center;
-  font: 14px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 14px;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
+  color: #1c396b;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
 }
+.fObsObservaçoes::-webkit-input-placeholder {
+  color: #1c396b;
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 820px) {
   .modalObservacoes,
   .overlay {
     width: 100%;
@@ -1502,7 +1452,7 @@ body.active-modalObservacoes {
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 3;
+    z-index: 99;
   }
 
   .modalObservacoes-content {
@@ -1519,33 +1469,27 @@ body.active-modalObservacoes {
   .fDescObservaçoes {
     position: absolute;
     left: 5%;
-    top: 5.5rem;
+    top: 5rem;
     border-radius: 5px;
     width: 90%;
     height: 10%;
     justify-content: center;
-    font-size: clamp(0.01em, 0.01em + 5vw, 4em);
+    font-size: clamp(1em, 1em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
     padding: 1rem;
   }
   .fObsObservaçoes {
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 36%;
     border-radius: 5px;
     width: 90%;
     height: 40%;
     justify-content: center;
-    font-size: 18px;
     border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
+    font-size: clamp(1em, 1em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     text-align: left;
     padding: 1rem;
   }

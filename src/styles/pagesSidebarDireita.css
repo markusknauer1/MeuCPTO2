@@ -101,50 +101,45 @@
 @media screen and (max-width: 820px) {
   .ttlPessoacod {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 4vw, 4em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 1vw, 1em);
+    left: 2%;
   }
   .ttlPessoaObservador {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 4vw, 4em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 6vw, 6em);
+    left: 16%;
   }
   .tttPessoalogin {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 4vw, 4em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 23vw, 23em);
+    left: 45%;
   }
   .ttlPessoaFuncao {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 4vw, 4em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 43vw, 43em);
+    left: 74%;
   }
   .ttlPessoaMetas {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 4vw, 4em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 59vw, 59em);
+    left: 92%;
   }
   .tblPesCod {
     justify-content: center;
     text-align: center;
-    width: clamp(0.1em, 0.1em + 35vw, 35em);
+    width: 4rem;
   }
   .tblPesOBS {
-    width: clamp(0.1em, 0.1em + 100vw, 100em);
+    width: 12rem;
   }
   .tblPesMail {
-    width: clamp(0.1em, 0.1em + 100vw, 100em);
+    width: 10rem;
   }
   .tblPesFunc {
-    width: clamp(0.1em, 0.1em + 100vw, 100em);
+    width: 10rem;
   }
   .tblPesMetas {
-    width: clamp(0.1em, 0.1em + 60vw, 60em);
+    width: 4rem;
   }
   .action {
     display: flex;

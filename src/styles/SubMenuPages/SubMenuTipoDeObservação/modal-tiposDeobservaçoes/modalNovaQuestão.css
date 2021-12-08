@@ -28,7 +28,6 @@ body.active-modalNovaQuestão {
   border-radius: 20px;
   z-index: 99;
 }
-
 .NQCod {
   position: absolute;
   left: 5%;
@@ -41,9 +40,8 @@ body.active-modalNovaQuestão {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
 }
 .NQDescricao {
   position: absolute;
@@ -56,9 +54,8 @@ body.active-modalNovaQuestão {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
   padding-left: 2%;
 }
 .NQPontos {
@@ -73,9 +70,8 @@ body.active-modalNovaQuestão {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
 }
 .NQOBservacao {
   position: absolute;
@@ -88,9 +84,8 @@ body.active-modalNovaQuestão {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  color: #1c396b;
+  font-family: BalooBhaina2-SemiBold;
   text-align: left;
   padding-left: 1%;
 }

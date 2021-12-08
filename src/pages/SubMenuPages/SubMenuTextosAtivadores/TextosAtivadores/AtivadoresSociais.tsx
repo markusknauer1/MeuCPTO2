@@ -125,19 +125,20 @@ function AtivadoresSocias() {
                 </table>
               </div>
             </section>
+            <button
+              className="btnReturn"
+              type="button"
+              onClick={() => history.goBack()}
+            >
+              <TypIcons.TiArrowBackOutline />
+            </button>
           </div>
         </div>
+
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
         <SidebarMobile />
-        <button
-          className="btnReturn"
-          type="button"
-          onClick={() => history.goBack()}
-        >
-          <TypIcons.TiArrowBackOutline />
-        </button>
       </ContainerPage>
     </div>
   )

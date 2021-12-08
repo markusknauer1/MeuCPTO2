@@ -9,9 +9,6 @@
   background-color: white;
   transition: 0.2s;
 }
-input::-webkit-input-placeholder {
-  color: rgb(94, 94, 94);
-}
 .unidTittleRef1 {
   position: absolute;
   left: 5%;
@@ -265,9 +262,6 @@ input::-webkit-input-placeholder {
     border-radius: 20px;
     background-color: rgb(245, 245, 245);
     transition: 0.2s;
-  }
-  input::-webkit-input-placeholder {
-    color: rgb(94, 94, 94);
   }
   .unidTittleRef1 {
     position: absolute;
@@ -1337,25 +1331,6 @@ input::-webkit-input-placeholder {
   line-height: 1 !important;
   font: 26px BalooBhaina2-Medium;
 }
-.btnReturn {
-  position: fixed;
-  width: 0;
-  height: 0;
-  top: 90%;
-  left: 11%;
-  font-size: clamp(0.1em, 0.1em + 4vw, 3em);
-  z-index: 99;
-  cursor: pointer;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  background-color: transparent;
-  color: #44ad93;
-  border-style: none;
-}
-.btnReturn :hover {
-  color: #44ad93;
-  transition: 0.3s;
-}
 .TittleIndice {
   position: absolute;
   text-align: center;
@@ -1579,31 +1554,6 @@ input::-webkit-input-placeholder {
     border-radius: 10px;
   }
 
-  .btnReturn {
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 48px;
-    height: 45px;
-    font-size: 40px;
-    top: 70%;
-    left: 5%;
-    z-index: 99;
-    cursor: pointer;
-    background-color: #adadad;
-    color: #fff;
-    border-style: none;
-    border-radius: 50px;
-  }
-  .btnReturn :hover {
-    background-color: #fff;
-    border-radius: 50px;
-    width: 48px;
-    height: 45px;
-    color: #11806a;
-    transition: 0.2s;
-  }
   .TittleIndice {
     position: absolute;
     text-align: center;
@@ -2070,31 +2020,7 @@ input::-webkit-input-placeholder {
     background-color: rgb(219, 219, 219);
     border-radius: 10px;
   }
-  .btnReturn {
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 48px;
-    height: 45px;
-    font-size: 40px;
-    top: 70%;
-    left: 5%;
-    z-index: 1;
-    cursor: pointer;
-    background-color: #adadad;
-    color: #fff;
-    border-style: none;
-    border-radius: 50px;
-  }
-  .btnReturn :hover {
-    background-color: #fff;
-    border-radius: 50px;
-    width: 48px;
-    height: 45px;
-    color: #11806a;
-    transition: 0.2s;
-  }
+
   .TittleIndice {
     position: absolute;
     text-align: center;

@@ -68,84 +68,22 @@
     display: flex;
     top: 1%;
     left: 2%;
-    font-size: clamp(1em, 1em + 5vw, 5em);
   }
   .PASQuests {
     position: absolute;
     display: flex;
     top: 1%;
     left: 12%;
-    font-size: clamp(1em, 1em + 5vw, 5em);
   }
   .PASGroupAnalise {
     position: absolute;
     top: 1%;
     left: 28%;
-    font-size: clamp(1em, 1em + 5vw, 5em);
   }
   .PASDescr {
     position: absolute;
     top: 1%;
     left: 66%;
-    font-size: clamp(1em, 1em + 5vw, 5em);
-  }
-
-  .tblPASCod {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 8rem;
-    font: 12px BalooBhaina2-SemiBold;
-  }
-  .tblPASQuests {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 10rem;
-    font: 12px BalooBhaina2-SemiBold;
-  }
-  .tblPASGroupAnalise {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    width: 10rem;
-    font: 12px BalooBhaina2-SemiBold;
-  }
-  .tblPASDescr {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    width: 40rem;
-    font: 12px BalooBhaina2-SemiBold;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .PASCod {
-    position: absolute;
-    display: flex;
-    left: 4%;
-    top: 10%;
-    font-size: clamp(1em, 1em + 8vw, 8em);
-  }
-  .PASQuests {
-    position: absolute;
-    display: flex;
-    left: 12%;
-    top: 10%;
-    font-size: clamp(1em, 1em + 8vw, 8em);
-  }
-  .PASGroupAnalise {
-    position: absolute;
-    left: 28%;
-    top: 10%;
-    font-size: clamp(1em, 1em + 8vw, 8em);
-  }
-  .PASDescr {
-    position: absolute;
-    left: 66%;
-    top: 10%;
-    font-size: clamp(1em, 1em + 8vw, 8em);
   }
 
   .tblPASCod {

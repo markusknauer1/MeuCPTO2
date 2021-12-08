@@ -56,12 +56,13 @@ body {
   background-color: rgb(201, 201, 201);
   font: 16px BalooBhaina2-SemiBold;
   border: none;
-  color: rgb(32, 32, 32);
+  color: #1c396b;
   border-radius: 8px;
   width: clamp(1em, 1em + 11vw, 11em);
   height: clamp(1em, 1em + 2.15vw, 2.15em);
   z-index: 1;
 }
+
 .fCxPesquisa::-webkit-input-placeholder {
   font: 14px BalooBhaina2-SemiBold;
   color: #1c396b;
@@ -74,7 +75,7 @@ body {
   background-color: rgb(201, 201, 201);
   font: 16px BalooBhaina2-SemiBold;
   border: none;
-  color: rgb(32, 32, 32);
+  color: #1c396b;
   border-radius: 8px;
   width: clamp(1em, 1em + 11vw, 11em);
   height: clamp(1em, 1em + 2.15vw, 2.15em);
@@ -97,6 +98,7 @@ body {
   border-radius: 0;
   z-index: 5;
 }
+
 .tabelaPadrao2 {
   overflow: auto;
   position: absolute;
@@ -106,6 +108,22 @@ body {
   height: 50%;
   background-color: white;
   border-radius: 2%;
+}
+.btnReturn {
+  position: fixed;
+  width: 0;
+  height: 0;
+  top: 90%;
+  left: 11%;
+  font-size: clamp(0.1em, 0.1em + 4vw, 3em);
+  z-index: 9;
+  background-color: transparent;
+  color: #44ad93;
+  border-style: none;
+}
+.btnReturn :hover {
+  color: #44ad93;
+  transition: 0.3s;
 }
 
 .tabelaPadrao2::-webkit-scrollbar {
@@ -185,10 +203,6 @@ th {
   white-space: nowrap;
 }
 
-::-webkit-input-placeholder {
-  font: clamp(1em, 1em + 1vw, 1em) BalooBhaina2-Medium;
-  color: black;
-}
 @media screen and (max-width: 820px) {
   .tabelaPadrao {
     position: absolute;
@@ -211,6 +225,31 @@ th {
     border-radius: 2%;
   }
 
+  .btnReturn {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 45px;
+    font-size: 40px;
+    top: 70%;
+    left: 5%;
+    z-index: 9;
+    cursor: pointer;
+    background-color: #adadad;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+  }
+  .btnReturn :hover {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 48px;
+    height: 45px;
+    color: #11806a;
+    transition: 0.2s;
+  }
   .tabelaPadrao2::-webkit-scrollbar {
     width: 6px;
     background-color: rgb(219, 219, 219);
@@ -288,10 +327,6 @@ th {
     white-space: nowrap;
   }
 
-  ::-webkit-input-placeholder {
-    font: clamp(1em, 1em + 1vw, 1em) BalooBhaina2-Medium;
-    color: black;
-  }
   .fCxPesquisa {
     top: 7%;
     left: clamp(1em, 1em + 52vw, 52em);
@@ -350,7 +385,31 @@ th {
     background-color: white;
     border-radius: 2%;
   }
-
+  .btnReturn {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 45px;
+    font-size: 40px;
+    top: 72%;
+    left: 5%;
+    z-index: 5;
+    cursor: pointer;
+    background-color: #adadad;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+  }
+  .btnReturn :hover {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 48px;
+    height: 45px;
+    color: #11806a;
+    transition: 0.2s;
+  }
   .tabelaPadrao2::-webkit-scrollbar {
     width: 6px;
     background-color: rgb(219, 219, 219);
@@ -426,11 +485,6 @@ th {
     color: transparent;
     border: none;
     white-space: nowrap;
-  }
-
-  ::-webkit-input-placeholder {
-    font: clamp(1em, 1em + 1vw, 1em) BalooBhaina2-Medium;
-    color: black;
   }
 
   .fnamePadrao {

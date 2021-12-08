@@ -36,7 +36,7 @@ export default function ModalPessoa() {
                 autoComplete="none"
               />
 
-              <select name="Sexo" className="fcadastroPessoa2" id="fSexo">
+              <select className="fcadastroPessoa2">
                 <option value="">Sexo</option>
                 <option value="">Feminino</option>
                 <option value="">Masculino</option>

@@ -23,7 +23,7 @@ export default function Modal() {
       {modal && (
         <div className="ModalNovoGrupoUser">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="ModalNovoGrupoUser-content">
+          <div className="modalPadrao-content">
             <h2 className="titleModal">Novo Grupo De Usuários</h2>
 
             <input
