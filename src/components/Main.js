@@ -14,7 +14,7 @@ export const ContainerPage = styled.div`
   border-bottom-left-radius: 30px;
   z-index: 0;
   @media screen and (max-width: 820px) {
-    position: fixed;
+    position: absolute;
     bottom: 20%;
     display: flex;
     left: 0;
@@ -49,7 +49,7 @@ export const TitlePage1 = styled.h5`
   @media screen and (max-width: 500px) {
     position: fixed;
     top: 17%;
-    left: 10%;
+    font: clamp(0.6em, 0.6em + 1.5vw, 1.5em) BalooBhaina2-Medium;
     border-radius: 20px;
     display: block;
     font: clamp(0.2em, 0.2em + 1.5vw, 1.5em) BalooBhaina2-Medium;
@@ -79,7 +79,7 @@ export const TitlePage2 = styled.h5`
   @media screen and (max-width: 500px) {
     position: fixed;
     top: 20%;
-    left: 10%;
+    font: clamp(0.6em, 0.6em + 1.5vw, 1.5em) BalooBhaina2-Medium;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
     border-style: none;
     background: transparent;
@@ -109,7 +109,7 @@ export const TitlePage3 = styled.h5`
   @media screen and (max-width: 500px) {
     position: fixed;
     top: 24%;
-    left: 10%;
+    left: 5%;
     font: clamp(0.6em, 0.6em + 1.5vw, 1.5em) BalooBhaina2-Medium;
     border-style: none;
     background: transparent;
@@ -141,7 +141,7 @@ export const TitlePage4 = styled.h5`
   @media screen and (max-width: 500px) {
     position: fixed;
     top: 20%;
-    left: 10%;
+    left:5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
     border-style: none;
     background: transparent;

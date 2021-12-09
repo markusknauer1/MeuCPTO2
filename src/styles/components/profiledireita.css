@@ -137,7 +137,8 @@
     border: none;
     top: 15%;
     left: 82%;
-    font: clamp(0.1em, 0.1em + 1.5vw, 5em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 2vw, 5em);
+    font-family: BalooBhaina2-SemiBold;
     color: #749898;
     background-color: transparent;
   }
