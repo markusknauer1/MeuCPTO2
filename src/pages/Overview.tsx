@@ -240,7 +240,7 @@ export const Home: FC = () => {
             </button>
           </div>
         </div>
-        <aside className="calendarRelatorio">
+        <aside className="calendarRelatorio1">
           <h1 className="selectAnalise">Selecione:</h1>
           <form action="">
             <label className="SelectCliente" htmlFor="">
@@ -265,7 +265,7 @@ export const Home: FC = () => {
             </select>
             <label className="SelectDate">Periodo Analisado:</label>
 
-            <div className="calendarioAnalise">
+            <div className="calendarioAnalise1">
               <Calendar calendarType="Hebrew" selectRange />
             </div>
           </form>
@@ -870,9 +870,10 @@ export const Relatorio: FC = () => {
             </Link>
           </div>
         </div>
-        <aside className="calendarHome">
-          <Calendar calendarType="Hebrew" selectRange />
-          <div className="calendarioAnalise"></div>
+        <aside className="calendarRelatorio2">
+          <div className="calendarioAnalise2">
+            <Calendar calendarType="Hebrew" selectRange />
+          </div>
         </aside>
       </ContainerPage>
     </div>
