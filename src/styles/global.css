@@ -1583,7 +1583,8 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font: 12px BalooBhaina2-SemiBold;
+    font-size: clamp(1em, 1em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     display: flex;
     width: 25%;
     height: 100%;
@@ -1593,14 +1594,15 @@ th {
   }
   .lgAcima {
     background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
-    left: 20%;
+    left: 22%;
     top: 0;
     justify-content: center;
     text-align: center;
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font: 10px BalooBhaina2-SemiBold;
+    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;
     width: 25%;
@@ -1622,7 +1624,8 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font: 10px BalooBhaina2-SemiBold;
+    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;
     width: 25%;
@@ -1644,7 +1647,8 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font: 10px BalooBhaina2-SemiBold;
+    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;
     width: 25%;
