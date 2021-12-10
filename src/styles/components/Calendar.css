@@ -1,5 +1,5 @@
 .react-calendar {
-  position: absolute;
+  position: relative;
   padding-bottom: 10px;
   width: 100%;
   height: 100%;

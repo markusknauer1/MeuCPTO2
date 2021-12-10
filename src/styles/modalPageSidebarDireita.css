@@ -181,8 +181,8 @@
   .buttonModalPadrao {
     position: fixed;
     top: 21%;
-    left: 56%;
-    width: 14%;
+    left: 52%;
+    width: 12%;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -197,7 +197,7 @@
     border-radius: 5px;
   }
   .altInfoModPessoa {
-    font-size: clamp(0.4em, 0.4em + 1vw, 1em);
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
     font-family: BalooBhaina2-SemiBold;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,7 @@
     align-items: center;
     z-index: 2;
     cursor: pointer;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-size: clamp(0.2em, 0.2em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
@@ -264,7 +264,7 @@
     border-radius: 5px;
   }
   .altInfoModPessoa {
-    font-size: clamp(0.2em, 0.2em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.6em);
     font-family: BalooBhaina2-SemiBold;
     justify-content: center;
     align-items: center;

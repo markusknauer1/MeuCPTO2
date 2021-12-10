@@ -224,6 +224,24 @@ th {
     background-color: white;
     border-radius: 2%;
   }
+  .fCxPesquisa {
+    top: 7%;
+    left: clamp(1em, 1em + 52vw, 52em);
+    position: fixed;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: clamp(0.1em, 0.1em + 1.8vw, 1em) BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: clamp(1em, 1em + 14vw, 14em);
+    height: 24px;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 14px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
 
   .btnReturn {
     position: fixed;
@@ -259,9 +277,9 @@ th {
     position: absolute;
     border: 1px solid #000;
     padding-top: 5%;
-    width: 100%;
+    width: 90%;
     height: 10%;
-    font: 12px BalooBhaina2-Regular;
+    font: 10px BalooBhaina2-Regular;
     background: #1c396b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -285,7 +303,6 @@ th {
   }
   table {
     background-color: #fff;
-    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
   }
   td + td {
     border-left: 1px solid #eee;
@@ -304,7 +321,7 @@ th {
     margin-left: 4%;
     line-height: normal;
     border-left: none;
-    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.6em);
+    font-size: clamp(0.1em, 0.1em + 1.4vw, 1.4em);
   }
   th:first-child div {
     border: none;
@@ -327,26 +344,8 @@ th {
     white-space: nowrap;
   }
 
-  .fCxPesquisa {
-    top: 7%;
-    left: clamp(1em, 1em + 52vw, 52em);
-    position: fixed;
-    padding-left: 10px;
-    background-color: rgb(201, 201, 201);
-    font: clamp(0.1em, 0.1em + 1.8vw, 1em) BalooBhaina2-SemiBold;
-    border: none;
-    color: rgb(32, 32, 32);
-    border-radius: 5px;
-    width: clamp(1em, 1em + 14vw, 14em);
-    height: 24px;
-    z-index: 1;
-  }
-  .fCxPesquisa::-webkit-input-placeholder {
-    font: 14px BalooBhaina2-SemiBold;
-    color: #1c396b;
-  }
   .fnamePadrao {
-    left: clamp(1em, 1em + 36vw, 36em);
+    left: clamp(1em, 1em + 32vw, 36em);
     top: 21%;
     position: fixed;
     padding-left: 10px;
@@ -385,6 +384,27 @@ th {
     background-color: white;
     border-radius: 2%;
   }
+  .fCxPesquisa {
+    top: 6%;
+    left: clamp(1em, 1em + 45vw, 45em);
+    position: fixed;
+    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: clamp(1em, 1em + 20vw, 20em);
+    height: 24px;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 12px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
   .btnReturn {
     position: fixed;
     justify-content: center;
@@ -421,7 +441,6 @@ th {
     padding-top: 5%;
     width: 99%;
     height: 10%;
-    font: 12px BalooBhaina2-Regular;
     background: #1c396b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -431,7 +450,8 @@ th {
     overflow-x: hidden;
     border: 1px solid;
     margin-left: -1px;
-    width: 100.4%;
+    max-width: 100.4%;
+    width: 100.8%;
     height: 18rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -445,7 +465,7 @@ th {
   }
   table {
     background-color: #fff;
-    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+    font-size: clamp(0.1em, 0.1em + 2.2vw, 2.2em);
   }
   td + td {
     border-left: 1px solid #eee;
@@ -464,6 +484,7 @@ th {
     margin-left: 4%;
     line-height: normal;
     border-left: none;
+    font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.1em, 0.1em + 2.2vw, 2.2em);
   }
   th:first-child div {
@@ -491,9 +512,12 @@ th {
     left: clamp(1em, 1em + 48vw, 48em);
     top: 21%;
     position: fixed;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1%;
     background-color: rgb(201, 201, 201);
-    font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-family: BalooBhaina2-SemiBold;
     border: none;
     color: rgb(32, 32, 32);
     border-radius: 5px;
@@ -503,26 +527,6 @@ th {
   }
   .fnamePadrao::-webkit-input-placeholder {
     font: 12px BalooBhaina2-SemiBold;
-    color: #1c396b;
-  }
-}
-@media screen and (max-width: 500px) {
-  .fnamePadrao {
-    left: clamp(1em, 1em + 48vw, 48em);
-    top: 21%;
-    position: fixed;
-    padding-left: 10px;
-    background-color: rgb(201, 201, 201);
-    font: clamp(0.1em, 0.1em + 2.5vw, 4em) BalooBhaina2-SemiBold;
-    border: none;
-    color: rgb(32, 32, 32);
-    border-radius: 5px;
-    width: clamp(1em, 1em + 20vw, 20em);
-    height: 25px;
-    z-index: 1;
-  }
-  .fnamePadrao::-webkit-input-placeholder {
-    font: 10px BalooBhaina2-SemiBold;
     color: #1c396b;
   }
 }
@@ -750,10 +754,10 @@ th {
 }
 .calendarRelatorio2 {
   position: fixed;
-  top: 22%;
+  top: 35%;
   left: 75%;
   width: 20%;
-  height: 60%;
+  height: 28%;
   background-color: transparent;
   transition: 2s;
 }
@@ -848,12 +852,11 @@ th {
 }
 .calendarioAnalise2 {
   position: absolute;
-  top: 52%;
+  top: 0%;
   left: 0;
-  padding-left: 5%;
   z-index: 1;
   width: 100%;
-  height: 40%;
+  height: 100%;
   background-color: transparent;
   z-index: -1;
   letter-spacing: -1px;
@@ -1199,7 +1202,7 @@ th {
     top: 20%;
     left: 70%;
     width: 30%;
-    height: 70;
+    height: 60%;
     background: #e4e4e4;
     z-index: 2;
     transition: 2s;
@@ -1299,7 +1302,7 @@ th {
     left: 5%;
     z-index: 1;
     width: 90%;
-    height: 35%;
+    height: 40%;
     background-color: transparent;
     z-index: -1;
   }
@@ -1711,7 +1714,7 @@ th {
     width: 30%;
     height: 7%;
     top: 5%;
-    left: 10%;
+    left: 5%;
     position: fixed;
     background-size: 100%;
     background-position: 0% 0%;
@@ -3075,7 +3078,7 @@ th {
   .SelectUnidade1 {
     position: fixed;
     top: 22%;
-    left: 35%;
+    left: 30%;
     border-radius: 20px;
     display: block;
     font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
@@ -3085,7 +3088,7 @@ th {
   .SelectUnidade2 {
     position: fixed;
     top: 22%;
-    left: 50%;
+    left: 45%;
     background-color: #e6e6e6;
     font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
     border: none;
@@ -3102,7 +3105,7 @@ th {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 65%;
+    width: 60%;
 
     height: 100%;
     max-height: 80%;
@@ -3195,6 +3198,7 @@ th {
   }
   .resultGeral {
     position: absolute;
+    left: 30%;
     filter: invert(0%) sepia(0%) saturate(0%);
   }
 
@@ -3207,7 +3211,7 @@ th {
 
   .pending {
     position: absolute;
-    width: 7vmin;
+    width: 6vmin;
     left: 15%;
     bottom: 10%;
   }
@@ -3216,6 +3220,18 @@ th {
     width: 35%;
     left: 30%;
     top: 35%;
+  }
+  .estimativa {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    top: 48%;
+    left: 42%;
+  }
+  .realidade {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    top: 48%;
+    left: 54%;
   }
   .ConclusaoOk {
     position: absolute;
@@ -3233,16 +3249,16 @@ th {
   .Conclusao1 {
     position: absolute;
     width: 30%;
-    font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+    font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
     left: 40%;
-    top: 74%;
+    top: 72%;
     fill: #ffffff;
   }
   .Conclusao2 {
     position: absolute;
     width: 100%;
     font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
-    left: 18%;
+    left: 12%;
     top: 73%;
     fill: #ffffff;
   }
@@ -3473,327 +3489,10 @@ th {
     width: clamp(0.1em, 0.1em + 0.01vw, 3em);
     height: clamp(0.1em, 0.1em + 3vw, 3em);
   }
-  .tittleMeta1 {
-    align-items: center;
-    position: absolute;
-    display: flex;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    transition: color 0.2s ease-in-out;
-    top: 6%;
-    left: 20%;
-    z-index: 2;
-
-    height: 9vmin;
-    cursor: pointer;
-  }
-  .tittleMeta2 {
-    align-items: center;
-    position: absolute;
-    display: flex;
-    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-Medium;
-    cursor: pointer;
-    color: #5f5f5f;
-    transition: color 0.2s ease-in-out;
-    top: 6%;
-    left: 2%;
-    z-index: 2;
-    line-height: 15px;
-
-    height: 9vmin;
-    cursor: pointer;
-  }
-
-  .tittleMeta3 {
-    align-items: center;
-    position: absolute;
-    display: flex;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
-    cursor: pointer;
-    color: #5f5f5f;
-    transition: color 0.2s ease-in-out;
-    top: 6%;
-    left: 10%;
-    z-index: 2;
-
-    height: 9vmin;
-    cursor: pointer;
-  }
-  .resultGeral {
-    position: absolute;
-    font-size: clamp(0.01em, 0.01em + 2.5vw, 2.5em);
-    left: 28%;
-    top: 70%;
-    filter: invert(0%) sepia(0%) saturate(0%);
-  }
-
-  .resultGeralIcs {
-    position: absolute;
-    width: 15%;
-    left: 42%;
-    top: 45%;
-  }
-
-  .pending {
-    position: absolute;
-    width: 7vmin;
-    left: 15%;
-    bottom: 10%;
-  }
-  .pending1 {
-    position: absolute;
-    width: 35%;
-    left: 30%;
-    top: 35%;
-  }
-  .ConclusaoOk {
-    position: absolute;
-    width: 15%;
-    left: 20%;
-    top: 67.5%;
-  }
-  .ConclusaoWrong {
-    position: absolute;
-
-    width: 15%;
-    left: 14%;
-    top: 67.5%;
-  }
-  .Conclusao1 {
-    position: absolute;
-    width: 30%;
-    font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
-    left: 40%;
-    top: 74%;
-    fill: #ffffff;
-  }
-  .Conclusao2 {
-    position: absolute;
-    width: 100%;
-    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
-    left: 18%;
-    top: 73%;
-    fill: #ffffff;
-  }
-
-  .metas1 {
-    background-color: rgb(202, 202, 202);
-    color: #5f5f5f;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 0rem;
-    left: 0%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-  }
-  .metas2 {
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 0rem;
-    left: 35%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    color: white;
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
-  }
-  .metas3 {
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    left: 70%;
-    top: 0rem;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-    color: white;
-    background-image: linear-gradient(
-      120deg,
-      #ec3565 25%,
-      #eb406e 90%,
-      #f0658a
-    );
-    background-size: 100%;
-  }
-  .metas4 {
-    background-color: rgb(202, 202, 202);
-    color: #5f5f5f;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 45%;
-    left: 0%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-  }
-  .metas5 {
-    background-color: rgb(202, 202, 202);
-    color: #5f5f5f;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 45%;
-    left: 35%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-  }
-
-  .metas6 {
-    background-color: rgb(202, 202, 202);
-    color: #5f5f5f;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 45%;
-    left: 70%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
-  }
-  .metas7 {
-    background-color: rgb(202, 202, 202);
-    color: #5f5f5f;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    top: 90%;
-    left: 70%;
-    width: clamp(0.01em, 0.01em + 26vw, 22em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
-  }
-
-  .MetaHome {
-    position: absolute;
-    top: 90%;
-    left: 0;
-    width: clamp(0.01em, 0.01em + 57vw, 60em);
-    height: clamp(0.01em, 0.01em + 25vw, 20em);
-    border-radius: 10px;
-    border-style: none;
-    display: flex;
-    line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
-    color: black;
-    background-size: 100%;
-    background-color: rgb(202, 202, 202);
-  }
-  .graph {
-    position: absolute;
-    display: flex;
-    top: 1rem;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    font: clamp(0.01em, 0.01em + 1.8vw, 1.8em) BalooBhaina2-SemiBold;
-    border-style: none;
-    color: #274172;
-  }
-}
-@media screen and (max-width: 500px) {
-  .Metas {
-    overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-
-    height: 100%;
-    max-height: 80%;
-    border-style: none;
-    border-radius: 10px;
-    z-index: 1;
-    bottom: 30px;
-    left: 10%;
-    position: absolute;
-    padding: 0;
-    transition: 0.5s;
-  }
-  .SelectUnidade1 {
-    position: fixed;
-    top: 21%;
-    left: 44%;
-    border-radius: 20px;
-    display: block;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
-    color: #0b9e82;
-    z-index: -1;
-  }
-  .SelectUnidade2 {
-    position: fixed;
-    top: 21%;
-    left: 64%;
-    background-color: #e6e6e6;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
-    border: none;
-    color: #949494;
-    border-radius: 5px;
-    padding-top: 0.2%;
-    padding-left: 10px;
-    width: 25%;
-    height: 2%;
-    z-index: -1;
-  }
-  .calendarHome {
-    display: none;
-  }
-  .tittleMeta {
-    align-items: center;
-    position: absolute;
-    display: flex;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
-    cursor: pointer;
-    color: #fff;
-    transition: color 0.2s ease-in-out;
-    top: 6%;
-    left: 2%;
-    z-index: 2;
-
-    height: 9vmin;
-    cursor: pointer;
-  }
-  .hrMeta1 {
+  .hrMeta {
     transform: rotate(10deg);
     position: absolute;
-    background-color: #5f5f5f;
+    background-color: #fff;
     top: 46%;
     left: 50.6%;
     justify-content: center;
@@ -3867,8 +3566,8 @@ th {
 
   .pending {
     position: absolute;
-    width: 7vmin;
-    left: 15%;
+    width: 8vmin;
+    left: 12%;
     bottom: 10%;
   }
   .pending1 {
@@ -3876,6 +3575,18 @@ th {
     width: 35%;
     left: 30%;
     top: 35%;
+  }
+  .estimativa {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
+    top: 48%;
+    left: 42%;
+  }
+  .realidade {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
+    top: 48%;
+    left: 53%;
   }
   .ConclusaoOk {
     position: absolute;
@@ -3893,17 +3604,17 @@ th {
   .Conclusao1 {
     position: absolute;
     width: 30%;
-    font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
-    left: 40%;
-    top: 74%;
+    font-size: clamp(0.01em, 0.01em + 2.5vw, 2.5em);
+    left: 38%;
+    top: 71%;
     fill: #ffffff;
   }
   .Conclusao2 {
     position: absolute;
     width: 100%;
-    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
-    left: 18%;
-    top: 73%;
+    font-size: clamp(0.01em, 0.01em + 2.5vw, 2.5em);
+    left: 10%;
+    top: 72%;
     fill: #ffffff;
   }
 
@@ -3914,10 +3625,10 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 1%;
-    left: 1%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    top: 0rem;
+    left: 0%;
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -3928,10 +3639,10 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 1%;
+    top: 0rem;
     left: 35%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     color: white;
     border-radius: 10px;
     border-style: none;
@@ -3943,10 +3654,10 @@ th {
     position: absolute;
     align-items: center;
     text-align: center;
-    top: 1%;
-    left: 68%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    left: 70%;
+    top: 0rem;
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -3967,10 +3678,10 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: clamp(0.01em, 0.01em + 26vw, 22em);
-    left: 1%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
+    left: 0%;
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -3983,10 +3694,10 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: clamp(0.01em, 0.01em + 26vw, 22em);
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
     left: 35%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -4000,15 +3711,14 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: clamp(0.01em, 0.01em + 25vw, 25em);
-    left: 68%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    top: clamp(0.01em, 0.01em + 30vw, 30em);
+    left: 70%;
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
     line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
   }
   .metas7 {
     background-color: rgb(202, 202, 202);
@@ -4017,31 +3727,31 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: clamp(0.01em, 0.01em + 52vw, 52em);
-    left: 68%;
-    width: clamp(0.01em, 0.01em + 24vw, 22em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    top: clamp(0.01em, 0.01em + 60vw, 60em);
+    left: 70%;
+    width: clamp(0.01em, 0.01em + 26vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
     line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
   }
 
   .MetaHome {
+    background-color: rgb(202, 202, 202);
+    color: #5f5f5f;
     position: absolute;
-    top: clamp(0.01em, 0.01em + 52vw, 52em);
-    left: 1%;
-    width: clamp(0.01em, 0.01em + 51vw, 51em);
-    height: clamp(0.01em, 0.01em + 22vw, 20em);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: clamp(0.01em, 0.01em + 60vw, 60em);
+    left: 0%;
+    width: clamp(0.01em, 0.01em + 57vw, 22em);
+    height: clamp(0.01em, 0.01em + 25vw, 20em);
     border-radius: 10px;
     border-style: none;
     display: flex;
     line-height: 1 !important;
-    font: clamp(0.01em, 0.01em + 60vw, 60em) BalooBhaina2-SemiBold;
-    color: black;
-    background-size: 100%;
-    background-color: rgb(202, 202, 202);
   }
   .graph {
     position: absolute;
@@ -4053,7 +3763,7 @@ th {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    font: clamp(0.01em, 0.01em + 1.8vw, 1.8em) BalooBhaina2-SemiBold;
+    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
     border-style: none;
     color: #274172;
   }
