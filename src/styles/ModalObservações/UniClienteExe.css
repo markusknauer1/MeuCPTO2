@@ -1887,8 +1887,9 @@
   .TittleMes {
     position: absolute;
     text-align: center;
-    top: 96%;
-    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-SemiBold;
+    top: 102%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 3em);
+    font-family: BalooBhaina2-SemiBold;
     color: #1c396b;
     background: transparent;
   }
