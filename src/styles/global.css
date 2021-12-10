@@ -490,25 +490,7 @@ th {
     overflow-x: hidden;
     border: 1px solid;
     margin-left: -1px;
-    max-width: 100.4%;
-    width: 100.8%;
-    height: 18rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-
-  .containerPadrao::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgb(219, 219, 219);
-    /* rgb(219, 219, 219); */
-    border-radius: 10px;
-  }
-  .containerPadrao {
-    overflow-x: hidden;
-    border: 1px solid;
-    margin-left: -1px;
-    max-width: 100.4%;
-    width: 100.8%;
+    width: 100.4%;
     height: 18rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -524,8 +506,7 @@ th {
     overflow-x: hidden;
     border: 1px solid;
     margin-left: -1px;
-    max-width: 100.4%;
-    width: 100%;
+    width: 100.4%;
     height: 18rem;
     border-radius: 10px;
   }
@@ -599,7 +580,7 @@ th {
     z-index: 1;
   }
   .fnamePadrao::-webkit-input-placeholder {
-    font: 12px BalooBhaina2-SemiBold;
+    font: 8px BalooBhaina2-SemiBold;
     color: #1c396b;
   }
 }
@@ -3121,7 +3102,7 @@ th {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 45%;
+  top: clamp(0.01em, 0.01em + 15vw, 15em);
   left: 0%;
   width: clamp(0.01em, 0.01em + 13vw, 15em);
   height: clamp(0.01em, 0.01em + 12vw, 15em);
@@ -3138,7 +3119,7 @@ th {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 45%;
+  top: clamp(0.01em, 0.01em + 15vw, 15em);
   left: 35%;
   width: clamp(0.01em, 0.01em + 13vw, 15em);
   height: clamp(0.01em, 0.01em + 12vw, 15em);
@@ -3156,7 +3137,7 @@ th {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 45%;
+  top: clamp(0.01em, 0.01em + 15vw, 15em);
   left: 70%;
   width: clamp(0.01em, 0.01em + 13vw, 15em);
   height: clamp(0.01em, 0.01em + 12vw, 15em);
@@ -3173,7 +3154,7 @@ th {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 90%;
+  top: clamp(0.01em, 0.01em + 30vw, 30em);
   left: 70%;
   width: clamp(0.01em, 0.01em + 13vw, 15em);
   height: clamp(0.01em, 0.01em + 12vw, 15em);
@@ -3186,7 +3167,7 @@ th {
 
 .MetaHome {
   position: absolute;
-  top: 90%;
+  top: clamp(0.01em, 0.01em + 30vw, 30em);
   left: 0;
   width: clamp(0.01em, 0.01em + 30vw, 30em);
   height: clamp(0.01em, 0.01em + 12vw, 15em);
@@ -3457,7 +3438,7 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 45%;
+    top: clamp(0.01em, 0.01em + 18vw, 18em);
     left: 0%;
     width: clamp(0.01em, 0.01em + 17vw, 15em);
     height: clamp(0.01em, 0.01em + 16vw, 15em);
@@ -3474,7 +3455,7 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 45%;
+    top: clamp(0.01em, 0.01em + 18vw, 18em);
     left: 35%;
     width: clamp(0.01em, 0.01em + 17vw, 15em);
     height: clamp(0.01em, 0.01em + 16vw, 15em);
@@ -3492,7 +3473,7 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 45%;
+    top: clamp(0.01em, 0.01em + 18vw, 18em);
     left: 70%;
     width: clamp(0.01em, 0.01em + 17vw, 15em);
     height: clamp(0.01em, 0.01em + 16vw, 15em);
@@ -3509,7 +3490,7 @@ th {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    top: 90%;
+    top: clamp(0.01em, 0.01em + 36vw, 36em);
     left: 70%;
     width: clamp(0.01em, 0.01em + 17vw, 15em);
     height: clamp(0.01em, 0.01em + 16vw, 15em);
@@ -3522,7 +3503,7 @@ th {
 
   .MetaHome {
     position: absolute;
-    top: 90%;
+    top: clamp(0.01em, 0.01em + 36vw, 36em);
     left: 0;
     width: clamp(0.01em, 0.01em + 38vw, 34em);
     height: clamp(0.01em, 0.01em + 16vw, 15em);

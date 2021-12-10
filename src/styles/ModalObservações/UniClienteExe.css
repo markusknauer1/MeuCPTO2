@@ -1562,7 +1562,7 @@
   .tittleProativo {
     position: absolute;
     top: 1rem;
-    left: 20%;
+    left: 30%;
     font-size: clamp(0.1em, 0.1em + 2vw, 3em);
     color: white;
     background: transparent !important;
