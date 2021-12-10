@@ -77,12 +77,13 @@ export const TitlePage2 = styled.h5`
     z-index: 2;
   }
   @media screen and (max-width: 500px) {
-    position: fixed;
-    top: 20%;
-    font: clamp(0.6em, 0.6em + 1.5vw, 1.5em) BalooBhaina2-Medium;
-    font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
-    border-style: none;
-    background: transparent;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.4em, 0.4em + 2vw, 2em) 
     color: #172d52;
     z-index: 2;
   }
@@ -141,7 +142,7 @@ export const TitlePage4 = styled.h5`
   @media screen and (max-width: 500px) {
     position: fixed;
     top: 20%;
-    left:5%;
+    left: 5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
     border-style: none;
     background: transparent;
