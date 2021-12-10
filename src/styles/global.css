@@ -2462,7 +2462,7 @@ th {
   .titulo1 {
     position: absolute;
     left: 5%;
-    top: 1%;
+    top: 0;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2470,7 +2470,7 @@ th {
   .fcadastro1 {
     position: absolute;
     left: 5%;
-    top: 8%;
+    top: 20px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2484,7 +2484,7 @@ th {
   .titulo2 {
     position: absolute;
     left: 5%;
-    top: 16%;
+    top: 45px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2492,7 +2492,7 @@ th {
   .fcadastro2 {
     position: absolute;
     left: 5%;
-    top: 23%;
+    top: 65px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2506,7 +2506,7 @@ th {
   .titulo3 {
     position: absolute;
     left: 5%;
-    top: 31%;
+    top: 90px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2514,7 +2514,7 @@ th {
   .fcadastro3 {
     position: absolute;
     left: 5%;
-    top: 38%;
+    top: 110px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2528,7 +2528,7 @@ th {
   .titulo4 {
     position: absolute;
     left: 5%;
-    top: 46%;
+    top: 135px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2536,7 +2536,7 @@ th {
   .fcadastro4 {
     position: absolute;
     left: 5%;
-    top: 53%;
+    top: 155px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2550,7 +2550,7 @@ th {
   .titulo5 {
     position: absolute;
     left: 5%;
-    top: 61%;
+    top: 180px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2558,7 +2558,7 @@ th {
   .fcadastro5 {
     position: absolute;
     left: 5%;
-    top: 68%;
+    top: 200px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2572,7 +2572,7 @@ th {
   .titulo6 {
     position: absolute;
     left: 5%;
-    top: 76%;
+    top: 225px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2580,7 +2580,7 @@ th {
   .fcadastro6 {
     position: absolute;
     left: 5%;
-    top: 83%;
+    top: 245px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2594,7 +2594,7 @@ th {
   .titulo7 {
     position: absolute;
     left: 5%;
-    top: 90%;
+    top: 270px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2602,7 +2602,7 @@ th {
   .fcadastro7 {
     position: absolute;
     left: 5%;
-    top: 97%;
+    top: 290px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2616,7 +2616,7 @@ th {
   .titulo8 {
     position: absolute;
     left: 5%;
-    top: 104%;
+    top: 315px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2624,7 +2624,7 @@ th {
   .fcadastro8 {
     position: absolute;
     left: 5%;
-    top: 111%;
+    top: 335px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2638,7 +2638,7 @@ th {
   .titulo9 {
     position: absolute;
     left: 5%;
-    top: 120%;
+    top: 360px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2646,7 +2646,7 @@ th {
   .fcadastro9 {
     position: absolute;
     left: 5%;
-    top: 127%;
+    top: 380px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2660,7 +2660,7 @@ th {
   .titulo10 {
     position: absolute;
     left: 5%;
-    top: 136%;
+    top: 405px;
     border-radius: 18px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2668,7 +2668,7 @@ th {
   .fcadastro10 {
     position: absolute;
     left: 5%;
-    top: 143%;
+    top: 425px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2682,14 +2682,14 @@ th {
   .titulo11 {
     position: absolute;
     left: 5%;
-    top: 152%;
+    top: 450px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
   }
   .fcadastro11 {
     position: absolute;
     left: 5%;
-    top: 159%;
+    top: 470px;
     width: 90%;
     height: 20px;
     padding-left: 10px;
@@ -2703,7 +2703,7 @@ th {
   .titulo12 {
     position: absolute;
     left: 5%;
-    top: 168%;
+    top: 500px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2711,7 +2711,7 @@ th {
   .fcadastro12 {
     position: absolute;
     left: 5%;
-    top: 175%;
+    top: 520px;
     width: 40%;
     height: 20px;
     padding-left: 10px;
@@ -2725,7 +2725,7 @@ th {
   .titulo13 {
     position: absolute;
     left: 52%;
-    top: 168%;
+    top: 500px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -2733,7 +2733,7 @@ th {
   .fcadastro13 {
     position: absolute;
     left: 52%;
-    top: 175%;
+    top: 520px;
     width: 42%;
     height: 22px;
     padding-left: 5px;
