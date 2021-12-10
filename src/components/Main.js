@@ -26,6 +26,19 @@ export const ContainerPage = styled.div`
     border-bottom-left-radius: 0px;
     z-index: 9;
   }
+  @media screen and (max-width: 500px) {
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    z-index: 9;
+  }
 `
 export const TitlePage1 = styled.h5`
   position: absolute;
