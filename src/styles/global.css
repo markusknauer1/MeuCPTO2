@@ -441,9 +441,9 @@ th {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 48px;
-    height: 45px;
-    font-size: 40px;
+    width: 40px;
+    height: 38px;
+    font-size: 35px;
     top: 72%;
     left: 5%;
     z-index: 5;
@@ -1692,7 +1692,7 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font-size: clamp(1em, 1em + 1vw, 1em);
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     font-family: BalooBhaina2-Semibold;
     display: flex;
     width: 25%;
@@ -1710,7 +1710,7 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-size: clamp(0.3em, 0.3em + 0.6vw, 0.6em);
     font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;
@@ -1733,7 +1733,7 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-size: clamp(0.3em, 0.3em + 0.6vw, 0.6em);
     font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;
@@ -1756,7 +1756,7 @@ th {
     align-items: center;
     position: absolute;
     padding-top: 1%;
-    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-size: clamp(0.3em, 0.3em + 0.6vw, 0.6em);
     font-family: BalooBhaina2-Semibold;
     display: flex;
     color: white;

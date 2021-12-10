@@ -1853,10 +1853,10 @@
   .tabelaPadraoICS {
     overflow-x: hidden;
     position: absolute;
-    top: 24%;
+    top: 20%;
     left: 5%;
     width: 90%;
-    height: 65%;
+    height: 70%;
     background-color: transparent;
     /* background-color: rgb(255, 255, 255); */
     border-radius: 0;
@@ -1870,10 +1870,12 @@
   .TittleIndice {
     position: absolute;
     text-align: center;
-    top: clamp(0.01em, 0.01em + 32vw, 32em);
+    top: clamp(0.01em, 0.01em + 34vw, 34em);
     left: 1%;
-    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
     color: #1c396b;
+    background: transparent;
   }
   .TittleProjetadoAcumulado {
     position: absolute;
@@ -1909,7 +1911,7 @@
     position: absolute;
     right: 5%;
     top: 92%;
-    width: 90%;
+    width: 80%;
     height: 6%;
     background-color: transparent;
   }
