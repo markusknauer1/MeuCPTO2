@@ -323,7 +323,7 @@ export const UniClienteExe: FC = () => {
           </div>
         </div>
 
-        <aside className="calendarRelatorio">
+        <aside className="calendarRelatorio1">
           <h1 className="selectAnalise1">Resultado do IQO</h1>
           <h2 className="selectAnalise2">Índice de qualidade da observação</h2>
           <form action="">
@@ -348,11 +348,11 @@ export const UniClienteExe: FC = () => {
               <option value="">Unidade</option>
             </select>
             <label className="SelectDate">Periodo Analisado:</label>
-          </form>
 
-          <div className="calendarioAnalise">
-            <Calendar calendarType="Hebrew" selectRange />
-          </div>
+            <div className="calendarioAnalise1">
+              <Calendar calendarType="Hebrew" selectRange />
+            </div>
+          </form>
         </aside>
         <Modal />
         {/* <SidebarMobile /> */}
@@ -634,7 +634,7 @@ export const UniClieSetor: FC = () => {
           </button>
         </div>
         <div className="ICSgraph"></div>
-        <aside className="calendarRelatorio">
+        <aside className="calendarRelatorio1">
           <h1 className="selectAnalise1">Resultado do IQO</h1>
           <h2 className="selectAnalise2">Índice de qualidade da observação</h2>
           <form action="">
@@ -659,11 +659,11 @@ export const UniClieSetor: FC = () => {
               <option value="">Unidade</option>
             </select>
             <label className="SelectDate">Periodo Analisado:</label>
-          </form>
 
-          <div className="calendarioAnalise">
-            <Calendar calendarType="Hebrew" selectRange />
-          </div>
+            <div className="calendarioAnalise1">
+              <Calendar calendarType="Hebrew" selectRange />
+            </div>
+          </form>
         </aside>
         <Modal />
         <SidebarMobile />
@@ -949,7 +949,7 @@ export const MesSetor: FC = () => {
             </button>
           </div>
         </div>
-        <aside className="calendarRelatorio">
+        <aside className="calendarRelatorio1">
           <h1 className="selectAnalise1">Resultado do IQO</h1>
           <h2 className="selectAnalise2">Índice de qualidade da observação</h2>
           <form action="">
@@ -974,11 +974,11 @@ export const MesSetor: FC = () => {
               <option value="">Unidade</option>
             </select>
             <label className="SelectDate">Periodo Analisado:</label>
-          </form>
 
-          <div className="calendarioAnalise">
-            <Calendar calendarType="Hebrew" selectRange />
-          </div>
+            <div className="calendarioAnalise1">
+              <Calendar calendarType="Hebrew" selectRange />
+            </div>
+          </form>
         </aside>
         <Modal />
 
@@ -1075,7 +1075,7 @@ export const UniContribSetor: FC = () => {
             </button>
           </div>
         </div>
-        <aside className="calendarRelatorio">
+        <aside className="calendarRelatorio1">
           <h1 className="selectAnalise1">Resultado do IQO</h1>
           <h2 className="selectAnalise2">Índice de qualidade da observação</h2>
           <form action="">
@@ -1100,11 +1100,11 @@ export const UniContribSetor: FC = () => {
               <option value="">Unidade</option>
             </select>
             <label className="SelectDate">Periodo Analisado:</label>
-          </form>
 
-          <div className="calendarioAnalise">
-            <Calendar calendarType="Hebrew" selectRange />
-          </div>
+            <div className="calendarioAnalise1">
+              <Calendar calendarType="Hebrew" selectRange />
+            </div>
+          </form>
         </aside>
         <SidebarMobile />
       </ContainerPage>
