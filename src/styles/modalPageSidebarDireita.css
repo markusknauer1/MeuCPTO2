@@ -40,7 +40,7 @@
   border-radius: 5px;
 }
 .altInfoModPessoa {
-  font-size: clamp(0.4em, 0.4em + 0.8vw, 0.8em);
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-SemiBold;
   justify-content: center;
   align-items: center;
