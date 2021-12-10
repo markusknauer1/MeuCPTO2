@@ -437,6 +437,8 @@ th {
     color: #1c396b;
   }
   .btnReturn {
+    background-color: #adadad;
+    color: #fff;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -448,18 +450,25 @@ th {
     left: 5%;
     z-index: 5;
     cursor: pointer;
-    background-color: #adadad;
-    color: #fff;
     border-style: none;
     border-radius: 50px;
   }
   .btnReturn :hover {
-    background-color: #fff;
-    border-radius: 50px;
-    width: 48px;
-    height: 45px;
     color: #11806a;
-    transition: 0.2s;
+    background-color: #fff;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40px;
+    height: 38px;
+    font-size: 35px;
+    top: 72%;
+    left: 5%;
+    z-index: 5;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 50px;
   }
   .tabelaPadrao2::-webkit-scrollbar {
     width: 6px;
