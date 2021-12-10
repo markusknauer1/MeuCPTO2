@@ -1898,9 +1898,12 @@
   }
   .tittleUniSetor {
     position: absolute;
-    top: 96%;
-    font: clamp(0.01em, 0.01em + 3vw, 3em) BalooBhaina2-SemiBold;
+    text-align: center;
+    top: 102%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 3em);
+    font-family: BalooBhaina2-SemiBold;
     color: #1c396b;
+    background: transparent;
   }
   .cxLegenda {
     justify-content: right;
