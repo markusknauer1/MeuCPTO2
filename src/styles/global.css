@@ -152,8 +152,22 @@ section {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+.containerPadrao2 {
+  overflow-y: auto;
+  border: 1px solid;
+  margin-left: -1px;
+  width: 100.4%;
+  height: 26rem;
+  border-radius: 10px;
+}
 
 .containerPadrao::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  /* rgb(219, 219, 219); */
+  border-radius: 10px;
+}
+.containerPadrao2::-webkit-scrollbar {
   width: 6px;
   background-color: rgb(219, 219, 219);
   /* rgb(219, 219, 219); */
@@ -226,11 +240,13 @@ th {
   }
   .fCxPesquisa {
     top: 7%;
-    left: clamp(1em, 1em + 52vw, 52em);
+    left: clamp(1em, 1em + 45vw, 45em);
     position: fixed;
-    padding-left: 10px;
+    justify-content: center;
+    padding-top: 0.5%;
+    align-items: center;
     background-color: rgb(201, 201, 201);
-    font: clamp(0.1em, 0.1em + 1.8vw, 1em) BalooBhaina2-SemiBold;
+    font: clamp(0.1em, 0.1em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
     border: none;
     color: rgb(32, 32, 32);
     border-radius: 5px;
@@ -239,7 +255,7 @@ th {
     z-index: 1;
   }
   .fCxPesquisa::-webkit-input-placeholder {
-    font: 14px BalooBhaina2-SemiBold;
+    font: 10px BalooBhaina2-SemiBold;
     color: #1c396b;
   }
 
@@ -301,6 +317,21 @@ th {
     /* rgb(219, 219, 219); */
     border-radius: 10px;
   }
+  .containerPadrao2 {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    width: 90%;
+    height: 18rem;
+    border-radius: 10px;
+  }
+
+  .containerPadrao2::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    border-radius: 10px;
+  }
   table {
     background-color: #fff;
   }
@@ -321,7 +352,7 @@ th {
     margin-left: 4%;
     line-height: normal;
     border-left: none;
-    font-size: clamp(0.1em, 0.1em + 1.4vw, 1.4em);
+    font-size: clamp(0.1em, 0.1em + 5vw, 5em);
   }
   th:first-child div {
     border: none;
@@ -458,6 +489,39 @@ th {
   }
 
   .containerPadrao::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    border-radius: 10px;
+  }
+  .containerPadrao {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    max-width: 100.4%;
+    width: 100.8%;
+    height: 18rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .containerPadrao::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    border-radius: 10px;
+  }
+  .containerPadrao2 {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    max-width: 100.4%;
+    width: 100%;
+    height: 18rem;
+    border-radius: 10px;
+  }
+
+  .containerPadrao2::-webkit-scrollbar {
     width: 6px;
     background-color: rgb(219, 219, 219);
     /* rgb(219, 219, 219); */
@@ -845,7 +909,7 @@ th {
   padding-left: 5%;
   z-index: 1;
   width: 100%;
-  height: 40%;
+  height: 45%;
   background-color: transparent;
   z-index: -1;
   letter-spacing: -1px;
@@ -3088,7 +3152,7 @@ th {
   }
   .SelectUnidade2 {
     position: fixed;
-    top: 22%;
+    top: 21%;
     left: 45%;
     background-color: #e6e6e6;
     font-family: BalooBhaina2-SemiBold;
@@ -3096,10 +3160,10 @@ th {
     border: none;
     color: #949494;
     border-radius: 5px;
-    padding-top: 0.2%;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
     width: 20%;
-    height: 3%;
+    height: 5%;
     z-index: -1;
   }
   .Metas {
@@ -3437,12 +3501,12 @@ th {
   }
   .SelectUnidade1 {
     position: fixed;
-    top: 21%;
-    left: 44%;
+    top: 22%;
+    left: 42%;
     border-radius: 20px;
     display: block;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     color: #0b9e82;
     z-index: -1;
   }
@@ -3452,14 +3516,14 @@ th {
     left: 64%;
     background-color: #e6e6e6;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     border: none;
     color: #949494;
     border-radius: 5px;
-    padding-top: 0.2%;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
     width: 25%;
-    height: 3%;
+    height: 5%;
     z-index: -1;
   }
   .calendarHome {

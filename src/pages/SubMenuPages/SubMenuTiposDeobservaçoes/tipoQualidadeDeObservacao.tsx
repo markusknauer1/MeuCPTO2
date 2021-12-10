@@ -38,7 +38,7 @@ function TipoQualidadeDeObservacao() {
             {/* QUALIDADE DA OBSERVAÇÃO */}
           </div>
           <div className="tabelaPadrao">
-            <div className="containerPadrao">
+            <div className="containerPadrao2">
               <table>
                 <tbody>
                   <td className="TQOCod">
