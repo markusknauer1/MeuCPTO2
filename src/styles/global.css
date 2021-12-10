@@ -3081,7 +3081,8 @@ th {
     left: 30%;
     border-radius: 20px;
     display: block;
-    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
     color: #0b9e82;
     z-index: -1;
   }
@@ -3090,7 +3091,8 @@ th {
     top: 22%;
     left: 45%;
     background-color: #e6e6e6;
-    font: clamp(0.01em, 0.01em + 1.5vw, 1.5em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
     border: none;
     color: #949494;
     border-radius: 5px;
@@ -3439,7 +3441,8 @@ th {
     left: 44%;
     border-radius: 20px;
     display: block;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
     color: #0b9e82;
     z-index: -1;
   }
@@ -3448,7 +3451,8 @@ th {
     top: 21%;
     left: 64%;
     background-color: #e6e6e6;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
     border: none;
     color: #949494;
     border-radius: 5px;
