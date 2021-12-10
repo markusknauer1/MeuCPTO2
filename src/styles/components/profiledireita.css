@@ -9,10 +9,6 @@
   flex-direction: column;
   background: #e4e4e4;
 }
-.cxProfile {
-  display: flex;
-  z-index: 99;
-}
 .titleProfile1 {
   position: absolute;
   font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
@@ -33,11 +29,17 @@
   color: #0b9e82;
 }
 
-.profile-profileEditor {
+.cxProfile {
   position: absolute;
-  border: none;
+  width: 60px;
+  height: 20px;
+  z-index: 99;
   top: 15%;
   left: 30%;
+  background-color: transparent;
+}
+.profile-profileEditor {
+  border: none;
   font: 12px BalooBhaina2-Regular;
   background-color: transparent;
   cursor: pointer;
@@ -74,28 +76,39 @@
     border-bottom-right-radius: 0;
     z-index: -99;
   }
-  .logo1 {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 5%;
-    left: 80%;
-    width: clamp(2em, 2em + 6vw, 6em);
-    height: clamp(2em, 2em + 6vw, 6em);
-    z-index: 99;
-  }
   .logologo {
     position: fixed;
     bottom: 4%;
     left: clamp(1em, 1em + 35vw, 35em);
     width: clamp(2em, 2em + 20vw, 20em);
   }
-  .profile-profileEditor {
+  .cxProfile {
     position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 4%;
+    left: 80%;
+    z-index: 999;
+    width: 80px;
+    height: 100px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .logo1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 80%;
+    z-index: 99;
+  }
+  .profile-profileEditor {
+    position: relative;
     border: none;
-    top: 16%;
-    left: 81%;
+    top: 80%;
     font: clamp(0.1em, 0.1em + 1.5vw, 5em) BalooBhaina2-SemiBold;
     color: #749898;
     background-color: transparent;
@@ -132,13 +145,34 @@
     height: 60%;
     z-index: -99;
   }
-  .profile-profileEditor {
+  .cxProfile {
     position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    left: 79%;
+    z-index: 999;
+    width: clamp(0.1em, 0.1em + 15vw, 15em);
+    height: clamp(0.1em, 0.1em + 20vw, 20em);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .logo1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    z-index: 99;
+  }
+  .profile-profileEditor {
+    position: relative;
     border: none;
-    top: 15%;
-    left: 82%;
-    font-size: clamp(0.1em, 0.1em + 2vw, 5em);
-    font-family: BalooBhaina2-SemiBold;
+    top: 75%;
+    font: clamp(0.1em, 0.1em + 2vw, 5em) BalooBhaina2-SemiBold;
     color: #749898;
     background-color: transparent;
   }

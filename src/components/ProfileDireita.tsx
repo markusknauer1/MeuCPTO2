@@ -14,7 +14,6 @@ function ProfileDireita() {
         src={containerBackgroundProfile}
         alt=""
       />
-      <img className="logo1" src={logo1} alt="logo" />
       <div>
         <h6 className="titleProfile1">Seja Muito Bem-vindo,</h6>
       </div>
@@ -23,11 +22,12 @@ function ProfileDireita() {
       </div>
 
       <div className="cxProfile">
+        <img className="logo1" src={logo1} alt="logo" />
         <Link to="/Home">
           <button className="profile-profileEditor">Ver perfil</button>
         </Link>
-        <img className="logologo" src={logologo} alt="logo" />
       </div>
+      <img className="logologo" src={logologo} alt="logo" />
     </div>
   )
 }
