@@ -399,6 +399,11 @@ export const FormularioCadastro: FC = () => {
             ></input>
           </div>
         </div>
+        <nav>
+          <Link to="/FormularioCadastro">
+            <button className="buttonSave">Salvar</button>
+          </Link>
+        </nav>
       </ContainerPage>
     </div>
   )

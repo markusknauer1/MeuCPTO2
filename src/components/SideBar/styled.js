@@ -312,21 +312,6 @@ export const MenuProfileDireita = styled.div`
     background-color: #0b9e82;
     transition: 0.6s;
   }
-  .buttonSave {
-    position: fixed;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
-    font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
-    border-radius: 5px;
-    cursor: pointer;
-    border-style: none;
-    color: #35c2aa;
-    background-color: #d8d8d8;
-    top: 90%;
-    left: 54%;
-    width: 10%;
-    height: 5%;
-  }
   .tttlBtnNav1:focus-within {
     color: rgb(255, 255, 255);
     background-color: #0b9e82;
@@ -557,21 +542,6 @@ export const MenuProfileDireita = styled.div`
       color: rgb(255, 255, 255);
       background-color: #0b9e82;
       transition: 0.6s;
-    }
-    .buttonSave {
-      position: fixed;
-      font-family: 'baloo bhaina 2';
-      font-weight: 600;
-      font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
-      border-radius: 5px;
-      cursor: pointer;
-      border-style: none;
-      color: #35c2aa;
-      background-color: #d8d8d8;
-      top: 90%;
-      left: 54%;
-      width: 10%;
-      height: 5%;
     }
     .tttlBtnNav1:focus-within {
       color: rgb(255, 255, 255);
