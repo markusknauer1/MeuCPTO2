@@ -29,7 +29,7 @@ export const ContainerPage = styled.div`
   @media screen and (max-width: 500px) {
     position: absolute;
     bottom: 20%;
-    display: flex;
+    display: fixed;
     left: 0;
     width: 100%;
     height: 60%;
