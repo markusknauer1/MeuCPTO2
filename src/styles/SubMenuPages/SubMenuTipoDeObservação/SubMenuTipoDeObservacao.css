@@ -46,7 +46,7 @@
 .btnSubTipObsCod {
   width: 14rem;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: clamp(0.01em, 0.01em + 0.8vw, 0.8em);
 }
 .GroupTipObs {
   cursor: pointer;
@@ -112,43 +112,48 @@
     position: absolute;
     top: 10%;
     display: flex;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
     left: 2%;
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
   }
   .tblSubTipObsPessoad {
     position: absolute;
     display: flex;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
     top: 10%;
     left: 25%;
   }
   .tblSubTipObsfator1 {
     position: absolute;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
+    top: 10%;
     top: 10%;
     left: 53%;
   }
   .tblSubTipObsfator2 {
     position: absolute;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
+    top: 10%;
     top: 10%;
     left: 62%;
   }
   .tblSubTipObsFatorN {
     position: absolute;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
     top: 10%;
-    left: 70%;
+    top: 10%;
+    left: 71%;
   }
   .tblSubTipObsPermissao {
     position: absolute;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
+    top: 10%;
     top: 10%;
     left: 80%;
   }
   .tblSubTipObsAtivo {
     position: absolute;
-    font-size: clamp(0.01em, 0.01em + 0.25vw, 0.25em);
+    font-size: clamp(0.01em, 0.01em + 0.8vw, 1em);
+    top: 10%;
     top: 10%;
     left: 94%;
   }
@@ -156,6 +161,8 @@
   /* ------------------conteúdo da tabela---------------- */
   .btnSubTipObsCod {
     width: 12rem;
+    font-size: clamp(0.01em, 0.01em + 0.9vw, 1em);
+    top: 10%;
   }
   .GroupTipObs {
     cursor: pointer;
@@ -166,12 +173,12 @@
     background-color: transparent;
     border: none;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+    font-size: clamp(0.01em, 0.01em + 0.9vw, 1em);
   }
   .btnSubTipObsQualiObs {
     width: 16rem;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+    font-size: clamp(0.01em, 0.01em + 0.9vw, 1em);
   }
   .btnSubTipObsfator1 {
     width: 6rem;
@@ -201,7 +208,7 @@
     padding-left: 0;
     width: 5rem;
     font-family: BalooBhaina2-SemiBold;
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 

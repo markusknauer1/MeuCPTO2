@@ -3183,6 +3183,8 @@ th {
 
 .MetaHome {
   position: absolute;
+  padding: 2%;
+  justify-content: center;
   top: clamp(0.01em, 0.01em + 30vw, 30em);
   left: 0;
   width: clamp(0.01em, 0.01em + 30vw, 30em);
@@ -3191,15 +3193,12 @@ th {
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  color: black;
-  background-size: 100%;
+  font: 18px BalooBhaina2-Regular;
   background-color: rgb(202, 202, 202);
 }
 .graph {
   position: absolute;
   display: flex;
-  top: 1rem;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
