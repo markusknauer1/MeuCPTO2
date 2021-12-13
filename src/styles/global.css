@@ -652,7 +652,7 @@ th {
   background-image: linear-gradient(100deg, #ec3565, #ec3565, #ec3565);
 }
 .ICS4 {
-  top: clamp(0.01em, 0.01em + 18vw, 18em);
+  top: clamp(0.01em, 0.01em + 16vw, 16em);
   left: 0%;
   position: absolute;
   align-items: center;
@@ -669,7 +669,7 @@ th {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
 }
 .ICS5 {
-  top: clamp(0.01em, 0.01em + 18vw, 18em);
+  top: clamp(0.01em, 0.01em + 16vw, 16em);
   left: 35%;
   position: absolute;
   align-items: center;
@@ -687,7 +687,7 @@ th {
 }
 
 .ICS6 {
-  top: clamp(0.01em, 0.01em + 18vw, 18em);
+  top: clamp(0.01em, 0.01em + 16vw, 16em);
   left: 70%;
   position: absolute;
   align-items: center;
@@ -705,7 +705,7 @@ th {
 }
 
 .ICS7 {
-  top: clamp(0.01em, 0.01em + 36vw, 36em);
+  top: clamp(0.01em, 0.01em + 32vw, 32em);
   left: 0%;
   position: absolute;
   align-items: center;
@@ -723,7 +723,7 @@ th {
 }
 
 .ICS8 {
-  top: clamp(0.01em, 0.01em + 36vw, 36em);
+  top: clamp(0.01em, 0.01em + 32vw, 32em);
   left: 35%;
   position: absolute;
   align-items: center;
@@ -741,7 +741,7 @@ th {
 }
 
 .ICS9 {
-  top: clamp(0.01em, 0.01em + 36vw, 36em);
+  top: clamp(0.01em, 0.01em + 32vw, 32em);
   left: 70%;
   position: absolute;
   align-items: center;
@@ -859,18 +859,21 @@ th {
   color: #30aa93;
 }
 .SelectIdCliente {
-  position: absolute;
   top: 17%;
   left: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5%;
   background-color: rgb(255, 255, 255);
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-Regular;
   border: none;
   display: flex;
   color: gray;
   border-radius: 5px;
   width: 100%;
-  height: 7%;
+  height: 8%;
   cursor: pointer;
 }
 .SelectObserv {
@@ -881,20 +884,21 @@ th {
   color: #30aa93;
 }
 .SelectIdObserv {
-  position: absolute;
   top: 32%;
   left: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5%;
   background-color: rgb(255, 255, 255);
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-Regular;
   border: none;
   display: flex;
-  align-items: center;
   color: gray;
   border-radius: 5px;
   width: 100%;
-  height: 7%;
-  z-index: 1;
+  height: 8%;
   cursor: pointer;
 }
 .SelectDate {
@@ -2888,8 +2892,7 @@ th {
   justify-content: space-between;
   width: 80%;
 
-  height: 100%;
-  max-height: 63%;
+  height: 63%;
 
   border-style: none;
   border-radius: 10px;
@@ -2961,22 +2964,26 @@ th {
 }
 .estimativa {
   position: absolute;
-  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
-  top: 50%;
-  left: 43%;
+  font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  background-color: transparent;
+  border-style: none;
+  top: 40%;
+  left: 35%;
 }
 .realidade {
+  top: 40%;
+  left: 55%;
   position: absolute;
-  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
-  top: 50%;
-  left: 53%;
+  font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  background-color: transparent;
+  border-style: none;
 }
 .hrMeta1 {
   transform: rotate(10deg);
   position: absolute;
   background-color: #5f5f5f;
-  top: 46%;
-  left: 50.6%;
+  top: 40%;
+  left: 50%;
   justify-content: center;
   align-items: center;
   border-radius: 20%;
@@ -2988,7 +2995,7 @@ th {
   transform: rotate(10deg);
   position: absolute;
   background-color: white;
-  top: 46%;
+  top: 40%;
   left: 50%;
   justify-content: center;
   align-items: center;
@@ -3021,7 +3028,7 @@ th {
   position: absolute;
   width: 35%;
   left: 30%;
-  bottom: 25%;
+  bottom: 30%;
 }
 .ConclusaoOk {
   position: absolute;
@@ -3358,15 +3365,44 @@ th {
   }
   .estimativa {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
-    top: 48%;
-    left: 42%;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+    background-color: transparent;
+    border-style: none;
+    top: 47%;
+    left: 37%;
   }
   .realidade {
+    top: 47%;
+    left: 57%;
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
-    top: 48%;
-    left: 54%;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+    background-color: transparent;
+    border-style: none;
+  }
+  .hrMeta1 {
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: #5f5f5f;
+    top: 45%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: none;
+    width: clamp(0.1em, 0.1em + 0.01vw, 3em);
+    height: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  }
+  .hrMeta {
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    width: clamp(0.1em, 0.1em + 0.1vw, 3em);
+    height: clamp(0.1em, 0.1em + 2.5vw, 3em);
   }
   .ConclusaoOk {
     position: absolute;
@@ -3630,7 +3666,7 @@ th {
     align-items: center;
     position: absolute;
     display: flex;
-    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
     cursor: pointer;
     color: #fff;
     transition: color 0.2s ease-in-out;
@@ -3644,7 +3680,7 @@ th {
     align-items: center;
     position: absolute;
     display: flex;
-    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
     font-family: BalooBhaina2-Medium;
     cursor: pointer;
     color: #fff;
@@ -3660,7 +3696,7 @@ th {
     align-items: center;
     position: absolute;
     display: flex;
-    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
     font-family: BalooBhaina2-Medium;
     cursor: pointer;
     color: #5f5f5f;
@@ -3718,15 +3754,44 @@ th {
   }
   .estimativa {
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
-    top: 48%;
-    left: 42%;
+    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+    background-color: transparent;
+    border-style: none;
+    top: 47%;
+    left: 37%;
   }
   .realidade {
+    top: 47%;
+    left: 57%;
     position: absolute;
-    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
-    top: 48%;
-    left: 53%;
+    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+    background-color: transparent;
+    border-style: none;
+  }
+  .hrMeta1 {
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: #5f5f5f;
+    top: 45%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: none;
+    width: clamp(0.1em, 0.1em + 0.01vw, 3em);
+    height: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  }
+  .hrMeta {
+    transform: rotate(10deg);
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    width: clamp(0.1em, 0.1em + 0.1vw, 3em);
+    height: clamp(0.1em, 0.1em + 2.5vw, 3em);
   }
   .ConclusaoOk {
     position: absolute;

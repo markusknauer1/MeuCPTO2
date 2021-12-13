@@ -317,6 +317,7 @@ body.active-modalPessoa {
 }
 input::-webkit-input-placeholder {
   color: #1c396b;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .modalPessoa,
 .overlay {
@@ -369,8 +370,7 @@ input::-webkit-input-placeholder {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  font-family: BalooBhaina2-SemiBold;
-  font: 12px;
+  font: 12px BalooBhaina2-SemiBold;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -383,8 +383,7 @@ input::-webkit-input-placeholder {
   width: 26%;
   height: 5%;
   border-radius: 5px;
-  font-family: BalooBhaina2-SemiBold;
-  font: 12px;
+  font: 12px BalooBhaina2-SemiBold;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -399,8 +398,7 @@ input::-webkit-input-placeholder {
   height: 5%;
   padding-left: 0.5%;
   border-radius: 5px;
-  font-family: BalooBhaina2-SemiBold;
-  font: 12px;
+  font: 12px BalooBhaina2-SemiBold;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -470,10 +468,10 @@ input::-webkit-input-placeholder {
   padding-top: 5px;
   padding-left: 1%;
 }
-.consulltaCep {
+.consultaCep {
   position: absolute;
   left: 90%;
-  top: 40%;
+  top: 40.5%;
   border-radius: 5px;
   justify-content: center;
   font-size: clamp(0.01em, 0.01em + 1.2vw, 1.2em);
@@ -581,7 +579,7 @@ input::-webkit-input-placeholder {
 }
 .fcadastroPessoa15 {
   position: absolute;
-  padding-top: 1px;
+  padding-top: 0px;
   padding-left: 5px;
   left: 5%;
   top: 62%;
@@ -594,7 +592,6 @@ input::-webkit-input-placeholder {
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
-  text-align: left;
 }
 .fcadastroPessoa15::-webkit-input-placeholder {
   color: #1c396b;
@@ -604,7 +601,7 @@ input::-webkit-input-placeholder {
   left: 5%;
   top: 75%;
   border-radius: 5px;
-  width: 24%;
+  width: 20%;
   height: 5%;
   justify-content: center;
   font-family: BalooBhaina2-SemiBold;
@@ -617,10 +614,10 @@ input::-webkit-input-placeholder {
 }
 .fcadastroPessoa17 {
   position: absolute;
-  left: 30%;
+  left: 26%;
   top: 75%;
   border-radius: 5px;
-  width: 24%;
+  width: 20%;
   height: 5%;
   justify-content: center;
   font-family: BalooBhaina2-SemiBold;
@@ -633,10 +630,10 @@ input::-webkit-input-placeholder {
 }
 .fcadastroPessoa18 {
   position: absolute;
-  left: 55%;
+  left: 47%;
   top: 75%;
   border-radius: 5px;
-  width: 26%;
+  width: 30%;
   height: 5%;
   justify-content: center;
   font-family: BalooBhaina2-SemiBold;
@@ -649,8 +646,8 @@ input::-webkit-input-placeholder {
 }
 .InputAuthorization1 {
   position: absolute;
-  left: 83%;
-  top: 75%;
+  left: 78%;
+  top: 74%;
   width: 18%;
   background-color: transparent;
   border-radius: 5px;
@@ -663,7 +660,7 @@ input::-webkit-input-placeholder {
 }
 .InputAuthorization2 {
   position: absolute;
-  left: 83%;
+  left: 78%;
   top: 78%;
   width: 18%;
   background-color: transparent;
@@ -678,8 +675,10 @@ input::-webkit-input-placeholder {
 .checkText {
   position: absolute;
   margin-left: 5%;
-  margin-top: -3%;
-  font: 10px BalooBhaina2-SemiBold;
+  margin-top: 7%;
+
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .CheckAcess1 {
   font-size: clamp(0.01em, 0.01em + 0.5vw, 0.5em);
@@ -784,7 +783,7 @@ input::-webkit-input-placeholder {
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
-  .consulltaCep {
+  .consultaCep {
     position: fixed;
     left: 85%;
     top: 42%;
@@ -1007,7 +1006,7 @@ body.active-modalEquipe {
   background-color: rgb(190, 190, 190);
   color: #1c396b;
   font-family: BalooBhaina2-SemiBold;
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
@@ -1123,28 +1122,6 @@ body.active-modalGerencia {
   z-index: 99;
 }
 
-.overlay {
-  background: rgba(49, 49, 49, 0.8);
-}
-.titlemodalGerencia {
-  position: absolute;
-  display: flex;
-  right: 22rem;
-  margin-top: 2rem;
-  margin-bottom: -2rem;
-  color: #1c396b;
-}
-.modalGerencia-content {
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  background: #f1f1f1;
-  width: 50%;
-  height: 50%;
-  border-radius: 20px;
-  z-index: 2;
-}
-
 .fDescGerencia {
   position: absolute;
   left: 5%;
@@ -1157,7 +1134,7 @@ body.active-modalGerencia {
   background-color: rgb(190, 190, 190);
   font-family: BalooBhaina2-SemiBold;
   color: #1c396b;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 2px;
   padding-left: 1%;
 }
@@ -1173,7 +1150,7 @@ body.active-modalGerencia {
   background-color: rgb(190, 190, 190);
   font-family: BalooBhaina2-SemiBold;
   color: #1c396b;
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
   padding-top: 1%;
   padding-left: 1%;
@@ -1197,10 +1174,6 @@ body.active-modalAtividade {
   bottom: 0;
   position: fixed;
   z-index: 98;
-}
-
-.overlay {
-  background: rgba(49, 49, 49, 0.925);
 }
 
 .fDescAtividade {
@@ -1228,7 +1201,7 @@ body.active-modalAtividade {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font: 14px BalooBhaina2-SemiBold;
+  font: 12px BalooBhaina2-SemiBold;
   color: #1c396b;
   text-align: left;
   padding-top: 1%;

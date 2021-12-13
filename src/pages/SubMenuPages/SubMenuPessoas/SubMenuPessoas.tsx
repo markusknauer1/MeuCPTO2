@@ -88,9 +88,10 @@ function SubMenuPessoas() {
                       <button className="btnSMPMetas"></button>
                     </td>
                     <td className="btnSubAtivo">
-                      <button className="btnSMPAtivo">
-                        <i className="fas fa-check-circle"></i>
-                      </button>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
 

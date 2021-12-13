@@ -84,14 +84,16 @@ export const Area: FC = () => {
                     </button>
                   </td>
                   <td className="tblMeta">
-                    <button className="altInfoModPessoa" onClick={toggleModal}>
-                      <i className="far fa-check-circle"></i>
-                    </button>
+                    <label className="container">
+                      <input type="checkbox" />
+                      <span className="checkmark"></span>
+                    </label>
                   </td>
                   <td className="tblStatusAtivo">
-                    <button className="altInfoModPessoa" onClick={toggleModal}>
-                      <i className="far fa-check-circle"></i>
-                    </button>
+                    <label className="container">
+                      <input type="checkbox" />
+                      <span className="checkmark"></span>
+                    </label>
                   </td>
                 </tbody>
 

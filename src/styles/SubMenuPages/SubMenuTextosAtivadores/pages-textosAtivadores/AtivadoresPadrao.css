@@ -56,8 +56,8 @@
   align-items: center;
   padding: 2%;
   justify-content: center;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-family: BalooBhaina2-Medium;
+  font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
   letter-spacing: 0.5px;
   line-height: 18px;
   width: 25rem;

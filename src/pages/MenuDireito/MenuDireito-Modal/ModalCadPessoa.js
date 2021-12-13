@@ -75,10 +75,11 @@ export default function ModalPessoa() {
                 className="fcadastroPessoa8"
                 placeholder="CEP"
                 type="text"
-                id="fname"
+                id="cep"
+                name="cep"
                 autoComplete="none"
               />
-              <button className="consulltaCep">
+              <button className="consultaCep" type="button">
                 <i class="fas fa-search"></i>
               </button>
               <input
@@ -128,21 +129,22 @@ export default function ModalPessoa() {
                 placeholder="Observações"
                 type="text"
                 id="fname"
-                autoComplete="none"
+                name="fname"
                 row="none"
                 maxLength="500"
+                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa16"
                 placeholder="Senha"
-                type="text"
+                type="password"
                 id="fname"
                 autoComplete="none"
               />
               <input
                 className="fcadastroPessoa17"
                 placeholder="Confirmar Senha"
-                type="text"
+                type="password"
                 id="fname"
                 autoComplete="none"
               />
