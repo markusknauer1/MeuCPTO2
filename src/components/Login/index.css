@@ -13,6 +13,7 @@
     rgb(11, 24, 46) 100%
   );
 }
+
 .bg1 {
   background: url('/src/Images/logoIniciativa2x.png');
   height: 100vh;
@@ -83,7 +84,10 @@
   );
   z-index: 99;
 }
-
+.login-loginEmail input::-webkit-input-placeholder {
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 16px;
+}
 .login-loginEmail input {
   background-color: #dad8d8;
   color: #000000;
@@ -93,7 +97,7 @@
   display: flex;
   border: none;
   font-family: BalooBhaina2-SemiBold;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 5px;
   transition: color 0.2s ease-in-out;
   width: 270px;
@@ -104,6 +108,10 @@
   padding-left: 1%;
 }
 
+.login-loginPassword input::-webkit-input-placeholder {
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 16px;
+}
 .login-loginPassword input {
   background-color: #dad8d8;
   color: #000000;
