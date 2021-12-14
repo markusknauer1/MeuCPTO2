@@ -584,7 +584,7 @@ export const Pessoas: FC = () => {
                           name="fname"
                           autoComplete="none"
                         />
-                        <button className="consulltaCep">
+                        <button className="consultaCep">
                           <i className="fas fa-search"></i>
                         </button>
                         <input

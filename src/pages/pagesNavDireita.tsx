@@ -503,7 +503,6 @@ export const Gerencias: FC = () => {
                       >
                         <i className="fas fa-bars"></i>
                       </button>
-                      <button className="action"></button>
                     </td>
                   </tbody>
                   {/* ===============================Modal Alterar Informação da lista============================ */}
