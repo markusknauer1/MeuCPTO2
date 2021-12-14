@@ -54,7 +54,7 @@ export const AreaSidebar = styled.div`
   }
 
   @media screen and (max-width: 820px) {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 100%;
     height: 20%;
