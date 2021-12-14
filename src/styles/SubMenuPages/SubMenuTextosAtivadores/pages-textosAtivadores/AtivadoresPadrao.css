@@ -1,55 +1,17 @@
-.tblActivPadrao1 {
-  position: absolute;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  top: 5%;
-  left: 3%;
-}
-.tblActivPadrao2 {
-  position: absolute;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  top: 5%;
-  left: 14%;
-}
-.tblActivPadrao3 {
-  position: absolute;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  top: 5%;
-  left: 45%;
-}
-
-.tblActivPadrao4 {
-  position: absolute;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  top: 5%;
-  left: 83%;
-}
-
-.tblActivPadrao5 {
-  position: absolute;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  top: 5%;
-  left: 92%;
-}
-
 /*-------------Conteudo da tabela-----------------*/
 .tblActivPadrao6 {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  width: 5rem;
+  width: 3rem;
 }
 .tblActivPadrao7 {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  width: 12rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10rem;
 }
 .tblActivPadrao8 {
   justify-content: center;
@@ -63,72 +25,34 @@
   width: 25rem;
 }
 .tblActivPadrao9 {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  padding-left: 3%;
   width: 4rem;
 }
 
 .tblActivPadrao10 {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  width: 6rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 4rem;
 }
 @media screen and (max-width: 820px) {
-  .tblActivPadrao1 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 3%;
-  }
-  .tblActivPadrao2 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 14%;
-  }
-  .tblActivPadrao3 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 45%;
-  }
-
-  .tblActivPadrao4 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 83%;
-  }
-
-  .tblActivPadrao5 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 92%;
-  }
-
   /*-------------Conteudo da tabela-----------------*/
   .tblActivPadrao6 {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.1em, 0.1em + 1vw, 1em);
     width: 5rem;
   }
   .tblActivPadrao7 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 12rem;
   }
   .tblActivPadrao8 {
@@ -140,76 +64,36 @@
     font-size: clamp(0.1em, 0.1em + 1vw, 1em);
     letter-spacing: 0.5px;
     line-height: 18px;
-    width: 25rem;
+    width: 35rem;
   }
   .tblActivPadrao9 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-    padding-left: 3%;
-    width: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
   }
 
   .tblActivPadrao10 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 4rem;
   }
 }
 @media screen and (max-width: 620px) {
-  .tblActivPadrao1 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 2%;
-  }
-  .tblActivPadrao2 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 14%;
-  }
-  .tblActivPadrao3 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 45%;
-  }
-
-  .tblActivPadrao4 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 83%;
-  }
-
-  .tblActivPadrao5 {
-    position: absolute;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
-    top: 5%;
-    left: 92%;
-  }
-
   /*-------------Conteudo da tabela-----------------*/
   .tblActivPadrao6 {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     width: 5rem;
   }
   .tblActivPadrao7 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 12rem;
   }
   .tblActivPadrao8 {
@@ -221,21 +105,21 @@
     font-size: clamp(0.2em, 0.2em + 1.5vw, 1.5em);
     letter-spacing: 0.5px;
     line-height: 14px;
-    width: 25rem;
+    width: 30rem;
   }
   .tblActivPadrao9 {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-    padding-left: 3%;
-    width: 4rem;
+    width: 6rem;
   }
 
   .tblActivPadrao10 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 6rem;
   }
 }

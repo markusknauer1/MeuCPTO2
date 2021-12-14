@@ -75,11 +75,10 @@ export default function ModalPessoa() {
                 className="fcadastroPessoa8"
                 placeholder="CEP"
                 type="text"
-                id="cep"
-                name="cep"
+                id="fname"
                 autoComplete="none"
               />
-              <button className="consultaCep" type="button">
+              <button className="consultaCep">
                 <i class="fas fa-search"></i>
               </button>
               <input
@@ -129,22 +128,21 @@ export default function ModalPessoa() {
                 placeholder="Observações"
                 type="text"
                 id="fname"
-                name="fname"
+                autoComplete="none"
                 row="none"
                 maxLength="500"
-                autoComplete="none"
               />
               <input
                 className="fcadastroPessoa16"
                 placeholder="Senha"
-                type="password"
+                type="text"
                 id="fname"
                 autoComplete="none"
               />
               <input
                 className="fcadastroPessoa17"
                 placeholder="Confirmar Senha"
-                type="password"
+                type="text"
                 id="fname"
                 autoComplete="none"
               />
@@ -157,26 +155,22 @@ export default function ModalPessoa() {
               />
             </div>
             <div className="InputAuthorization1">
-              <label>
-                <input
-                  className="CheckAcess1"
-                  type="checkbox"
-                  defaultChecked={false}
-                />
+              <input
+                className="CheckAcess1"
+                type="checkbox"
+                defaultChecked={false}
+              />
 
-                <span className="checkText">Acesso ao APP</span>
-              </label>{' '}
+              <span className="checkText">Acesso ao APP</span>
             </div>
             <br />
             <div className="InputAuthorization2">
-              <label>
-                <input
-                  className="CheckAcess2"
-                  type="checkbox"
-                  defaultChecked={false}
-                />
-                <span className="checkText">Acesso Web</span>
-              </label>
+              <input
+                className="CheckAcess2"
+                type="checkbox"
+                defaultChecked={false}
+              />
+              <span className="checkText">Acesso Web</span>
             </div>
 
             <button className="close-modal" onClick={toggleModal}>

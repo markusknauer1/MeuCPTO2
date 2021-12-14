@@ -1,34 +1,46 @@
+.btnCodActive {
+  top: 2%;
+  position: absolute;
+  left: 2%;
+}
+.btnActive {
+  top: 2%;
+  position: absolute;
+  left: 25%;
+}
+.btnStatusActive {
+  top: 2%;
+  position: absolute;
+  left: 70%;
+}
+
 /*-------------Conteudo da tabela-----------------*/
 .tblCodActive {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 1%;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  width: 25rem;
+  width: 12rem;
 }
 .SubMTACod {
   background-color: transparent;
-  padding: 1%;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-size: clamp(0.8em, 0.8em + 0.8vw, 0.8em);
+  padding: 1%;
   border: none;
-  margin-left: 10%;
   cursor: pointer;
 }
 .tblActive {
   padding: 1%;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 1.2em);
+  font-size: clamp(0.8em, 0.8em + 0.8vw, 0.8em);
   width: 15rem;
 }
 .tblStatusActive {
   padding: 1%;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 0.8vw, 0.8em);
+  font-size: clamp(0.8em, 0.8em + 0.8vw, 0.8em);
   padding-left: 3%;
-  width: 40rem;
+  width: 30rem;
 }
 
 /*------------------------------------------------------------------------------------------*/

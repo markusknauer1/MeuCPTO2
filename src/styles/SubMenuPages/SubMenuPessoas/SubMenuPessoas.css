@@ -1,36 +1,9 @@
-/*-------------Conteudo do cabeçalho da tabela-----------------*/
-.tblSubCod {
-  position: absolute;
-  top: 1%;
-  left: 3%;
-}
-.tblSubPessoacod {
-  position: absolute;
-  top: 1%;
-  left: 23%;
-}
-.tblSubMail {
-  position: absolute;
-  top: 1%;
-  left: 54%;
-}
-.tblSubMetas {
-  position: absolute;
-  top: 1%;
-  left: 82%;
-}
-.tblSubAtivo {
-  position: absolute;
-  top: 1%;
-  left: 93%;
-}
-
 /*-------------Conteudo da tabela-----------------*/
 .btnSubCod {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 8rem;
+  width: 6rem;
 }
 .btnSubOBS {
   width: 25rem;
@@ -42,7 +15,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 10rem;
+  width: 8rem;
 }
 .btnSMPMetas {
   background-color: transparent;
@@ -54,82 +27,4 @@
   align-items: center;
   text-align: center;
   font-size: 2rem;
-}
-.btnSMPAtivo {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  width: 2rem;
-  font-size: 1rem;
-}
-@media screen and (max-width: 820px) {
-  .tblSubCod {
-    position: absolute;
-    top: 1%;
-    left: 3%;
-  }
-  .tblSubPessoacod {
-    position: absolute;
-    top: 1%;
-    left: 23%;
-  }
-  .tblSubMail {
-    position: absolute;
-    top: 1%;
-    left: 52%;
-  }
-  .tblSubMetas {
-    position: absolute;
-    top: 1%;
-    left: 81%;
-  }
-  .tblSubAtivo {
-    position: absolute;
-    top: 1%;
-    left: 92%;
-  }
-
-  /*-------------Conteudo da tabela-----------------*/
-  .btnSubCod {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 8rem;
-  }
-  .btnSubOBS {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 25rem;
-  }
-  .btnSubMail {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 25rem;
-  }
-  .btnSubMetas {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 10rem;
-  }
-  .btnSMPMetas {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  .btnSubAtivo {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 10rem;
-    font-size: clamp(1em, 1em + 1vw, 1em);
-  }
-  .btnSMPAtivo {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: clamp(1em, 1em + 1vw, 1em);
-  }
 }

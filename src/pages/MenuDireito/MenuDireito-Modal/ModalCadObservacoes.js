@@ -16,7 +16,7 @@ export default function ModalObservacoes() {
 
   return (
     <>
-      <button onClick={toggleModal} className="buttonModalPadrao">
+      <button onClick={toggleModal} className="buttonModalPadrao2">
         Nova Observação
       </button>
 

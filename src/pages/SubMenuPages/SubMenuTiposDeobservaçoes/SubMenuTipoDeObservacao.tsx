@@ -39,24 +39,31 @@ function SubMenuTipoDeObservacao() {
                   <thead>
                     <tr className="header">
                       <th className="tblSubTipObsCod">
+                        CÓD
                         <div>CÓD</div>
                       </th>
                       <th className="tblSubTipObsPessoad">
+                        Descrição da Observação
                         <div>Descrição da Observação</div>
                       </th>
                       <th className="tblSubTipObsfator1">
+                        fator(+)
                         <div>fator(+)</div>
                       </th>
                       <th className="tblSubTipObsfator2">
+                        fator(-)
                         <div>fator(-)</div>
                       </th>
                       <th className="tblSubTipObsFatorN">
+                        fator(N)
                         <div>fator(N)</div>
                       </th>
                       <th className="tblSubTipObsPermissao">
+                        Permitir NA
                         <div className="tblPermitir">Permitir NA</div>
                       </th>
                       <th className="tblSubTipObsAtivo">
+                        Ativo
                         <div>Ativo</div>
                       </th>
                     </tr>
@@ -96,8 +103,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>
@@ -135,8 +143,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>
@@ -174,8 +183,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>
@@ -213,8 +223,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>
@@ -252,8 +263,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>
@@ -289,8 +301,9 @@ function SubMenuTipoDeObservacao() {
                       <label htmlFor=""></label>
                     </td>
                     <td className="btnSubAtivo">
-                      <label htmlFor="">
-                        <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
                       </label>
                     </td>
                   </tbody>

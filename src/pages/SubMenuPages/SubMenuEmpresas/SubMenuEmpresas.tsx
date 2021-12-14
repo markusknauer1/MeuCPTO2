@@ -76,12 +76,10 @@ function SubMenuEmpresas() {
                       </button>
                     </td>
                     <td className="btnSubEmpresaAtivo">
-                      <button
-                        className="altInfoModPessoa"
-                        onClick={toggleModal}
-                      >
-                        <i className="fas fa-check-circle"></i>
-                      </button>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
 

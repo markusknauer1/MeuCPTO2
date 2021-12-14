@@ -191,10 +191,10 @@ th div {
   background: transparent;
   color: #fff;
   top: 1%;
-  margin-left: 4%;
   line-height: normal;
   border-left: none;
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 0.9vw, 1em);
 }
 th:first-child div {
   border: none;
@@ -211,7 +211,9 @@ th {
   height: 0;
   line-height: 0;
   padding-top: 0;
+  padding-left: 2%;
   padding-bottom: 0;
+  left: 1%;
   color: transparent;
   border: none;
   white-space: nowrap;
@@ -361,10 +363,11 @@ th {
     background: transparent;
     color: #fff;
     top: 1%;
-    margin-left: 4%;
+    margin-left: 2%;
     line-height: normal;
     border-left: none;
-    font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 1.2vw, 1.2em);
   }
   th:first-child div {
     border: none;
@@ -547,11 +550,11 @@ th {
     background: transparent;
     color: #fff;
     top: 1%;
-    margin-left: 4%;
+    margin-left: 2%;
     line-height: normal;
     border-left: none;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.1em, 0.1em + 2.2vw, 2.2em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   }
   th:first-child div {
     border: none;

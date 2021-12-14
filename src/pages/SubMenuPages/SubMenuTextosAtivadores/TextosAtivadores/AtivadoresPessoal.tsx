@@ -5,7 +5,7 @@ import * as TypIcons from 'react-icons/ti'
 import { NavDireita } from '../../../../components/SideBar/Index'
 import ProfileDireita from '../../../../components/ProfileDireita'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
-import { ContainerPage, TitlePage2 } from '../../../../components/Main'
+import { ContainerPage, TitlePage4 } from '../../../../components/Main'
 import { useState } from 'react'
 
 function AtivadoresPessoa() {
@@ -39,7 +39,7 @@ function AtivadoresPessoa() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage2>Ativadores: Pessoal</TitlePage2>
+            <TitlePage4>Ativadores: Pessoal</TitlePage4>
           </div>
           <div className="tabelaPadrao">
             <section className="">
@@ -82,7 +82,12 @@ function AtivadoresPessoa() {
                       consequuntur.
                     </td>
                     <td className="tblActivPadrao9">0,00</td>
-                    <td className="tblActivPadrao10"></td>
+                    <td className="tblActivPadrao10">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
                   </tbody>
                   {/* ============================================================= */}
                   {modal && (

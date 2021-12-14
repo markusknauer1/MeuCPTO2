@@ -49,14 +49,16 @@ function TQOQuestoesReg() {
                     <label>1,00</label>
                   </td>
                   <td className="TQOQuestState">
-                    <i className="far fa-check-circle"></i>
+                    <label className="container">
+                      <input type="checkbox" />
+                      <span className="checkmark"></span>
+                    </label>
                   </td>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-        <ProfileDireita />
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>

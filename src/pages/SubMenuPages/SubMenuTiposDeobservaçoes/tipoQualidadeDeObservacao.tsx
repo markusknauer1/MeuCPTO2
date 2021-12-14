@@ -60,7 +60,10 @@ function TipoQualidadeDeObservacao() {
                     </Link>
                   </td>
                   <td className="TQOState">
-                    <i className="far fa-check-circle"></i>
+                    <label className="container">
+                      <input type="checkbox" />
+                      <span className="checkmark"></span>
+                    </label>
                   </td>
                 </tbody>
 

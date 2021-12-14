@@ -6,7 +6,12 @@ import ModalEquipes from './MenuDireito/MenuDireito-Modal/ModalCadEquipe'
 import ModalGerencias from './MenuDireito/MenuDireito-Modal/ModalCadGerencia'
 import ModalObservacoes from './MenuDireito/MenuDireito-Modal/ModalCadObservacoes'
 import '../styles/pagesSidebarDireita.css'
-import { ContainerPage, TitlePage1, TitlePage2 } from '../components/Main'
+import {
+  ContainerPage,
+  TitlePage1,
+  TitlePage2,
+  TitlePage4
+} from '../components/Main'
 import { NavDireita } from '../components/SideBar/Index'
 import SidebarMobile from '../components/SideBar-navegaçao-direita/SidebarMobile'
 
@@ -48,11 +53,11 @@ export const Area: FC = () => {
                     <th className="btnObserv">
                       <div>Obs.</div>
                     </th>
-                    <th className="btnLocalArea">
-                      <div>Local / Área</div>
-                    </th>
                     <th className="btnGerenResp">
                       <div>Gerência / Responsável</div>
+                    </th>
+                    <th className="btnLocalArea">
+                      <div>Local / Área</div>
                     </th>
                     <th className="btnMeta">
                       <div>Metas</div>
@@ -571,7 +576,7 @@ export const Observacoes: FC = () => {
         <div className="page">
           <div className="filter1">
             <TitlePage1>DADOS CADASTRAIS / NOVA PESSOA:</TitlePage1>
-            <TitlePage2>Funções e Permissões de obsevação</TitlePage2>
+            <TitlePage4>Funções e Permissões de obsevação</TitlePage4>
           </div>
 
           <div className="tabelaPadrao">
@@ -707,15 +712,12 @@ export const Unidades: FC = () => {
                   <thead>
                     <tr className="header">
                       <th className="tblCodUni">
-                        CÓD
                         <div>CÓD</div>
                       </th>
                       <th className="tblUni">
-                        Unidades
                         <div>Unidades</div>
                       </th>
                       <th className="tblStatusUnidades">
-                        Status
                         <div>Status</div>
                       </th>
                     </tr>
@@ -724,77 +726,110 @@ export const Unidades: FC = () => {
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
                     <td className="btnCod">001</td>
                     <td className="btnUni">Unidade</td>
                     <td className="btnStatusUnidades">
-                      <i className="far fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                 </table>

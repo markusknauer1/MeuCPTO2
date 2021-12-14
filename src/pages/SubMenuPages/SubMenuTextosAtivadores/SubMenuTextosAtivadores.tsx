@@ -39,24 +39,22 @@ function SubMenuTextActive() {
                   <thead>
                     <tr className="header">
                       <th className="btnCodActive">
-                        CÓD
                         <div>CÓD</div>
                       </th>
                       <th className="btnActive">
-                        Grupos de Ativadores
                         <div>Grupos de Ativadores</div>
                       </th>
                       <th className="btnStatusActive">
-                        Observações
                         <div>Observações</div>
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <td className="tblCodActive">
-                      001{' '}
                       <Link to="/AtivadoresSociais">
-                        <button className="SubMTACod"> Ver ativadores</button>
+                        <button className="SubMTACod">
+                          001 - Ver ativadores
+                        </button>
                       </Link>
                     </td>
                     <td className="tblActive">
@@ -77,9 +75,10 @@ function SubMenuTextActive() {
                   </tbody>
                   <tbody>
                     <td className="tblCodActive">
-                      001{' '}
                       <Link to="/AtivadoresPsicologicos">
-                        <button className="SubMTACod"> Ver ativadores</button>
+                        <button className="SubMTACod">
+                          001 - Ver ativadores
+                        </button>
                       </Link>
                     </td>
                     <td className="tblActive">
@@ -100,9 +99,10 @@ function SubMenuTextActive() {
                   </tbody>
                   <tbody>
                     <td className="tblCodActive">
-                      001{' '}
                       <Link to="/AtivadoresFisiológicos">
-                        <button className="SubMTACod"> Ver ativadores</button>
+                        <button className="SubMTACod">
+                          001 - Ver ativadores
+                        </button>
                       </Link>
                     </td>
                     <td className="tblActive">
@@ -123,9 +123,10 @@ function SubMenuTextActive() {
                   </tbody>
                   <tbody>
                     <td className="tblCodActive">
-                      001{' '}
                       <Link to="/AtivadoresCognitivos">
-                        <button className="SubMTACod"> Ver ativadores</button>
+                        <button className="SubMTACod">
+                          001 - Ver ativadores
+                        </button>
                       </Link>
                     </td>
                     <td className="tblActive">
@@ -146,9 +147,10 @@ function SubMenuTextActive() {
                   </tbody>
                   <tbody>
                     <td className="tblCodActive">
-                      001{' '}
                       <Link to="/AtivadoresPessoal">
-                        <button className="SubMTACod"> Ver ativadores</button>
+                        <button className="SubMTACod">
+                          001 - Ver ativadores
+                        </button>
                       </Link>
                     </td>
                     <td className="tblActive">
