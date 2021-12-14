@@ -54,25 +54,29 @@ export const AreaSidebar = styled.div`
   }
 
   @media screen and (max-width: 820px) {
-    position: absolute;
-    display: flex;
+    position: fixed;
+    display: block;
     width: 100%;
-    height: 20%;
+    height: 30%;
     bottom: 0;
     background-color: transparent;
+    justify-content: center;
     .containerBackground {
       display: none;
     }
     .containerMenu {
-      position: fixed;
-      float: left;
+      position: absolute;
       display: flex;
-      align-items: center;
       width: 100%;
-      bottom: 0%;
-      height: 35%;
-      cursor: pointer;
+      height: 30%;
+      bottom: 0;
+      padding-bottom: 35%;
       background-color: transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      z-index: -99;
     }
 
     ul {
