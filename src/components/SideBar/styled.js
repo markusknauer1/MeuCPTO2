@@ -74,24 +74,25 @@ export const AreaSidebar = styled.div`
       cursor: pointer;
       background-color: transparent;
     }
-
+    nav {
+      background: red;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
     ul {
       position: absolute;
+      top: 0;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      top: 10%;
-      padding-top: 5%;
       left: 0;
-      border-radius: 20px;
-      background-color: transparent;
+      width: 100%;
+      height: 100%;
     }
     li {
       display: flex;
+      padding-top: 6%;
       justify-content: center;
       align-items: center;
-      top: 0%;
       left: 0;
       border-radius: 20px;
       background-color: transparent;
