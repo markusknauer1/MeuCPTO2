@@ -142,7 +142,7 @@ export const TitlePage4 = styled.h5`
   z-index: 2;
   letter-spacing: -1px;
   @media screen and (max-width: 820px) {
-    position: fixed;
+    position: absolute;
     top: 20%;
     left: 5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
@@ -152,7 +152,7 @@ export const TitlePage4 = styled.h5`
     z-index: 2;
   }
   @media screen and (max-width: 500px) {
-    position: fixed;
+    position: absolute;
     top: 20%;
     left: 5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
