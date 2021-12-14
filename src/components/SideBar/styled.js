@@ -54,16 +54,25 @@ export const AreaSidebar = styled.div`
   }
 
   @media screen and (max-width: 820px) {
-    position: absolute;
-    display: block;
-    align-items: center;
-    bottom: 0%;
+    position: fixed;
+    display: flex;
     width: 100%;
-    height: 35%;
-    border-radius: 20px;
+    height: 20%;
+    bottom: 0;
     background-color: transparent;
     .containerBackground {
       display: none;
+    }
+    .containerMenu {
+      position: relative;
+      float: left;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      bottom: 0%;
+      height: 50%;
+      cursor: pointer;
+      background-color: transparent;
     }
 
     ul {

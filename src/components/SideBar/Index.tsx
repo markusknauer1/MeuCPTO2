@@ -18,7 +18,7 @@ export const SideBar: FC = () => {
       </div>
       <div className="containerMenu">
         <nav>
-          <ul className="menus">
+          <ul>
             {/* <div className="slider"></div> */}
             <li>
               <Link to="/Home">
