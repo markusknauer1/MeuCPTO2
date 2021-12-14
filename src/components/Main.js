@@ -80,8 +80,8 @@ export const TitlePage2 = styled.h5`
   color: #172d52;
   z-index: 2;
   @media screen and (max-width: 820px) {
-    position: fixed;
-    top: 20%;
+    position: absolute;
+    top: 0%;
     left: 5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
     border-style: none;
@@ -90,8 +90,8 @@ export const TitlePage2 = styled.h5`
     z-index: 2;
   }
   @media screen and (max-width: 500px) {
-    position: fixed;
-    top: 20%;
+    position: absolute;
+    top: 0%;
     left: 5%;
     font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
     border-style: none;
