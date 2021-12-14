@@ -74,14 +74,6 @@ export const AreaSidebar = styled.div`
       cursor: pointer;
       background-color: transparent;
     }
-    nav {
-      position: absolute;
-      bottom: 20%;
-      display: fixed;
-      left: 0;
-      width: 100%;
-      height: 60%;
-    }
     ul {
       position: absolute;
       top: 0;
