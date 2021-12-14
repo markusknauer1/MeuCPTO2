@@ -65,8 +65,7 @@ export const TitlePage1 = styled.h5`
     left: 5%;
     border-radius: 20px;
     display: block;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.2em, 0.2em + 1.5vw, 1.5em);
+    font: clamp(0.2em, 0.2em + 1.5vw, 1.5em) BalooBhaina2-Medium;
     color: #fff;
     z-index: 1;
   }
@@ -91,13 +90,12 @@ export const TitlePage2 = styled.h5`
     z-index: 2;
   }
   @media screen and (max-width: 500px) {
-    position: absolute;
-    top: 1%;
+    position: fixed;
+    top: 20%;
     left: 5%;
-    border-radius: 20px;
-    display: block;
-    font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.4em, 0.4em + 2vw, 2em);
+    font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
+    border-style: none;
+    background: transparent;
     color: #172d52;
     z-index: 2;
   }
