@@ -64,13 +64,13 @@ export const AreaSidebar = styled.div`
       display: none;
     }
     .containerMenu {
-      position: relative;
+      position: fixed;
       float: left;
       display: flex;
       align-items: center;
       width: 100%;
       bottom: 0%;
-      height: 50%;
+      height: 35%;
       cursor: pointer;
       background-color: transparent;
     }
