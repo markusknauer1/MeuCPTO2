@@ -76,7 +76,10 @@ function SubMenuGruposUsuarios() {
                       </button>
                     </td>
                     <td className="MGUStatus">
-                      <i className="fas fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
@@ -104,7 +107,10 @@ function SubMenuGruposUsuarios() {
                       </button>
                     </td>
                     <td className="MGUStatus">
-                      <i className="fas fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
@@ -132,7 +138,10 @@ function SubMenuGruposUsuarios() {
                       </button>{' '}
                     </td>
                     <td className="MGUStatus">
-                      <i className="fas fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
                   <tbody>
@@ -160,7 +169,10 @@ function SubMenuGruposUsuarios() {
                       </button>{' '}
                     </td>
                     <td className="MGUStatus">
-                      <i className="fas fa-check-circle"></i>
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                   </tbody>
 

@@ -185,15 +185,12 @@ export const Atividades: FC = () => {
                   <thead>
                     <tr className="header">
                       <th className="btnCodAtivid">
-                        CÓD
                         <div>CÓD</div>
                       </th>
                       <th className="btnAtivid">
-                        Atividade
                         <div>Atividade</div>
                       </th>
                       <th className="btnStatusAtiv">
-                        Status
                         <div>Status</div>
                       </th>
                     </tr>
@@ -224,7 +221,6 @@ export const Atividades: FC = () => {
                       >
                         <i className="fas fa-bars"></i>
                       </button>
-                      <button className="action"></button>
                     </td>
                   </tbody>
                   {/* ==================================================== */}
@@ -306,23 +302,18 @@ export const Equipes: FC = () => {
                   <thead>
                     <tr className="header">
                       <th className="tblTtlcodEquipe">
-                        CÓD
                         <div>CÓD</div>
                       </th>
                       <th className="tblTtlequipDesc">
-                        Descrição / Equipe
                         <div>Descrição / Equipe</div>
                       </th>
                       <th className="tblTtlEquipGer">
-                        Gerência Responsável
                         <div>Gerência Responsável</div>
                       </th>
                       <th className="tblTtlEquipCLient">
-                        Cliente
                         <div>Cliente</div>
                       </th>
                       <th className="tblTtlEquipState">
-                        Status
                         <div>Status</div>
                       </th>
                     </tr>

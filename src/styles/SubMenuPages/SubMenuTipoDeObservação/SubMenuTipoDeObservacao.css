@@ -1,6 +1,6 @@
 /* ------------------conteúdo da tabela---------------- */
 .btnSubTipObsCod {
-  width: 50rem;
+  width: 12rem;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 0.8vw, 0.8em);
 }
@@ -50,16 +50,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 5rem;
+  width: 8rem;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.01em, 0.01em + 0.7vw, 0.7em);
 }
-.btnSubAtivo {
+.btnSubTipObsAtivo {
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 2rem;
-  font-size: clamp(0.01em, 0.01em + 0.7vw, 0.7em);
+  width: 3rem;
 }
 
 @media screen and (max-width: 820px) {
@@ -106,7 +106,7 @@
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
   }
-  .btnSubAtivo {
+  .btnSubTipObsAtivo {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -157,7 +157,7 @@
     font-family: BalooBhaina2-SemiBold;
     font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
   }
-  .btnSubAtivo {
+  .btnSubTipObsAtivo {
     width: 5rem;
   }
 }

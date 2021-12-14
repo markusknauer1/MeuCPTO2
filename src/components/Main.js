@@ -14,7 +14,7 @@ export const ContainerPage = styled.div`
   border-bottom-left-radius: 30px;
   z-index: 0;
   @media screen and (max-width: 820px) {
-    position: absolute;
+    position: fixed;
     bottom: 20%;
     display: flex;
     left: 0;
@@ -27,7 +27,7 @@ export const ContainerPage = styled.div`
     z-index: 9;
   }
   @media screen and (max-width: 500px) {
-    position: absolute;
+    position: fixed;
     bottom: 20%;
     display: fixed;
     left: 0;

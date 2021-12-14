@@ -36,16 +36,16 @@ function PermissoesDeAcessoAoSistema() {
                 <table>
                   <thead>
                     <tr className="header">
-                      <th className="PASCod">
+                      <th>
                         <div>CÓD</div>
                       </th>
-                      <th className="PASQuests">
+                      <th>
                         <div>Permissão</div>
                       </th>
-                      <th className="PASGroupAnalise">
+                      <th>
                         <div>Módulo</div>
                       </th>
-                      <th className="PASDescr">
+                      <th>
                         <div>Descrição</div>
                       </th>
                     </tr>
@@ -53,51 +53,43 @@ function PermissoesDeAcessoAoSistema() {
                   <tbody>
                     <td className="tblPASCod">1 </td>
                     <td className="tblPASQuests">
-                      <input
-                        className="btn-tblPASQuests"
-                        type="checkbox"
-                        placeholder="Lembrar senha!"
-                        defaultChecked={false}
-                      />
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                     <td className="tblPASGroupAnalise">ACESSO</td>
                     <td className="tblPASDescr">Menu Acesso</td>
                   </tbody>
                   <tbody>
-                    <td className="tblPASCod">1 </td>
+                    <td className="tblPASCod">2 </td>
                     <td className="tblPASQuests">
-                      <input
-                        className="btn-tblPASQuests"
-                        type="checkbox"
-                        placeholder="Lembrar senha!"
-                        defaultChecked={false}
-                      />
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                     <td className="tblPASGroupAnalise">ACEUSU</td>
                     <td className="tblPASDescr">Acesso ao Usuário</td>
                   </tbody>
                   <tbody>
-                    <td className="tblPASCod">1 </td>
+                    <td className="tblPASCod">3 </td>
                     <td className="tblPASQuests">
-                      <input
-                        className="btn-tblPASQuests"
-                        type="checkbox"
-                        placeholder="Lembrar senha!"
-                        defaultChecked={false}
-                      />
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                     <td className="tblPASGroupAnalise">ACEGRU</td>
                     <td className="tblPASDescr">Acesso ao Grupo De Usuários</td>
                   </tbody>
                   <tbody>
-                    <td className="tblPASCod">1 </td>
+                    <td className="tblPASCod">4 </td>
                     <td className="tblPASQuests">
-                      <input
-                        className="btn-tblPASQuests"
-                        type="checkbox"
-                        placeholder="Lembrar senha!"
-                        defaultChecked={false}
-                      />
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                     <td className="tblPASGroupAnalise">ACEMOD</td>
                     <td className="tblPASDescr">
@@ -105,14 +97,12 @@ function PermissoesDeAcessoAoSistema() {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="tblPASCod">1 </td>
+                    <td className="tblPASCod">5 </td>
                     <td className="tblPASQuests">
-                      <input
-                        className="btn-tblPASQuests"
-                        type="checkbox"
-                        placeholder="Lembrar senha!"
-                        defaultChecked={false}
-                      />
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
                     </td>
                     <td className="tblPASGroupAnalise">ACEGRUINC</td>
                     <td className="tblPASDescr">
