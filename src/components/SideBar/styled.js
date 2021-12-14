@@ -57,26 +57,12 @@ export const AreaSidebar = styled.div`
     position: fixed;
     display: block;
     width: 100%;
-    height: 30%;
-    bottom: 0;
+    height: 20%;
+    bottom: 6%;
     background-color: transparent;
     justify-content: center;
     .containerBackground {
       display: none;
-    }
-    .containerMenu {
-      position: absolute;
-      display: flex;
-      width: 100%;
-      height: 30%;
-      bottom: 0;
-      padding-bottom: 35%;
-      background-color: transparent;
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
-      z-index: -99;
     }
 
     ul {
