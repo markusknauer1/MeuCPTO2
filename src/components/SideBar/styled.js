@@ -75,10 +75,12 @@ export const AreaSidebar = styled.div`
       background-color: transparent;
     }
     nav {
-      background: red;
-      bottom: 0;
+      position: absolute;
+      bottom: 20%;
+      display: fixed;
+      left: 0;
       width: 100%;
-      height: 100%;
+      height: 60%;
     }
     ul {
       position: absolute;
