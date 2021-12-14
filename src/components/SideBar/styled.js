@@ -56,11 +56,12 @@ export const AreaSidebar = styled.div`
   @media screen and (max-width: 820px) {
     position: fixed;
     display: block;
+    align-items: center;
+    bottom: 0%;
     width: 100%;
-    height: 20%;
-    bottom: 6%;
+    height: 35%;
+    border-radius: 20px;
     background-color: transparent;
-    justify-content: center;
     .containerBackground {
       display: none;
     }
