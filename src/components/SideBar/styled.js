@@ -65,13 +65,11 @@ export const AreaSidebar = styled.div`
     }
     .containerMenu {
       position: relative;
-      float: left;
       display: flex;
       align-items: center;
       width: 100%;
       bottom: 0%;
       height: 50%;
-      cursor: pointer;
       background-color: transparent;
     }
     ul {
