@@ -3918,7 +3918,7 @@ th:first-child div {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     border-style: none;
     color: #274172;
