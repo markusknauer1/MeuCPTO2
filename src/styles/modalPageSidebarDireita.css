@@ -1038,10 +1038,18 @@ textarea {
 }
 .checkText {
   position: absolute;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 2%;
 
-  font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
+}
+.checkText1 {
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 2%;
+
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-SemiBold;
 }
 .CheckAcess1 {
