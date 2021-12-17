@@ -137,7 +137,6 @@ section {
   padding-top: 5%;
   width: 100%;
   height: 10%;
-  font: 12px BalooBhaina2-Regular;
   background: #1c396b;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -193,6 +192,7 @@ th div {
   background: transparent;
   color: #fff;
   top: 1%;
+  padding-left: 1%;
   line-height: normal;
   border-left: none;
   font-family: BalooBhaina2-SemiBold;
@@ -334,7 +334,7 @@ th:first-child div {
     background: transparent;
     color: #fff;
     top: 1%;
-    margin-left: 2%;
+    padding-left: 1%;
     line-height: normal;
     border-left: none;
     font-family: BalooBhaina2-SemiBold;
@@ -509,7 +509,7 @@ th:first-child div {
     background: transparent;
     color: #fff;
     top: 1%;
-    margin-left: 2%;
+    padding-left: 1%;
     line-height: normal;
     border-left: none;
     font-family: BalooBhaina2-SemiBold;

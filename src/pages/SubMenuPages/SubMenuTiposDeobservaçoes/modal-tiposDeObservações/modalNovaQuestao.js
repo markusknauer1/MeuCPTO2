@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import '../../../../styles/pages/SubMenuPages/SubMenuTipoDeObservação/modal-tiposDeobservaçoes/modalNovaQuestão.css'
+import '../../../../styles/SubMenuPages/SubMenuTipoDeObservação/modal-tiposDeobservaçoes/modalNovaQuestao.css'
 
-export default function Modal() {
+export default function ModalNovaQuestao() {
   const [modal, setModal] = useState(false)
 
   const toggleModal = () => {
@@ -21,10 +21,11 @@ export default function Modal() {
       </button>
 
       {modal && (
-        <div className="modalNovoGrupoDeQuestoes">
+        <div className="modalNovaQuestao">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modalNovoGrupoDeQuestoes-content">
+          <div className="modalPadrao-content">
             <h2 className="titleModal">Nova Questão</h2>
+            <hr className="hrTitleModal1" />
 
             <input
               className="NQCod"
@@ -44,14 +45,14 @@ export default function Modal() {
 
             <input
               className="NQPontos"
-              placeholder="Cód"
+              placeholder="Nota"
               type="text"
               id="fname"
               name="fname"
             ></input>
 
             <textarea
-              className="NQOBservacao"
+              className="NQObservacao"
               placeholder="Observações"
               type="text"
               id="fname"

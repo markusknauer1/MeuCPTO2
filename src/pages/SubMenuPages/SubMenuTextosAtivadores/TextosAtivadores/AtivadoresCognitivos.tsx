@@ -18,6 +18,7 @@ function AtivadoresCognitivos() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -140,7 +141,6 @@ function AtivadoresCognitivos() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )

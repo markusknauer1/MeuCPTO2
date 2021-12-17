@@ -16,6 +16,7 @@ function SubMenuTextActive() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -214,7 +215,6 @@ function SubMenuTextActive() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )

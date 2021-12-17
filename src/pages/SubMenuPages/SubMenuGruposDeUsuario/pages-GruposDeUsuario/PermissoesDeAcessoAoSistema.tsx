@@ -12,6 +12,7 @@ function PermissoesDeAcessoAoSistema() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
 
@@ -117,7 +118,6 @@ function PermissoesDeAcessoAoSistema() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-        <SidebarMobile />
         <button
           className="btnReturn"
           type="button"

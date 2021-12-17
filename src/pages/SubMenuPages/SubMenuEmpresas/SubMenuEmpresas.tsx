@@ -182,7 +182,6 @@ function SubMenuEmpresas() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )

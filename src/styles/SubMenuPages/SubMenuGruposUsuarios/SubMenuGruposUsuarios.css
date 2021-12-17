@@ -1,13 +1,12 @@
 .tblMGUCod {
   width: 8rem;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-bold;
 }
 .tblMGUPermissao {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 20rem;
-  font: 12px BalooBhaina2-SemiBold;
+  width: 4rem;
 }
 .btnMGUPermissoes {
   background-color: transparent;
@@ -17,21 +16,19 @@
   align-items: center;
   text-align: center;
   width: 2rem;
-  font: 12px BalooBhaina2-SemiBold;
 }
 .tblMGUUserGroup {
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 80rem;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-bold;
 }
 .MGUStatus {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 15rem;
-  font: 12px BalooBhaina2-SemiBold;
+  width: 10rem;
 }
 @media screen and (max-width: 820px) {
   .tblMGUCod {
@@ -39,12 +36,14 @@
     align-items: center;
     text-align: center;
     width: 8rem;
+    font-family: BalooBhaina2-bold;
   }
   .tblMGUPermissao {
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 16rem;
+    font-family: BalooBhaina2-bold;
   }
   .btnMGUPermissoes {
     background-color: transparent;
@@ -53,18 +52,21 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: BalooBhaina2-bold;
   }
   .tblMGUUserGroup {
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 80rem;
+    font-family: BalooBhaina2-bold;
   }
   .MGUStatus {
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 15rem;
+    font-family: BalooBhaina2-bold;
   }
 }
 @media screen and (max-width: 620px) {
@@ -78,7 +80,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 16rem;
+    width: 6rem;
   }
   .btnMGUPermissoes {
     background-color: transparent;
@@ -92,7 +94,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 80rem;
+    width: 90rem;
   }
   .MGUStatus {
     justify-content: center;

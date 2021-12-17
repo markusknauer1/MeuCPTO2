@@ -135,27 +135,30 @@ export const TitlePage4 = styled.h5`
   position: absolute;
   top: 22%;
   left: 10%;
-  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-bold;
+  font-family: BalooBhaina2-bold;
+  font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
   border-style: none;
   background: transparent;
   color: #172d52;
   z-index: 2;
-  letter-spacing: -1px;
   @media screen and (max-width: 820px) {
     position: absolute;
-    top: 20%;
+    top: 3%;
     left: 5%;
-    font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
+    font-family: BalooBhaina2-bold;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
     border-style: none;
     background: transparent;
     color: #172d52;
     z-index: 2;
+    letter-spacing: -1px;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 620px) {
     position: absolute;
-    top: 20%;
+    top: 4%;
     left: 5%;
-    font: clamp(0.4em, 0.4em + 2vw, 2em) BalooBhaina2-bold;
+    font-family: BalooBhaina2-bold;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);
     border-style: none;
     background: transparent;
     color: #172d52;

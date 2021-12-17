@@ -533,7 +533,7 @@ export const Pessoas: FC = () => {
                           id="fSexo"
                         >
                           <option value="">Sexo</option>
-                          <option value="">Feminio</option>
+                          <option value="">Feminino</option>
                           <option value="">Masculino</option>
                         </select>
                         <input
@@ -635,13 +635,12 @@ export const Pessoas: FC = () => {
                           name="fname"
                           autoComplete="none"
                         />
-                        <input
+                        <textarea
                           className="fcadastroPessoa15"
                           placeholder="Observações"
-                          type="text"
                           id="fname"
-                          name="fname"
                           autoComplete="none"
+                          rows={0}
                           maxLength={500}
                         />
                         <input

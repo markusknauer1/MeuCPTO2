@@ -16,6 +16,7 @@ function SubMenuTipoDeObservacao() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -45,16 +46,31 @@ function SubMenuTipoDeObservacao() {
                         <div>Descrição da Observação</div>
                       </th>
                       <th className="tblSubTipObsfator1">
-                        <div>fator(+)</div>
+                        <div className="tblPermitir">
+                          fator
+                          <br />
+                          (+)
+                        </div>
                       </th>
                       <th className="tblSubTipObsfator2">
-                        <div>fator(-)</div>
+                        <div className="tblPermitir">
+                          fator
+                          <br />
+                          (-)
+                        </div>
                       </th>
                       <th className="tblSubTipObsFatorN">
-                        <div>fator(N)</div>
+                        <div className="tblPermitir">
+                          fator
+                          <br />
+                          (N)
+                        </div>
                       </th>
                       <th className="tblSubTipObsPermissao">
-                        <div className="tblPermitir">Permitir NA</div>
+                        <div className="tblPermitir">
+                          Permitir <br />
+                          NA
+                        </div>
                       </th>
                       <th className="tblSubTipObsAtivo">
                         <div>Ativo</div>
@@ -377,7 +393,6 @@ function SubMenuTipoDeObservacao() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )

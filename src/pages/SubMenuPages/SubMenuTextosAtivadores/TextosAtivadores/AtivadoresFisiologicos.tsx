@@ -6,6 +6,7 @@ import { NavDireita } from '../../../../components/SideBar/Index'
 import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/SidebarMobile'
 import { ContainerPage, TitlePage4 } from '../../../../components/Main'
 import { useState } from 'react'
+import ProfileDireita from '../../../../components/ProfileDireita'
 
 function AtivadoresFisiológico() {
   const [modal, setModal] = useState(false)
@@ -16,6 +17,8 @@ function AtivadoresFisiológico() {
   let history = useHistory()
   return (
     <div className="logoQ1">
+      <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
         <div>
@@ -138,8 +141,6 @@ function AtivadoresFisiológico() {
         <div className="buttonProfileDireita">
           <NavDireita />
         </div>
-
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )

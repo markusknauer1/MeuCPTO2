@@ -371,10 +371,6 @@
 body.active-modalPessoa {
   overflow-y: hidden;
 }
-input::-webkit-input-placeholder {
-  color: #1c396b;
-  font: 12px BalooBhaina2-SemiBold;
-}
 .modalPessoa,
 .overlay {
   width: 100%;
@@ -387,18 +383,17 @@ input::-webkit-input-placeholder {
   z-index: 98;
 }
 
+input,
+textarea {
+  font-size: 12px;
+  color: #1c396b;
+}
+::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #1c396b;
+}
 .overlay {
   background: rgba(49, 49, 49, 0.8);
-}
-.titleFormCadPessoas {
-  position: absolute;
-  display: flex;
-  left: 5%;
-  margin-top: 2rem;
-  font: 26px BalooBhaina2-Bold;
-  font-weight: 400;
-  font-size: clamp(0.01em, 0.01em + 4vw, 4em);
-  color: #1c396b;
 }
 
 .fcadastroPessoa1 {
@@ -410,7 +405,21 @@ input::-webkit-input-placeholder {
   height: 5%;
   justify-content: center;
   font-family: BalooBhaina2-SemiBold;
-  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa1 {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  border-radius: 5px;
+  width: 90%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -426,7 +435,24 @@ input::-webkit-input-placeholder {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-left: 0.5%;
+}
+.fcadastroNovaPessoa2 {
+  position: absolute;
+  left: 5%;
+  top: 27%;
+  width: 20%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -434,12 +460,30 @@ input::-webkit-input-placeholder {
 }
 .fcadastroPessoa3 {
   position: absolute;
-  left: 28%;
+  left: 26%;
   top: 27%;
-  width: 26%;
+  width: 30%;
   height: 5%;
   border-radius: 5px;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+.fcadastroNovaPessoa3 {
+  position: absolute;
+  left: 26%;
+  top: 27%;
+  width: 30%;
+  height: 5%;
+  border-radius: 5px;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
+  text-transform: uppercase;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
@@ -454,13 +498,44 @@ input::-webkit-input-placeholder {
   height: 5%;
   padding-left: 0.5%;
   border-radius: 5px;
-  font: 12px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+}
+.fcadastroNovaPessoa4 {
+  position: absolute;
+  top: 27%;
+  left: 57%;
+  width: 38%;
+  height: 5%;
+  padding-left: 0.5%;
+  border-radius: 5px;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: 12px;
   border: none;
   background-color: rgb(190, 190, 190);
   color: #1c396b;
 }
 
 .fcadastroPessoa5 {
+  position: absolute;
+  left: 5%;
+  top: 34%;
+  border-radius: 5px;
+  width: 90%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa5 {
   position: absolute;
   left: 5%;
   top: 34%;
@@ -492,10 +567,10 @@ input::-webkit-input-placeholder {
   padding-top: 5px;
   padding-left: 1%;
 }
-.fcadastroPessoa7 {
-  left: 36%;
-  top: 41%;
+.fcadastroNovaPessoa6 {
   position: absolute;
+  left: 5%;
+  top: 41%;
   width: 28%;
   height: 5%;
   border-radius: 5px;
@@ -508,7 +583,55 @@ input::-webkit-input-placeholder {
   padding-top: 5px;
   padding-left: 1%;
 }
+.fcadastroPessoa7 {
+  left: 35%;
+  top: 41%;
+  position: absolute;
+  width: 29%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa7 {
+  left: 35%;
+  top: 41%;
+  position: absolute;
+  width: 29%;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 5px;
+  padding-left: 1%;
+}
 .fcadastroPessoa8 {
+  left: 66%;
+  top: 41%;
+  width: 22%;
+  position: absolute;
+  height: 5%;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa8 {
   left: 66%;
   top: 41%;
   width: 22%;
@@ -553,7 +676,39 @@ input::-webkit-input-placeholder {
   padding-top: 2px;
   padding-left: 1%;
 }
+.fcadastroNovaPessoa9 {
+  position: absolute;
+  left: 5%;
+  top: 48%;
+  border-radius: 5px;
+  width: 48%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
 .fcadastroPessoa10 {
+  position: absolute;
+  left: 55%;
+  top: 48%;
+  border-radius: 5px;
+  width: 18%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa10 {
   position: absolute;
   left: 55%;
   top: 48%;
@@ -585,7 +740,39 @@ input::-webkit-input-placeholder {
   padding-top: 2px;
   padding-left: 1%;
 }
+.fcadastroNovaPessoa11 {
+  position: absolute;
+  left: 75%;
+  top: 48%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
 .fcadastroPessoa12 {
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  border-radius: 5px;
+  width: 48%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa12 {
   position: absolute;
   left: 5%;
   top: 55%;
@@ -617,7 +804,39 @@ input::-webkit-input-placeholder {
   padding-top: 2px;
   padding-left: 1%;
 }
+.fcadastroNovaPessoa13 {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  border-radius: 5px;
+  width: 18%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
 .fcadastroPessoa14 {
+  position: absolute;
+  left: 75%;
+  top: 55%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa14 {
   position: absolute;
   left: 75%;
   top: 55%;
@@ -649,10 +868,39 @@ input::-webkit-input-placeholder {
   background-color: rgb(190, 190, 190);
   color: #1c396b;
 }
-.fcadastroPessoa15::-webkit-input-placeholder {
+.fcadastroNovaPessoa15 {
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 5px;
+  left: 5%;
+  top: 62%;
+  border-radius: 5px;
+  width: 90%;
+  height: 10%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
   color: #1c396b;
 }
 .fcadastroPessoa16 {
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa16 {
   position: absolute;
   left: 5%;
   top: 75%;
@@ -684,12 +932,44 @@ input::-webkit-input-placeholder {
   padding-top: 2px;
   padding-left: 1%;
 }
+.fcadastroNovaPessoa17 {
+  position: absolute;
+  left: 26%;
+  top: 75%;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
 .fcadastroPessoa18 {
   position: absolute;
   left: 47%;
   top: 75%;
   border-radius: 5px;
-  width: 30%;
+  width: 28%;
+  height: 5%;
+  justify-content: center;
+  font-family: BalooBhaina2-SemiBold;
+  font: 12px;
+  border: none;
+  background-color: rgb(190, 190, 190);
+  color: #1c396b;
+  padding-top: 2px;
+  padding-left: 1%;
+}
+.fcadastroNovaPessoa18 {
+  position: absolute;
+  left: 47%;
+  top: 75%;
+  border-radius: 5px;
+  width: 28%;
   height: 5%;
   justify-content: center;
   font-family: BalooBhaina2-SemiBold;
@@ -701,6 +981,20 @@ input::-webkit-input-placeholder {
   padding-left: 1%;
 }
 .InputAuthorization1 {
+  left: 78%;
+  top: 74%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  color: #1c396b;
+  cursor: pointer;
+  letter-spacing: -1px;
+}
+.InputAuthorization11 {
   left: 78%;
   top: 74%;
   position: absolute;
@@ -728,93 +1022,329 @@ input::-webkit-input-placeholder {
   cursor: pointer;
   letter-spacing: -1px;
 }
+.InputAuthorization21 {
+  left: 78%;
+  top: 78%;
+  position: absolute;
+  width: 18%;
+  background-color: transparent;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #1c396b;
+  cursor: pointer;
+  letter-spacing: -1px;
+}
 .checkText {
   position: absolute;
   margin-left: 5%;
   margin-top: 2%;
 
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: clamp(0.2em, 0.2em + 1vw, 1em);
   font-family: BalooBhaina2-SemiBold;
 }
 .CheckAcess1 {
-  font-size: clamp(0.01em, 0.01em + 0.6vw, 0.6em);
-  width: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+  width: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
 }
 .CheckAcess2 {
-  font-size: clamp(0.01em, 0.01em + 0.6vw, 0.6em);
-  width: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+  width: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
 }
 @media screen and (max-width: 820px) {
   .modalPessoa-content {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 10%;
     line-height: 1.4;
     background: #f1f1f1;
-    width: 90%;
+    width: 80%;
     height: 74%;
     border-radius: 25px;
     z-index: 99;
   }
 
-  .fcadastroPessoa1 {
+  .fcadastroNovaPessoa1 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 22%;
     border-radius: 5px;
-    width: 80%;
+    width: 70%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa2 {
+    position: fixed;
+    left: 15%;
+    top: 27%;
+    border-radius: 5px;
+    width: 16%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa3 {
+    position: fixed;
+    left: 32%;
+    top: 27%;
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 0;
+    width: 21%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa4 {
+    position: fixed;
+    left: 54%;
+    top: 27%;
+    border-radius: 5px;
+    width: 31%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa5 {
+    position: fixed;
+    left: 15%;
+    top: 32%;
+    border-radius: 5px;
+    width: 70%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa6 {
+    position: fixed;
+    left: 15%;
+    top: 37%;
+    border-radius: 5px;
+    width: 34%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa7 {
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    border-radius: 5px;
+    width: 35%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa8 {
+    position: fixed;
+    left: 61%;
+    top: 42%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .consultaCep {
+    position: fixed;
+    left: 81%;
+    top: 42%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa9 {
+    position: fixed;
+    left: 15%;
+    top: 42%;
+    border-radius: 5px;
+    width: 45%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa10 {
+    position: fixed;
+    left: 51%;
+    top: 47%;
+    border-radius: 5px;
+    width: 15%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa11 {
+    position: fixed;
+    left: 67%;
+    top: 47%;
+    border-radius: 5px;
+    width: 18%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+
+  .fcadastroNovaPessoa12 {
+    position: fixed;
+    left: 15%;
+    top: 47%;
+    border-radius: 5px;
+    width: 35%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa13 {
+    position: fixed;
+    left: 15%;
+    top: 52%;
+    border-radius: 5px;
+    width: 35%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa14 {
+    position: fixed;
+    left: 51%;
+    top: 52%;
+    border-radius: 5px;
+    width: 34%;
+    height: 4%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa15 {
+    position: fixed;
+    left: 15%;
+    top: 57%;
+    border-radius: 5px;
+    width: 70%;
+    height: 10%;
+    padding-top: 1%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa16 {
+    position: fixed;
+    left: 15%;
+    top: 68%;
+    border-radius: 5px;
+    width: 22%;
+    height: 4%;
+    padding-top: 1%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa17 {
+    position: fixed;
+    left: 38%;
+    top: 68%;
+    border-radius: 5px;
+    width: 22%;
+    height: 4%;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+  }
+  .fcadastroNovaPessoa18 {
+    position: fixed;
+    left: 62%;
+    top: 68%;
+    border-radius: 5px;
+    width: 23%;
+    height: 4%;
+    padding-top: 1%;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+  }
+  .InputAuthorization11 {
+    left: 6%;
+    top: 86%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 26%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    letter-spacing: 0;
+  }
+  .InputAuthorization21 {
+    left: 6%;
+    top: 90%;
+    position: absolute;
+    width: 24%;
+    background-color: transparent;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    letter-spacing: 0;
+  }
+  .fcadastroPessoa1 {
+    position: fixed;
+    left: 15%;
+    top: 22%;
+    border-radius: 5px;
+    width: 70%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa2 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 27%;
     border-radius: 5px;
-    width: 20%;
+    width: 16%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa3 {
     position: fixed;
-    left: 31%;
+    left: 32%;
     top: 27%;
     border-radius: 5px;
     text-align: left;
     letter-spacing: 0;
-    width: 26%;
+    width: 21%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa4 {
     position: fixed;
-    left: 58%;
+    left: 54%;
     top: 27%;
     border-radius: 5px;
-    width: 32%;
+    width: 31%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa5 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 32%;
     border-radius: 5px;
-    width: 80%;
+    width: 70%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa6 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 37%;
     border-radius: 5px;
-    width: 38%;
+    width: 34%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
@@ -824,14 +1354,14 @@ input::-webkit-input-placeholder {
     left: 50%;
     top: 37%;
     border-radius: 5px;
-    width: 40%;
+    width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa8 {
     position: fixed;
-    left: 62%;
+    left: 61%;
     top: 42%;
     border-radius: 5px;
     width: 20%;
@@ -841,25 +1371,25 @@ input::-webkit-input-placeholder {
   }
   .consultaCep {
     position: fixed;
-    left: 85%;
+    left: 81%;
     top: 42%;
     color: black;
     border-radius: 5px;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: clamp(0.5em, 0.5em + 1.4vw, 1.4em);
   }
   .fcadastroPessoa9 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 42%;
     border-radius: 5px;
-    width: 50%;
+    width: 45%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa10 {
     position: fixed;
-    left: 54%;
+    left: 51%;
     top: 47%;
     border-radius: 5px;
     width: 15%;
@@ -869,10 +1399,10 @@ input::-webkit-input-placeholder {
   }
   .fcadastroPessoa11 {
     position: fixed;
-    left: 70%;
+    left: 67%;
     top: 47%;
     border-radius: 5px;
-    width: 20%;
+    width: 18%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
@@ -880,40 +1410,40 @@ input::-webkit-input-placeholder {
 
   .fcadastroPessoa12 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 47%;
     border-radius: 5px;
-    width: 43%;
+    width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa13 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 52%;
     border-radius: 5px;
-    width: 39%;
+    width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa14 {
     position: fixed;
-    left: 50%;
+    left: 51%;
     top: 52%;
     border-radius: 5px;
-    width: 40%;
+    width: 34%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .fcadastroPessoa15 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 57%;
     border-radius: 5px;
-    width: 80%;
+    width: 70%;
     height: 10%;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
@@ -921,10 +1451,10 @@ input::-webkit-input-placeholder {
   }
   .fcadastroPessoa16 {
     position: fixed;
-    left: 10%;
+    left: 15%;
     top: 68%;
     border-radius: 5px;
-    width: 26%;
+    width: 22%;
     height: 4%;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
@@ -935,7 +1465,7 @@ input::-webkit-input-placeholder {
     left: 38%;
     top: 68%;
     border-radius: 5px;
-    width: 26%;
+    width: 22%;
     height: 4%;
     padding-top: 1%;
     padding-left: 1.5%;
@@ -944,10 +1474,10 @@ input::-webkit-input-placeholder {
   }
   .fcadastroPessoa18 {
     position: fixed;
-    left: 65%;
+    left: 62%;
     top: 68%;
     border-radius: 5px;
-    width: 25%;
+    width: 23%;
     height: 4%;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
@@ -955,21 +1485,21 @@ input::-webkit-input-placeholder {
   }
   .InputAuthorization1 {
     left: 6%;
-    top: 88%;
+    top: 86%;
     position: absolute;
     justify-content: center;
     align-items: center;
-    width: 24%;
+    width: 26%;
     background-color: transparent;
     border-radius: 5px;
     border: none;
     color: #1c396b;
     cursor: pointer;
-    letter-spacing: -1px;
+    letter-spacing: 0;
   }
   .InputAuthorization2 {
     left: 6%;
-    top: 92%;
+    top: 90%;
     position: absolute;
     width: 24%;
     background-color: transparent;
@@ -979,21 +1509,38 @@ input::-webkit-input-placeholder {
     border: none;
     color: #1c396b;
     cursor: pointer;
-    letter-spacing: -1px;
+    letter-spacing: 0;
   }
   .checkText {
     position: absolute;
     margin-left: 5%;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    margin-top: 1%;
+    font-size: clamp(0.2em, 0.2em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-SemiBold;
+  }
+  .checkText1 {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: clamp(0.4em, 0.4em + 1vw, 1em);
     font-family: BalooBhaina2-SemiBold;
   }
   .CheckAcess1 {
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-    width: clamp(0.01em, 0.01em + 3vw, 3em);
+    width: clamp(0.01em, 0.01em + 4vw, 4em);
+    margin-top: 1%;
   }
   .CheckAcess2 {
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-    width: clamp(0.01em, 0.01em + 3vw, 3em);
+    margin-top: 2%;
+    width: clamp(0.01em, 0.01em + 4vw, 4em);
+  }
+  input,
+  textarea {
+    font-size: clamp(0.5em, 0.5em + 1.2vw, 1.2em);
+    color: #1c396b;
+  }
+  ::-webkit-input-placeholder {
+    font-size: clamp(0.5em, 0.5em + 1.2vw, 1.2em);
+    color: #1c396b;
   }
 }
 

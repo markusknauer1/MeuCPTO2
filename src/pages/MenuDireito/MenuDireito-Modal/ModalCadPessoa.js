@@ -29,148 +29,167 @@ export default function ModalPessoa() {
 
             <div className="formCadModal">
               <input
-                className="fcadastroPessoa1"
+                className="fcadastroNovaPessoa1"
                 placeholder="Nome"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
-
-              <select className="fcadastroPessoa2">
+              <select className="fcadastroNovaPessoa2" name="Sexo" id="fSexo">
                 <option value="">Sexo</option>
                 <option value="">Feminino</option>
                 <option value="">Masculino</option>
               </select>
+              <input className="fcadastroNovaPessoa3" id="date" type="date" />
 
-              <input className="fcadastroPessoa3" id="date" type="date" />
-
-              <select name="Função" className="fcadastroPessoa4" id="fcontexto">
+              <select
+                name="Função"
+                className="fcadastroNovaPessoa4"
+                id="fcontexto"
+              >
                 <option value="">Função - Teste 1</option>
                 <option value="">Função - Teste 2</option>
                 <option value="">Função - Teste 3</option>
               </select>
 
               <input
-                className="fcadastroPessoa5"
+                className="fcadastroNovaPessoa5"
                 placeholder="E-Mail"
                 type="text"
                 id="mail"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa6"
+                className="fcadastroNovaPessoa6"
                 placeholder="Telefone"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa7"
+                className="fcadastroNovaPessoa7"
                 placeholder="Celular"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa8"
+                className="fcadastroNovaPessoa8"
                 placeholder="CEP"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <button className="consultaCep">
                 <i className="fas fa-search"></i>
               </button>
               <input
-                className="fcadastroPessoa9"
+                className="fcadastroNovaPessoa9"
                 placeholder="Endereço"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa10"
+                className="fcadastroNovaPessoa10"
                 placeholder="Número"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa11"
+                className="fcadastroNovaPessoa11"
                 placeholder="Complemento"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa12"
+                className="fcadastroNovaPessoa12"
                 placeholder="Bairro"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa13"
+                className="fcadastroNovaPessoa13"
                 placeholder="Cidade"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa14"
+                className="fcadastroNovaPessoa14"
                 placeholder="Estado"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <textarea
-                className="fcadastroPessoa15"
+                className="fcadastroNovaPessoa15"
                 placeholder="Observações"
-                type="text"
                 id="fname"
                 autoComplete="none"
-                row="none"
-                maxLength="500"
+                rows={0}
+                maxLength={500}
               />
               <input
-                className="fcadastroPessoa16"
+                className="fcadastroNovaPessoa16"
                 placeholder="Senha"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa17"
+                className="fcadastroNovaPessoa17"
                 placeholder="Confirmar Senha"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
               <input
-                className="fcadastroPessoa18"
+                className="fcadastroNovaPessoa18"
                 placeholder="Grupo"
                 type="text"
                 id="fname"
+                name="fname"
                 autoComplete="none"
               />
             </div>
-            <div className="InputAuthorization1">
-              <input
-                className="CheckAcess1"
-                type="checkbox"
-                defaultChecked={false}
-              />
+            <div className="InputAuthorization11">
+              <label>
+                <input
+                  className="CheckAcess1"
+                  type="checkbox"
+                  defaultChecked={false}
+                />
 
-              <span className="checkText">Acesso ao APP</span>
+                <span className="checkText1">Acesso ao APP</span>
+              </label>{' '}
             </div>
             <br />
-            <div className="InputAuthorization2">
-              <input
-                className="CheckAcess2"
-                type="checkbox"
-                defaultChecked={false}
-              />
-              <span className="checkText">Acesso Web</span>
+            <div className="InputAuthorization21">
+              <label>
+                <input
+                  className="CheckAcess2"
+                  type="checkbox"
+                  defaultChecked={false}
+                />
+                <span className="checkText1">Acesso Web</span>
+              </label>
             </div>
 
             <button className="close-modal" onClick={toggleModal}>
