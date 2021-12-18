@@ -1073,7 +1073,7 @@ textarea {
     width: 70%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa2 {
     position: fixed;
@@ -1083,7 +1083,7 @@ textarea {
     width: 16%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa3 {
     position: fixed;
@@ -1095,7 +1095,7 @@ textarea {
     width: 21%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa4 {
     position: fixed;
@@ -1105,7 +1105,7 @@ textarea {
     width: 31%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa5 {
     position: fixed;
@@ -1115,7 +1115,7 @@ textarea {
     width: 70%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa6 {
     position: fixed;
@@ -1125,7 +1125,7 @@ textarea {
     width: 34%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa7 {
     position: fixed;
@@ -1135,7 +1135,7 @@ textarea {
     width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa8 {
     position: fixed;
@@ -1145,7 +1145,7 @@ textarea {
     width: 20%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .consultaCep {
     position: fixed;
@@ -1153,7 +1153,7 @@ textarea {
     top: 42%;
     color: black;
     border-radius: 5px;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa9 {
     position: fixed;
@@ -1163,7 +1163,7 @@ textarea {
     width: 45%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa10 {
     position: fixed;
@@ -1173,7 +1173,7 @@ textarea {
     width: 15%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa11 {
     position: fixed;
@@ -1183,7 +1183,7 @@ textarea {
     width: 18%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
 
   .fcadastroNovaPessoa12 {
@@ -1194,7 +1194,7 @@ textarea {
     width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa13 {
     position: fixed;
@@ -1204,7 +1204,7 @@ textarea {
     width: 35%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa14 {
     position: fixed;
@@ -1214,7 +1214,7 @@ textarea {
     width: 34%;
     height: 4%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa15 {
     position: fixed;
@@ -1225,7 +1225,7 @@ textarea {
     height: 10%;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa16 {
     position: fixed;
@@ -1236,7 +1236,7 @@ textarea {
     height: 4%;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa17 {
     position: fixed;
@@ -1248,7 +1248,7 @@ textarea {
     padding-top: 1%;
     padding-left: 1.5%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroNovaPessoa18 {
     position: fixed;
@@ -1517,14 +1517,14 @@ textarea {
     position: absolute;
     margin-left: 5%;
     margin-top: 1%;
-    font-size: clamp(0.2em, 0.2em + 1.6vw, 1.6em);
+    font-size: clamp(0.2em, 0.2em + 1.4vw, 1.4em);
     font-family: BalooBhaina2-SemiBold;
   }
   .checkText1 {
     position: absolute;
     margin-left: 2%;
     margin-top: 2%;
-    font-size: clamp(0.4em, 0.4em + 1vw, 1em);
+    font-size: clamp(0.2em, 0.2em + 1.4vw, 1.4em);
     font-family: BalooBhaina2-SemiBold;
   }
   .CheckAcess1 {

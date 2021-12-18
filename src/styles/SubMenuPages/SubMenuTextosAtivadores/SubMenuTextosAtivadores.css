@@ -8,14 +8,14 @@
 .SubMTACod {
   background-color: transparent;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-size: 8px;
   border: none;
   cursor: pointer;
 }
 .tblActive {
   padding: 1%;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-size: 8px;
   width: 20rem;
 }
 .tblStatusActive {
@@ -23,7 +23,7 @@
   padding-left: 3%;
   width: 60rem;
   font-family: BalooBhaina2-Medium;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-size: 8px;
 }
 
 /*------------------------------------------------------------------------------------------*/
