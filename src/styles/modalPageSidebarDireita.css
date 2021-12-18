@@ -1281,195 +1281,195 @@ textarea {
     cursor: pointer;
     letter-spacing: 0;
   }
+  .consultaCep {
+    position: fixed;
+    left: 81%;
+    top: 36%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.5em, 0.5em + 1.4vw, 1.4em);
+  }
   .fcadastroPessoa1 {
     position: fixed;
     left: 15%;
-    top: 22%;
+    top: 20%;
     border-radius: 5px;
     width: 70%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa2 {
     position: fixed;
     left: 15%;
-    top: 27%;
+    top: 24%;
     border-radius: 5px;
     width: 16%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa3 {
     position: fixed;
     left: 32%;
-    top: 27%;
+    top: 24%;
     border-radius: 5px;
     text-align: left;
     letter-spacing: 0;
     width: 21%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa4 {
     position: fixed;
     left: 54%;
-    top: 27%;
+    top: 24%;
     border-radius: 5px;
     width: 31%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa5 {
     position: fixed;
     left: 15%;
-    top: 32%;
+    top: 28%;
     border-radius: 5px;
     width: 70%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa6 {
     position: fixed;
     left: 15%;
-    top: 37%;
+    top: 32%;
     border-radius: 5px;
     width: 34%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa7 {
     position: fixed;
     left: 50%;
-    top: 37%;
+    top: 32%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa8 {
     position: fixed;
     left: 61%;
-    top: 42%;
+    top: 36%;
     border-radius: 5px;
     width: 20%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-  }
-  .consultaCep {
-    position: fixed;
-    left: 81%;
-    top: 42%;
-    color: black;
-    border-radius: 5px;
-    font-size: clamp(0.5em, 0.5em + 1.4vw, 1.4em);
+    font-size: 14px;
   }
   .fcadastroPessoa9 {
     position: fixed;
     left: 15%;
-    top: 42%;
+    top: 36%;
     border-radius: 5px;
     width: 45%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa10 {
     position: fixed;
     left: 51%;
-    top: 47%;
+    top: 40%;
     border-radius: 5px;
     width: 15%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa11 {
     position: fixed;
     left: 67%;
-    top: 47%;
+    top: 40%;
     border-radius: 5px;
     width: 18%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
 
   .fcadastroPessoa12 {
     position: fixed;
     left: 15%;
-    top: 47%;
+    top: 40%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa13 {
     position: fixed;
     left: 15%;
-    top: 52%;
+    top: 44%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa14 {
     position: fixed;
     left: 51%;
-    top: 52%;
+    top: 44%;
     border-radius: 5px;
     width: 34%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa15 {
     position: fixed;
     left: 15%;
-    top: 57%;
+    top: 48%;
     border-radius: 5px;
     width: 70%;
     height: 70px;
     padding-top: 0;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa16 {
     position: fixed;
     left: 15%;
-    top: 68%;
+    top: 59%;
     border-radius: 5px;
     width: 22%;
     height: 25px;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa17 {
     position: fixed;
     left: 38%;
-    top: 68%;
+    top: 59%;
     border-radius: 5px;
     width: 22%;
     height: 25px;
     padding-top: 1%;
     padding-left: 1.5%;
     font-family: BalooBhaina2-Medium;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
+    font-size: 14px;
   }
   .fcadastroPessoa18 {
     position: fixed;
     left: 62%;
-    top: 68%;
+    top: 59%;
     border-radius: 5px;
     width: 23%;
     height: 25px;
