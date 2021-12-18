@@ -1066,176 +1066,176 @@ textarea {
   }
 
   .fcadastroNovaPessoa1 {
-    position: fixed;
-    left: 15%;
-    top: 20%;
+    position: absolute;
+    left: 5%;
+    top: 70px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa2 {
-    position: fixed;
-    left: 15%;
-    top: 24%;
+    position: absolute;
+    left: 5%;
+    top: 98px;
     border-radius: 5px;
-    width: 16%;
+    width: 24%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa3 {
-    position: fixed;
-    left: 32%;
-    top: 24%;
+    position: absolute;
+    left: 30%;
+    top: 98px;
     border-radius: 5px;
     text-align: left;
     letter-spacing: 0;
-    width: 21%;
+    width: 24%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa4 {
-    position: fixed;
-    left: 54%;
-    top: 24%;
+    position: absolute;
+    left: 55%;
+    top: 98px;
     border-radius: 5px;
-    width: 31%;
+    width: 40%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa5 {
-    position: fixed;
-    left: 15%;
-    top: 28%;
+    position: absolute;
+    left: 5%;
+    top: 126px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa6 {
-    position: fixed;
-    left: 15%;
-    top: 32%;
+    position: absolute;
+    left: 5%;
+    top: 154px;
     border-radius: 5px;
-    width: 34%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa7 {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 32%;
-    border-radius: 5px;
-    width: 35%;
-    height: 25px;
-    font-family: BalooBhaina2-Medium;
-    font-size: 14px;
-  }
-  .fcadastroNovaPessoa8 {
-    position: fixed;
-    left: 61%;
-    top: 36%;
-    border-radius: 5px;
-    width: 20%;
-    height: 25px;
-    font-family: BalooBhaina2-Medium;
-    font-size: 14px;
-  }
-  .fcadastroNovaPessoa9 {
-    position: fixed;
-    left: 15%;
-    top: 36%;
+    top: 154px;
     border-radius: 5px;
     width: 45%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
-  .fcadastroNovaPessoa10 {
-    position: fixed;
-    left: 51%;
-    top: 40%;
+  .fcadastroNovaPessoa8 {
+    position: absolute;
+    left: 56%;
+    top: 180px;
     border-radius: 5px;
-    width: 15%;
+    width: 32%;
+    height: 25px;
+    font-family: BalooBhaina2-Medium;
+    font-size: 14px;
+  }
+  .fcadastroNovaPessoa9 {
+    position: absolute;
+    left: 5%;
+    top: 181px;
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+    font-family: BalooBhaina2-Medium;
+    font-size: 14px;
+  }
+  .fcadastroNovaPessoa10 {
+    position: absolute;
+    left: 50%;
+    top: 210px;
+    border-radius: 5px;
+    width: 21%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa11 {
-    position: fixed;
-    left: 67%;
-    top: 40%;
+    position: absolute;
+    left: 72%;
+    top: 210px;
     border-radius: 5px;
-    width: 18%;
+    width: 22%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
 
   .fcadastroNovaPessoa12 {
-    position: fixed;
-    left: 15%;
-    top: 40%;
+    position: absolute;
+    left: 5%;
+    top: 210px;
     border-radius: 5px;
-    width: 35%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa13 {
-    position: fixed;
-    left: 15%;
-    top: 44%;
+    position: absolute;
+    left: 5%;
+    top: 237px;
     border-radius: 5px;
-    width: 35%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa14 {
-    position: fixed;
-    left: 51%;
-    top: 44%;
+    position: absolute;
+    left: 50%;
+    top: 237px;
     border-radius: 5px;
-    width: 34%;
+    width: 45%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa15 {
-    position: fixed;
-    left: 15%;
-    top: 48%;
+    position: absolute;
+    left: 5%;
+    top: 265px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 70px;
     padding-top: 0;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa16 {
-    position: fixed;
-    left: 15%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 5%;
     border-radius: 5px;
-    width: 22%;
+    width: 25%;
     height: 25px;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroNovaPessoa17 {
-    position: fixed;
-    left: 38%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 31%;
     border-radius: 5px;
-    width: 22%;
+    width: 26%;
     height: 25px;
     padding-top: 1%;
     padding-left: 1.5%;
@@ -1243,11 +1243,11 @@ textarea {
     font-size: 14px;
   }
   .fcadastroNovaPessoa18 {
-    position: fixed;
-    left: 62%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 58%;
     border-radius: 5px;
-    width: 23%;
+    width: 37%;
     height: 25px;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
@@ -1290,176 +1290,176 @@ textarea {
     font-size: clamp(0.5em, 0.5em + 1.4vw, 1.4em);
   }
   .fcadastroPessoa1 {
-    position: fixed;
-    left: 15%;
-    top: 20%;
+    position: absolute;
+    left: 5%;
+    top: 70px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa2 {
-    position: fixed;
-    left: 15%;
-    top: 24%;
+    position: absolute;
+    left: 5%;
+    top: 98px;
     border-radius: 5px;
-    width: 16%;
+    width: 24%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa3 {
-    position: fixed;
-    left: 32%;
-    top: 24%;
+    position: absolute;
+    left: 30%;
+    top: 98px;
     border-radius: 5px;
     text-align: left;
     letter-spacing: 0;
-    width: 21%;
+    width: 24%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa4 {
-    position: fixed;
-    left: 54%;
-    top: 24%;
+    position: absolute;
+    left: 55%;
+    top: 98px;
     border-radius: 5px;
-    width: 31%;
+    width: 40%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa5 {
-    position: fixed;
-    left: 15%;
-    top: 28%;
+    position: absolute;
+    left: 5%;
+    top: 126px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa6 {
-    position: fixed;
-    left: 15%;
-    top: 32%;
+    position: absolute;
+    left: 5%;
+    top: 154px;
     border-radius: 5px;
-    width: 34%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa7 {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 32%;
-    border-radius: 5px;
-    width: 35%;
-    height: 25px;
-    font-family: BalooBhaina2-Medium;
-    font-size: 14px;
-  }
-  .fcadastroPessoa8 {
-    position: fixed;
-    left: 61%;
-    top: 36%;
-    border-radius: 5px;
-    width: 20%;
-    height: 25px;
-    font-family: BalooBhaina2-Medium;
-    font-size: 14px;
-  }
-  .fcadastroPessoa9 {
-    position: fixed;
-    left: 15%;
-    top: 36%;
+    top: 154px;
     border-radius: 5px;
     width: 45%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
-  .fcadastroPessoa10 {
-    position: fixed;
-    left: 51%;
-    top: 40%;
+  .fcadastroPessoa8 {
+    position: absolute;
+    left: 56%;
+    top: 180px;
     border-radius: 5px;
-    width: 15%;
+    width: 32%;
+    height: 25px;
+    font-family: BalooBhaina2-Medium;
+    font-size: 14px;
+  }
+  .fcadastroPessoa9 {
+    position: absolute;
+    left: 5%;
+    top: 181px;
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+    font-family: BalooBhaina2-Medium;
+    font-size: 14px;
+  }
+  .fcadastroPessoa10 {
+    position: absolute;
+    left: 50%;
+    top: 210px;
+    border-radius: 5px;
+    width: 21%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa11 {
-    position: fixed;
-    left: 67%;
-    top: 40%;
+    position: absolute;
+    left: 72%;
+    top: 210px;
     border-radius: 5px;
-    width: 18%;
+    width: 22%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
 
   .fcadastroPessoa12 {
-    position: fixed;
-    left: 15%;
-    top: 40%;
+    position: absolute;
+    left: 5%;
+    top: 210px;
     border-radius: 5px;
-    width: 35%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa13 {
-    position: fixed;
-    left: 15%;
-    top: 44%;
+    position: absolute;
+    left: 5%;
+    top: 237px;
     border-radius: 5px;
-    width: 35%;
+    width: 44%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa14 {
-    position: fixed;
-    left: 51%;
-    top: 44%;
+    position: absolute;
+    left: 50%;
+    top: 237px;
     border-radius: 5px;
-    width: 34%;
+    width: 45%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa15 {
-    position: fixed;
-    left: 15%;
-    top: 48%;
+    position: absolute;
+    left: 5%;
+    top: 265px;
     border-radius: 5px;
-    width: 70%;
+    width: 90%;
     height: 70px;
     padding-top: 0;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa16 {
-    position: fixed;
-    left: 15%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 5%;
     border-radius: 5px;
-    width: 22%;
+    width: 25%;
     height: 25px;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
   .fcadastroPessoa17 {
-    position: fixed;
-    left: 38%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 31%;
     border-radius: 5px;
-    width: 22%;
+    width: 26%;
     height: 25px;
     padding-top: 1%;
     padding-left: 1.5%;
@@ -1467,11 +1467,11 @@ textarea {
     font-size: 14px;
   }
   .fcadastroPessoa18 {
-    position: fixed;
-    left: 62%;
-    top: 59%;
+    position: absolute;
+    top: 340px;
+    left: 58%;
     border-radius: 5px;
-    width: 23%;
+    width: 37%;
     height: 25px;
     padding-top: 1%;
     font-family: BalooBhaina2-Medium;
