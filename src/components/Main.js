@@ -15,8 +15,8 @@ export const ContainerPage = styled.div`
   z-index: 0;
   @media screen and (max-width: 820px) {
     position: fixed;
-    bottom: 20%;
     display: flex;
+    bottom: 20%;
     left: 0;
     width: 100%;
     height: 60vh;
