@@ -88,6 +88,17 @@
   /* rgb(219, 219, 219); */
   /* border-radius: 10px; */
 }
+th div {
+  position: absolute;
+  background: transparent;
+  color: #fff;
+  top: 1%;
+  padding-left: 1%;
+  line-height: normal;
+  border-left: none;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+}
 .HeaderContent {
   position: relative;
   border: 1px solid #000;
@@ -99,44 +110,29 @@
 }
 
 .tblObsUniObservador {
-  position: absolute;
   top: 20%;
-  left: 1%;
 }
 .tblObsUniLocal {
-  position: absolute;
   top: 20%;
-  left: 20%;
 }
 .tblObsUniGerência {
-  position: absolute;
   top: 20%;
-  left: 35%;
+  line-height: -1px;
 }
 .tblObsUniEquipe {
-  position: absolute;
   top: 20%;
-  left: 51%;
 }
 .tblObsUniAtividade {
-  position: absolute;
   top: 20%;
-  left: 65%;
 }
 .tblObsUniData {
-  position: absolute;
   top: 20%;
-  left: 81%;
 }
 .tblObsUniIcs {
-  position: absolute;
   top: 20%;
-  left: 89%;
 }
 .tblObsUniDetalhes {
-  position: absolute;
   top: 20%;
-  left: 93%;
 }
 /* ------------------conteúdo da tabela---------------- */
 .btnObsObservador {
@@ -151,7 +147,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 25rem;
+  width: 15rem;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-Medium;
 }
@@ -159,7 +155,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 25rem;
+  width: 20rem;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-Medium;
 }
@@ -167,7 +163,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 25rem;
+  width: 20rem;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-Medium;
 }
@@ -192,7 +188,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 12rem;
+  width: 10rem;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-Medium;
 }
@@ -226,5 +222,78 @@
     width: 30%;
     height: 6%;
     z-index: 1;
+  }
+  /* ------------------conteúdo da tabela---------------- */
+  .btnObsObservador {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 35rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniLocal {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 8rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniEquipe {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 30rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniAtividade {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 30rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniData {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+
+  .btnObsUniIcs {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniDetalhes {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 15rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+
+  .verifObserv1 {
+    color: #35c2aa;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: clamp(1em, 1em + 2vw, 1.5em);
+  }
+  .verifObserv2 {
+    color: #1c396b;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: clamp(1em, 1em + 2vw, 1.5em);
   }
 }
