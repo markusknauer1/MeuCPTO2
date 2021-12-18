@@ -233,9 +233,9 @@ span {
   } */
 @media screen and (max-width: 820px) {
   .navbar {
-    position: absolute;
-    background-color: transparent;
+    position: fixed;
     display: flex;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     left: 85%;
@@ -384,9 +384,9 @@ span {
 }
 @media screen and (max-width: 620px) {
   .navbar {
-    position: absolute;
-    background-color: transparent;
+    position: fixed;
     display: flex;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     left: 85%;
