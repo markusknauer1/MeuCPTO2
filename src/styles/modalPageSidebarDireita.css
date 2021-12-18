@@ -1068,7 +1068,7 @@ textarea {
   .fcadastroNovaPessoa1 {
     position: fixed;
     left: 15%;
-    top: 22%;
+    top: 20%;
     border-radius: 5px;
     width: 70%;
     height: 25px;
@@ -1078,7 +1078,7 @@ textarea {
   .fcadastroNovaPessoa2 {
     position: fixed;
     left: 15%;
-    top: 27%;
+    top: 25%;
     border-radius: 5px;
     width: 16%;
     height: 25px;
@@ -1088,7 +1088,7 @@ textarea {
   .fcadastroNovaPessoa3 {
     position: fixed;
     left: 32%;
-    top: 27%;
+    top: 25%;
     border-radius: 5px;
     text-align: left;
     letter-spacing: 0;
@@ -1100,7 +1100,7 @@ textarea {
   .fcadastroNovaPessoa4 {
     position: fixed;
     left: 54%;
-    top: 27%;
+    top: 25%;
     border-radius: 5px;
     width: 31%;
     height: 25px;
@@ -1110,7 +1110,7 @@ textarea {
   .fcadastroNovaPessoa5 {
     position: fixed;
     left: 15%;
-    top: 32%;
+    top: 30%;
     border-radius: 5px;
     width: 70%;
     height: 25px;
@@ -1120,7 +1120,7 @@ textarea {
   .fcadastroNovaPessoa6 {
     position: fixed;
     left: 15%;
-    top: 37%;
+    top: 35%;
     border-radius: 5px;
     width: 34%;
     height: 25px;
@@ -1130,7 +1130,7 @@ textarea {
   .fcadastroNovaPessoa7 {
     position: fixed;
     left: 50%;
-    top: 37%;
+    top: 35%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
@@ -1140,25 +1140,17 @@ textarea {
   .fcadastroNovaPessoa8 {
     position: fixed;
     left: 61%;
-    top: 42%;
+    top: 40%;
     border-radius: 5px;
     width: 20%;
     height: 25px;
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
-  .consultaCep {
-    position: fixed;
-    left: 81%;
-    top: 42%;
-    color: black;
-    border-radius: 5px;
-    font-size: 14px;
-  }
   .fcadastroNovaPessoa9 {
     position: fixed;
     left: 15%;
-    top: 42%;
+    top: 40%;
     border-radius: 5px;
     width: 45%;
     height: 25px;
@@ -1168,7 +1160,7 @@ textarea {
   .fcadastroNovaPessoa10 {
     position: fixed;
     left: 51%;
-    top: 47%;
+    top: 45%;
     border-radius: 5px;
     width: 15%;
     height: 25px;
@@ -1178,7 +1170,7 @@ textarea {
   .fcadastroNovaPessoa11 {
     position: fixed;
     left: 67%;
-    top: 47%;
+    top: 45%;
     border-radius: 5px;
     width: 18%;
     height: 25px;
@@ -1189,7 +1181,7 @@ textarea {
   .fcadastroNovaPessoa12 {
     position: fixed;
     left: 15%;
-    top: 47%;
+    top: 45%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
@@ -1199,7 +1191,7 @@ textarea {
   .fcadastroNovaPessoa13 {
     position: fixed;
     left: 15%;
-    top: 52%;
+    top: 50%;
     border-radius: 5px;
     width: 35%;
     height: 25px;
@@ -1209,7 +1201,7 @@ textarea {
   .fcadastroNovaPessoa14 {
     position: fixed;
     left: 51%;
-    top: 52%;
+    top: 50%;
     border-radius: 5px;
     width: 34%;
     height: 25px;
@@ -1219,7 +1211,7 @@ textarea {
   .fcadastroNovaPessoa15 {
     position: fixed;
     left: 15%;
-    top: 57%;
+    top: 55%;
     border-radius: 5px;
     width: 70%;
     height: 70px;
@@ -1230,7 +1222,7 @@ textarea {
   .fcadastroNovaPessoa16 {
     position: fixed;
     left: 15%;
-    top: 68%;
+    top: 66%;
     border-radius: 5px;
     width: 22%;
     height: 25px;
@@ -1241,7 +1233,7 @@ textarea {
   .fcadastroNovaPessoa17 {
     position: fixed;
     left: 38%;
-    top: 68%;
+    top: 66%;
     border-radius: 5px;
     width: 22%;
     height: 25px;
@@ -1253,7 +1245,7 @@ textarea {
   .fcadastroNovaPessoa18 {
     position: fixed;
     left: 62%;
-    top: 68%;
+    top: 66%;
     border-radius: 5px;
     width: 23%;
     height: 25px;
