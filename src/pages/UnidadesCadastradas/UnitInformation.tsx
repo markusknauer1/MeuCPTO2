@@ -22,9 +22,9 @@ export const UniClienteExe: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
-        <SidebarMobile />
         <button
           className="btnReturn"
           type="button"
@@ -365,9 +365,9 @@ export const UniClieSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
-        <SidebarMobile />
         <button
           className="btnReturn"
           type="button"
@@ -666,7 +666,6 @@ export const UniClieSetor: FC = () => {
           </form>
         </aside>
         <Modal />
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )
@@ -676,9 +675,9 @@ export const MesSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
-        <SidebarMobile />
         <button
           className="btnReturn"
           type="button"
@@ -981,8 +980,6 @@ export const MesSetor: FC = () => {
           </form>
         </aside>
         <Modal />
-
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )
@@ -992,9 +989,10 @@ export const UniContribSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
+
+      <SidebarMobile />
       <ContainerPage>
         <div className="logo" />
-        <SidebarMobile />
         <button
           className="btnReturn"
           type="button"
@@ -1106,7 +1104,6 @@ export const UniContribSetor: FC = () => {
             </div>
           </form>
         </aside>
-        <SidebarMobile />
       </ContainerPage>
     </div>
   )
