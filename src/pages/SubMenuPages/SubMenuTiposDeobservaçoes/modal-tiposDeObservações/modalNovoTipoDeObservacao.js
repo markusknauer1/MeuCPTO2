@@ -41,7 +41,6 @@ export default function Modal() {
             <input
               className="NTOPositivo"
               placeholder="Nº"
-              type="text"
               id="fname"
               name="fname"
             ></input>
@@ -49,7 +48,6 @@ export default function Modal() {
             <input
               className="NTONegativo"
               placeholder="Nº"
-              type="text"
               id="fname"
               name="fname"
             ></input>
@@ -57,7 +55,6 @@ export default function Modal() {
             <input
               className="NTONeutro"
               placeholder="Nº"
-              type="text"
               id="fname"
               name="fname"
             ></input>
@@ -65,22 +62,22 @@ export default function Modal() {
             <textarea
               className="NTOOBS"
               placeholder="Observações"
-              type="text"
               id="fname"
               name="fname"
-              row="none"
-              maxLength="500"
+              maxLength={500}
             ></textarea>
-            <input
-              className="NTOCheckPermitir1"
-              type="checkbox"
-              placeholder=""
-              defaultChecked={false}
-            />
-            <span className="NTOCheckPermitir2">
-              Permitir resposta NÃO APLICADO no APP
-            </span>
 
+            <div className="NTOCheckPermitir">
+              <input
+                className="NTOCheckPermitir1"
+                type="checkbox"
+                placeholder=""
+                defaultChecked={false}
+              />
+              <label className="NTOCheckPermitir21">
+                Permitir resposta NÃO APLICADO no APP
+              </label>
+            </div>
             <button className="close-modal" onClick={toggleModal}>
               X
             </button>

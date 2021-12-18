@@ -366,15 +366,18 @@ function SubMenuTipoDeObservacao() {
                           name="fname"
                           maxLength={500}
                         ></textarea>
-                        <input
-                          className="NTOCheckPermitir1"
-                          type="checkbox"
-                          placeholder=""
-                          defaultChecked={false}
-                        />
-                        <span className="NTOCheckPermitir2">
-                          Permitir resposta NÃO APLICADO no APP
-                        </span>
+
+                        <div className="NTOCheckPermitir">
+                          <input
+                            className="NTOCheckPermitir1"
+                            type="checkbox"
+                            placeholder=""
+                            defaultChecked={false}
+                          />
+                          <label className="NTOCheckPermitir2">
+                            Permitir resposta NÃO APLICADO no APP
+                          </label>
+                        </div>
 
                         <button className="close-modal" onClick={toggleModal}>
                           X
