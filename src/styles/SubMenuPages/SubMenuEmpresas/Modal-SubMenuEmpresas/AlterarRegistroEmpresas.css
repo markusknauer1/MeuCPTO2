@@ -170,7 +170,7 @@ body.active-AlterarRegistroEmpresas {
     left: 5%;
     background: #f1f1f1;
     width: 90%;
-    height: 70%;
+    height: 450px;
     border-radius: 20px;
     z-index: 99;
   }
@@ -192,7 +192,7 @@ body.active-AlterarRegistroEmpresas {
     top: 28%;
     left: 5%;
     width: 50%;
-    height: 6%;
+    height: 30px;
     border-radius: 5px;
     justify-content: center;
     font: 14px BalooBhaina2-Medium;
@@ -204,7 +204,7 @@ body.active-AlterarRegistroEmpresas {
     top: 36%;
     left: 5%;
     width: 50%;
-    height: 6%;
+    height: 30px;
 
     padding-top: 0;
     padding-left: 1.5%;
@@ -219,7 +219,7 @@ body.active-AlterarRegistroEmpresas {
     left: 5%;
     padding-left: 2%;
     width: 50%;
-    height: 5%;
+    height: 30px;
     border-radius: 5px;
     justify-content: center;
     border: none;
@@ -233,7 +233,7 @@ body.active-AlterarRegistroEmpresas {
     left: 5%;
     padding-left: 2%;
     width: 50%;
-    height: 5%;
+    height: 30px;
     border-radius: 5px;
     justify-content: center;
     border: none;

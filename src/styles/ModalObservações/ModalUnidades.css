@@ -211,3 +211,20 @@
   border-style: none;
   font-size: clamp(1em, 1em + 2vw, 1.5em);
 }
+@media screen and (max-width: 820px) {
+  .fListObserv {
+    position: absolute;
+    left: 60%;
+    top: 14%;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 12px BalooBhaina2-Medium;
+    border: none;
+    align-items: center;
+    color: rgb(41, 41, 41);
+    border-radius: 5px;
+    width: 30%;
+    height: 6%;
+    z-index: 1;
+  }
+}
