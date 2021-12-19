@@ -24,7 +24,10 @@ export default function Modal() {
         <div className="modalAltObservacoes">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalAltObservacoes-content">
-            <h2 className="titleModal">Alterar Observação</h2>
+            <h2 className="titleModal">
+              Alterar Observação
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fDescObservaçoes"

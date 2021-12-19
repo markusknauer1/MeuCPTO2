@@ -24,8 +24,10 @@ export default function ModalEquipes() {
         <div className="modalEquipe">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Equipe</h2>
-            <hr className="hrTitleModal1" />
+            <h2 className="titleModal">
+              Nova Equipe
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fcadastroEquipe"

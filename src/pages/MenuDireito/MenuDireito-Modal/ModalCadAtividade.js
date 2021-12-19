@@ -23,8 +23,10 @@ export default function ModalAtividade() {
         <div className="modalAtividade">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Atividade</h2>
-            <hr className="hrTitleModal1" />
+            <h2 className="titleModal">
+              Nova Atividade
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fDescAtividade"

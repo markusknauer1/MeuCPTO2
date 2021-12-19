@@ -24,8 +24,10 @@ export default function ModalPessoa() {
         <div className="modalPessoa">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPessoa-content">
-            <h2 className="titleModal">Nova Pessoa</h2>
-            <hr className="hrTitleModal" />
+            <h2 className="titleModal">
+              Nova Pessoa
+              <hr className="hrTitleModal" />
+            </h2>
 
             <div className="formCadModal">
               <input

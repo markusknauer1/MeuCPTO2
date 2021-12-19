@@ -24,8 +24,10 @@ export default function ModalGerencias() {
         <div className="modalGerencia">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Gerência</h2>
-            <hr className="hrTitleModal1" />
+            <h2 className="titleModal">
+              Nova Gerência
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fDescGerencia"

@@ -24,8 +24,10 @@ export default function ModalObservacoes() {
         <div className="modalObservacoes">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Observação</h2>
-            <hr className="hrTitleModal4" />
+            <h2 className="titleModal">
+              Nova Observação
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fDescObservaçoes"

@@ -24,8 +24,10 @@ export default function ModalArea() {
         <div className="modalArea">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Área</h2>
-            <hr className="hrTitleModal1" />
+            <h2 className="titleModal">
+              Nova Área
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="fArea"
