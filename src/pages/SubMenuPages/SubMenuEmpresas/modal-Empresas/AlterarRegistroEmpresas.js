@@ -33,9 +33,11 @@ export default function Modal() {
         <div className="AlterarRegistroEmpresas">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="AlterarRegistroEmpresas-content">
-            <h2 className="titleModal">Novo Registro</h2>
+            <h2 className="titleModal">
+              Novo Registro
+              <hr className="hrTitleModal" />
+            </h2>
 
-            <hr className="hrTitleModal2" />
             <input
               className="fNomeFantasiaEmpresa"
               placeholder="Nome Fantasia"

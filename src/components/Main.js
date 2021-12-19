@@ -24,7 +24,7 @@ export const ContainerPage = styled.div`
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
-    z-index: 9;
+    z-index: 1;
   }
   @media screen and (max-width: 500px) {
     position: fixed;

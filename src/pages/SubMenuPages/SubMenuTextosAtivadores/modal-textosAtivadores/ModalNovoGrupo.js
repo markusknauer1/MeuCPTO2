@@ -24,8 +24,10 @@ export default function Modal() {
         <div className="ModalNovoGrupo">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Novo Grupo de Ativadores</h2>
-            <hr className="hrTitleModal3" />
+            <h2 className="titleModal">
+              Novo Grupo de Ativadores
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="textGrupoDesc"

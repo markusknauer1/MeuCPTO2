@@ -177,8 +177,10 @@ function SubMenuTextActive() {
                     <div className="ModalNovoGrupo">
                       <div onClick={toggleModal} className="overlay"></div>
                       <div className="modalPadrao-content">
-                        <h2 className="titleModal">Alterar Grupo ativador</h2>
-                        <hr className="hrTitleModal3" />
+                        <h2 className="titleModal">
+                          Alterar Grupo ativador
+                          <hr className="hrTitleModal" />
+                        </h2>
 
                         <input
                           className="textGrupoDesc"

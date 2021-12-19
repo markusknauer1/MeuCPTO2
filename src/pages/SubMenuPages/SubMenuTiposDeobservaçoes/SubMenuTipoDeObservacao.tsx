@@ -324,9 +324,8 @@ function SubMenuTipoDeObservacao() {
                       <div className="NovoTipoDeobservacao-content">
                         <h2 className="titleModal">
                           Alterar Tipo de Observação
+                          <hr className="hrTitleModal" />
                         </h2>
-
-                        <hr className="hrTitleModal3" />
                         <input
                           className="NTODescricao"
                           placeholder="Descrição"

@@ -66,7 +66,10 @@ function TQOQuestoesReg() {
                   <div className="modalNovaQuestao">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modalPadrao-content">
-                      <h2 className="titleModal">Alterar Questão</h2>
+                      <h2 className="titleModal">
+                        Alterar Questão
+                        <hr className="hrTitleModal" />
+                      </h2>
 
                       <input
                         className="NQCod"

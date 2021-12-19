@@ -24,9 +24,11 @@ export default function Modal() {
         <div className="NovoTipoDeobservacao">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="NovoTipoDeobservacao-content">
-            <h2 className="titleModal">Novo Tipo de Observação</h2>
+            <h2 className="titleModal">
+              Novo Tipo de Observação
+              <hr className="hrTitleModal" />
+            </h2>
 
-            <hr className="hrTitleModal3" />
             <input
               className="NTODescricao"
               placeholder="Descrição"

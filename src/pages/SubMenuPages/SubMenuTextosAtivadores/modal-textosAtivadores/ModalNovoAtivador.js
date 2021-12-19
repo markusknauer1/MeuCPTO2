@@ -24,9 +24,11 @@ export default function Modal() {
         <div className="ModalNovoAtivador">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Novo Ativador</h2>
+            <h2 className="titleModal">
+              Novo Ativador
+              <hr className="hrTitleModal" />
+            </h2>
 
-            <hr className="hrTitleModal1" />
             <input
               className="textActiveDesc"
               placeholder="Descrição"

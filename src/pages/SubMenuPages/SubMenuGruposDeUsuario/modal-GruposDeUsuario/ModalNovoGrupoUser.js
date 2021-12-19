@@ -24,7 +24,10 @@ export default function Modal() {
         <div className="ModalNovoGrupoUser">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Novo Grupo De Usuários</h2>
+            <h2 className="titleModal">
+              Novo Grupo De Usuários
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="NGUDesc"

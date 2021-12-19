@@ -89,9 +89,11 @@ function SubMenuEmpresas() {
                     <div className="AlterarRegistroEmpresas">
                       <div onClick={toggleModal} className="overlay"></div>
                       <div className="AlterarRegistroEmpresas-content">
-                        <h2 className="titleModal">Alterar Registro</h2>
+                        <h2 className="titleModal">
+                          Alterar Registro
+                          <hr className="hrTitleModal" />
+                        </h2>
 
-                        <hr className="hrTitleModal2" />
                         <input
                           className="fNomeFantasiaEmpresa"
                           placeholder="Nome Fantasia"

@@ -24,8 +24,10 @@ export default function ModalNovaQuestao() {
         <div className="modalNovaQuestao">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Questão</h2>
-            <hr className="hrTitleModal1" />
+            <h2 className="titleModal">
+              Nova Questão
+              <hr className="hrTitleModal" />
+            </h2>
 
             <input
               className="NQCod"

@@ -185,6 +185,7 @@ function SubMenuGruposUsuarios() {
                       <div className="modalPadrao-content">
                         <h2 className="titleModal">
                           Alterar Grupo De Usuários
+                          <hr className="hrTitleModal" />
                         </h2>
 
                         <input

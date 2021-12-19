@@ -74,7 +74,10 @@ function TipoQualidadeDeObservacao() {
                   <div className="modalNovoGrupoDeQuestoes">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modalPadrao-content">
-                      <h2 className="titleModal">Alterar Grupo De Questões</h2>
+                      <h2 className="titleModal">
+                        Alterar Grupo De Questões
+                        <hr className="hrTitleModal" />
+                      </h2>
 
                       <input
                         className="NGQCod"
