@@ -155,7 +155,7 @@ export const TitlePage4 = styled.h5`
   }
   @media screen and (max-width: 620px) {
     position: absolute;
-    top: 4%;
+    top: 2%;
     left: 5%;
     font-family: BalooBhaina2-bold;
     font-size: clamp(0.1em, 0.1em + 2.5vw, 2.5em);

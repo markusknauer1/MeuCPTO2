@@ -209,7 +209,8 @@
     align-items: center;
     z-index: 2;
     cursor: pointer;
-    font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
+    font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
     border-style: none;
@@ -227,7 +228,8 @@
     align-items: center;
     z-index: 2;
     cursor: pointer;
-    font: clamp(0.01em, 0.01em + 1.2vw, 1.2em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+    font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
     border-style: none;
@@ -284,8 +286,8 @@
   .buttonModalPadrao {
     position: fixed;
     top: 21%;
-    left: 75%;
-    width: clamp(1em, 1em + 17vw, 17em);
+    left: 74%;
+    width: 21%;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -304,7 +306,7 @@
     position: fixed;
     top: 21%;
     left: 75%;
-    width: clamp(1em, 1em + 17vw, 17em);
+    width: 20%;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -312,7 +314,7 @@
     align-items: center;
     z-index: 2;
     cursor: pointer;
-    font-size: clamp(0.1em, 0.1em + 1.8vw, 1.8em);
+    font-size: clamp(0.2em, 0.2em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;

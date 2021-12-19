@@ -241,8 +241,8 @@ span {
     padding: 3px;
     justify-content: center;
     align-items: center;
-    left: 85%;
-    bottom: 2%;
+    left: 82%;
+    bottom: 24%;
     z-index: 9999;
   }
 
@@ -396,7 +396,7 @@ span {
     justify-content: center;
     align-items: center;
     left: 85%;
-    bottom: 2%;
+    top: 72%;
     z-index: 9999;
   }
 
