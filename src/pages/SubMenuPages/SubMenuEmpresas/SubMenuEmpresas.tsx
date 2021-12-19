@@ -48,7 +48,7 @@ function SubMenuEmpresas() {
                   <thead>
                     <tr className="header">
                       <th className="tblSubEmpresaCod">
-                        <div>Código</div>
+                        <div>Cód</div>
                       </th>
                       <th className="tblSubEmpresaEmpresa">
                         <div>Empresa</div>

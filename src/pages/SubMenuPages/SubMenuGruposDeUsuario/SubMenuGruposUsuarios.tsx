@@ -31,7 +31,7 @@ function SubMenuGruposUsuarios() {
         </div>
         <div className="page">
           <TitlePage4>Grupos de Usuários</TitlePage4>
-          <div className="filter1"></div>
+
           <div className="tabelaPadrao">
             <section className="">
               <div className="containerPadrao">

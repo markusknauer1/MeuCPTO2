@@ -88,17 +88,6 @@
   /* rgb(219, 219, 219); */
   /* border-radius: 10px; */
 }
-th div {
-  position: absolute;
-  background: transparent;
-  color: #fff;
-  top: 1%;
-  padding-left: 1%;
-  line-height: normal;
-  border-left: none;
-  font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-}
 .HeaderContent {
   position: relative;
   border: 1px solid #000;

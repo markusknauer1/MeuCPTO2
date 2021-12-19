@@ -187,6 +187,7 @@ td {
 .cabecalho {
   text-align: center;
 }
+
 th div {
   position: absolute;
   background: transparent;
@@ -280,7 +281,7 @@ th:first-child div {
     padding-top: 5%;
     width: 90%;
     height: 10%;
-    font: 10px BalooBhaina2-Regular;
+    font-family: BalooBhaina2-Regular;
     background: #1c396b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -493,7 +494,7 @@ th:first-child div {
   }
   table {
     background-color: #fff;
-    font-size: clamp(0.1em, 0.1em + 2.2vw, 2.2em);
+    font-size: 40px;
   }
   td + td {
     border-left: 1px solid #eee;
@@ -513,7 +514,7 @@ th:first-child div {
     line-height: normal;
     border-left: none;
     font-family: BalooBhaina2-SemiBold;
-    font-size: clamp(0.3em, 0.3em + 1vw, 1em);
+    font-size: clamp(0.4em, 0.4em + 1vw, 1em);
   }
   th:first-child div {
     border: none;
@@ -522,6 +523,7 @@ th:first-child div {
   table {
     border-spacing: 0;
     background-color: #fff;
+    font-size: 10px;
   }
 
   .fnamePadrao {
