@@ -1152,6 +1152,19 @@ textarea {
     font-family: BalooBhaina2-Medium;
     font-size: 14px;
   }
+  .consultaCep {
+    position: absolute;
+    left: 90%;
+    top: 40%;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding-top: 0;
+    padding-left: 0;
+  }
   .fcadastroNovaPessoa9 {
     position: absolute;
     left: 5%;
@@ -1283,14 +1296,6 @@ textarea {
     color: #1c396b;
     cursor: pointer;
     letter-spacing: 0;
-  }
-  .consultaCep {
-    position: fixed;
-    left: 81%;
-    top: 36%;
-    color: black;
-    border-radius: 5px;
-    font-size: clamp(0.5em, 0.5em + 1.4vw, 1.4em);
   }
   .fcadastroPessoa1 {
     position: absolute;
@@ -1481,12 +1486,11 @@ textarea {
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
   }
   .InputAuthorization1 {
-    left: 6%;
+    left: 5%;
     top: 86%;
     position: absolute;
-    justify-content: center;
     align-items: center;
-    width: 26%;
+    width: 30%;
     background-color: transparent;
     border-radius: 5px;
     border: none;
@@ -1495,13 +1499,12 @@ textarea {
     letter-spacing: 0;
   }
   .InputAuthorization2 {
-    left: 6%;
+    left: 5%;
     top: 90%;
     position: absolute;
-    width: 24%;
+    width: 30%;
     background-color: transparent;
     border-radius: 5px;
-    justify-content: center;
     align-items: center;
     border: none;
     color: #1c396b;
@@ -1510,16 +1513,12 @@ textarea {
   }
   .checkText {
     position: absolute;
-    margin-left: 5%;
-    margin-top: 1%;
-    font-size: clamp(0.2em, 0.2em + 1.4vw, 1.4em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
   }
   .checkText1 {
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 2%;
-    font-size: clamp(0.2em, 0.2em + 1.4vw, 1.4em);
+    position: a;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
   }
   .CheckAcess1 {
@@ -1538,6 +1537,21 @@ textarea {
   ::-webkit-input-placeholder {
     font-size: clamp(0.5em, 0.5em + 1.2vw, 1.2em);
     color: #1c396b;
+  }
+}
+@media screen and (max-width: 620px) {
+  .consultaCep {
+    position: absolute;
+    left: 90%;
+    top: 41%;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding-top: 0;
+    padding-left: 0;
   }
 }
 
