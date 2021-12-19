@@ -82,7 +82,7 @@ export const AreaSidebar = styled.div`
     }
     li {
       display: flex;
-      padding-top: 6%;
+      padding-top: 10%;
       justify-content: center;
       align-items: center;
       left: 0;
