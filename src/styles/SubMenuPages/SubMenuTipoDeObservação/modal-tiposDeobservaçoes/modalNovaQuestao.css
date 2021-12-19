@@ -195,15 +195,17 @@ body.active-modalNovaQuestão {
     height: 10%;
     justify-content: center;
     text-align: center;
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
     border: none;
     background-color: rgb(190, 190, 190);
     color: #1c396b;
+
     font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     padding-top: 1%;
   }
   .NQCod::-webkit-input-placeholder {
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     color: #1c396b;
   }
   .NQDescricao {
@@ -215,16 +217,18 @@ body.active-modalNovaQuestão {
     height: 10%;
     justify-content: center;
     align-items: center;
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
     border: none;
     background-color: rgb(190, 190, 190);
     color: #1c396b;
+
     font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     padding-left: 2%;
     padding-top: 1%;
   }
   .NQDescricao::-webkit-input-placeholder {
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     color: #1c396b;
   }
   .NQPontos {
@@ -244,7 +248,8 @@ body.active-modalNovaQuestão {
     padding-top: 1%;
   }
   .NQPontos::-webkit-input-placeholder {
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     color: #1c396b;
   }
   .NQObservacao {
@@ -255,17 +260,18 @@ body.active-modalNovaQuestão {
     width: 90%;
     height: 30%;
     justify-content: center;
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
     border: none;
     background-color: rgb(190, 190, 190);
     color: #1c396b;
     font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     text-align: left;
     padding-left: 2%;
     padding-top: 1%;
   }
   .NQObservacao::-webkit-input-placeholder {
-    font-size: clamp(0.4em, 0.4em + 1.8vw, 1.8em);
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 10px;
     color: #1c396b;
   }
 }
