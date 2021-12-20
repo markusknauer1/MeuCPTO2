@@ -22,8 +22,8 @@ export const UniClienteExe: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <button
           className="btnReturn"
@@ -675,8 +675,8 @@ export const MesSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <button
           className="btnReturn"
@@ -989,9 +989,8 @@ export const UniContribSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <button
           className="btnReturn"

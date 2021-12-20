@@ -25,7 +25,7 @@ export default function Modal() {
         <div className="ModalObsUnidades">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="ModalObsUnidades-content">
-            <h2 className="titleObsUnidade">
+            <h2 className="titleModal">
               Observações Realizadas
               <hr className="hrTitleModal" />
             </h2>
@@ -38,7 +38,7 @@ export default function Modal() {
             />
 
             <div className="tabelaRegistro">
-              <section className="HeaderContent">
+              <section className="">
                 <div className="containerObsReal">
                   <table>
                     <thead>
@@ -49,14 +49,23 @@ export default function Modal() {
                         <th className="tblObsUniLocal">
                           <div>Local</div>
                         </th>
-                        <th className="tblObsUniGerência">
-                          <div>Gerência do Local</div>
+                        <th className="tblObsUniGerencia">
+                          <div>
+                            Gerência do <br />
+                            Local
+                          </div>
                         </th>
                         <th className="tblObsUniEquipe">
-                          <div>Equipe Abordada</div>
+                          <div>
+                            Equipe <br />
+                            Abordada
+                          </div>
                         </th>
                         <th className="tblObsUniAtividade">
-                          <div>Gerencia da Equipe</div>
+                          <div>
+                            Gerencia da <br />
+                            Equipe
+                          </div>
                         </th>
                         <th className="tblObsUniData">
                           <div>Data</div>

@@ -47,7 +47,7 @@
 .fListObserv {
   position: absolute;
   left: 80%;
-  top: 14%;
+  top: 10%;
   padding-left: 10px;
   background-color: rgb(201, 201, 201);
   font: 12px BalooBhaina2-Medium;
@@ -63,27 +63,25 @@
 /* ------------tabela modal de observaçoes realizadas / pagina relatorio----------------------- */
 .tabelaRegistro {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 5%;
   width: 90%;
-  height: 50%;
-  background-color: white;
+  background-color: transparent;
   border-radius: 0;
   z-index: 5;
 }
 
 .containerObsReal {
   overflow-x: hidden;
-  margin-left: -1px;
   border: 1px solid;
-  width: 100.2%;
-  height: 18rem;
-  padding-right: 5px;
-  background-color: #fff;
+  margin-left: -1px;
+  width: 100.4%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .containerObsReal::-webkit-scrollbar {
   width: 6px;
-  background-color: rgb(219, 219, 219);
+  background-color: transparent;
   border-radius: 8px;
   /* rgb(219, 219, 219); */
   /* border-radius: 10px; */
@@ -91,38 +89,40 @@
 .HeaderContent {
   position: relative;
   border: 1px solid #000;
-  top: -2rem;
   width: 100%;
   height: 10%;
   background: #1c396b;
   border-radius: 0px;
 }
 
-.tblObsUniObservador {
-  top: 20%;
+.tblObsUniObservador div {
+  padding-top: 1%;
 }
-.tblObsUniLocal {
-  top: 20%;
+.tblObsUniLocal div {
+  padding-top: 1%;
 }
-.tblObsUniGerência {
-  top: 20%;
-  line-height: -1px;
+.tblObsUniGerencia div {
+  padding-top: 1%;
+  line-height: 10px;
 }
-.tblObsUniEquipe {
-  top: 20%;
+.tblObsUniEquipe div {
+  padding-top: 1%;
+  line-height: 10px;
 }
-.tblObsUniAtividade {
-  top: 20%;
+.tblObsUniAtividade div {
+  padding-top: 1%;
+  line-height: 10px;
 }
-.tblObsUniData {
-  top: 20%;
+.tblObsUniData div {
+  padding-top: 1%;
 }
-.tblObsUniIcs {
-  top: 20%;
+.tblObsUniIcs div {
+  padding-top: 1%;
 }
-.tblObsUniDetalhes {
-  top: 20%;
+.tblObsUniDetalhes div {
+  padding-top: 1%;
 }
+
 /* ------------------conteúdo da tabela---------------- */
 .btnObsObservador {
   justify-content: center;
@@ -177,7 +177,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 10rem;
+  width: 12rem;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
   font-family: BalooBhaina2-Medium;
 }
@@ -199,7 +199,7 @@
 @media screen and (max-width: 820px) {
   .fListObserv {
     position: absolute;
-    left: 60%;
+    left: 5%;
     top: 14%;
     padding-left: 10px;
     background-color: rgb(201, 201, 201);
@@ -208,9 +208,81 @@
     align-items: center;
     color: rgb(41, 41, 41);
     border-radius: 5px;
-    width: 30%;
-    height: 6%;
+    width: 40%;
+    height: 20px;
     z-index: 1;
+  }
+  .ModalObsUnidades-content {
+    position: fixed;
+    top: 14%;
+    left: 10%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 80%;
+    height: 450px;
+    border-radius: 25px;
+    z-index: 99;
+  }
+  .tabelaRegistro {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    z-index: 5;
+  }
+
+  .containerObsReal {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    width: 100.4%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .containerObsReal::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+    border-radius: 8px;
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  .HeaderContent {
+    position: relative;
+    border: 1px solid #000;
+    top: -2rem;
+    width: 100%;
+    height: 10%;
+    background: #1c396b;
+    border-radius: 0px;
+  }
+  /* =========================== */
+
+  .tblObsUniObservador {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniLocal {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniGerencia div {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniEquipe div {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniAtividade div {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+
+  .tblObsUniData {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniIcs {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniDetalhes {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
   }
   /* ------------------conteúdo da tabela---------------- */
   .btnObsObservador {
@@ -233,7 +305,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 30rem;
+    width: 20rem;
     font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
     font-family: BalooBhaina2-Medium;
   }
@@ -266,7 +338,174 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 15rem;
+    width: 22rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+
+  .verifObserv1 {
+    color: #35c2aa;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: clamp(1em, 1em + 2vw, 1.5em);
+  }
+  .verifObserv2 {
+    color: #1c396b;
+    top: 2%;
+    background-color: transparent;
+    border-style: none;
+    font-size: clamp(1em, 1em + 2vw, 1.5em);
+  }
+}
+@media screen and (max-width: 620px) {
+  .fListObserv {
+    position: absolute;
+    left: 5%;
+    top: 14%;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 12px BalooBhaina2-Medium;
+    border: none;
+    align-items: center;
+    color: rgb(41, 41, 41);
+    border-radius: 5px;
+    width: 35%;
+    height: 20px;
+    z-index: 1;
+  }
+  .ModalObsUnidades-content {
+    position: fixed;
+    top: 14%;
+    left: 10%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 80%;
+    height: 65%;
+    border-radius: 25px;
+    z-index: 99;
+  }
+  .tabelaRegistro {
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 0;
+    z-index: 5;
+  }
+
+  .containerObsReal {
+    overflow-x: hidden;
+    border: 1px solid;
+    margin-left: -1px;
+    width: 100.4%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .containerObsReal::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+    border-radius: 8px;
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  .HeaderContent {
+    position: relative;
+    border: 1px solid #000;
+    top: -2rem;
+    width: 100%;
+    height: 10%;
+    background: #1c396b;
+    border-radius: 0px;
+  }
+  /* =========================== */
+
+  .tblObsUniObservador {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniLocal {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniGerencia div {
+    line-height: 8px;
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniEquipe div {
+    line-height: 8px;
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniAtividade div {
+    line-height: 8px;
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+
+  .tblObsUniData {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniIcs {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  .tblObsUniDetalhes {
+    font-size: clamp (0.1em, 0.1em + 1vw, 1em);
+  }
+  /* ------------------conteúdo da tabela---------------- */
+  .btnObsObservador {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 35rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniLocal {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 8rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniEquipe {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniAtividade {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 26rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniData {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+
+  .btnObsUniIcs {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 8rem;
+    font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
+    font-family: BalooBhaina2-Medium;
+  }
+  .btnObsUniDetalhes {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 25rem;
     font-size: clamp(0.1em, 0.1em + 0.9vw, 0.9em);
     font-family: BalooBhaina2-Medium;
   }
