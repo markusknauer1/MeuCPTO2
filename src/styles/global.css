@@ -1254,19 +1254,21 @@ th:first-child div {
   }
   .SelectCliente {
     position: fixed;
-    top: 30%;
+    top: 25%;
     margin-left: 5%;
     right: 15%;
-    font: clamp(0.01em, 0.01em + 1.8vw, 1.8em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 1.8vw, 1.8em);
     color: #30aa93;
   }
   .SelectIdCliente {
     position: absolute;
-    top: 22%;
+    top: 14%;
     margin-left: 5%;
     left: 0;
     background-color: rgb(255, 255, 255);
-    font: 14px BalooBhaina2-Regular;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.8vw, 1.8em);
     border: none;
     display: flex;
     color: gray;
@@ -1277,18 +1279,20 @@ th:first-child div {
   }
   .SelectObserv {
     position: fixed;
-    top: 40%;
+    top: 34%;
     margin-left: 5%;
     right: 12%;
-    font: clamp(0.01em, 0.01em + 1.8vw, 1.8em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 1.8vw, 1.8em);
     color: #30aa93;
   }
   .SelectIdObserv {
     position: absolute;
-    top: 38%;
+    top: 30%;
     margin-left: 5%;
     background-color: rgb(255, 255, 255);
-    font: 14px BalooBhaina2-Regular;
+    font-family: BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.8vw, 1.8em);
     border: none;
     display: flex;
     align-items: center;
@@ -1301,15 +1305,16 @@ th:first-child div {
   }
   .SelectDate {
     position: fixed;
-    top: 50%;
+    top: 44%;
     margin-left: 5%;
     right: 13%;
-    font: clamp(0.01em, 0.01em + 1.8vw, 1.8em) BalooBhaina2-SemiBold;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 1.8vw, 1.8em);
     color: #30aa93;
   }
   .calendarioAnalise1 {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 5%;
     z-index: 1;
     width: 90%;
