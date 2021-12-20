@@ -67,56 +67,53 @@ function TipoQualidadeDeObservacao() {
                     </label>
                   </td>
                 </tbody>
-
-                {/* ============================================================= */}
-
-                {modal && (
-                  <div className="modalNovoGrupoDeQuestoes">
-                    <div onClick={toggleModal} className="overlay"></div>
-                    <div className="modalPadrao-content">
-                      <h2 className="titleModal">
-                        Alterar Grupo De Questões
-                        <hr className="hrTitleModal" />
-                      </h2>
-
-                      <input
-                        className="NGQCod"
-                        placeholder="Cód"
-                        id="fname"
-                        name="fname"
-                      ></input>
-
-                      <input
-                        className="NGQDescricao"
-                        placeholder="Descrição"
-                        id="fname"
-                        name="fname"
-                      ></input>
-
-                      <textarea
-                        className="NGQObservacao"
-                        placeholder="Observações"
-                        id="fname"
-                        name="fname"
-                        maxLength={500}
-                      ></textarea>
-
-                      <button className="close-modal" onClick={toggleModal}>
-                        X
-                      </button>
-                      <button onClick={toggleModal} className="gravar-modal">
-                        Salvar Registro
-                      </button>
-                    </div>
-                  </div>
-                )}
               </table>
             </div>
           </div>
         </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        {/* ============================================================= */}
+
+        {modal && (
+          <div className="modalNovoGrupoDeQuestoes">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Grupo De Questões
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="NGQCod"
+                placeholder="Cód"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <input
+                className="NGQDescricao"
+                placeholder="Descrição"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <textarea
+                className="NGQObservacao"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
       </ContainerPage>
     </div>
   )

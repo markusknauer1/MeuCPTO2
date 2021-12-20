@@ -176,51 +176,48 @@ function SubMenuGruposUsuarios() {
                       </label>
                     </td>
                   </tbody>
-
-                  {/* ======================================================================================= */}
-
-                  {modal && (
-                    <div className="ModalNovoGrupoUser">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">
-                          Alterar Grupo De Usuários
-                          <hr className="hrTitleModal" />
-                        </h2>
-
-                        <input
-                          className="NGUDesc"
-                          placeholder="Alterar Descrição"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                        ></input>
-
-                        <textarea
-                          className="NGUObs"
-                          placeholder=" Alterar Observação"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        {/* ======================================================================================= */}
+
+        {modal && (
+          <div className="ModalNovoGrupoUser">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Grupo De Usuários
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="NGUDesc"
+                placeholder="Alterar Descrição"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <textarea
+                className="NGUObs"
+                placeholder=" Alterar Observação"
+                id="fname"
+                name="fname"
+                maxLength={500}
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
       </ContainerPage>
     </div>
   )

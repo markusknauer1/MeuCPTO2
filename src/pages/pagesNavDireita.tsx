@@ -103,50 +103,52 @@ export const Area: FC = () => {
                 </tbody>
 
                 {/* ========================================================================== */}
-                {modal && (
-                  <div className="modalArea">
-                    <div onClick={toggleModal} className="overlay"></div>
-                    <div className="modalPadrao-content">
-                      <h2 className="titleModal">Nova Área</h2>
-                      <hr className="hrTitleModal1" />
-
-                      <input
-                        className="fArea"
-                        placeholder="Nova Área"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                        autoComplete="none"
-                      ></input>
-
-                      <select name="Selecione" className="fAreaRef" id="fSexo">
-                        <option value="">Select</option>
-                        <option value="">Select</option>
-                        <option value="">Select</option>
-                      </select>
-
-                      <textarea
-                        className="fObsArea"
-                        placeholder="Observações"
-                        id="fname"
-                        name="fname"
-                        maxLength={500}
-                        autoComplete="none"
-                      ></textarea>
-
-                      <button className="close-modal" onClick={toggleModal}>
-                        X
-                      </button>
-                      <button onClick={toggleModal} className="gravar-modal">
-                        Salvar Registro
-                      </button>
-                    </div>
-                  </div>
-                )}
               </table>
             </div>
           </section>
         </div>
+        {modal && (
+          <div className="modalArea">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Nova Área
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fArea"
+                placeholder="Nova Área"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <select name="Selecione" className="fAreaRef" id="fSexo">
+                <option value="">Select</option>
+                <option value="">Select</option>
+                <option value="">Select</option>
+              </select>
+
+              <textarea
+                className="fObsArea"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
         <NavDireita />
       </ContainerPage>
     </div>
@@ -224,45 +226,47 @@ export const Atividades: FC = () => {
                     </td>
                   </tbody>
                   {/* ==================================================== */}
-                  {modal && (
-                    <div className="modalAtividade">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">Alterar Atividade</h2>
-                        <hr className="hrTitleModal1" />
-
-                        <input
-                          className="fDescAtividade"
-                          placeholder="Alterar Atividade"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <textarea
-                          className="fObsAtividade"
-                          placeholder="Alterar Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                          autoComplete="none"
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
+        {modal && (
+          <div className="modalAtividade">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Atividade
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fDescAtividade"
+                placeholder="Alterar Atividade"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <textarea
+                className="fObsAtividade"
+                placeholder="Alterar Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
         <NavDireita />
       </ContainerPage>
     </div>
@@ -362,54 +366,52 @@ export const Equipes: FC = () => {
                   </tbody>
 
                   {/* ===============================Modal Alterar Informação da lista============================ */}
-                  {modal && (
-                    <div className="modalEquipe">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">Alterar Equipe</h2>
-                        <hr className="hrTitleModal1" />
-
-                        <input
-                          className="fcadastroEquipe"
-                          placeholder="Nome"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <select
-                          name="Selecione"
-                          className="fgerResp"
-                          id="fSexo"
-                        >
-                          <option value="">Select</option>
-                          <option value="">Select</option>
-                          <option value="">Select</option>
-                        </select>
-
-                        <textarea
-                          className="fObs"
-                          placeholder="Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
+        {modal && (
+          <div className="modalEquipe">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Equipe
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fcadastroEquipe"
+                placeholder="Nome"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <select name="Selecione" className="fgerResp" id="fSexo">
+                <option value="">Select</option>
+                <option value="">Select</option>
+                <option value="">Select</option>
+              </select>
+
+              <textarea
+                className="fObs"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
         <NavDireita />
       </ContainerPage>
     </div>
@@ -497,45 +499,47 @@ export const Gerencias: FC = () => {
                     </td>
                   </tbody>
                   {/* ===============================Modal Alterar Informação da lista============================ */}
-                  {modal && (
-                    <div className="modalGerencia">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">Alterar Gerência</h2>
-                        <hr className="hrTitleModal1" />
-
-                        <input
-                          className="fDescGerencia"
-                          placeholder="Alterar Gerência"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <textarea
-                          className="fObsGerencia"
-                          placeholder="Alterar Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                          autoComplete="none"
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
+        {modal && (
+          <div className="modalGerencia">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Gerência
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fDescGerencia"
+                placeholder="Alterar Gerência"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <textarea
+                className="fObsGerencia"
+                placeholder="Alterar Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
         <NavDireita />
       </ContainerPage>
     </div>
@@ -626,46 +630,47 @@ export const Observacoes: FC = () => {
                   </tbody>
 
                   {/* ================================================================================ */}
-
-                  {modal && (
-                    <div className="modalObservacoes">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">Alterar Observação</h2>
-                        <hr className="hrTitleModal4" />
-
-                        <input
-                          className="fDescObservaçoes"
-                          placeholder="Alterar Observação"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <textarea
-                          className="fObsObservaçoes"
-                          placeholder="Alterar Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                          autoComplete="none"
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
+        {modal && (
+          <div className="modalObservacoes">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Observação
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fDescObservaçoes"
+                placeholder="Alterar Observação"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <textarea
+                className="fObsObservaçoes"
+                placeholder="Alterar Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
         <NavDireita />
       </ContainerPage>
     </div>

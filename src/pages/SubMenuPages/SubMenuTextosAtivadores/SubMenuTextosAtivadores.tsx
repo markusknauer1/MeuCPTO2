@@ -170,53 +170,49 @@ function SubMenuTextActive() {
                       consequuntur.
                     </td>
                   </tbody>
-
-                  {/* ===================================================== */}
-
-                  {modal && (
-                    <div className="ModalNovoGrupo">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">
-                          Alterar Grupo ativador
-                          <hr className="hrTitleModal" />
-                        </h2>
-
-                        <input
-                          className="textGrupoDesc"
-                          placeholder="Alterar Descrição"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <textarea
-                          className="textGrupoDescObs"
-                          placeholder="Alterar Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                          autoComplete="none"
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
-        </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        </div>{' '}
+        {/* ===================================================== */}
+        {modal && (
+          <div className="ModalNovoGrupo">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Grupo ativador
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="textGrupoDesc"
+                placeholder="Alterar Descrição"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <textarea
+                className="textGrupoDescObs"
+                placeholder="Alterar Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
       </ContainerPage>
     </div>
   )

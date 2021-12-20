@@ -90,59 +90,57 @@ function AtivadoresPsicologicos() {
                       </label>
                     </td>
                   </tbody>
-                  {/* ============================================================= */}
-                  {modal && (
-                    <div className="ModalNovoAtivador">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="modalPadrao-content">
-                        <h2 className="titleModal">
-                          Alterar Ativador
-                          <hr className="hrTitleModal" />
-                        </h2>
-
-                        <input
-                          className="textActiveDesc"
-                          placeholder="Descrição"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-                        <input
-                          className="textActivePeso"
-                          placeholder="Peso"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                          autoComplete="none"
-                        ></input>
-
-                        <textarea
-                          className="textActiveObs"
-                          placeholder="Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                          autoComplete="none"
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        {/* ============================================================= */}
+        {modal && (
+          <div className="ModalNovoAtivador">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Ativador
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="textActiveDesc"
+                placeholder="Descrição"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+              <input
+                className="textActivePeso"
+                placeholder="Peso"
+                type="text"
+                id="fname"
+                name="fname"
+                autoComplete="none"
+              ></input>
+
+              <textarea
+                className="textActiveObs"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+                autoComplete="none"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
       </ContainerPage>
     </div>
   )

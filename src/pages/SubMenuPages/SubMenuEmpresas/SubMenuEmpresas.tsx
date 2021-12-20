@@ -82,108 +82,99 @@ function SubMenuEmpresas() {
                       </label>
                     </td>
                   </tbody>
-
-                  {/* ============================================================================ */}
-
-                  {modal && (
-                    <div className="AlterarRegistroEmpresas">
-                      <div onClick={toggleModal} className="overlay"></div>
-                      <div className="AlterarRegistroEmpresas-content">
-                        <h2 className="titleModal">
-                          Alterar Registro
-                          <hr className="hrTitleModal" />
-                        </h2>
-
-                        <input
-                          className="fNomeFantasiaEmpresa"
-                          placeholder="Nome Fantasia"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                        ></input>
-
-                        <form onSubmit={uploadImage}>
-                          <div className="form-group">
-                            {image ? (
-                              <img
-                                src={URL.createObjectURL(image)}
-                                alt="perfil"
-                                className="imgProfileEmpresa"
-                                width="150"
-                                height="150"
-                              />
-                            ) : (
-                              <img
-                                src={endImg}
-                                alt="Perfil"
-                                className="imgProfile"
-                              />
-                            )}
-                            <input
-                              type="file"
-                              name="image"
-                              className="form-control-file"
-                              id="exampleFormControlFile1"
-                              onChange={(e: any) => setImage(e.target.files[0])}
-                            />
-                          </div>
-                        </form>
-
-                        <input
-                          className="fRazãoSocialEmpresa"
-                          placeholder="Razão Social"
-                          type="text"
-                          id="fname"
-                          name="fname"
-                        ></input>
-
-                        <select className="fSelectTipEmpresa">
-                          <option value="">Selecione o Tipo de Empresa:</option>
-                          <option value="">
-                            Auditoria de Atividades e Processos
-                          </option>
-                          <option value="">Papel e Celulose</option>
-                        </select>
-
-                        <input
-                          className="fCNPJEmpresa"
-                          placeholder="CNPJ"
-                          id="fname"
-                          name="fname"
-                        ></input>
-
-                        <input
-                          className="fInscEst"
-                          placeholder="Inscrição Estadual"
-                          id="fname"
-                          name="fname"
-                        ></input>
-
-                        <textarea
-                          className="fObsEmpresa"
-                          placeholder="Observações"
-                          id="fname"
-                          name="fname"
-                          maxLength={500}
-                        ></textarea>
-
-                        <button className="close-modal" onClick={toggleModal}>
-                          X
-                        </button>
-                        <button onClick={toggleModal} className="gravar-modal">
-                          Salvar Registro
-                        </button>
-                      </div>
-                    </div>
-                  )}
                 </table>
               </div>
             </section>
           </div>
         </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        {/* ============================================================================ */}
+
+        {modal && (
+          <div className="AlterarRegistroEmpresas">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="AlterarRegistroEmpresas-content">
+              <h2 className="titleModal">
+                Alterar Registro
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="fNomeFantasiaEmpresa"
+                placeholder="Nome Fantasia"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <form onSubmit={uploadImage}>
+                <div className="form-group">
+                  {image ? (
+                    <img
+                      src={URL.createObjectURL(image)}
+                      alt="perfil"
+                      className="imgProfileEmpresa"
+                      width="150"
+                      height="150"
+                    />
+                  ) : (
+                    <img src={endImg} alt="Perfil" className="imgProfile" />
+                  )}
+                  <input
+                    type="file"
+                    name="image"
+                    className="form-control-file"
+                    id="exampleFormControlFile1"
+                    onChange={(e: any) => setImage(e.target.files[0])}
+                  />
+                </div>
+              </form>
+
+              <input
+                className="fRazãoSocialEmpresa"
+                placeholder="Razão Social"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <select className="fSelectTipEmpresa">
+                <option value="">Selecione o Tipo de Empresa:</option>
+                <option value="">Auditoria de Atividades e Processos</option>
+                <option value="">Papel e Celulose</option>
+              </select>
+
+              <input
+                className="fCNPJEmpresa"
+                placeholder="CNPJ"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <input
+                className="fInscEst"
+                placeholder="Inscrição Estadual"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <textarea
+                className="fObsEmpresa"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+                maxLength={500}
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
       </ContainerPage>
     </div>
   )

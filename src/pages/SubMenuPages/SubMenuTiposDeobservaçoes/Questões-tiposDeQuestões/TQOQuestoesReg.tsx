@@ -60,64 +60,61 @@ function TQOQuestoesReg() {
                     </label>
                   </td>
                 </tbody>
-
-                {/* ============================================================= */}
-                {modal && (
-                  <div className="modalNovaQuestao">
-                    <div onClick={toggleModal} className="overlay"></div>
-                    <div className="modalPadrao-content">
-                      <h2 className="titleModal">
-                        Alterar Questão
-                        <hr className="hrTitleModal" />
-                      </h2>
-
-                      <input
-                        className="NQCod"
-                        placeholder="Cód"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                      ></input>
-
-                      <input
-                        className="NQDescricao"
-                        placeholder="Descrição"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                      ></input>
-
-                      <input
-                        className="NQPontos"
-                        placeholder="Nota"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                      ></input>
-
-                      <textarea
-                        className="NQObservacao"
-                        placeholder="Observações"
-                        id="fname"
-                        name="fname"
-                      ></textarea>
-
-                      <button className="close-modal" onClick={toggleModal}>
-                        X
-                      </button>
-                      <button onClick={toggleModal} className="gravar-modal">
-                        Salvar Registro
-                      </button>
-                    </div>
-                  </div>
-                )}
               </table>
             </div>
           </div>
         </div>
-        <div className="buttonProfileDireita">
-          <NavDireita />
-        </div>
+        {/* ============================================================= */}
+        {modal && (
+          <div className="modalNovaQuestao">
+            <div onClick={toggleModal} className="overlay"></div>
+            <div className="modalPadrao-content">
+              <h2 className="titleModal">
+                Alterar Questão
+                <hr className="hrTitleModal" />
+              </h2>
+
+              <input
+                className="NQCod"
+                placeholder="Cód"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <input
+                className="NQDescricao"
+                placeholder="Descrição"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <input
+                className="NQPontos"
+                placeholder="Nota"
+                type="text"
+                id="fname"
+                name="fname"
+              ></input>
+
+              <textarea
+                className="NQObservacao"
+                placeholder="Observações"
+                id="fname"
+                name="fname"
+              ></textarea>
+
+              <button className="close-modal" onClick={toggleModal}>
+                X
+              </button>
+              <button onClick={toggleModal} className="gravar-modal">
+                Salvar Registro
+              </button>
+            </div>
+          </div>
+        )}
+        <NavDireita />
         <button
           className="btnReturn"
           type="button"
