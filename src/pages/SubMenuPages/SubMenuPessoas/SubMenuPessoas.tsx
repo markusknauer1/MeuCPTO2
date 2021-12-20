@@ -14,8 +14,8 @@ function SubMenuPessoas() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input

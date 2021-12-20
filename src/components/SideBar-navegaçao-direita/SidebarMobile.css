@@ -243,7 +243,7 @@ span {
     align-items: center;
     left: 82%;
     bottom: 24%;
-    z-index: 9999;
+    z-index: 9;
   }
 
   /* botao open */
@@ -397,6 +397,7 @@ span {
     align-items: center;
     left: 85%;
     top: 92%;
+    z-index: 9;
   }
 
   /* botao open */

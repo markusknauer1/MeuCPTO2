@@ -16,8 +16,8 @@ function SubMenuGruposUsuarios() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <Modal />
         <div className="logo" />
         <div>

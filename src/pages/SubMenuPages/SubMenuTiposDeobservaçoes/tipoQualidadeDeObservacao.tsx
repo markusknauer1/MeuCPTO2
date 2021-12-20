@@ -15,8 +15,8 @@ function TipoQualidadeDeObservacao() {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <Link to="/SubMenuTipoDeObservacao">
           <button className="btnReturn">

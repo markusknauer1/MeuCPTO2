@@ -37,7 +37,7 @@ export const ContainerPage = styled.div`
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
-    z-index: 1;
+    z-index: 0;
   }
 `
 export const TitlePage1 = styled.h5`

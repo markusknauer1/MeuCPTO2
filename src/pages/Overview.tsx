@@ -24,8 +24,8 @@ export const Home: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div className="page">
           <div className="filter1">
@@ -279,8 +279,8 @@ export const FormularioCadastro: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <NavDireita />
         <div className="logo" />
         <img className="logoKmobile" src={logoK} alt="LogoEmpresa" />
@@ -417,8 +417,8 @@ export const Pessoas: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <input
           className="fnamePadrao"
@@ -721,8 +721,8 @@ export const Relatorio: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <form action="">
           <label className="SelectUnidade1" htmlFor="">

@@ -23,8 +23,8 @@ export const Area: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input
@@ -160,8 +160,8 @@ export const Atividades: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input
@@ -276,8 +276,8 @@ export const Equipes: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input
@@ -423,8 +423,8 @@ export const Gerencias: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input
@@ -549,8 +549,8 @@ export const Observacoes: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input
@@ -675,8 +675,8 @@ export const Unidades: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <div>
           <input

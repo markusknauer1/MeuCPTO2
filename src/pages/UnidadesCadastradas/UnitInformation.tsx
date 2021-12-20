@@ -365,8 +365,8 @@ export const UniClieSetor: FC = () => {
   return (
     <div className="logoQ1">
       <ProfileDireita />
-      <SidebarMobile />
       <ContainerPage>
+        <SidebarMobile />
         <div className="logo" />
         <button
           className="btnReturn"
