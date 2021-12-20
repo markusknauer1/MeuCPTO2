@@ -8,14 +8,14 @@
 .SubMTACod {
   background-color: transparent;
   font-family: BalooBhaina2-SemiBold;
-  font-size: 8px;
+  font-size: 12px;
   border: none;
   cursor: pointer;
 }
 .tblActive {
   padding: 1%;
   font-family: BalooBhaina2-SemiBold;
-  font-size: 8px;
+  font-size: 12px;
   width: 20rem;
 }
 .tblStatusActive {
@@ -23,36 +23,34 @@
   padding-left: 3%;
   width: 60rem;
   font-family: BalooBhaina2-Medium;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /*------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 500px) {
-  .tblcod {
-    top: 2%;
-    position: absolute;
-    left: 5%;
+  .tblCodActive {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    font-size: 10px;
   }
-  .tblobservador {
-    top: 2%;
-    position: absolute;
-    left: 15%;
+  .SubMTACod {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
   }
-  .tbtlogin {
-    top: 2%;
-    position: absolute;
-    left: 50%;
+  .tblActive {
+    padding: 1%;
+    font-size: 12px;
+    width: 20rem;
   }
-  .tblfuncao {
-    top: 2%;
-    position: absolute;
-    left: 76%;
-  }
-
-  .tblmetas {
-    top: 2%;
-    position: absolute;
-    left: 90%;
+  .tblStatusActive {
+    padding: 1%;
+    padding-left: 3%;
+    width: 60rem;
+    font-size: 10px;
   }
 }
