@@ -3,16 +3,36 @@
 .btnCod {
   padding-left: 3%;
   width: 10rem;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-SemiBold;
 }
 .btnUni {
   padding-left: 2%;
   width: 80rem;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   font-family: BalooBhaina2-SemiBold;
 }
 .btnStatusUnidades {
   padding-left: 2%;
   width: 10rem;
+}
+@media screen and (max-width: 620px) {
+  .btnCod {
+    padding-left: 3%;
+    width: 10rem;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-family: BalooBhaina2-SemiBold;
+  }
+  .btnUni {
+    padding-left: 2%;
+    width: 80rem;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-family: BalooBhaina2-SemiBold;
+  }
+  .btnStatusUnidades {
+    padding-left: 2%;
+    width: 10rem;
+  }
 }
 /* =======================================Fim da tela unidade===================== */
 /* =======================================tabela Pessoas========================== */
