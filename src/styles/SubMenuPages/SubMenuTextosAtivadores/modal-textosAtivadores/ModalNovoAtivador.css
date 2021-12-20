@@ -62,7 +62,7 @@ body.active-ModalNovoGrupo {
     top: 26%;
     border-radius: 5px;
     width: 90%;
-    height: 8%;
+    height: 20px;
     justify-content: center;
     border: none;
     background-color: rgb(190, 190, 190);
@@ -78,7 +78,7 @@ body.active-ModalNovoGrupo {
     top: 36%;
     border-radius: 5px;
     width: 20%;
-    height: 30px;
+    height: 20px;
     justify-content: center;
     border: none;
     background-color: rgb(190, 190, 190);
@@ -95,7 +95,7 @@ body.active-ModalNovoGrupo {
     top: 46%;
     border-radius: 5px;
     width: 90%;
-    height: 30%;
+    height: 70px;
     justify-content: center;
     border: none;
     background-color: rgb(190, 190, 190);
