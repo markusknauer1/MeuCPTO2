@@ -631,7 +631,8 @@
   left: 10%;
   top: 28%;
   color: white;
-  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+  font-family: BalooBhaina2-SemiBold;
   padding-top: 1%;
   gap: 35%;
   background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
@@ -639,7 +640,6 @@
   border-radius: 10px;
   border: none;
   z-index: 1;
-  letter-spacing: -1px;
 }
 /* ======header tabelaObservCPTO============= */
 .btnGroup {
@@ -823,17 +823,17 @@
   }
   /* ======header tabelaObservCPTO============= */
   .btnGroup {
-    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     top: 5%;
   }
   .btnQuest {
-    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     top: 5%;
   }
   .btnActivit {
-    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     top: 5%;
   }
@@ -990,7 +990,8 @@
     left: 10%;
     top: 10%;
     color: white;
-    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-SemiBold;
+    font: clamp(0.1em, 0.1em + 3vw, 3em);
+    font-family: BalooBhaina2-SemiBold;
     padding-top: 1%;
     gap: 40%;
     background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
@@ -998,19 +999,19 @@
     border-radius: 10px;
     border: none;
     z-index: 1;
-    letter-spacing: -1px;
+    letter-spacing: 0;
   }
   /* ======header tabelaObservCPTO============= */
   .btnGroup {
-    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     top: 5%;
   }
   .btnQuest {
-    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     top: 5%;
   }
   .btnActivit {
-    font-size: clamp(0.1em, 0.1em + 12vw, 12em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     top: 5%;
   }
   /* ===============Conteudo TabelaObservCPTO=========== */
