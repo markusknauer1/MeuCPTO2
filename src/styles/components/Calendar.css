@@ -159,9 +159,9 @@
   background-color: #e6e6e6;
 }
 .react-calendar__month-view__days__day {
-  font-family: BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-Regular;
   font-size: 13px;
-  line-height: 15px;
+  line-height: 80%;
 }
 @media screen and (max-width: 820px) {
   .react-calendar__month-view__weekdays__weekday {
