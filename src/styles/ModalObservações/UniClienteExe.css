@@ -41,7 +41,8 @@
   left: 5%;
   top: 55px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade2 {
@@ -65,7 +66,8 @@
   left: 5%;
   top: 100px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade3 {
@@ -90,7 +92,8 @@
   left: 5%;
   top: 150px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade4 {
@@ -115,7 +118,8 @@
   left: 5%;
   top: 200px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade5 {
@@ -140,7 +144,8 @@
   left: 5%;
   top: 245px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade6 {
@@ -165,7 +170,8 @@
   left: 5%;
   top: 290px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade7 {
@@ -189,7 +195,8 @@
   left: 5%;
   top: 345px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
   letter-spacing: -1px;
 }
@@ -221,7 +228,8 @@
   left: 54%;
   top: 345px;
   border-radius: 20px;
-  font: clamp(0.01em, 0.01em + 1.3vw, 1.3em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
   letter-spacing: -1px;
 }
@@ -248,7 +256,8 @@
   left: 5%;
   border-radius: 20px;
   display: block;
-  font: clamp(0.1em, 0.1em + 1.2vw, 1.2em) BalooBhaina2-Medium;
+  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
 .finputUnidade10 {
