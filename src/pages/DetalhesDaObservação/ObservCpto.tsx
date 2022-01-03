@@ -61,6 +61,7 @@ function ObservCpto() {
               <table>
                 <thead>
                   <tr className="header">
+                    <th></th>
                     <th className="btnGroup">
                       <div>Grupo</div>
                     </th>
@@ -70,6 +71,7 @@ function ObservCpto() {
                     <th className="btnActivit">
                       <div>Atividade</div>
                     </th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>

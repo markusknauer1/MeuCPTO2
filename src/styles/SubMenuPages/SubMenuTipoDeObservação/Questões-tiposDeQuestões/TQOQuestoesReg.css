@@ -183,7 +183,8 @@
   text-align: left;
   width: 55rem;
   height: 2rem;
-  font: 8px BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
 }
 .TQOQuestQuests {
   justify-content: center;

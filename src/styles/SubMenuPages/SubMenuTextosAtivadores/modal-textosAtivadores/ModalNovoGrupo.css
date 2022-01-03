@@ -32,10 +32,10 @@ body.active-ModalNovoGrupo {
 .textGrupoDesc {
   position: absolute;
   left: 5%;
-  top: 30%;
+  top: 25%;
   border-radius: 5px;
   width: 90%;
-  height: 8%;
+  height: 10%;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -50,7 +50,7 @@ body.active-ModalNovoGrupo {
 .textGrupoDescObs {
   position: absolute;
   left: 5%;
-  top: 45%;
+  top: 40%;
   border-radius: 5px;
   width: 90%;
   height: 30%;

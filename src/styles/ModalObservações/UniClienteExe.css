@@ -555,7 +555,8 @@
   position: absolute;
   top: 37%;
   left: 10%;
-  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-bold;
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+  font-family: BalooBhaina2-bold;
   border-style: none;
   background: transparent;
   color: #172d52;
@@ -568,26 +569,28 @@
   display: flex;
   gap: 10px;
   position: absolute;
+  padding: 1%;
   right: 10%;
-  top: 38%;
-  width: 30%;
+  top: 37%;
+  width: 25%;
   height: 6%;
-  background-image: transparent;
+  background-color: transparent;
 }
 .filterList {
   position: absolute;
   top: 0;
-  left: 15px;
+  left: 0;
   border-radius: 20px;
   display: block;
-  font: clamp(0.1em, 0.1em + 2vw, 2em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+  font-family: BalooBhaina2-SemiBold;
   color: #c5c5c5;
 }
 .filterList1 {
   position: relative;
   top: 5%;
   left: 0px;
-  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   border-style: none;
   background-color: transparent;
   color: #009c6d;
@@ -598,7 +601,7 @@
   position: relative;
   top: 5%;
   left: 0px;
-  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   border-style: none;
   background-color: transparent;
   color: rgb(209, 209, 0);
@@ -609,7 +612,7 @@
   position: relative;
   top: 5%;
   left: 0px;
-  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
+  font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   border-style: none;
   background-color: transparent;
   color: #830133;
@@ -640,22 +643,16 @@
 }
 /* ======header tabelaObservCPTO============= */
 .btnGroup {
-  position: absolute;
   font-size: clamp(0.1em, 0.1em + 0.9vw, 2em);
   top: 5%;
-  left: clamp(1em, 1em + 7vw, 7em);
 }
 .btnQuest {
-  position: absolute;
   font-size: clamp(0.1em, 0.1em + 1vw, 2em);
   top: 5%;
-  left: clamp(0.1em, 0.1em + 22vw, 22em);
 }
 .btnActivit {
-  position: absolute;
   font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   top: 5%;
-  left: clamp(0.1em, 0.1em + 36.5vw, 36em);
 }
 /* ===============Conteudo TabelaObservCPTO=========== */
 
@@ -663,31 +660,36 @@
   justify-content: center;
   text-align: center;
   width: clamp(1em, 1em + 6vw, 6em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblGroup {
   justify-content: center;
   text-align: center;
   width: clamp(0.1em, 0.1em + 10vw, 10em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblQuest {
   justify-content: center;
   text-align: center;
   width: clamp(0.1em, 0.1em + 30vw, 30em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblActivit {
   justify-content: center;
   text-align: center;
   width: clamp(0.1em, 0.1em + 10vw, 10em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
 }
 .tblFilter {
   justify-content: center;
   text-align: center;
   width: clamp(0.1em, 0.1em + 6vw, 6em);
-  font: clamp(0.01em, 0.01em + 1vw, 1em) BalooBhaina2-SemiBold;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-family: BalooBhaina2-SemiBold;
   color: #009c6d;
   /* color: #830133; */
   /* color: rgb(209, 209, 0); */
@@ -733,7 +735,8 @@
     position: absolute;
     top: 25%;
     left: 5%;
-    font: clamp(0.1em, 0.1em + 3vw, 3em) BalooBhaina2-bold;
+    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+    font-family: BalooBhaina2-bold;
     border-style: none;
     background: transparent;
     color: #172d52;
@@ -820,22 +823,19 @@
   }
   /* ======header tabelaObservCPTO============= */
   .btnGroup {
-    position: absolute;
-    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-family: BalooBhaina2-SemiBold;
     top: 5%;
-    left: clamp(1em, 1em + 6vw, 6em);
   }
   .btnQuest {
-    position: absolute;
-    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-family: BalooBhaina2-SemiBold;
     top: 5%;
-    left: clamp(0.1em, 0.1em + 28vw, 28em);
   }
   .btnActivit {
-    position: absolute;
-    font: clamp(0.01em, 0.01em + 4vw, 4em) BalooBhaina2-SemiBold;
+    font-size: clamp(0.01em, 0.01em + 4vw, 4em);
+    font-family: BalooBhaina2-SemiBold;
     top: 5%;
-    left: clamp(0.1em, 0.1em + 46vw, 46em);
   }
   /* ===============Conteudo TabelaObservCPTO=========== */
 
@@ -1002,22 +1002,16 @@
   }
   /* ======header tabelaObservCPTO============= */
   .btnGroup {
-    position: absolute;
     font-size: clamp(0.1em, 0.1em + 12vw, 12em);
     top: 5%;
-    left: clamp(1em, 1em + 1vw, 1em);
   }
   .btnQuest {
-    position: absolute;
     font-size: clamp(0.1em, 0.1em + 12vw, 12em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 34vw, 34em);
   }
   .btnActivit {
-    position: absolute;
     font-size: clamp(0.1em, 0.1em + 12vw, 12em);
     top: 5%;
-    left: clamp(0.1em, 0.1em + 59vw, 59em);
   }
   /* ===============Conteudo TabelaObservCPTO=========== */
 
