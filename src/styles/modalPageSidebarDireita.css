@@ -127,8 +127,8 @@
   position: absolute;
   left: 5%;
   top: 15px;
-  font-size: 16px;
-  font-family: BalooBHaina2-Medium;
+  font-size: 25px;
+  font-family: BalooBhaina2-SemiBold;
   color: #1c396b;
 }
 .hrTitleModal {
@@ -275,6 +275,14 @@
     color: white;
     border-style: none;
     border-radius: 5px;
+  }
+  .titleModal {
+    position: absolute;
+    left: 5%;
+    top: 15px;
+    font-size: 20px;
+    font-family: BalooBhaina2-SemiBold;
+    color: #1c396b;
   }
   .altInfoModPessoa {
     font-size: clamp(0.1em, 0.1em + 1.6vw, 1.6em);
