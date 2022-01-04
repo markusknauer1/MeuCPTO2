@@ -1,3 +1,18 @@
+.tblActivPadrao1 {
+  padding-left: 1%;
+}
+.tblActivPadrao2 {
+  padding-left: 2%;
+}
+.tblActivPadrao3 {
+  padding-left: 1%;
+}
+.tblActivPadrao4 {
+  padding-left: 1%;
+}
+.tblActivPadrao5 {
+  padding-left: 1%;
+}
 /*-------------Conteudo da tabela-----------------*/
 .tblActivPadrao6 {
   justify-content: center;
@@ -5,7 +20,7 @@
   text-align: center;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.1em, 0.1em + 1vw, 1em);
-  width: 3rem;
+  width: 4rem;
 }
 .tblActivPadrao7 {
   justify-content: center;
@@ -25,18 +40,14 @@
   width: 25rem;
 }
 .tblActivPadrao9 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-left: 2%;
   font-family: BalooBhaina2-SemiBold;
   font-size: clamp(0.1em, 0.1em + 1vw, 1em);
   width: 4rem;
 }
 
 .tblActivPadrao10 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-left: 1%;
   width: 4rem;
 }
 @media screen and (max-width: 820px) {

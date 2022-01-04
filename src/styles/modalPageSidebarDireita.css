@@ -127,7 +127,7 @@
   position: absolute;
   left: 5%;
   top: 15px;
-  font-size: 25px;
+  font-size: 18px;
   font-family: BalooBhaina2-SemiBold;
   color: #1c396b;
 }
@@ -269,7 +269,7 @@
     align-items: center;
     z-index: 2;
     cursor: pointer;
-    font-size: clamp(0.2em, 0.2em + 2vw, 2em);
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
     font-family: BalooBhaina2-SemiBold;
     background-color: #0b9e82;
     color: white;
@@ -280,7 +280,7 @@
     position: absolute;
     left: 5%;
     top: 15px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: BalooBhaina2-SemiBold;
     color: #1c396b;
   }

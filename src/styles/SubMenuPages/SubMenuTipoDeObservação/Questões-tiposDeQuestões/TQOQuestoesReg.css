@@ -47,7 +47,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 5rem;
+  width: 4rem;
 }
 @media screen and (max-width: 820px) {
   .TQOCod {
@@ -178,26 +178,26 @@
 .TQOQuestGroupAnalise {
   padding-top: 1%;
   padding-left: 1%;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
   width: 55rem;
   height: 2rem;
   font-family: BalooBhaina2-SemiBold;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1em);
+  font-size: 10px;
 }
 .TQOQuestQuests {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 5rem;
-  height: 2rem;
+  padding-left: 2%;
   font: 12px BalooBhaina2-SemiBold;
 }
 .TQOQuestState {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 5rem;
-  height: 2rem;
+  width: 4rem;
+}
+@media screen and (max-width: 620px) {
+  .TQOQuestGroupAnalise {
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 55rem;
+    height: 2rem;
+    font-family: BalooBhaina2-SemiBold;
+    font-size: 9px;
+  }
 }

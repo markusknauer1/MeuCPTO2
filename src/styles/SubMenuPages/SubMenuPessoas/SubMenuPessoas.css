@@ -1,3 +1,15 @@
+.tblSubCod {
+  padding-left: 2%;
+}
+.tblSubPessoacod {
+  padding-left: 12%;
+}
+.tblSubMail {
+  padding-left: 15%;
+}
+.tblSubAtivo {
+  padding-left: 1%;
+}
 /*-------------Conteudo da tabela-----------------*/
 .btnSubCod {
   justify-content: center;
