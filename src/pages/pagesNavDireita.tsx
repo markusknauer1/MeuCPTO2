@@ -718,8 +718,12 @@ export const Unidades: FC = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -728,8 +732,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -738,8 +746,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -748,8 +760,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -758,8 +774,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -768,8 +788,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -778,8 +802,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -788,8 +816,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -798,8 +830,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -808,8 +844,12 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />
@@ -818,8 +858,110 @@ export const Unidades: FC = () => {
                     </td>
                   </tbody>
                   <tbody>
-                    <td className="btnCod">001</td>
-                    <td className="btnUni">Unidade</td>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
+                    <td className="btnStatusUnidades">
+                      <label className="container">
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                      </label>
+                    </td>
+                  </tbody>
+                  <tbody>
+                    <td className="btnCod">
+                      <button className="altInfoModPessoa">001</button>
+                    </td>
+                    <td className="btnUni">
+                      <button className="altInfoModPessoa">Unidade</button>
+                    </td>
                     <td className="btnStatusUnidades">
                       <label className="container">
                         <input type="checkbox" />

@@ -19,7 +19,7 @@
   color: #44ad93;
 }
 .finputUnidade1 {
-  position: absolute;
+  position: relative;
   top: 30px;
   left: 5%;
   width: 90%;
@@ -46,8 +46,8 @@
   color: #44ad93;
 }
 .finputUnidade2 {
-  position: absolute;
-  top: 80px;
+  position: relative;
+  top: 60px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -71,8 +71,8 @@
   color: #44ad93;
 }
 .finputUnidade3 {
-  position: absolute;
-  top: 125px;
+  position: relative;
+  top: 80px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -97,8 +97,8 @@
   color: #44ad93;
 }
 .finputUnidade4 {
-  position: absolute;
-  top: 175px;
+  position: relative;
+  top: 110px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -123,8 +123,8 @@
   color: #44ad93;
 }
 .finputUnidade5 {
-  position: absolute;
-  top: 225px;
+  position: relative;
+  top: 140px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -149,9 +149,10 @@
   color: #44ad93;
 }
 .finputUnidade6 {
-  position: absolute;
+  position: relative;
+
   left: 0;
-  top: 270px;
+  top: 160px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -175,8 +176,9 @@
   color: #44ad93;
 }
 .finputUnidade7 {
-  position: absolute;
-  top: 315px;
+  position: relative;
+
+  top: 190px;
   left: 5%;
   width: 90%;
   height: 5%;
@@ -201,10 +203,10 @@
   letter-spacing: -1px;
 }
 .finputUnidade8 {
-  position: absolute;
-  top: 345px;
+  position: relative;
+  top: 200px;
   left: 40%;
-  width: 24px;
+  width: 8%;
   height: 5%;
   padding-top: 2%;
   border: none;
@@ -234,13 +236,13 @@
   letter-spacing: -1px;
 }
 .finputUnidade9 {
-  position: absolute;
-  top: 345px;
+  position: relative;
+  top: 180px;
   left: 84%;
   padding-top: 2%;
   border: none;
   display: block;
-  width: 24px;
+  width: 8%;
   height: 5%;
   justify-content: center;
   text-align: center;
@@ -265,6 +267,7 @@
   top: 385px;
   left: 26%;
   border: none;
+  padding-top: 2%;
   display: block;
   color: rgb(94, 94, 94);
   width: 70%;
@@ -683,14 +686,17 @@
 /* ======header tabelaObservCPTO============= */
 .btnGroup {
   font-size: clamp(0.1em, 0.1em + 0.9vw, 2em);
+  padding-left: 5%;
   top: 5%;
 }
 .btnQuest {
   font-size: clamp(0.1em, 0.1em + 1vw, 2em);
+  padding-left: 18%;
   top: 5%;
 }
 .btnActivit {
   font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+  padding-left: 3%;
   top: 5%;
 }
 /* ===============Conteudo TabelaObservCPTO=========== */
