@@ -69,20 +69,22 @@ export const AreaSidebar = styled.div`
       align-items: center;
       width: 100%;
       bottom: 0%;
-      height: 50%;
+      height: 100%;
       background-color: transparent;
     }
     ul {
       position: absolute;
+      padding-top: 0;
       top: 0;
       display: flex;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 80%;
+      background-color: transparent;
     }
     li {
       display: flex;
-      padding-top: 10%;
+      padding: 0;
       justify-content: center;
       align-items: center;
       left: 0;

@@ -288,7 +288,8 @@
     left: 5%;
     top: 5px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade1 {
@@ -304,8 +305,8 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
-    color: rgb(94, 94, 94);
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 
   .unidTittleRef2 {
@@ -313,7 +314,8 @@
     left: 5%;
     top: 55px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade2 {
@@ -329,14 +331,16 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
   .unidTittleRef3 {
     position: absolute;
     left: 5%;
     top: 100px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade3 {
@@ -352,7 +356,8 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 
   .unidTittleRef4 {
@@ -360,7 +365,8 @@
     left: 5%;
     top: 150px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade4 {
@@ -376,7 +382,8 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 
   .unidTittleRef5 {
@@ -384,7 +391,8 @@
     left: 5%;
     top: 200px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade5 {
@@ -400,7 +408,8 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 
   .unidTittleRef6 {
@@ -408,7 +417,8 @@
     left: 5%;
     top: 245px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade6 {
@@ -425,14 +435,16 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
   .unidTittleRef7 {
     position: absolute;
     left: 5%;
     top: 290px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade7 {
@@ -448,14 +460,16 @@
     justify-content: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
   .unidTittleRef8 {
     position: absolute;
     left: 5%;
     top: 345px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
     letter-spacing: 0;
   }
@@ -472,7 +486,8 @@
     text-align: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
   .headerDivider1 {
     border-left: 3px solid #44ad93;
@@ -486,7 +501,8 @@
     left: 54%;
     top: 345px;
     border-radius: 20px;
-    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
     letter-spacing: -1px;
   }
@@ -503,7 +519,8 @@
     text-align: center;
     color: rgb(94, 94, 94);
     align-items: center;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 
   .unidTittleRef10 {
@@ -512,7 +529,8 @@
     left: 5%;
     border-radius: 20px;
     display: block;
-    font: clamp(0.01em, 0.01em + 1.6vw, 2em) BalooBhaina2-Medium;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
     color: #44ad93;
   }
   .finputUnidade10 {
@@ -524,10 +542,11 @@
     color: rgb(94, 94, 94);
     width: 70%;
     height: 5%;
-    font: clamp(0.01em, 0.01em + 2vw, 2em) BalooBhaina2-regular;
+    font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+    font-family: BalooBhaina2-Medium;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .UnidadeSelecionada {
     display: none;
   }
@@ -654,7 +673,7 @@
   font-size: clamp(0.1em, 0.1em + 2vw, 2em);
   font-family: BalooBhaina2-SemiBold;
   padding-top: 1%;
-  gap: 35%;
+  gap: 30%;
   background-image: linear-gradient(160deg, #056145 20%, #009c6d 100%);
   background-size: 100%;
   border-radius: 10px;
@@ -736,20 +755,21 @@
   }
   .ObservFeitas {
     position: absolute;
-    top: 36%;
+    top: 35%;
     left: 5%;
-    width: 60%;
-    height: 50%;
-    border-radius: 2%;
+    width: 66%;
+    height: 60%;
+    border-radius: 0;
+    z-index: 5;
   }
   .ContainerObservCptop {
     overflow-x: hidden;
     border: 1px solid;
     margin-left: -1px;
-    width: 100.3%;
+    width: 100.4%;
     height: 14rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
   }
   .subtObservCPTO3 {
     position: absolute;
@@ -893,7 +913,7 @@
     /* color: rgb(209, 209, 0); */
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .fnameObservCpto {
     position: absolute;
     display: flex;
@@ -918,17 +938,19 @@
     top: 30%;
     left: 10%;
     width: 80%;
-    height: 50%;
-    border-radius: 2%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
   }
   .ContainerObservCptop {
     overflow-x: hidden;
     border: 1px solid;
     margin-left: -1px;
-    width: 100.3%;
-    height: 15rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    width: 100.4%;
+    height: 14rem;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
   }
   .subtObservCPTO3 {
     position: absolute;
@@ -948,7 +970,7 @@
     gap: 5px;
     position: absolute;
     right: 10%;
-    top: 20%;
+    top: 22%;
     width: 20%;
     height: 6%;
     border-radius: 20px;
