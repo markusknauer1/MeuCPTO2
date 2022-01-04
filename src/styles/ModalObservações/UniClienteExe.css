@@ -14,7 +14,7 @@
   left: 5%;
   top: 5px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -31,7 +31,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: rgb(94, 94, 94);
 }
@@ -41,7 +41,7 @@
   left: 5%;
   top: 55px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -58,7 +58,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 .unidTittleRef3 {
@@ -66,7 +66,7 @@
   left: 5%;
   top: 100px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -83,7 +83,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 
@@ -92,7 +92,7 @@
   left: 5%;
   top: 150px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -109,7 +109,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 
@@ -118,7 +118,7 @@
   left: 5%;
   top: 200px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -135,7 +135,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 
@@ -144,7 +144,7 @@
   left: 5%;
   top: 245px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -162,7 +162,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 .unidTittleRef7 {
@@ -170,7 +170,7 @@
   left: 5%;
   top: 290px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -187,7 +187,7 @@
   justify-content: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 .unidTittleRef8 {
@@ -195,7 +195,7 @@
   left: 5%;
   top: 345px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
   letter-spacing: -1px;
@@ -213,7 +213,7 @@
   text-align: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 .headerDivider1 {
@@ -228,7 +228,7 @@
   left: 54%;
   top: 345px;
   border-radius: 20px;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
   letter-spacing: -1px;
@@ -246,7 +246,7 @@
   text-align: center;
   color: rgb(94, 94, 94);
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 
@@ -256,7 +256,7 @@
   left: 5%;
   border-radius: 20px;
   display: block;
-  font-size: clamp(0.01em, 0.01em + 1.3vw, 1.3em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
   color: #44ad93;
 }
@@ -269,7 +269,7 @@
   color: rgb(94, 94, 94);
   width: 70%;
   height: 5%;
-  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  font-size: 14px;
   font-family: BalooBhaina2-Medium;
 }
 @media screen and (max-width: 820px) {
