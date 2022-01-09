@@ -8,7 +8,7 @@ import SidebarMobile from '../../../../components/SideBar-navegaçao-direita/Sid
 import { ContainerPage, TitlePage4 } from '../../../../components/Main'
 import { useState } from 'react'
 
-function AtivadoresCognitivos() {
+function Ativadores() {
   const [modal, setModal] = useState(false)
 
   const toggleModal = () => {
@@ -40,7 +40,7 @@ function AtivadoresCognitivos() {
         </div>
         <div className="page">
           <div className="filter1">
-            <TitlePage4>Ativadores: Cognitivos</TitlePage4>
+            <TitlePage4>Ativadores</TitlePage4>
           </div>
           <div className="tabelaPadrao">
             <section className="">
@@ -146,4 +146,4 @@ function AtivadoresCognitivos() {
   )
 }
 
-export default AtivadoresCognitivos
+export default Ativadores

@@ -32,7 +32,7 @@ import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/Text
 import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPsicologicos'
 import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
 import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
-import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
+import Ativadores from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/Ativadores'
 import TipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
 
 function Routes() {
@@ -93,10 +93,7 @@ function Routes() {
         path="/AtivadoresFisiológicos"
         component={AtivadoresFisiologicos}
       ></Route>
-      <Route
-        path="/AtivadoresCognitivos"
-        component={AtivadoresCognitivos}
-      ></Route>
+      <Route path="/Ativadores" component={Ativadores}></Route>
     </Switch>
   )
 }

@@ -98,6 +98,11 @@ body {
   z-index: 5;
 }
 
+.tabelaPadrao::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
 .tabelaPadrao2 {
   overflow: auto;
   position: absolute;
@@ -107,6 +112,26 @@ body {
   height: 50%;
   background-color: white;
   border-radius: 2%;
+}
+.tabelaPadrao2::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.tabelaPadraoICS {
+  overflow-x: hidden;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  height: 55%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+.tabelaPadraoICS::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
 }
 .btnReturn {
   position: fixed;
@@ -125,11 +150,6 @@ body {
   transition: 0.3s;
 }
 
-.tabelaPadrao2::-webkit-scrollbar {
-  width: 6px;
-  background-color: rgb(219, 219, 219);
-  border-radius: 10px;
-}
 section {
   position: absolute;
   border: 1px solid #000;
@@ -213,6 +233,11 @@ th:first-child div {
     border-radius: 0;
     z-index: 5;
   }
+  .tabelaPadrao::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
   .tabelaPadrao2 {
     overflow: auto;
     position: absolute;
@@ -223,6 +248,28 @@ th:first-child div {
     background-color: white;
     border-radius: 2%;
   }
+  .tabelaPadrao2::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
+  .tabelaPadraoICS {
+    overflow-x: hidden;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 60%;
+    height: 70%;
+    background-color: transparent;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 0;
+  }
+  .tabelaPadraoICS::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
+
   .fCxPesquisa {
     top: 7%;
     left: clamp(1em, 1em + 45vw, 45em);
@@ -268,11 +315,6 @@ th:first-child div {
     height: 45px;
     color: #11806a;
     transition: 0.2s;
-  }
-  .tabelaPadrao2::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgb(219, 219, 219);
-    border-radius: 10px;
   }
   section {
     position: absolute;
@@ -379,6 +421,11 @@ th:first-child div {
     border-radius: 0;
     z-index: 5;
   }
+  .tabelaPadrao::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
   .tabelaPadrao2 {
     overflow: auto;
     position: absolute;
@@ -388,6 +435,27 @@ th:first-child div {
     height: 50%;
     background-color: white;
     border-radius: 2%;
+  }
+  .tabelaPadrao2::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+  }
+  .tabelaPadraoICS {
+    overflow-x: hidden;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: transparent;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 0;
+  }
+  .tabelaPadraoICS::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
   }
   .fCxPesquisa {
     top: 6%;
@@ -443,11 +511,6 @@ th:first-child div {
     cursor: pointer;
     border-style: none;
     border-radius: 50px;
-  }
-  .tabelaPadrao2::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgb(219, 219, 219);
-    border-radius: 10px;
   }
   section {
     position: absolute;
@@ -988,21 +1051,6 @@ th:first-child div {
     background-position: 0% 0%;
     background-repeat: no-repeat;
   }
-  .tabelaPadrao2 {
-    overflow-x: hidden;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    width: 60%;
-    height: 70%;
-    background-color: white;
-    border-radius: 2%;
-  }
-  .tabelaPadrao2::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgb(219, 219, 219);
-    border-radius: 10px;
-  }
   .ICS1 {
     top: 0;
     left: 0;
@@ -1425,16 +1473,6 @@ th:first-child div {
   }
 }
 @media screen and (max-width: 620px) {
-  .tabelaPadrao2 {
-    overflow-x: hidden;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    width: 90%;
-    height: 80%;
-    background-color: white;
-    border-radius: 2%;
-  }
   .ICS1 {
     top: 0;
     left: 0;
@@ -1771,6 +1809,11 @@ th:first-child div {
   width: 80%;
   height: 50%;
 }
+.tabelaPadraoCad::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
 .titulo1 {
   position: absolute;
   left: 0;
@@ -2095,6 +2138,11 @@ th:first-child div {
     background-color: #fff;
     border-radius: 0;
     z-index: 5;
+  }
+  .tabelaPadraoCad::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
   }
   .titulo1 {
     position: absolute;
@@ -2426,6 +2474,11 @@ th:first-child div {
     background-color: rgb(255, 255, 255);
     border-radius: 0;
     z-index: 5;
+  }
+  .tabelaPadraoCad::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
   }
   .buttonSave {
     top: 86%;
